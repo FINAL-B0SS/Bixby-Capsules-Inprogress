@@ -166,36 +166,3 @@ layout-macro-def ("player-details-fragment")
     }
   }
 }
-   
-        // hbox {
-        //   content {
-        //     vbox {
-        //       content {
-        //         single-line {
-        //           text {
-        //             value ("Avg Points Per Game: #{value(player.fantasyPoints.avgPerGame)}")
-        //             style(Detail_M)
-        //           }
-        //         }
-        //       }
-        //     }
-        //   }
-        // }    
-        // hbox {
-        //   content {
-        //     vbox {
-        //       content {
-        //         single-line {
-        //           text {
-        //             value ("Last Week: #{value(player.fantasyPoints.lastWeek)}")
-        //             style(Detail_M)
-        //           }
-        //         }
-        //       }
-        //     }
-        //   }
-        // }         
-//      }
-//    }
-//   }
-// }
