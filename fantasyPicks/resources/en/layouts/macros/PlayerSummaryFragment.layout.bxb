@@ -1,0 +1,52 @@
+// <layout-macro-def id="player-summary-fragment">
+//   <params>
+//     <param name="player" type="PlayerStats" max="One" min="Required"/>
+//   </params>
+//   <content>
+//     <layout-macro id="common:card">
+//       <title>{{player.name}}</title>
+//       <titleSize>medium</titleSize>
+//       <bodyText>{{player.pick.percentage}}</bodyText>
+//       <image>{{player.image.images[0].url}}</image>
+//       <imageType>background</imageType>
+//       <aspectRatio>4_3</aspectRatio>
+//     </layout-macro>
+//   </content>
+//   <style></style>
+// </layout-macro-def>
+
+
+layout-macro-def ("player-summary-fragment") {
+  params {
+    param (player) {
+      type (PlayerStats)
+      min(Required) max(One)
+    }
+  } 
+  
+  content {
+    image-card{
+      title-area{
+        halign (Start)
+        slot1 {
+          single-line {
+            text {
+              value ("#{value(player.name)}")
+              style (Title_M)
+            }
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value("#{value(player.pick.percentage)}")
+              style(Title_XS)
+            }
+          }
+        }
+      }
+      aspect-ratio(4:3)
+      image-url("#{value(player.image.images[0].url)}")
+    }
+   }
+ }

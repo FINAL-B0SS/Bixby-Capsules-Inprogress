@@ -1,0 +1,11 @@
+structure (Pick) {
+  description (player pick recommendation)
+  property ("percentage") {
+    type (PickPercentage)
+    min (Required) max (One)
+  }
+   property ("note") {
+    type (PickNote)
+    min (Required) max (One)
+  }
+}

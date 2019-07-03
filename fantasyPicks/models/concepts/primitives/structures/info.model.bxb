@@ -1,0 +1,11 @@
+structure (Info) {
+  description (player fantasy info)
+  property ("team") {
+    type (PositionTeam)
+    min (Required) max (One)
+  }
+  property ("vs") {
+    type (VS)
+    min (Required) max (One)
+  }
+}

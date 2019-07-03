@@ -1,0 +1,4 @@
+train (t-a0dp70qdctmum0e7vnm8dlw6b) {
+  utterance ("[g:PlayerStats] who should I play this week? (Dion Lewis)[v:PlayerName] or (Tyler Boyd)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+}

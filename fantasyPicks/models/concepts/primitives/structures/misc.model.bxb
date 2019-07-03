@@ -1,0 +1,7 @@
+structure (Misc) {
+  description (misc player info)
+  property ("injury") {
+    type (MiscInjury)
+    min (Required) max (One)
+  }
+}

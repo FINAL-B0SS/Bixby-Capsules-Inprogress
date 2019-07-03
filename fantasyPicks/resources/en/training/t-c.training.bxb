@@ -1,0 +1,4 @@
+train (t-ccfqbuedppf8xspzlbg7pw0hk) {
+  utterance ("[g:PlayerStats] who do you recommend (Joe Flacco)[v:PlayerName] or (Dak Prescott)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+}
