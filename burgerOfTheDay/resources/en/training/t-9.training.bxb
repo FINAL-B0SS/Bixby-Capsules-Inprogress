@@ -1,0 +1,5 @@
+train (t-9piveju53ujhp3f8wiu1ni3ij) {
+  utterance ("[g:GetContent] What's the burger of the (day)[v:SearchTerm]")
+  plan (Y2BmEEmtSMwtyEnVS0tMLtFzzs8rSc0rYRBHEXVPLcEuEZyaWJScEZJalMvAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1560392265271)
+}

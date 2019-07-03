@@ -1,0 +1,47 @@
+result-view {
+  match: Content (this)
+  
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              value ("Name: #{raw(name)}")
+            }
+          }
+          single-line {
+            text {
+              value ("Gender: #{raw(gender)}")
+            }
+          }
+          single-line {
+            text {
+              value ("Line Type: #{raw(linetype)}")
+            }
+          }
+          single-line {
+            text {
+              value ("Valid number: #{raw(isvalid)}")
+            }
+          }
+          single-line {
+            text {
+              value ("Type: #{raw(type)}")
+            }
+          }
+          single-line {
+            text {
+              value ("Carrier: #{raw(carrier)}")
+            }
+          }
+          single-line {
+            text {
+              value ("Commercial Number: #{raw(iscommercial)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

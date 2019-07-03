@@ -1,0 +1,10 @@
+train (t-4lk89rlmwwu5jfdhl4klkyv3c) {
+  utterance ("[g:Calculate] Help me win the (Power Ball)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909693130)
+}
+train (t-4rz2ege782zmuiomui86olhqb) {
+  utterance ("[g:Calculate] Try (daily 4)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560922690912)
+}

@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Calculate) {
+      accepted-inputs (text)
+      local-endpoint (Calculate.js)
+    }
+  }
+}

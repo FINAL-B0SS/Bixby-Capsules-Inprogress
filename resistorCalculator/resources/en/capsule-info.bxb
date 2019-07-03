@@ -1,0 +1,25 @@
+capsule-info {
+  display-name (Resistor Calculator)
+  developer-name (Final Boss)
+  icon-asset (icon.png)
+  description (Resistor Calculator tells you the Ohms, tolerance, and if applicable the temperature coefficient of a resistor when you read it's color bands aloud.)
+  terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
+  search-keywords {
+    keyword (Resistor)
+    keyword (Calculator)
+    keyword (Ohms)
+    keyword (Tolerance)
+    keyword (Electronics)
+    keyword (Hardware)
+    keyword (Resistance)
+    keyword (Conductance)
+    keyword (Electrical)
+  }
+  dispatch-name (Resistor Calculator)
+  dispatch-aliases {
+    alias (Resistor Decoder)
+    alias (Resistor Decrypter)
+    alias (Resistor Codes)
+    alias (Resistor Math)
+  }
+}

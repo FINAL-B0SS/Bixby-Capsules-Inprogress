@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: Content
+  template("Sorry there's no data for this number")
+}

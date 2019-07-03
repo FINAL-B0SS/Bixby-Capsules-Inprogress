@@ -1,0 +1,10 @@
+train (t-e3k2f6rrhue3wweo945cgrui8) {
+  utterance ("[g:Calculate] What is good to play on (Daily 3)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909298146)
+}
+train (t-en9a552lqdon1gae0zsn7djz6) {
+  utterance ("[g:Calculate] give me numbers for (power ball)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560812330409)
+}

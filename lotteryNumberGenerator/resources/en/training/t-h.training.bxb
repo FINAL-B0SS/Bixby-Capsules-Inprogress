@@ -1,0 +1,15 @@
+train (t-hhd78h1h4dk9kblbqc77candt) {
+  utterance ("[g:Calculate] Get (Power Ball)[v:Text] numbers")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560922056318)
+}
+train (t-hhhhph994i12vf4zlrkinlw0l) {
+  utterance ("[g:Calculate] Give me (powerball)[v:Text] numbers")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560922470506)
+}
+train (t-hzsgxaqxk6pr9g3j4ltcb2tq6) {
+  utterance ("[g:Calculate] Give me number ideas for (Mega Millions)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909638913)
+}

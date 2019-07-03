@@ -1,0 +1,15 @@
+train (t-z77sbh6tabtcre6z3iqjzfftk) {
+  utterance ("[g:Calculate] Just get me numbers for (Mega Millions)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909469639)
+}
+train (t-znuhzn4cqc0ophzrqblodj702) {
+  utterance ("[g:Calculate] What numbers should I play for the (Mega Millions)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560908988163)
+}
+train (t-zxmnyj1b3p8vdccarg0j73g9r) {
+  utterance ("[g:Calculate] For (Daily 3)[v:Text] what should I play")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909359609)
+}

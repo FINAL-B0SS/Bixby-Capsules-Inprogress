@@ -1,0 +1,10 @@
+train (t-0lr4eawce4g6muszhbigge7od) {
+  utterance ("[g:Calculate] I need numbers to play on (Daily 4)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909004291)
+}
+train (t-0sge510851dm7hj6nr27ffw62) {
+  utterance ("[g:Calculate] What should I play on (Daily 3)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909038891)
+}

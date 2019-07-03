@@ -1,0 +1,10 @@
+train (t-9f73zhci8zvnu92jopxsd810l) {
+  utterance ("[g:Calculate] Give me lucky numbers for (Fantasy Five)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909037947)
+}
+train (t-9fngg20h7zmd19dcd6yuvs2vd) {
+  utterance ("[g:Calculate] Get me (power ball)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560922335947)
+}

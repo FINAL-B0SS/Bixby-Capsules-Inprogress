@@ -1,0 +1,25 @@
+capsule {
+  id (final_boss.lucky_lottery_numbers)
+  version (1.0.0)
+  format(3)
+  runtime-flags {
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    concepts-inherit-super-type-features
+  } 
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  store-sections {
+    section (ArtAndLifestyle)
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+    import (viv.image) {
+      as (image) version (2.12.5)
+    }
+  }
+}
+

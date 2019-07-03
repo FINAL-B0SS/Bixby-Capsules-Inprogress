@@ -1,0 +1,10 @@
+train (t-6u2ihk2m8zd84vn2ibmrpej7o) {
+  utterance ("[g:Calculate] I want (Mega Millions)[v:Text] numbers")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909526848)
+}
+train (t-6zrim82fdiv5ricgvyuwb8q65) {
+  utterance ("[g:Calculate] play (daily 3)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909980616)
+}

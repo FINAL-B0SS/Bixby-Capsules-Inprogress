@@ -1,0 +1,10 @@
+action (Calculate) {
+  type (Search)
+  collect {
+    input (text) {
+      type (Text)
+      min (Optional) max (One)
+    }
+  }
+  output (Content)
+}

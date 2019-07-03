@@ -1,0 +1,73 @@
+structure (Content) {
+  description (Output)
+  property (text) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (image) {
+    type (image.Image)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (agerange) {
+    type (AgeRange)
+    min (Optional) max (One)
+  }
+  property (city) {
+    type (City)
+    min (Optional) max (One)
+  }
+  property (carrier) {
+    type (Carrier)
+    min (Optional) max (One)
+  }
+  property (countrycallingcode) {
+    type (CountryCallingCode)
+    min (Optional) max (One)
+  }
+  property (gender) {
+    type (Gender)
+    min (Optional) max (One)
+  }
+  property (iscommercial) {
+    type (IsCommercial)
+    min (Optional) max (One)
+  }
+  property (isprepaid) {
+    type (IsPrepaid)
+    min (Optional) max (One)
+  }
+  property (isvalid) {
+    type (IsValid)
+    min (Optional) max (One)
+  }
+  property (linetype) {
+    type (LineType)
+    min (Optional) max (One)
+  }
+  property (linktophonestartdate) {
+    type (LinkToPhoneStartDate)
+    min (Optional) max (One)
+  }
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (phonenumber) {
+    type (PhoneNumber)
+    min (Optional) max (One)
+  }
+  property (postalcode) {
+    type (PostalCode)
+    min (Optional) max (One)
+  }
+  property (streetline1) {
+    type (StreetLine1)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (Type)
+    min (Optional) max (One)
+  }
+}

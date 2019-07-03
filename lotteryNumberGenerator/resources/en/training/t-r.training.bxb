@@ -1,0 +1,10 @@
+train (t-r76z85y2ubc7vjspi3ddvwgxj) {
+  utterance ("[g:Calculate] Do (Daily 4)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560910036247)
+}
+train (t-rr9amhsds6r8fn9vlfj6aeaqw) {
+  utterance ("[g:Calculate] What numbers are lucky for (Fantasy Five)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909209370)
+}

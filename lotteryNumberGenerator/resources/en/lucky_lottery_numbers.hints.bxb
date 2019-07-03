@@ -1,0 +1,9 @@
+hints {
+  uncategorized {
+    utterance (Give me numbers to play Power Ball)
+    utterance (What numbers should I play for the Mega Millions)
+    utterance (I need numbers to play on Daily 4)
+    utterance (What should I play on Daily 3)
+    utterance (Give me lucky numbers for Fantasy Five)
+  }
+}

@@ -1,0 +1,22 @@
+capsule-info {
+  display-name (Lucky Lottery Numbers)
+  developer-name (Final Boss)
+  icon-asset (icon.png)
+  description (Generate random lottery numbers for California drawings.)
+  terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
+  search-keywords {
+    keyword (Lottery)
+    keyword (Lotto)
+    keyword (Ticket)
+    keyword (Lucky)
+    keyword (Random)
+    keyword (Power Ball)
+    keyword (Mega Millions)
+  }
+  dispatch-name (Lucky Lottery Numbers)
+  dispatch-aliases {
+    alias (Lucky Lottery)
+    alias (Lucky Numbers)
+    alias (Lottery Numbers Generator)
+  }
+}

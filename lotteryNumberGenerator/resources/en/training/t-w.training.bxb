@@ -1,0 +1,10 @@
+train (t-w38djms7rdf71kvn5d27v9zys) {
+  utterance ("[g:Calculate] I need number help for (Mega Millions)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909409184)
+}
+train (t-wi8oyrp5tp8j7t8f92b4oowt4) {
+  utterance ("[g:Calculate] I need (Mega Millions)[v:Text] numbers")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909580264)
+}

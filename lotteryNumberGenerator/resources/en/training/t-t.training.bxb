@@ -1,0 +1,10 @@
+train (t-t3x77xwuu3sdldri50d6mm9f5) {
+  utterance ("[g:Calculate] On (Power Ball)[v:Text] I want numbers to play")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909820369)
+}
+train (t-t8ihx29rigwegqugs3rsgbkcl) {
+  utterance ("[g:Calculate] All I want is numbers to play (Mega Millions)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909468592)
+}

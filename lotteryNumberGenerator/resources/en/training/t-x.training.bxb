@@ -1,0 +1,15 @@
+train (t-x7pe99ehkkkki8bn48xrdslyd) {
+  utterance ("[g:Calculate] I want (power ball)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560922380674)
+}
+train (t-xfin2s37h9ff36ycwd2sm73le) {
+  utterance ("[g:Calculate] For (Fantasy Five)[v:Text] I want numbers to play")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909794746)
+}
+train (t-xv5lfl2yfc7560av0awwu4htt) {
+  utterance ("[g:Calculate] Tell me what to play on (Daily 3)[v:Text]")
+  plan (jYpRCoAgEAXXukwQeYmu0L9s8uhn1VhWsNtn0AEceAMPhmZa0TjdAh85SDGDPiHXdELDhQxlK+r3kg3ZaBuKWWIVNtAykh9oRhO5Pup29PH/Fw==)
+  last-modified (1560909243314)
+}

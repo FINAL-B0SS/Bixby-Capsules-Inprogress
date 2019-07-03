@@ -1,0 +1,4 @@
+dialog (NoResult) {
+  match: Content
+  template("I don't know that ticket")
+}
