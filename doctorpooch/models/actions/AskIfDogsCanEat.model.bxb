@@ -1,0 +1,10 @@
+action (AskIfDogsCanEat) {
+   collect {
+     input (food) {
+       type (Food)
+       min (Required) max (One)
+    }
+   }
+   output (AskIfDogsCanEatResult)
+   type (Fetch)
+}

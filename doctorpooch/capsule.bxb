@@ -1,0 +1,22 @@
+capsule {
+  id (example.doctorpooch)
+  format (3)
+  version (1.0.0)
+  targets {
+    target (bixby-mobile-en)
+  }
+  permissions{
+    lock-screen-enabled
+  }
+  store-sections {
+    section (ArtAndLifestyle)
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+    import (viv.image) {
+      as (image) version (2.12.0)
+    }
+  }
+}

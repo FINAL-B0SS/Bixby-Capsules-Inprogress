@@ -1,0 +1,10 @@
+train (t-ge1pmcbvquqbja4ivrtv157pv) {
+  utterance ("[g:AskIfDogsCanEatResult] can dogs eat the (food)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549428715360)
+}
+train (t-gm4b85azvxfmiagbsruqw6d7f) {
+  utterance ("[g:AskIfDogsCanEatResult] can i give (fish)[v:Food] to dogs")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429602432)
+}

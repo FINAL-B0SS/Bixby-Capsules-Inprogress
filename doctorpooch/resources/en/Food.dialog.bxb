@@ -1,0 +1,8 @@
+ dialog (Concept) {
+   match {
+     // Look for this type using underscore (_) as a wildcard
+     Food (_)
+   }
+   // Use this template text with this type
+   template("food")
+ }

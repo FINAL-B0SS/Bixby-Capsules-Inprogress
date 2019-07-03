@@ -1,0 +1,24 @@
+train (t-l5g6l7oicuisixzz5lnjq5vw8) {
+  utterance ("[g:AskIfDogsCanEatResult] can dogs eat (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549428631817)
+}
+train (t-lg9w8opu8ssn4jdjltma6t49i) {
+  utterance ("[g:AskIfDogsCanEatResult] can i give the (fish)[v:Food] to dogs")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429726844)
+}
+train (t-lnwbbo9d51xcpn0is66sk19nh) {
+  utterance ("[g:AskIfDogsCanEatResult] is an (fish)[v:Food] okay for dogs")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549430316753)
+}
+train (t-lusorukgw8k9r9x4bdjs391jc) {
+  utterance ("[g:AskIfDogsCanEatResult] do dogs eat (watermelon)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+}
+train (t-lxpvqbal6nafxgr42o2cl179a) {
+  utterance ("[g:AskIfDogsCanEatResult] if dogs can eat (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429049746)
+}

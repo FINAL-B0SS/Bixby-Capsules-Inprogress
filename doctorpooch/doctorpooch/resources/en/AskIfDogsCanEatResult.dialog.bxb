@@ -1,0 +1,9 @@
+ dialog (Result) {
+   // bind the variable "askIfDogsCanEatResult" to the result and "rollOutput" to
+   // the action of which it was output
+   match {
+     AskIfDogsCanEatResult (askIfDogsCanEatResult) {
+       from-output: AskIfDogsCanEat (rollOutput)
+     }
+   }
+ }

@@ -1,0 +1,12 @@
+ dialog (Result) {
+  match {
+    AskIfDogsCanEatResult (askIfDogsCanEatResult) {
+      from-output: AskIfDogsCanEat (rollOutput)
+    }
+  }
+  // bind the variable "askIfDogsCanEatResult" to the result and "rollOutput" to
+  // the action of which it was output
+  template("🐶 I found some information about #{value(askIfDogsCanEatResult.food)} 🐶") {
+    speech ("#{value(askIfDogsCanEatResult.speech)}")
+  }
+}

@@ -1,0 +1,15 @@
+train (t-17233uxozxtsov3r2rr4iedpz) {
+  utterance ("[g:AskIfDogsCanEat] Do (bagels)[v:Food] harm dogs")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1561669904279)
+}
+train (t-1ie5fa26l1dscepzrfzmp92hq) {
+  utterance ("[g:AskIfDogsCanEat] Is (ice cream)[v:Food] okay for dogs")
+  plan (Y2Bm0ClJLS6JTy/KLy3QS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAjTjWDNA51bvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1561765623078)
+}
+train (t-1q8xdfakud3qdvug3vfjy9gdc) {
+  utterance ("[g:AskIfDogsCanEatResult] can my dog eat an (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429758203)
+}

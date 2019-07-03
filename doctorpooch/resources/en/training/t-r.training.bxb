@@ -1,0 +1,20 @@
+train (t-r0xzjq268y888usajz9ravd88) {
+  utterance ("[g:AskIfDogsCanEatResult] can I give my dog an (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429451998)
+}
+train (t-r5qhzvpe883xs3eb3vgylkknr) {
+  utterance ("[g:AskIfDogsCanEat] Can my dog have (brussel sprouts)[v:Food]\n")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1562033292775)
+}
+train (t-r9knmuhqeyrqntay9a61hmwvo) {
+  utterance ("[g:AskIfDogsCanEatResult] can i give fish to a (dog)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429497346)
+}
+train (t-ropjgn5aynjcpnfix96nljc88) {
+  utterance ("[g:AskIfDogsCanEat] what happens if my dog has (ice cream)[v:Food]")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1562033298535)
+}

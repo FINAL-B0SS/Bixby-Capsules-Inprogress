@@ -1,0 +1,15 @@
+train (t-p953h0xpt4f8c5dsnykzf1o1g) {
+  utterance ("[g:AskIfDogsCanEatResult] can my dog eat a (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429741728)
+}
+train (t-pc8c0cot7ge1pjauww6swws9d) {
+  utterance ("[g:AskIfDogsCanEatResult] can dogs eat (ice cream)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1561238218417)
+}
+train (t-pvuyoubvjmdtmyio2mvmfbf66) {
+  utterance ("[g:AskIfDogsCanEatResult] can dogs have a (food)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549428750027)
+}

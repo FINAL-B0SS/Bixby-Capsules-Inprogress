@@ -1,0 +1,7 @@
+structure (AskIfDogsCanEatResult) {
+  description (The result object produced by the AskIfDogsCanEat action)
+  property (answer) {
+    description (The result for the question.)
+    type (Answer)
+  }
+}

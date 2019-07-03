@@ -1,0 +1,10 @@
+train (t-ah9f0nss4gljowdiwa01zr2yv) {
+  utterance ("[g:AskIfDogsCanEat] Can dogs have (ice cream)[v:Food]")
+  plan (Y2Bm0ClJLS6JTy/KLy3QS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAjTjWDNA51bvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1561767113484)
+}
+train (t-awx1tr77txdrhu5p52etkuzt9) {
+  utterance ("[g:AskIfDogsCanEatResult] if I can feed my the dog (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429339839)
+}

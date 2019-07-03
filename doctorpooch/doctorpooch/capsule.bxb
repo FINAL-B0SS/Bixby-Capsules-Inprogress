@@ -1,0 +1,14 @@
+capsule {
+  id (dillilabs.doctorpooch)
+  format (3)
+  version (1.0.8)
+  targets {
+    target (bixby-mobile-en)
+  }
+  permissions{
+    lock-screen-enabled
+  }
+  store-sections {
+    section (ArtAndLifestyle)
+  }
+}

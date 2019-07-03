@@ -1,0 +1,20 @@
+result-view {
+  match {
+    AskIfDogsCanEatResult (r)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          paragraph {
+              value {
+                  template ("#{value(r.answer)}")
+              }
+              style (Detail_M)
+          }
+        }
+      }
+    }
+  }
+}

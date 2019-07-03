@@ -1,0 +1,25 @@
+train (t-q539j7lgb978pf9n35is0lxd9) {
+  utterance ("[g:AskIfDogsCanEatResult] if dogs can have an (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549430072927)
+}
+train (t-q8sddn73lsftwr06c3m4nh6he) {
+  utterance ("[g:AskIfDogsCanEatResult] is the (fish)[v:Food] okay for dogs")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549430358858)
+}
+train (t-qofw9xa46jkrk4ac25xa10kob) {
+  utterance ("[g:AskIfDogsCanEat] will (fish)[v:Food] hurt my dog")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1561669327869)
+}
+train (t-qoouecq9eqzj7ktkqpqvvtthu) {
+  utterance ("[g:AskIfDogsCanEat] What happens if my dog ate (ice cream)[v:Food] out the pool")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1562033297639)
+}
+train (t-qpfbsfxanumfur8lq0yeifr5v) {
+  utterance ("[g:AskIfDogsCanEatResult] if I can feed my a dog (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429170580)
+}

@@ -1,0 +1,4 @@
+train (t-i7td1ux3q3u7ljmalszb89j89) {
+  utterance ("[g:AskIfDogsCanEatResult] can my dog have (watermelon)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+}

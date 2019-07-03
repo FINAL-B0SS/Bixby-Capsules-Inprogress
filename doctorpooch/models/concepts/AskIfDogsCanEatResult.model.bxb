@@ -1,0 +1,22 @@
+structure (AskIfDogsCanEatResult) {
+  description (The result object produced by the AskIfDogsCanEat action)
+  property (answer) {
+    description (The result for the question.)
+    type (Answer)
+  }
+  property (speech) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (image) {
+    type (image.Image)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (food) {
+    type (Food)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+}

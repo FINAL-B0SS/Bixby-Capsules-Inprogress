@@ -1,0 +1,7 @@
+hints {
+    uncategorized {
+        utterance (Can dogs eat fish?)
+        utterance (Can I give my dog watermelon?)
+        utterance (Can I feed my dog orange juice?)
+    }
+}

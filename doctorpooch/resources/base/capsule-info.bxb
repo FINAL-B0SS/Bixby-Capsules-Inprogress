@@ -1,0 +1,18 @@
+description {
+  displayName (Doctor Pooch)
+  companyName (Dilli Labs)
+  iconUrl (/images/icons/doctor_512.png)
+  description ("Ask Doctor Pooch before feeding your dog any kind of food to ensure its safe to do so. For example: if you want to feed fish to your dog, simply ask Doctor Pooch if dogs can eat fish. This skill is also handy if your dog eats something off the floor and you are not sure if its an emergency. The skill provides a comprehensive answer that includes if the food you plan on giving is safe, how it should be served, the associated nutritional benefits or dangers, the portions and frequency with which it should be served and more. Do not take a chance before feeding your dog any kind of food! DISCLAIMER: Doctor Pooch gives a best guess answer derived from online resources and cannot be held liable for any unexpected consequence as a result of following its advice. Please consult a certified professional veterinary to ensure the validity of its answers.")
+  websiteUrl (https://doctorpooch.com)
+  termsUrl (https://doctorpooch.com/terms-of-use)
+  search-keywords {
+    keyword (dog food)
+    keyword (pet dog)
+    keyword (dog)
+    keyword (dogs)
+    keyword (can dogs eat)
+    keyword (pets)
+    keyword (pet)
+  }
+  dispatch-name (Doctor Pooch)
+}

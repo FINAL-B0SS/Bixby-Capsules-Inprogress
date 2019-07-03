@@ -1,0 +1,20 @@
+train (t-g13ksqwii9ihsuiru0iwyjdnu) {
+  utterance ("[g:AskIfDogsCanEat] Would (fish)[v:Food] harm my dog")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1561669284125)
+}
+train (t-ge1pmcbvquqbja4ivrtv157pv) {
+  utterance ("[g:AskIfDogsCanEatResult] can dogs eat the (food)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549428715360)
+}
+train (t-gm4b85azvxfmiagbsruqw6d7f) {
+  utterance ("[g:AskIfDogsCanEatResult] can i give (fish)[v:Food] to dogs")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429602432)
+}
+train (t-gtbiqnhflixfqd2utle6ab3sm) {
+  utterance ("[g:AskIfDogsCanEat] dawg my dog ate (fish)[v:Food]")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1561742450979)
+}

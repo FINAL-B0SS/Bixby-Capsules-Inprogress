@@ -1,0 +1,5 @@
+train (t-2erp33kxq5rup98uc6obxknjl) {
+  utterance ("[g:AskIfDogsCanEatResult] is (fish)[v:Food] okay for dogs")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549430279211)
+}

@@ -1,0 +1,10 @@
+train (t-o4xf2kzkqnsh67ong9jdtnj46) {
+  utterance ("[g:AskIfDogsCanEat] Should dogs eat (cashew nuts)[v:Food]")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1562033330255)
+}
+train (t-o8hso1wqhveu7j2gwu3z9qn22) {
+  utterance ("[g:AskIfDogsCanEatResult] can dogs eat an (food)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549428688232)
+}

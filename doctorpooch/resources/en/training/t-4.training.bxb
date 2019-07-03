@@ -1,0 +1,15 @@
+train (t-42k7od861uagjnkt4nuastv8o) {
+  utterance ("[g:AskIfDogsCanEat] Are (fish)[v:Food] toxic for dogs")
+  plan (Y2Bm0EytSMwtyEnVS8lPLskvKsjPT87QcyzO9kxzyU8vdk7Mc00sCUotLs0pYVAmQimDBDZFbvn5KQxMDIxAzAAkGRlAAMoHAA==)
+  last-modified (1561670018420)
+}
+train (t-46tv0w9bkntpciw4nppb66075) {
+  utterance ("[g:AskIfDogsCanEatResult] can dogs drink (orange juice)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1561238185715)
+}
+train (t-4sq2fhay99az57q7wm75fru0n) {
+  utterance ("[g:AskIfDogsCanEatResult] is an fish okay for a (dog)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549430135924)
+}

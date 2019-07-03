@@ -1,0 +1,25 @@
+result-view {
+  match {
+    AskIfDogsCanEatResult (r)
+  }
+
+  render {
+    layout {
+      section {
+        content {
+          image {
+            aspect-ratio (4:3)
+            url ("#{value(r.image.url)}")
+          }
+          divider
+          paragraph {
+            value {
+              template ("#{value(r.answer)}")
+            }
+            style (Title_XS)
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+train (t-55a4xxl5ao6rgrzr9ttbp226p) {
+  utterance ("[g:AskIfDogsCanEatResult] if my dog can eat a (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429929010)
+}
+train (t-5hevw8uprzca49h3vrd7hqq7d) {
+  utterance ("[g:AskIfDogsCanEatResult] if my dog can eat an (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429943613)
+}
+train (t-5urt4yw71kxvexvx52og3844c) {
+  utterance ("[g:AskIfDogsCanEatResult] do dogs eat a (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429363271)
+}
+train (t-5yxewndvjhs0f7vacn7pwpiqx) {
+  utterance ("[g:AskIfDogsCanEatResult] can my dog have an (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429876756)
+}

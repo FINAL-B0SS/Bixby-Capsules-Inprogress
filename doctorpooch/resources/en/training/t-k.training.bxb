@@ -1,0 +1,14 @@
+train (t-k8109kwybc7jad96gy1hg3rv5) {
+  utterance ("[g:AskIfDogsCanEatResult] do dogs eat an (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549429386107)
+}
+train (t-k83bfe9qdo3cjoud6058ikekl) {
+  utterance ("[g:AskIfDogsCanEatResult] if my dog can have an (fish)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+  last-modified (1549430014053)
+}
+train (t-kkjdl9ojotr5dttrhh2jgkg59) {
+  utterance ("[g:AskIfDogsCanEatResult] can my dog eat (watermelon)[v:Food]")
+  plan (Y2Bm0E7JzMnJzElMKtZLyU8uyS8qyM9PztBzLM72THPJTy92TsxzTSwJSi0uzSlhUCVKMYMUdmVu+fkpDEwMjEDMACQZGUCACYIB)
+}
