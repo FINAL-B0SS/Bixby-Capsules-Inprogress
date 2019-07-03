@@ -25,28 +25,37 @@ layout-macro-def ("player-summary-fragment") {
   } 
   
   content {
-    image-card{
-      title-area{
-        halign (Start)
-        slot1 {
-          single-line {
-            text {
-              value ("#{value(player.name)}")
-              style (Title_M)
+    compound-card {
+      content {
+        image-card {
+          aspect-ratio (4:3)
+          image-url ("#{value(player.image.images[0].url)}")
+          title-area {
+            slot1 {
+              text {
+                value ("")
+                style (Title_M)
+              }
             }
           }
         }
-        slot2 {
-          single-line {
-            text {
-              value("#{value(player.pick.percentage)}")
-              style(Title_XS)
+        single-line {
+          text {
+            value {
+              template ("#{value(player.name)}")
             }
+            style (Title_M)
+          }
+        }
+        single-line {
+          text {
+            value {
+              template ("Pick percentage: #{value(player.pick.percentage)}")
+            }
+            style (Detail_M_Soft)
           }
         }
       }
-      aspect-ratio(4:3)
-      image-url("#{value(player.image.images[0].url)}")
     }
-   }
- }
+  }
+}

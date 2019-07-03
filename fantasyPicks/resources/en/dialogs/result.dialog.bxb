@@ -5,4 +5,5 @@ dialog (Result) {
     }
   }
   template ("Here's my analysis on #{value (this.name)}")
+  
 }

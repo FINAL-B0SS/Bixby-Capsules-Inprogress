@@ -46,28 +46,34 @@ layout-macro-def ("player-details-fragment")
     }
   }
   
-  content{
+  content {
     compound-card {
       content {
         image-card {
           title-area {
-            slot1{
+            slot1 {
               single-line {
                 text("")
+              }
             }
           }
-        }
           aspect-ratio (4:3)
           image-url ("#{value(player.image.images[0].url)}")
-      } 
+        }
+        single-line {
+          text {
+            value ("#{value(player.name)}")
+            style(Title_M)
+          }
+        }
         hbox {
           content {
-            vbox{
+            vbox {
               content {
                 single-line {
                   text {
                     style(Title_XS)
-                    value("#{value(player.pick.percentage)}")
+                    value("Pick percentage: #{value(player.pick.percentage)}")
                   }
                 }
               }
@@ -77,126 +83,119 @@ layout-macro-def ("player-details-fragment")
                 single-line {
                   text {
                     value("Experts Pick")
-                    style(Legal)
+                    style(Detail_L_Soft)
                   }
                 }
               }
             }
           }
         }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(player.name)}")
-                    style(Title_M)
-                  }
-                }
-              }
-            }
+        single-line {
+          text {
+            value ("Position and Team")
+            style (Legal)
           }
         }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(player.info.team)}")
-                    style(Detail_M)
-                  }
-                }
-              }
-            }
+        single-line {
+          text {
+            value ("#{value(player.info.team)}")
+            style (Detail_M)
           }
         }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(player.info.vs)}")
-                    style(Detail_M)
-                  }
-                }
-              }
-            }
+        single-line {
+          text {
+            value ("Opposing team")
+            style (Legal)
           }
         }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(player.pick.note)}")
-                    style(Detail_M)
-                  }
-                }
-              }
-            }
+        single-line {
+          text {
+            value ("#{value(player.info.vs)}")
+            style (Detail_M)
           }
         }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Fantasy Points:")
-                    style(Detail_M)
-                  }
-                }
-              }
-            }
+        single-line {
+          text {
+            value ("Player Pick Note")
+            style (Legal)
           }
-        }  
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Season Total: #{value(player.fantasyPoints.seasonTotal)}")
-                    style(Detail_M)
-                  }
-                }
-              }
-            }
+        }
+        single-line {
+          text {
+            value ("#{value(player.pick.note)}")
+            style (Detail_M)
           }
-        }   
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Avg Points Per Game: #{value(player.fantasyPoints.avgPerGame)}")
-                    style(Detail_M)
-                  }
-                }
-              }
-            }
+        }
+        single-line {
+          text {
+            value ("Season Total")
+            style (Legal)
           }
-        }    
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Last Week: #{value(player.fantasyPoints.lastWeek)}")
-                    style(Detail_M)
-                  }
-                }
-              }
-            }
+        }
+        single-line {
+          text {
+            value ("#{value(player.fantasyPoints.seasonTotal)}")
+            style (Detail_M)
           }
-        }         
-     }
-   }
+        }
+        single-line {
+          text {
+            value ("Average Points Per Game")
+            style (Legal)
+          }
+        }
+        single-line {
+          text {
+            value ("#{value(player.fantasyPoints.avgPerGame)}")
+            style (Detail_M)
+          }
+        }
+        single-line {
+          text {
+            value ("Last Week")
+            style (Legal)
+          }
+        }
+        single-line {
+          text {
+            value ("#{value(player.fantasyPoints.lastWeek)}")
+            style (Detail_M)
+          }
+        }
+      }
+    }
   }
 }
+   
+        // hbox {
+        //   content {
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             value ("Avg Points Per Game: #{value(player.fantasyPoints.avgPerGame)}")
+        //             style(Detail_M)
+        //           }
+        //         }
+        //       }
+        //     }
+        //   }
+        // }    
+        // hbox {
+        //   content {
+        //     vbox {
+        //       content {
+        //         single-line {
+        //           text {
+        //             value ("Last Week: #{value(player.fantasyPoints.lastWeek)}")
+        //             style(Detail_M)
+        //           }
+        //         }
+        //       }
+        //     }
+        //   }
+        // }         
+//      }
+//    }
+//   }
+// }
