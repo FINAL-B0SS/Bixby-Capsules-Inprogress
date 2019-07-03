@@ -1,5 +1,0 @@
-train (t-bopqsqd1jldlisbyem2xqvnm5) {
-  utterance ("[g:PlayerStats] (Philip Rivers)[v:PlayerName] is better than (Tom Brady)[v:PlayerName]?")
-  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
-  last-modified (1559782322645)
-}

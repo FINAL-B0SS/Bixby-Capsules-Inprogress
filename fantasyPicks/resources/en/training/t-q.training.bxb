@@ -1,5 +1,0 @@
-train (t-q8v7s9g5kvy482ocv7onnfmmv) {
-  utterance ("[g:PlayerStats] Is (Matt Ryan)[v:PlayerName] a better player than (Baker Mayfield)[v:PlayerName]?")
-  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
-  last-modified (1559782304177)
-}

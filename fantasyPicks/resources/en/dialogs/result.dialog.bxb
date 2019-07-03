@@ -1,8 +1,0 @@
-dialog (Result) {
-  match {
-    PlayerStats(this) {
-      from-output: GetPick(pick)
-    }
-  }
-  template ("Here's my analysis on #{value (this.name)}")
-}
