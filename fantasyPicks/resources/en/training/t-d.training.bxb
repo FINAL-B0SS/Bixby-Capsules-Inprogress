@@ -1,0 +1,10 @@
+train (t-dbc9ydox43aauu7cw9cb7rsj3) {
+  utterance ("[g:PlayerStats] (Aaron Donald)[v:PlayerName] is better than (Todd Gurley)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559782266003)
+}
+train (t-dk1by8u8kqm20gx1kn08hvagc) {
+  utterance ("[g:PlayerStats] Should I chose (Tom Brady)[v:PlayerName] over (Ezekiel Elliott)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559782274476)
+}
