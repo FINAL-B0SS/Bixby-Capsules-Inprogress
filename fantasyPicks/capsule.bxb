@@ -1,0 +1,28 @@
+capsule {
+  id (cmmtech.fantasyPicks)
+  version (1.0.1)
+  format (3)
+  store-sections {
+    section (Sports)
+    section (GamesAndFun)
+  }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+  }
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.core) { as (core) }
+    import (viv.common) { 
+      as (common) 
+      version (3.32.3)
+    }
+    import (viv.entity) { 
+      as (entity) 
+      version (3.18.11)
+    }
+  }
+}

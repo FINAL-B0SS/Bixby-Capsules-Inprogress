@@ -1,0 +1,9 @@
+train (t-a0dp70qdctmum0e7vnm8dlw6b) {
+  utterance ("[g:PlayerStats] who should I play this week? (Dion Lewis)[v:PlayerName] or (Tyler Boyd)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+}
+train (t-afw7vj12c151j71uvkpvukup0) {
+  utterance ("[g:PlayerStats] Do I need to choose (Derek Carr)[v:PlayerName] over (Sam Darnold)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559782271251)
+}

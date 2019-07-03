@@ -1,0 +1,19 @@
+train (t-c3tpg94q2ww0ukozkagfibrve) {
+  utterance ("[g:PlayerStats] Do you think I need to give preference to (Patrick Mahomes)[v:PlayerName] over (Andrew Luck)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559782273034)
+}
+train (t-c4dgbs2ni20qb7vjljmi4f2gp) {
+  utterance ("[g:PlayerStats] Is (Josh Allen QB)[v:PlayerName] a better player than (Jimmy Garoppolo)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559785416258)
+}
+train (t-ccfqbuedppf8xspzlbg7pw0hk) {
+  utterance ("[g:PlayerStats] who do you recommend (Joe Flacco)[v:PlayerName] or (Dak Prescott)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+}
+train (t-cckvg81g79m6ffbimqzxdwi47) {
+  utterance ("[g:PlayerStats] (Cam Newton)[v:PlayerName] is better than (Ben Roethlisberger)[v:PlayerName]")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559782320138)
+}

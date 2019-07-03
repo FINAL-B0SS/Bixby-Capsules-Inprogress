@@ -1,0 +1,5 @@
+train (t-ox9bcdf7wuuz65dhsh06z3bwj) {
+  utterance ("[g:PlayerStats] Is (Nick Foles)[v:PlayerName] better than (Dwayne Haskins)[v:PlayerName]?")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559782327298)
+}

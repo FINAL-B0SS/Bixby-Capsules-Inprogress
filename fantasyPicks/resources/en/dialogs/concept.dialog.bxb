@@ -1,0 +1,13 @@
+dialog (Concept) {
+  match {
+    PlayerStats (this)
+  }
+  switch (plural(this)) {
+    case (One) {
+      template (player)
+    }
+    default {
+      template (players)
+    }
+  }
+}

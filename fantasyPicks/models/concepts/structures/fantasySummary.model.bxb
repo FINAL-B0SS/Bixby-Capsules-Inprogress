@@ -1,0 +1,11 @@
+structure (FantasySummary) {
+  description (Player Infos)
+  // property (pick) {
+  //   type (core.Integer)
+  //   min (Required) 
+  // }
+  property ("players") {
+    type (PlayerStats)
+    min (Required) max (Many)
+  }
+}

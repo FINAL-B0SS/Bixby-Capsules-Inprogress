@@ -1,0 +1,16 @@
+hints {
+//     for-category (Music) {
+//         utterance (play some michael jackson)
+//         utterance (play my summer playlist)
+//     }
+// 
+//     for-category (Podcasts) {
+//         utterance (play the newest episode of philosophize this)
+//     }
+    uncategorized {
+        utterance (Tom Brady or Ezekiel Elliott?)
+        utterance (Who do you recommend? Joe Flacco or Dak Prescott?)
+        utterance (Who should I play this week? Tyler Boyd or Dion Lewis?)
+        utterance (Mike Davis RB is better than Chris Thompson?)
+        utterance (Is Josh Allen QB a better player than Jimmy Garoppolo?}
+}

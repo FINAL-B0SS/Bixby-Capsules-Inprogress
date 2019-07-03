@@ -1,0 +1,5 @@
+train (t-mwln2x1nds7fxmv8dt7y6mohe) {
+  utterance ("[g:PlayerStats] Do you think (Aaron Rodgers)[v:PlayerName] is a better choice than (Deshaun Watson)[v:PlayerName]")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  last-modified (1559782280149)
+}

@@ -1,0 +1,4 @@
+train (t-08sycjk60k91gokwndgmsrpr0) {
+  utterance ("[g:PlayerStats] who ya have for a breakout game? (Todd Gurley)[v:PlayerName] or (Doug Baldwin)[v:PlayerName]")
+  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+}

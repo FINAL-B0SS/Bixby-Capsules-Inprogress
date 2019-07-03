@@ -1,0 +1,30 @@
+description {
+  // name (FantasyPicks)
+  displayName (FantasyFootballPicks)
+  companyName (CMMTech)
+  iconUrl (/images/logo.png)
+  description ("Dominate your fantasy football league!")
+  websiteUrl (https://cmmtechskills.com)
+  termsUrl (http://bit.ly/cmm-tech-privacy-policy)
+  privacy-policy-url (http://bit.ly/cmm-tech-privacy-policy)
+  search-keywords{
+    keyword (fantasy football picks)
+    keyword (fantasy football)
+    keyword (football picks)
+    keyword (fantasy)
+    keyword (football)
+    keyword (nfl picks)
+    keyword (nfl fantasy picks)
+    keyword (fantasy league)    
+  }
+  dispatch-name (FantasyPicks)
+  dispatch-aliases {
+    alias (fantasy football picks)
+    alias (nfl picks)
+    alias (nfl fantasy picks)
+    alias (fantasy football)
+    alias (football picks)
+  }
+  actionBgColor (#3daa4b)
+  actionFgColor (#FFFFFF)
+}
