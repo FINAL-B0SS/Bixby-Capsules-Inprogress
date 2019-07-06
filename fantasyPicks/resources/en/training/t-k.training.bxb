@@ -1,0 +1,5 @@
+train (t-k47c6flwjv8oz1s83unzhj198) {
+  utterance ("[g:PlayerStats]Who is best (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376448337)
+}

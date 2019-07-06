@@ -1,0 +1,15 @@
+train (t-9b79h7cpqr2sv5qoc2s011rer) {
+  utterance ("[g:PlayerStats]Would you choose (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376604329)
+}
+train (t-9cnyh9ywcfki76yy103lt3ba1) {
+  utterance ("[g:PlayerStats]Calculate the likelihood of winning with (Tom Brady)[v:PlayerName] over (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376037483)
+}
+train (t-9hajx9mujcu7zna53nypll9me) {
+  utterance ("[g:PlayerStats]Should I put (Tom Brady)[v:PlayerName] in or (Ezekiel Elliott)[v:PlayerName] in")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376376986)
+}

@@ -1,5 +1,20 @@
 train (t-1ayv1v61l1df6cevq963xzigy) {
   utterance ("[g:PlayerStats] Do you think (Derek Carr)[v:PlayerName] is better than (Sam Darnold)[v:PlayerName]?")
-  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
-  last-modified (1559782294930)
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562373409826)
+}
+train (t-1bgy23n1bnxk121h6i5fxvzg0) {
+  utterance ("[g:PlayerStats]Would (Tom Brady)[v:PlayerName] out play (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376605800)
+}
+train (t-1slp9kwe7gzknwa5vdjjxmyia) {
+  utterance ("[g:PlayerStats]How well will (Tom Brady)[v:PlayerName] stack up against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376235146)
+}
+train (t-1to2ve7c6884xlmxwgo5sbjt3) {
+  utterance ("[g:PlayerStats]Who is the better player (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376490546)
 }

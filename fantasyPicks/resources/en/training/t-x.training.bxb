@@ -1,3 +1,8 @@
+train (t-x5jry15j7tj0ngfjydrdeqsoj) {
+  utterance ("[g:PlayerStats](Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName] that is the question")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375967214)
+}
 train (t-xdu1ejdiox68qd8t6vbjn89io) {
   utterance ("[g:PlayerStats] (Dak Prescott)[v:PlayerName] is better than (Mitch Trubisky)[v:PlayerName]")
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
@@ -11,4 +16,9 @@ train (t-xewqlc3o6lvwj6vd7zpj429ez) {
 train (t-xrk01e2al4o1uqztsr9kwrzst) {
   utterance ("[g:PlayerStats] (Mike Davis)[v:PlayerName] is better than (Chris Thompson RB)[v:PlayerName]")
   last-modified (1559790397616)
+}
+train (t-xx62ak7ed649cezozwier9uol) {
+  utterance ("[g:PlayerStats]Would you go with (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376603505)
 }

@@ -1,0 +1,40 @@
+train (t-i0m4yt2hx1z5i1pu8d12la2ur) {
+  utterance ("[g:PlayerStats]Will I win with (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376554671)
+}
+train (t-i559lf2trcov5w2p9tcx2fzt4) {
+  utterance ("[g:PlayerStats]Perform an analysis of (Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376281018)
+}
+train (t-i7k3yotd5eua6pe0koli1mlqx) {
+  utterance ("[g:PlayerStats]Who is best pick (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376456293)
+}
+train (t-ibkigg34l0iaogs22gsotohmq) {
+  utterance ("[g:PlayerStats]Should I put money on (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376401026)
+}
+train (t-igo52n5ruqxbuzu516bhrxiqf) {
+  utterance ("[g:PlayerStats]Should I go with (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376335213)
+}
+train (t-ii9h6eixxp4sghskb5bthkdl8) {
+  utterance ("[g:PlayerStats]Is (Tom Brady)[v:PlayerName] more skilled than (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376244470)
+}
+train (t-ilicy7cowu6z5ht8mum7it6eo) {
+  utterance ("[g:PlayerStats]Can I win this game by picking (Tom Brady)[v:PlayerName] over (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376047491)
+}
+train (t-ip4wbr7xtgt0646j5mh90m96x) {
+  utterance ("[g:PlayerStats]Would you rather have (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376626761)
+}

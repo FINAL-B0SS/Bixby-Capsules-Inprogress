@@ -1,0 +1,10 @@
+train (t-y2gu0an0wlfga1t690zdxlc1y) {
+  utterance ("[g:PlayerStats]Who will play best (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376504990)
+}
+train (t-yeh71acku2gfb8p090lunibcl) {
+  utterance ("[g:PlayerStats]Run an analysis on (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376306755)
+}

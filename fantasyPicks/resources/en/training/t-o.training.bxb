@@ -1,3 +1,18 @@
+train (t-o7bfsvgrarhq1gduynqw63z6w) {
+  utterance ("[g:PlayerStats]Dare I play (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376087700)
+}
+train (t-oso9mauzv6fdgp51bwzcjj10u) {
+  utterance ("[g:PlayerStats]Help me decide whether to play (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376212753)
+}
+train (t-owf9tkxomubkf292rju6otl4n) {
+  utterance ("[g:PlayerStats]Do you prefer (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376126375)
+}
 train (t-ox9bcdf7wuuz65dhsh06z3bwj) {
   utterance ("[g:PlayerStats] Is (Nick Foles)[v:PlayerName] better than (Dwayne Haskins)[v:PlayerName]?")
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)

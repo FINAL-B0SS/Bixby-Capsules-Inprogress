@@ -1,4 +1,19 @@
+train (t-n08nbhah45jmubkb9fhclorsr) {
+  utterance ("[g:PlayerStats]Find out best pick between (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376131452)
+}
+train (t-nhi5eh88ocx428qk0ympqkc33) {
+  utterance ("[g:PlayerStats]On my team should I play (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376262640)
+}
 train (t-nn5i51hz58xtki287zesb0zrx) {
   utterance ("[g:PlayerStats] (AJ Green)[v:PlayerName] or (Devonta Freeman)[v:PlayerName]?")
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+}
+train (t-nrnvlyl5gw99ij9q42ehboq3k) {
+  utterance ("[g:PlayerStats]What are the odds of (Tom Brady)[v:PlayerName] compared to (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376450040)
 }

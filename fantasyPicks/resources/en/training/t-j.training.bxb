@@ -1,0 +1,35 @@
+train (t-j4dm39rjrhl9weygyf38boas9) {
+  utterance ("[g:PlayerStats]How is (Tom Brady)[v:PlayerName] looking against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376234354)
+}
+train (t-j61xhskpydkaieh2746s74any) {
+  utterance ("[g:PlayerStats]Should I pick (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376340265)
+}
+train (t-jbv9de05h7bcmucbidgktuapj) {
+  utterance ("[g:PlayerStats]Who is more likely to win (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376475169)
+}
+train (t-jio5mntb88ct047cqwi3u0hdr) {
+  utterance ("[g:PlayerStats]Should I put (Tom Brady)[v:PlayerName] on my team or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376390210)
+}
+train (t-jkbsub8ihcrr66hfueb5e2smv) {
+  utterance ("[g:PlayerStats]Who is better (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376461510)
+}
+train (t-jmttzftkpyncsovk4cs164lg7) {
+  utterance ("[g:PlayerStats]Am I more likely to win with (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375943301)
+}
+train (t-jypfei859ou2s22xagy8cdxfr) {
+  utterance ("[g:PlayerStats]Between (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName] who is the better player")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375979484)
+}

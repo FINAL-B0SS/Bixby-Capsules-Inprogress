@@ -1,0 +1,15 @@
+train (t-ebdwq5qomyc5t1qtbuwxyqiyj) {
+  utterance ("[g:PlayerStats]Between (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName] which is the better pick")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375973515)
+}
+train (t-enf5igyb2vzs2lqv7gn2qip2j) {
+  utterance ("[g:PlayerStats]Do recommend (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376125005)
+}
+train (t-evv1540vh60kz38lzsir8xzuv) {
+  utterance ("[g:PlayerStats]Who is safer (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376485970)
+}

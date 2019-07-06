@@ -1,0 +1,10 @@
+train (t-31ys2qzloqvxcgimqn0m32dlj) {
+  utterance ("[g:PlayerStats]Is it worth picking (Tom Brady)[v:PlayerName] over (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376252802)
+}
+train (t-3kp6z28k1kq68cbrxzc4l5gou) {
+  utterance ("[g:PlayerStats]Pit (Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376290707)
+}

@@ -1,4 +1,14 @@
+train (t-t8bnx1ucif15f9gdsqgb58jcl) {
+  utterance ("[g:PlayerStats]analyze (Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375948853)
+}
 train (t-ta5t0n0ou0ve02azod1i9nud3) {
   utterance ("[g:PlayerStats] (Devonte Freeman)[v:PlayerName] or (Antonio Brown)[v:PlayerName]?")
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+}
+train (t-tu24phmlpi5ricpje17hs9xkg) {
+  utterance ("[g:PlayerStats]Get me an experts pick on (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376139243)
 }

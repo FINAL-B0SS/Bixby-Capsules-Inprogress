@@ -3,3 +3,13 @@ train (t-q8v7s9g5kvy482ocv7onnfmmv) {
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
   last-modified (1559782304177)
 }
+train (t-qgkxbvguoi1tt7ek010mh5dce) {
+  utterance ("[g:PlayerStats]Show an analysis of (Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376415994)
+}
+train (t-qky5pq75y07negxsrtjbcft2v) {
+  utterance ("[g:PlayerStats]analyze (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375960923)
+}

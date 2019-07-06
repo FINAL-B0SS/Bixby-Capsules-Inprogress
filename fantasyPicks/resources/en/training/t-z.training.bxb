@@ -1,0 +1,10 @@
+train (t-z0hjfughrv9816fcyvwavlhvj) {
+  utterance ("[g:PlayerStats](Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375933572)
+}
+train (t-zv95ltzm2ib4huebslb9xyuc1) {
+  utterance ("[g:PlayerStats]You can go with (Tom Brady)[v:PlayerName] or you can go with (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376625846)
+}

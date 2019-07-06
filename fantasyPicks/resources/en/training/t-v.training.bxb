@@ -1,0 +1,5 @@
+train (t-v1cbryyeqcc06cr7dsrbjnoyr) {
+  utterance ("[g:PlayerStats]Do you recommend I play (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376127643)
+}

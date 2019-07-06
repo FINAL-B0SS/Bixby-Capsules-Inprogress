@@ -3,3 +3,18 @@ train (t-5bh66kb0oo1dk04g76hj5gaxg) {
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
   last-modified (1559782283919)
 }
+train (t-5gvhrtfvl1pp2w3iugfu3aln0) {
+  utterance ("[g:PlayerStats]Can I win with picking (Tom Brady)[v:PlayerName] over (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376052476)
+}
+train (t-5h9ah84xo1c1o4ykkd4wh2vv2) {
+  utterance ("[g:PlayerStats]Show an analysis of (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376424881)
+}
+train (t-5mw0e80yqsm9h6ao1z6zk0qi1) {
+  utterance ("[g:PlayerStats]What do you say on (Tom Brady)[v:PlayerName] vs (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376449359)
+}

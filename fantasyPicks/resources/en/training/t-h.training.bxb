@@ -1,0 +1,30 @@
+train (t-h3r68ybfru79j8v9u7gyq0qeb) {
+  utterance ("[g:PlayerStats]Can I succeed with (Tom Brady)[v:PlayerName] on my team instead of (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376042493)
+}
+train (t-h50iyn7h3j3kk20asetlca4cb) {
+  utterance ("[g:PlayerStats]compare (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376058051)
+}
+train (t-he97j7u4ed0mgklef4b82pci1) {
+  utterance ("[g:PlayerStats]Find out who is best (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376132195)
+}
+train (t-hei4ovczowjwfv8e8qbm2n7r7) {
+  utterance ("[g:PlayerStats]Perform a comparison of (Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376275202)
+}
+train (t-hyfzso01blrqci0qnw7obdcxn) {
+  utterance ("[g:PlayerStats]Is (Tom Brady)[v:PlayerName] more safe than (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376235709)
+}
+train (t-hylm75vdl9270d62yafe0zt10) {
+  utterance ("[g:PlayerStats]Will (Tom Brady)[v:PlayerName] perform better than (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376526264)
+}

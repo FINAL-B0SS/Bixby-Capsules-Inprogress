@@ -1,0 +1,10 @@
+train (t-rkr1t1bcuetv11il962mjdu7u) {
+  utterance ("[g:PlayerStats]Would you have (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName] on your team")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376602710)
+}
+train (t-rsvqpcoejisyj182uc9bfn8jv) {
+  utterance ("[g:PlayerStats]Determine if it is best to pick (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376082284)
+}

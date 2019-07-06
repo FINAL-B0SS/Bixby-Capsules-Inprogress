@@ -1,0 +1,10 @@
+train (t-fv8mdoid88emnnkuow86aimu8) {
+  utterance ("[g:PlayerStats]Would you bet on (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376605001)
+}
+train (t-fxwxf8zrbv9wic524ndn0ysx5) {
+  utterance ("[g:PlayerStats]Run (Tom Brady)[v:PlayerName] alongside (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376300594)
+}

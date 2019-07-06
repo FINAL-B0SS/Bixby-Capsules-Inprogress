@@ -1,3 +1,13 @@
+train (t-mkivmae7vv38lrjyy6pxc4dco) {
+  utterance ("[g:PlayerStats]Should I go with (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376326763)
+}
+train (t-mvcrmqt5vezt3nppyyufx15d0) {
+  utterance ("[g:PlayerStats]Will (Tom Brady)[v:PlayerName] out play (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376520512)
+}
 train (t-mwln2x1nds7fxmv8dt7y6mohe) {
   utterance ("[g:PlayerStats] Do you think (Aaron Rodgers)[v:PlayerName] is a better choice than (Deshaun Watson)[v:PlayerName]")
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)

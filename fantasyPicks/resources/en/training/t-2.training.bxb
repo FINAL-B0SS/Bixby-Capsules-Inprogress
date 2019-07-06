@@ -1,5 +1,15 @@
+train (t-27df2z6uxxbwfqyd5n7z31fmj) {
+  utterance ("[g:PlayerStats]Do you think (Tom Brady)[v:PlayerName] is better than (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376128268)
+}
 train (t-2fv07oq6klh8vxb6rnz6gdemp) {
   utterance ("[g:PlayerStats] Is (Calais Campbell)[v:PlayerName] better than (Carson Wentz)[v:PlayerName]?")
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
   last-modified (1559782267947)
+}
+train (t-2qermfvzquls5fetie6ifi63c) {
+  utterance ("[g:PlayerStats]How does (Tom Brady)[v:PlayerName] stack up to (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376215699)
 }

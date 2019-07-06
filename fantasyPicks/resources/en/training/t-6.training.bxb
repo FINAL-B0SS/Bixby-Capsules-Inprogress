@@ -1,3 +1,8 @@
+train (t-6jzfuhr82ckngova6auaxgcs8) {
+  utterance ("[g:PlayerStats]Analyze the efficiency of (Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562375960103)
+}
 train (t-6l2ezgjbmz7hculdwatt4ljma) {
   utterance ("[g:PlayerStats] (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]?")
   plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
