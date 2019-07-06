@@ -138,6 +138,18 @@ layout-macro-def ("player-details-fragment")
             style (Detail_M)
           }
         }
+        single-line {
+          text {
+            value ("Injury Alert")
+            style (Legal)
+          }
+        }
+        single-line {
+          text {
+            value ("#{value(player.misc.injury)}")
+            style (Detail_M)
+          }
+        }
       }
     }
   }
