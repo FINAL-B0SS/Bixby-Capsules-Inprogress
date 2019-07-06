@@ -1,11 +1,11 @@
-description {
+capsule-info {
   // name (FantasyPicks)
-  displayName (FantasyPicks)
-  companyName (CMMTech)
-  iconUrl (/images/logo.png)
+  display-name (FantasyPicks)
+  developer-name (CMMTech)
+  icon-asset (/images/logo.png)
   description ("Dominate your fantasy league!")
-  websiteUrl (https://cmmtechskills.com)
-  termsUrl (http://bit.ly/cmm-tech-privacy-policy)
+  website-url (https://cmmtechskills.com)
+  terms-url (http://bit.ly/cmm-tech-privacy-policy)
   privacy-policy-url (http://bit.ly/cmm-tech-privacy-policy)
   search-keywords{
     keyword (fantasy football)
@@ -23,6 +23,6 @@ description {
     alias (fantasy football)
     alias (football picks)
   }
-  actionBgColor (#3daa4b)
-  actionFgColor (#FFFFFF)
+  action-bg-color (#3daa4b)
+  action-fg-color (#FFFFFF)
 }

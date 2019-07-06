@@ -3,6 +3,11 @@ train (t-weoz8avf3krl55plfwh1fcjzt) {
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
   last-modified (1562376628361)
 }
+train (t-wqxtd6zwfjlsnuz5onkzgxzm4) {
+  utterance ("[g:PlayerStats]You got (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562376851288)
+}
 train (t-wt3mw5fx3ejvhm4dks0pagce1) {
   utterance ("[g:PlayerStats]Calculate (Tom Brady)[v:PlayerName] against (Ezekiel Elliott)[v:PlayerName]")
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
