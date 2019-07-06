@@ -92,25 +92,13 @@ layout-macro-def ("player-details-fragment")
         }
         single-line {
           text {
-            value ("Position and Team")
+            value ("Last Week")
             style (Legal)
           }
         }
         single-line {
           text {
-            value ("#{value(player.info.team)}")
-            style (Detail_M)
-          }
-        }
-        single-line {
-          text {
-            value ("Opposing team")
-            style (Legal)
-          }
-        }
-        single-line {
-          text {
-            value ("#{value(player.info.vs)}")
+            value ("#{value(player.info.team)} #{value(player.info.vs)}")
             style (Detail_M)
           }
         }
@@ -147,18 +135,6 @@ layout-macro-def ("player-details-fragment")
         single-line {
           text {
             value ("#{value(player.fantasyPoints.avgPerGame)}")
-            style (Detail_M)
-          }
-        }
-        single-line {
-          text {
-            value ("Last Week")
-            style (Legal)
-          }
-        }
-        single-line {
-          text {
-            value ("#{value(player.fantasyPoints.lastWeek)}")
             style (Detail_M)
           }
         }
