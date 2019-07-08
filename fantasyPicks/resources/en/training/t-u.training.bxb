@@ -4,9 +4,9 @@ train (t-u0p8yf870x4hvmh7w20scviwh) {
   last-modified (1562376146484)
 }
 train (t-u5elazgm498ll0azao6s0isl0) {
-  utterance ("[g:PlayerStats]On my time should I put (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
+  utterance ("[g:PlayerStats]On my team should I put (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
-  last-modified (1562376272633)
+  last-modified (1562607546398)
 }
 train (t-uskw9c09hshqmjnz5u7f1jo1z) {
   utterance ("[g:PlayerStats] Help me choose between (Patrick Mahomes)\n[v:PlayerName] and (Andrew Luck)[v:PlayerName]")
