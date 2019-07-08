@@ -1,7 +1,7 @@
 train (t-5bh66kb0oo1dk04g76hj5gaxg) {
   utterance ("[g:PlayerStats] Who is better? (Nick Foles)[v:PlayerName] or (Dwayne Haskins)[v:PlayerName]?")
-  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
-  last-modified (1559782283919)
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562609069255)
 }
 train (t-5gvhrtfvl1pp2w3iugfu3aln0) {
   utterance ("[g:PlayerStats]Can I win with picking (Tom Brady)[v:PlayerName] over (Ezekiel Elliott)[v:PlayerName]")

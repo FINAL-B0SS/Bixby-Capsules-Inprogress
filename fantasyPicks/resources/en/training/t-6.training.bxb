@@ -5,6 +5,11 @@ train (t-6jzfuhr82ckngova6auaxgcs8) {
 }
 train (t-6l2ezgjbmz7hculdwatt4ljma) {
   utterance ("[g:PlayerStats] (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]?")
-  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
-  last-modified (1555214272688)
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562609069465)
+}
+train (t-6qpdkfe3tkbyaoguvff83z1vv) {
+  utterance ("[g:PlayerStats] About how I'm torn between (Tom Brady)[v:PlayerName] and (Todd Gurley)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562609325013)
 }

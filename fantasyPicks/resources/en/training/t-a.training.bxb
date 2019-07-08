@@ -5,7 +5,8 @@ train (t-a01fqgbaehfgm5r6bdpts4qss) {
 }
 train (t-a0dp70qdctmum0e7vnm8dlw6b) {
   utterance ("[g:PlayerStats] who should I play this week? (Dion Lewis)[v:PlayerName] or (Tyler Boyd)[v:PlayerName]?")
-  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562609069964)
 }
 train (t-aak5uto9qdfmz41tuxowf0q2l) {
   utterance ("[g:PlayerStats]Who is better between (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
@@ -14,8 +15,8 @@ train (t-aak5uto9qdfmz41tuxowf0q2l) {
 }
 train (t-afw7vj12c151j71uvkpvukup0) {
   utterance ("[g:PlayerStats] Do I need to choose (Derek Carr)[v:PlayerName] over (Sam Darnold)[v:PlayerName]?")
-  plan (Y2BlUEjOzS1JTc7QS0vMK0ksrgzITM4u1gvISaxMLQouSSwpZpDBqsI9tQTEYJDHo98vMTeVCgpYGBgZmBiYgTQDmMUEJBkYeICQASjKAJEBAA==)
-  last-modified (1559782271251)
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562609070069)
 }
 train (t-anet9fnsik46gxpuofd3zo4eu) {
   utterance ("[g:PlayerStats]Who is the optimal pick (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")

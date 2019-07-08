@@ -4,7 +4,7 @@ action (GetPick) {
   collect {
     input (players) {
       type (PlayerName)
-      min (Required) max (Many)
+      min (Optional) max (Many)
       //  default-select {
       //   with-learning
       //   // with-rule {
@@ -18,7 +18,7 @@ action (GetPick) {
       unknown-error {
         on-catch {
           halt {
-            dialog { template ("Sorry something went wrong. Please make sure to use players full roster names (not nick names) and try again.") }
+            dialog { template ("Please make sure to use players full roster names (not nick names) and try again.") }
           }
         }
       }

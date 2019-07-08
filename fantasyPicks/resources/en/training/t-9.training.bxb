@@ -13,3 +13,8 @@ train (t-9hajx9mujcu7zna53nypll9me) {
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
   last-modified (1562376376986)
 }
+train (t-9qmq8h80p66rpzcg4yi5m7ljx) {
+  utterance ("[g:PlayerName] Is (Tom Brady)[v:PlayerName] evenly matched with (Todd Gurley)[v:PlayerName]")
+  plan (Y2BmUCrISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcW+SXmplJNDRMDIxCDAA8QMjAwAzFYBAA=)
+  last-modified (1562609441526)
+}

@@ -1,3 +1,8 @@
+train (t-73cea421uq652exw5cqbcxis1) {
+  utterance ("[g:PlayerStats] about (Tom Brady)[v:PlayerName] and (Toddy Gurley)[v:PlayerName] skills")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562609827920)
+}
 train (t-76cxh2rdfythz0brtdr467c0y) {
   utterance ("[g:PlayerStats]Should I pick (Tom Brady)[v:PlayerName] or should I pick (Ezekiel Elliott)[v:PlayerName]")
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
@@ -12,4 +17,9 @@ train (t-7sblfa1c2gc2k3v14fv28nye0) {
   utterance ("[g:PlayerStats]Figure out the best pick between (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
   last-modified (1562376129043)
+}
+train (t-7t843hz91t6xlch78cou8bsv3) {
+  utterance ("[g:PlayerStats] If experts love (Todd Gurley)[v:PlayerName] or (Doug Baldwin)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562610425234)
 }

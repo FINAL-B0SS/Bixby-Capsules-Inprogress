@@ -4,6 +4,18 @@ result-view {
   }
   
   render {
+    if ("size(this) == 0") {
+      layout {
+        section {
+          content {
+            image {
+              aspect-ratio (1:1)
+              url(images/RefError.png)
+            }
+          }
+        }
+      }
+    }
     if ("size(this) > 1") {
       list-of (this) {
         where-each (player) {
