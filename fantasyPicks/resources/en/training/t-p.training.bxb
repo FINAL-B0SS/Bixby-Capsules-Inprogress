@@ -1,3 +1,8 @@
+train (t-p4d46ueiopt9y67p823doe4sq) {
+  utterance ("[g:PlayerStats] Is it best to pick (Tom brady)[v:PlayerName] or (Todd gurley)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562606606825)
+}
 train (t-p7z5jeh6isushr5e8onc474w2) {
   utterance ("[g:PlayerStats]Who is the better player between (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)

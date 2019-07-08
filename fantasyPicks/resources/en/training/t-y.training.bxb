@@ -8,3 +8,8 @@ train (t-yeh71acku2gfb8p090lunibcl) {
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
   last-modified (1562376306755)
 }
+train (t-ypqcdiu147kzbevbh3iinign1) {
+  utterance ("[g:PlayerStats]Can (Tom Brady)[v:PlayerName] beat (Ezekiel Elliott)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562606137488)
+}
