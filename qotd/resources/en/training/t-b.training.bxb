@@ -1,5 +1,0 @@
-train (t-bg05gdip7xbdgeoo8pqlahve2) {
-  utterance ([g:AskQuestion] Ask the question of the day.)
-  plan (Y2BiEM9NLEnOSMqv0CvML0nRS0/MTQ0uSSxJZZBElXAszg4sTS0uyczPY2AEQgYoBpIA)
-  last-modified (1559598631592)
-}

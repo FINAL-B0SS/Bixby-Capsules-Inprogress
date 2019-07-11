@@ -1,8 +1,0 @@
-// dialog (Result) {
-//   match {
-//     gameState (gameState)
-//   }
-//  // template ("#{value(gameState.speech)}") {
-//  //    speech ("#{value(gameState.speech)}")
-//   }
-// }
