@@ -1,0 +1,22 @@
+capsule {
+  id (playground.qotd)
+  version (1.0.4)
+  store-sections {
+    section (GamesAndFun)
+    section (EducationAndReference)
+  }
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  capsule-imports {
+    import (viv.core) {
+      as (core)
+    }
+  }
+}

@@ -1,9 +1,8 @@
 capsule-info {
-  // name (FantasyPicks)
   display-name (Fantasy Picks)
   developer-name (CMMTech)
   icon-asset (/images/logo.png)
-  description ("Dominate your fantasy league!")
+  description (Fantasy Picks is a tool meant to make comparing two NFL players as simple as possible. Our expert team of pickers has extensively researched each players performance to ensure you always get the best pick.)
   website-url (https://cmmtechskills.com)
   terms-url (http://bit.ly/cmm-tech-privacy-policy)
   privacy-policy-url (http://bit.ly/cmm-tech-privacy-policy)
@@ -16,12 +15,11 @@ capsule-info {
     keyword (nfl fantasy picks)
     keyword (fantasy league)    
   }
-  dispatch-name (FantasyPicks)
+  dispatch-name (Fantasy Picks)
   dispatch-aliases {
-    alias (nfl picks)
-    alias (nfl fantasy picks)
-    alias (fantasy football)
-    alias (football picks)
+    alias (Fantasy Pick)
+    alias (FantasyPick)
+    alias (FantasyPicks)
   }
   action-bg-color (#3daa4b)
   action-fg-color (#FFFFFF)

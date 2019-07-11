@@ -1,0 +1,51 @@
+// result-view {
+//    match {
+//      gameState (gameState)
+//    }
+// 
+//    render {
+//      layout {
+//        section {
+//          content {
+//           title-area{
+//             slot1{
+//               text{
+//                 style (Title_S) 
+//                 value ("Question of the Day")
+//               }
+//             }
+//           }
+//            paragraph {
+//                style (Detail_L)
+//                value ("#{value(gameState.question)}")
+//              
+//            }
+//            single-line {
+//              text {
+//                style (Detail_M)
+//                value ("#{value(gameState.optionA)}")
+//              }
+//            }
+//            single-line {
+//              text {
+//                style (Detail_M)
+//                value ("#{value(gameState.optionB)}")
+//              }
+//            }
+//            single-line {
+//              text {
+//                style (Detail_M)
+//                value ("#{value(gameState.optionC)}")
+//              }
+//            }
+//            single-line {
+//              text {
+//                style (Detail_M)
+//                value ("#{value(gameState.optionD)}")
+//              }
+//            }
+//          }
+//        }
+//      }
+//    }
+//  }

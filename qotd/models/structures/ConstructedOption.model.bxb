@@ -1,0 +1,13 @@
+structure (ConstructedOption) {
+  description (constructed option)
+  property (option) {
+    type (Option)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (alias) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+}

@@ -1,0 +1,11 @@
+action (ConstructAnswer) {
+  type (Constructor)
+  description (construct answer from option)
+  collect {
+    input (constructedOption) {
+      type (ConstructedOption)
+      min (Required) max (One)
+    }
+  }
+  output (Answer)
+}

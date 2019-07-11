@@ -1,0 +1,14 @@
+structure (ConstructedQuestion) {
+  description (question constructed after receiving gameState)
+  features {
+    transaction
+  }
+  property (gameState) {
+    type (gameState)
+    min (Required) max (One)
+  }
+  property (constructedOption) {
+    type (ConstructedOption)
+    min (Required) max (Many)
+  }
+}

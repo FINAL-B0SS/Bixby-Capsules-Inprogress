@@ -1,0 +1,14 @@
+result-view {
+  match: gameState(this)
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text("Your answer is correct")
+          }
+        }
+      }
+    }
+  }
+}

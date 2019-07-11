@@ -1,0 +1,10 @@
+action (AskQuestion) {
+  description (Find space resorts)
+  type (Search)//changed type from fetch to search
+  collect {
+    // input (name) {
+    //   type (Question)
+    // }
+  }
+  output (gameState)
+}

@@ -7,6 +7,9 @@ capsule {
     modern-prompt-rejection
     concepts-inherit-super-type-features
   }
+  store-sections {
+    section (Sports)
+  }
   targets {
     target (bixby-mobile-en-US)
   }

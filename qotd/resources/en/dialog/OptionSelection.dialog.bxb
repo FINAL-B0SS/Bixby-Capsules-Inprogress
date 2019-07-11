@@ -1,0 +1,8 @@
+// dialog (Selection) {
+//   match {
+//     Answer(this) {
+//       to-input: UserAnswer
+//     }
+//   }
+//   template("Select one of the options")
+// }

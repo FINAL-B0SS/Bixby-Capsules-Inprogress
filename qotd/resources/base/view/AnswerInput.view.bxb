@@ -1,0 +1,73 @@
+input-view {
+  match {
+    Answer(this) {
+      to-input: UserAnswer(action)
+    }
+  }
+  
+  // message {
+  //   template ("#{value(action.constructedQuestion.gameState.question)}") {
+  //     //speech ("#{value(action.constructedQuestion.gameState.speech)}")
+  //   }
+  // }
+  render {
+    selection-of (action.constructedQuestion.constructedOption) {
+      where-each (item) {
+        spoken-summary ("#{value(item.option)}")
+        layout-macro (option) {
+          param (option) {
+            expression (item)
+          }
+        }
+      }
+    }
+  }
+}
+
+
+//   render {
+// 
+//     if ($handsFree) {
+//       selection-of (quizzes) {
+//         navigation-mode { 
+//           read-one {
+//             list-summary {
+//               template ("#{macro('QUIZ_LIST_SUMMARY', quizzes)}")
+//             }
+//             page-content {
+//               item-selection-question {
+//                 choose (Random) {
+//                   template-macro (QUIZ_SELECTION_QUESTION_1)
+//                   template-macro (QUIZ_SELECTION_QUESTION_2)
+//                 }
+//               }
+//               overflow-statement {
+//                 template-macro (RESULT_OVERFLOW_STATEMENT)
+//               }
+//               underflow-statement {
+//                 template-macro (RESULT_UNDERFLOW_STATEMENT)
+//               }
+//             }
+//           }
+//         }
+// 
+//         where-each (quiz) {
+//           spoken-summary {
+//             template("#{macro('quiz-summary-statement', quiz)}")
+//           }
+//           layout-macro (quiz-details) {
+//             param (quiz) { expression (quiz) }
+//           }
+//         }
+//       }
+//     } else {
+//       selection-of (quizzes) {
+//         where-each (quiz) {
+//           layout-macro (quiz-summary) {
+//             param (quiz) { expression (quiz) }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }

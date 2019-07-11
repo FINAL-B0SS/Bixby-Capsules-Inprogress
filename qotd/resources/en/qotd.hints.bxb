@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (what is the question of the day)
+    utterance (ask me a question)
+    utterance (repeat the question)
+  }
+}

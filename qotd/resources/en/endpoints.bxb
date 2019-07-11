@@ -1,0 +1,29 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (AskQuestion) {
+      accepted-inputs ($vivContext)
+      local-endpoint ("getQuestion.js")
+    }
+    action-endpoint (GiveAnswer) {
+      accepted-inputs (answer, gameState, $vivContext)
+      local-endpoint ("getAnswer.js")
+    }
+    action-endpoint (Repeat) {
+      accepted-inputs (gameState, $vivContext)
+      local-endpoint ("repeat.js")
+    }
+    action-endpoint (ConstructQuestion) {
+      accepted-inputs (gameState)
+      local-endpoint ("constructQuestion.js")
+    }
+    action-endpoint (UserAnswer) {
+      accepted-inputs (constructedQuestion, answer)
+      local-endpoint ("userAnswer.js")
+    }
+    action-endpoint (ConstructAnswer) {
+      accepted-inputs (constructedOption)
+      local-endpoint ("constructAnswer.js")
+    }
+  }
+}
+

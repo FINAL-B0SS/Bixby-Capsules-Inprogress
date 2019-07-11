@@ -1,0 +1,11 @@
+action (Repeat) {
+  description (Repeat the question)
+  type (Fetch)
+  collect {
+    input (gameState) {
+      type (gameState)
+    }
+  }
+  output (gameState) {
+  }
+}
