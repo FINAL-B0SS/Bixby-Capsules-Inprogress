@@ -22,38 +22,42 @@ layout-macro-def ("player-summary-fragment") {
       type (PlayerStats)
       min(Required) max(One)
     }
-  } 
-  
-  content {
+  }
+  content{
     compound-card {
       content {
         image-card {
-          aspect-ratio (4:3)
+          aspect-ratio(3:4)
+          image-object-fit (Contain)
           image-url ("#{value(player.image.images[0].url)}")
           title-area {
             slot1 {
-              text {
-                value ("")
-                style (Title_M)
+              if ("player.expertsPick == true") {
+                text {
+                  value ("🏆")
+                  style (Title_L)
+                }
+              } else {
+                text {
+                  value ("")
+                }
               }
             }
           }
         }
         single-line {
           text {
-            value {
-              template ("#{value(player.name)}")
-            }
-            style (Title_M)
+            value ("#{value(player.name)}")
+            style(Title_M)
           }
         }
-        single-line {
-          text {
-            value {
-              template ("Pick percentage: #{value(player.pick.percentage)}")
-            }
-            style (Detail_M_Soft)
-          }
+        paragraph {
+          style(Detail_M)
+          value("Pick Percentage: #{value(player.pick.percentage)}")
+        }
+        paragraph {
+          value ("Injury note: #{value(player.misc.injury)}")
+          style (Detail_M)
         }
       }
     }

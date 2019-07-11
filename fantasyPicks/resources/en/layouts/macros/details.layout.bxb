@@ -78,12 +78,14 @@ layout-macro-def ("player-details-fragment")
                 }
               }
             }
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value("Experts Pick")
-                    style(Detail_L_Soft)
+            if ("player.expertsPick == true") {
+              vbox {
+                content {
+                  single-line {
+                    text {
+                      value("Experts Pick")
+                      style(Detail_L_Soft)
+                    }
                   }
                 }
               }
