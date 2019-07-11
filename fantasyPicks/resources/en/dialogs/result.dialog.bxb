@@ -4,6 +4,9 @@ dialog (Result) {
       from-output: GetPick(pick)
     }
   }
-  template ("Here's my analysis on #{value (this.name)}")
-  
+  if ("this[0].expertsPick == true") {
+    template ("I'm #{value(this[0].pick.percentage)} confident you should pick #{value(this[0].name)} over #{value(this[1].name)}")
+  } else-if ("this[1].expertsPick == true") {
+    template ("I'm #{value(this[1].pick.percentage)} confident you should pick #{value(this[1].name)} over #{value(this[0].name)}")
+  }
 }
