@@ -13,6 +13,11 @@ train (t-0cwot6vx5jlxwygtcvs4aubzm) {
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
   last-modified (1562376539100)
 }
+train (t-0l1g73iks32xbege38zhbu7p7) {
+  utterance ("[g:PlayerStats] Show me (Tom Brady)[v:PlayerName] and (Todd Gurley)[v:PlayerName] stats")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562872127321)
+}
 train (t-0mdszh9zm8fkoszz0puo5nsf1) {
   utterance ("[g:PlayerStats]Pick between (Tom Brady)[v:PlayerName] and (Ezekiel Elliott)[v:PlayerName]")
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)

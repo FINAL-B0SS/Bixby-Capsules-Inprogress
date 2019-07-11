@@ -55,8 +55,54 @@ layout-macro-def ("player-summary-fragment") {
           style(Detail_M)
           value("Pick Percentage: #{value(player.pick.percentage)}")
         }
+        single-line {
+          text {
+            value ("Last Week")
+            style (Legal)
+          }
+        }
         paragraph {
-          value ("Injury note: #{value(player.misc.injury)}")
+            value ("#{value(player.info.team)} #{value(player.info.vs)}")
+            style (Detail_M)
+        }
+        single-line {
+          text {
+            value ("Player Pick Note")
+            style (Legal)
+          }
+        }
+        paragraph {
+          value ("#{value(player.pick.note)}")
+          style (Detail_M)
+        }
+        single-line {
+          text {
+            value ("Season Total")
+            style (Legal)
+          }
+        }
+        paragraph {
+          value ("#{value(player.fantasyPoints.seasonTotal)}")
+          style (Detail_M)
+        }
+        single-line {
+          text {
+            value ("Average Points Per Game")
+            style (Legal)
+          }
+        }
+        paragraph {
+          value ("#{value(player.fantasyPoints.avgPerGame)}")
+          style (Detail_M)
+        }
+        single-line {
+          text {
+            value ("Injury Alert")
+            style (Legal)
+          }
+        }
+        paragraph {
+          value ("#{value(player.misc.injury)}")
           style (Detail_M)
         }
       }

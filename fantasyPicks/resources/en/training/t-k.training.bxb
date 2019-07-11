@@ -1,3 +1,8 @@
+train (t-k0iihgwe3mo7vogmf1u1ug62g) {
+  utterance ("[g:PlayerStats] Give me a side by side of (Tom Brady)[v:PlayerName] and (Todd Gurley)[v:PlayerName]")
+  plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
+  last-modified (1562870726578)
+}
 train (t-k47c6flwjv8oz1s83unzhj198) {
   utterance ("[g:PlayerStats]Who is best (Tom Brady)[v:PlayerName] or (Ezekiel Elliott)[v:PlayerName]")
   plan (Y2BlUC7ISaxML8ovzUvRS0vMK0ksrgzITM4u1gsAiqcWBZcklhQzyONS5J5aAmIwKOE3xS8xN5VqalgYGBmYGJiBNAOYxQQkGRh4gJABKMoAkQEA)
