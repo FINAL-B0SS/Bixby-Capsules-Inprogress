@@ -1,0 +1,10 @@
+train (t-h816zglhscfoo57huk9e1twtf) {
+  utterance ([g:GetContent] A joke that will make me chuckle)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563086607730)
+}
+train (t-hdmjwnops7qveqookt4c2ycyn) {
+  utterance ("[g:GetContent] Can you make me laugh about (star trek)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563088060646)
+}

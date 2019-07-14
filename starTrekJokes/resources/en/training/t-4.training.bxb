@@ -1,0 +1,10 @@
+train (t-4l9fqfzw1c1z4be6nh86wh83j) {
+  utterance ([g:GetContent] Make me laugh)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563088992182)
+}
+train (t-4ndck9p4jj2r0fkfwxwio2ejd) {
+  utterance ("[g:GetContent] Get me a (zero zero one)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563088192493)
+}

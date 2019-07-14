@@ -1,0 +1,10 @@
+train (t-c7lxffxmwb8wqyx58n5wz6qs3) {
+  utterance ([g:GetContent] Joke)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563088452050)
+}
+train (t-cgh4zji5bkn5o5u3gsh14oqtb) {
+  utterance ("[g:GetContent] A (zero zero one)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563086914568)
+}

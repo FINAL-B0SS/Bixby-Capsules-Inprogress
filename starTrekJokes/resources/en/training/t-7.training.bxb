@@ -1,0 +1,5 @@
+train (t-7ywghd5zldgu0u42xqw6prqa6) {
+  utterance ("[g:GetContent] Give me a new (borg)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563088257662)
+}

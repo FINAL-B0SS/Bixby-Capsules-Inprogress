@@ -1,0 +1,25 @@
+train (t-r68qd8a44qciy78llm0dyly1o) {
+  utterance ("[g:GetContent] Got any jokes about (star trek)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563088298973)
+}
+train (t-r993xp5qfm2p2j9rjona01x4b) {
+  utterance ("[g:GetContent] A (star trek)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563087048085)
+}
+train (t-rc9zsezfbak42d0qqxglwzfdi) {
+  utterance ("[g:GetContent] Joke pertaining to (trekkies)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563088570762)
+}
+train (t-rt7ffsvmm5lfo2jhfdg87lazd) {
+  utterance ("[g:GetContent] For a (frog)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563088408108)
+}
+train (t-rxnsc8iue9651r1ebxje6asoq) {
+  utterance ("[g:GetContent] Joke pertaining to (klingons)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563088571554)
+}
