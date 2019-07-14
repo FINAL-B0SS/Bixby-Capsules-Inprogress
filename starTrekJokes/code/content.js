@@ -246,12 +246,12 @@ module.exports = [
   {
     question: "Overheard in a corridor: \n\Crewman: I've got a brother at Starfleet Science Academy. \n\Crewwoman: What's he studying? \n\Crewman: Nothin'. They're studying him.",
     answer: " ",
-    tags: ["star trek", "star", "trek", "bar"]
+    tags: ["star trek", "star", "trek", "bar", "corridor", "crewman", "crewwoman", "crew man", "crew woman", "science academy", "studying"]
   },
   {
     question: "You Might Be A Trekkie If!",
     answer: "Your fantasy includes Lt. Uhura sitting on the edge of your bed saying Hailing frequencies open",
-    tags: ["star trek", "star", "trek", "Trekkie"]
+    tags: ["star trek", "star", "trek", "Trekkie", "uhura", "hailing frequencies", "frequencies", "fail frequencies"]
   },
   {
     question: "You Might Be A Trekkie If!",
