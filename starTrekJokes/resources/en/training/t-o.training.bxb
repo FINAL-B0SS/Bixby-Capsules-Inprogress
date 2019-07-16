@@ -1,3 +1,8 @@
+train (t-oc8wkesse0xey6zvy6grilxqr) {
+  utterance ("[g:GetContent] Got any jokes pertaining to (zero zero one)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563243093102)
+}
 train (t-olk5j0ffc53kpt2ptooebzvtc) {
   utterance ("[g:GetContent] Something (borg)[v:SearchTerm] related")
   plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
