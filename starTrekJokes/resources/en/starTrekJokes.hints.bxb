@@ -3,5 +3,6 @@ hints {
     utterance ("Tell me a joke")
     utterance ("Let me hear a borg joke")
     utterance ("Got any jokes pertaining to zero zero one")
+    utterance ("Tell me a borg joke")
   }
 }

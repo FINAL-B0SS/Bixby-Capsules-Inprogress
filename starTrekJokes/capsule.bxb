@@ -10,6 +10,10 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
+  store-sections {
+    section (GamesAndFun)
+    section (MoviesAndTV)
+  }
   capsule-imports {
     import (viv.core) {
       as (core)

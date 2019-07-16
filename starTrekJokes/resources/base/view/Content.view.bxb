@@ -20,6 +20,5 @@ result-view {
         }
       }
     }
-    image-list-of (this.image)
   }
 }

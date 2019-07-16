@@ -13,6 +13,11 @@ train (t-77wgajt1blthfehoy7ngj9sh2) {
   plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
   last-modified (1563241313059)
 }
+train (t-7ifujp5hyytd3ema7xc0g4ef7) {
+  utterance ("[g:GetContent] (light bulb)[v:SearchTerm] joke")
+  plan (Y2BmkE2tSMwtyEnVKy5JLAopSs32ys9OLdZzzs8rSc0rYVDALu2eWkJARXBqYlFyRkhqUS4DEwMjEDMASUYGEIDyAQ==)
+  last-modified (1563259265749)
+}
 train (t-7qj57iqfu96qcmu29y4ogacjr) {
   utterance ("[g:GetContent] Make fun of captain (kirk)[v:SearchTerm]")
   plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)

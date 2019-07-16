@@ -176,7 +176,7 @@ module.exports = [
   {
     question: "What is Thomas Riker's dating philosophy?",
     answer: "If at first you don't succeed, try Troi again.",
-    tags: ["star trek", "star", "trek", "thomas", "riker", "dating", "philosophy", "commander riker"],
+    tags: ["star trek", "star", "trek", "thomas", "riker", "dating", "philosophy", "commander riker", "troi"],
   },
   {
     question: "Why can't Klingon kids play in sandboxes?",

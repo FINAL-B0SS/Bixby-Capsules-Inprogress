@@ -3,6 +3,11 @@ train (t-40kwaapxotyyqil8u8jth6m87) {
   plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
   last-modified (1563241508790)
 }
+train (t-44f3m6sehg4diruom0rouhx8l) {
+  utterance ("[g:GetContent] Tell me (borg)[v:SearchTerm] joke")
+  plan (Y2BmkE2tSMwtyEnVKy5JLAopSs32ys9OLdZzzs8rSc0rYVDALu2eWkJARXBqYlFyRkhqUS4DEwMjEDMASUYGEIDyAQ==)
+  last-modified (1563260221316)
+}
 train (t-4ffib73pegdw8q7ahwct4tbf1) {
   utterance ("[g:GetContent] One (star trek)[v:SearchTerm] joke please")
   plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)

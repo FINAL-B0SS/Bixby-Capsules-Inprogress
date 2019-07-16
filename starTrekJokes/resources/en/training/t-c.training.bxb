@@ -1,3 +1,8 @@
+train (t-c8186f6bkbxvqxkacj62t6c7i) {
+  utterance ("[g:GetContent] Tell me (science academy)[v:SearchTerm] joke")
+  plan (Y2BmkE2tSMwtyEnVKy5JLAopSs32ys9OLdZzzs8rSc0rYVDALu2eWkJARXBqYlFyRkhqUS4DEwMjEDMASUYGEIDyAQ==)
+  last-modified (1563260264733)
+}
 train (t-ccytea8n5mk0g8kumkt7pwryt) {
   utterance ("[g:GetContent] A (star trek)[v:SearchTerm] joke")
   plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
