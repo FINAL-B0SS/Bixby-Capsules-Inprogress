@@ -1,4 +1,0 @@
-// dialog (NoResult) {
-//   match: SearchTerm (this)
-//   template("I cant come up with any jokes right now for #{raw(thi)}")
-// }
