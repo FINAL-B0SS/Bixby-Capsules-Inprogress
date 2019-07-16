@@ -14,7 +14,7 @@ module.exports = [
   {
     question: "What does a Romulan frog use for camouflage?",
     answer: "A croaking device",
-    tags: ["star trek", "star", "trek", "romulan", "frog"],
+    tags: ["star trek", "star", "trek", "romulan", "frog", "romulan frog"],
     image: {
       url: "images/Romulan.jpg"
     }
@@ -30,7 +30,7 @@ module.exports = [
    {
     question: "What do you call it when that Strategic Operations Officer on DS9 runs as fast as he can?",
     answer: "Worf Speed.",
-     tags: ["star trek", "star", "trek", "strategic operations", "officer", "ds9"],
+     tags: ["star trek", "star", "trek", "strategic operations officer", "officer", "ds9", "speed"],
     image: {
       url: "images/Worf.jpg"
     }
@@ -60,8 +60,8 @@ module.exports = [
   },
   {
     question: "What did Spock find in Kirk's toilet?",
-    answer: "The Captian's Log",
-    tags: ["star trek", "star", "trek", "kirk", "spock", "toilet"],
+    answer: "The Captain's Log",
+    tags: ["star trek", "star", "trek", "captain kirk", "kirk", "spock", "toilet"],
   },
   {
     question: "Have you heard the new Klingon army motto?",
@@ -96,42 +96,42 @@ module.exports = [
   {
     question: "How many Romulans does it take to screw in a light bulb?",
     answer: "ONE HUNDRED FIFTY_ONE: One to screw the light bulb in, and 150 to self-destruct the ship out of disgrace.",
-    tags: ["star trek", "star", "trek", "romulan", "light bulb"],
+    tags: ["star trek", "star", "trek", "romulan", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "How many Vulcans does it take to screw in a light bulb? ",
     answer: "Approximately 1.00000000000000000000000000000000",
-    tags: ["star trek", "star", "trek", "vulcan", "light bulb"],
+    tags: ["star trek", "star", "trek", "vulcan", "vuclans", "light bulb"],
   },
   {
     question: "How many Borg does it take to change a light-bulb?",
     answer: "All of them! ",
-    tags: ["star trek", "star", "trek", "borg", "lightbulb"],
+    tags: ["star trek", "star", "trek", "borg", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "How many Klingons does it take to change a lightbulb?",
     answer: "TWO: One to screw it in, and one to stab the other in the back and take all of the credit.",
-    tags: ["star trek", "star", "trek", "klingons", "light bulb"],
+    tags: ["star trek", "star", "trek", "klingons", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "How many Klingons does it take to change a lightbulb?",
     answer: "NONE: Klingons aren't afraid of the dark.",
-    tags: ["star trek", "star", "trek", "klingon", "lightbulb"],
+    tags: ["star trek", "star", "trek", "klingon", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "What do the Klingons do with the dead bulb?",
     answer: "Execute it for failure.",
-    tags: ["star trek", "star", "trek", "klingon", "dead bulb", "light bulb"],
+    tags: ["star trek", "star", "trek", "klingon", "dead bulb", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "What is Commander Rikers favorite hobby?",
     answer: "Sewing, because the captain says",
-    tags: ["star trek", "star", "trek", "riker", "hobby"],
+    tags: ["star trek", "star", "trek", "riker", "hobby", "commander riker"],
   },
   {
     question: "What do the Klingons do with the Klingon who replaces the bulb?",
     answer: "Execute him for cowardice.",
-    tags: ["star trek", "star", "trek", "klingon", "light bulb"],
+    tags: ["star trek", "star", "trek", "klingon", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "Have you read the book The Positronic Brain?",
@@ -161,7 +161,7 @@ module.exports = [
   {
     question: "Did you hear about the new uniform making machine on the Enterprise?",
     answer: "Piccard told Riker to Make it sew, Number One.",
-    tags: ["star trek", "star", "trek", "uniform", "machine", "enterprise"],
+    tags: ["star trek", "star", "trek", "uniform", "machine", "enterprise", "commander riker"],
   },
   {
     question: "How do you get a one-armed Klingon out of a tree?",
@@ -171,12 +171,12 @@ module.exports = [
   {
     question: "What did the first officer answer when Picard asked Why did you let Troi win at poker?",
     answer: "Because I Riker.",
-    tags: ["star trek", "star", "trek", "officer", "picard", "troi", "riker"],
+    tags: ["star trek", "star", "trek", "officer", "picard", "troi", "riker", "commander riker"],
   },
   {
     question: "What is Thomas Riker's dating philosophy?",
     answer: "If at first you don't succeed, try Troi again.",
-    tags: ["star trek", "star", "trek", "thomas", "riker", "dating", "philosophy"],
+    tags: ["star trek", "star", "trek", "thomas", "riker", "dating", "philosophy", "commander riker"],
   },
   {
     question: "Why can't Klingon kids play in sandboxes?",
@@ -196,7 +196,7 @@ module.exports = [
   {
     question: "What are eyeglasses called on Vulcan?",
     answer: "Spocktacles Cross The Road",
-    tags: ["star trek", "star", "trek", "eyeglasses", "vulcan"],
+    tags: ["star trek", "star", "trek", "eyeglasses", "vuclans", "vulcan"],
   },
   {
     question: "Why did the Klingon cross the road?",
@@ -206,7 +206,7 @@ module.exports = [
   {
     question: "Why did the chicken cross the road?",
     answer: "James T. Kirk: To boldly go where no chicken has gone before",
-    tags: ["star trek", "star", "trek", "chicken", "road"],
+    tags: ["star trek", "star", "captain kirk", "trek", "chicken", "road"],
   },
   {
     question: "Why did the chicken cross the road?",
@@ -256,7 +256,7 @@ module.exports = [
   {
     question: "You Might Be A Trekkie If!",
     answer: "You've ever been in a fist fight over who is better Captain Picard or Captain Kirk",
-    tags: ["star trek", "star", "trek", "Trekkie"]
+    tags: ["star trek", "star", "captain kirk", "trek", "Trekkie"]
   },
   {
     question: "You Might Be A Trekkie If!",
@@ -286,7 +286,7 @@ module.exports = [
   {
     question: "You Might Be A Trekkie If!",
     answer: "You know the proper Vulcan greeting and response",
-    tags: ["star trek", "star", "trek", "Trekkie"]
+    tags: ["star trek", "star", "trek", "vuclans", "Trekkie"]
   },
   {
     question: "You Might Be A Trekkie If!",
@@ -301,7 +301,7 @@ module.exports = [
   {
     question: "You Might Be A Trekkie If!",
     answer: "You wrote in James T. Kirk for President with running mate Pavel Chekov",
-    tags: ["star trek", "star", "trek", "Trekkie"]
+    tags: ["star trek", "star", "trek", "captain kirk", "Trekkie"]
   },
   {
     question: "You Might Be A Trekkie If!",
@@ -316,7 +316,7 @@ module.exports = [
   {
     question: "You Might Be A Trekkie If!",
     answer: "You can tell the difference between a Vulcan and a Romulan",
-    tags: ["star trek", "star", "trek", "Trekkie"]
+    tags: ["star trek", "star", "trek", "vuclans", "Trekkie"]
   },
   {
     question: "You Might Be A Trekkie If!",
@@ -346,7 +346,7 @@ module.exports = [
   {
     question: "You Might Be A Trekkie If!",
     answer: "You learned to pick up women by watching Captain Kirk",
-    tags: ["star trek", "star", "trek", "Trekkie"]
+    tags: ["star trek", "star", "trek", "captain kirk", "Trekkie"]
   },
   {
     question: "You Might Be A Trekkie If!",
