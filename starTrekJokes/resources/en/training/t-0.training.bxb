@@ -1,0 +1,10 @@
+train (t-06ji9h94fx5va0qix5raosuej) {
+  utterance ("[g:GetContent] Humor me with a (klingon)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241550186)
+}
+train (t-0ngnlhi6v8fb3zby4rcqv23kx) {
+  utterance ([g:GetContent] Get me a joke)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563242031276)
+}

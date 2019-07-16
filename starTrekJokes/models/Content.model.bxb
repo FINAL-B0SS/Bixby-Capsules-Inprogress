@@ -1,0 +1,23 @@
+structure (Content) {
+  description (Output)
+  property (question) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (answer) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (searchTerm) {
+    type (core.Text)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (image) {
+    type (image.Image)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+}

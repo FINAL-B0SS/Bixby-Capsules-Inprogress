@@ -1,0 +1,22 @@
+capsule-info {
+  display-name (Star Trek Jokes)
+  developer-name (Ada Dev)
+  icon-asset (/images/logo.png)
+  description (Ask Star Trek Jokes for bar jokes, klingon jokes, or for anything to tickle ones funny bone.)
+  search-keywords{
+    keyword (star trek)
+    keyword (star trek jokes)
+    keyword (humor)
+    keyword (jokes)
+    keyword (joke)
+    keyword (funny)
+    keyword (bar jokes)    
+  }
+  dispatch-name (Star Trek Jokes)
+  dispatch-aliases {
+    alias (Star Trek Joke)
+  }
+  action-bg-color (#3daa4b)
+  action-fg-color (#FFFFFF)
+}
+

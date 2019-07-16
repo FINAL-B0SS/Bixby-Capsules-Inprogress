@@ -1,0 +1,5 @@
+train (t-ln4t4z9acv70fkipu6f6mp88r) {
+  utterance ("[g:GetContent] Humor me with a (star trek)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241549674)
+}

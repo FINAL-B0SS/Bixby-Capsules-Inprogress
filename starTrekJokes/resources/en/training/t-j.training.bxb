@@ -1,0 +1,5 @@
+train (t-jopcef5k9p8xve346olr7hm9g) {
+  utterance ("[g:GetContent] Make me laugh about (borgs)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241449398)
+}

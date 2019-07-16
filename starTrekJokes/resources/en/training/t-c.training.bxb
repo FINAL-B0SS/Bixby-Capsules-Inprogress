@@ -1,0 +1,10 @@
+train (t-ccytea8n5mk0g8kumkt7pwryt) {
+  utterance ("[g:GetContent] A (star trek)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563242059223)
+}
+train (t-cqy1as4pxpjkmzbqi13c82mpg) {
+  utterance ("[g:GetContent] What’s so funny about (star trek)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241198476)
+}

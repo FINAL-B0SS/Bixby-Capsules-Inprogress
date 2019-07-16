@@ -1,0 +1,30 @@
+train (t-name5tk4pv1e29ho8b0jftk72) {
+  utterance ([g:GetContent] Humor me)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241584088)
+}
+train (t-nm1mrltncnyi7zf2iporssxdh) {
+  utterance ("[g:GetContent] Make me laugh about a (frog)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241467201)
+}
+train (t-nngdukyab4hlxi9aklgsls36j) {
+  utterance ("[g:GetContent] Got any (borg)[v:SearchTerm] related funnies")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241988974)
+}
+train (t-nppob8wqsutti88x6502z5dm4) {
+  utterance ("[g:GetContent] (zero zero one)[v:SearchTerm] humor")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241453159)
+}
+train (t-npuvx5rqzlibpf6441ubg0wym) {
+  utterance ("[g:GetContent] Tell me a (star trek)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241233378)
+}
+train (t-nsis7rg4qeyr2t7eev1r1hd43) {
+  utterance ("[g:GetContent] Give me a new (borg)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241991975)
+}

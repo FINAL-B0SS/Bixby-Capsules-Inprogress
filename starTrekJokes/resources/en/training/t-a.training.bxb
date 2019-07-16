@@ -1,0 +1,10 @@
+train (t-a92szxun7zhqqck8z1e04zkfe) {
+  utterance ("[g:GetContent] (Klingon)[v:SearchTerm] humor")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241506042)
+}
+train (t-al7xr4s30u35jh7ytv2vngpov) {
+  utterance ("[g:GetContent] Provide me humor of the (kirk)[v:SearchTerm] variety")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241314430)
+}

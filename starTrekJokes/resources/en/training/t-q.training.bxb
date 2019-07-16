@@ -1,0 +1,25 @@
+train (t-q1uch9zd5uzltgpn9tkczpue4) {
+  utterance ("[g:GetContent] One (enterprise)[v:SearchTerm] joke please")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241451207)
+}
+train (t-q3al6m46yin6v21bou2srnq1c) {
+  utterance ([g:GetContent] Get me a funny)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563242032110)
+}
+train (t-q8v0nt0mvn4esdlsio63dbkti) {
+  utterance ([g:GetContent] For something funny)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241522316)
+}
+train (t-qgq7mo4zfvulawv6415lltg65) {
+  utterance ("[g:GetContent] A (space academy)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563242059993)
+}
+train (t-qlbry34qyo7sen9m7qqjuevji) {
+  utterance ("[g:GetContent] One (captain kirk)[v:SearchTerm] joke")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563242169837)
+}

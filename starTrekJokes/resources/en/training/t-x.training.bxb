@@ -1,0 +1,20 @@
+train (t-x3bgrm85sabwzm1r59iczc6dm) {
+  utterance ("[g:GetContent] Joke pertaining to (klingons)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241508170)
+}
+train (t-x931joxwq0kegc3lvry7scmzo) {
+  utterance ([g:GetContent] Tell a funny)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241377943)
+}
+train (t-xhy3ej75tpgateq0hnurdasyl) {
+  utterance ([g:GetContent] Give me that funny)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241991244)
+}
+train (t-xqs2as1vsiswjaj3zsfdo0dyo) {
+  utterance ([g:GetContent] Tickle my funny bone)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241225374)
+}

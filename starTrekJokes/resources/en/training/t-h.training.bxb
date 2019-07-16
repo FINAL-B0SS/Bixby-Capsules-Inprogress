@@ -1,0 +1,10 @@
+train (t-hckf6100lku54l5yktbgzoj79) {
+  utterance ("[g:GetContent] Make me laugh about (star trek)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241450295)
+}
+train (t-his7clrbbtk3odmhxperxzuce) {
+  utterance ([g:GetContent] Spread some giggle sauce)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241305790)
+}
