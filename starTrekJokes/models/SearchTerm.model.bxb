@@ -1,6 +1,0 @@
-text (SearchTerm) {
-  description (Term to Search for)
-  features {
-    transient
-  }
-}
