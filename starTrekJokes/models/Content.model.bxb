@@ -10,11 +10,6 @@ structure (Content) {
     min (Optional) max (One)
     visibility (Private)
   }
-  property (searchTerm) {
-    type (core.Text)
-    min (Optional) max (One)
-    visibility (Private)
-  }
   property (image) {
     type (image.Image)
     min (Optional) max (One)

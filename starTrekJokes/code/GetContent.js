@@ -7,21 +7,6 @@ exports.function = function (searchTerm) {
   var content = CONTENT
   var chosenContent
 
-  // Hard coded searchTerm example to content retrieval from an API
-  if (searchTerm && searchTerm.toLowerCase() == 'dad') {
-    var dadJoke = GET_REMOTE.getDadJoke();
-    
-    // Add a random dad image
-    var dadImages = ['images/dad1.png', 'images/dad2.png', 'images/dad3.png'];
-    var image = dadImages[Math.floor(dadImages.length * Math.random())]
-
-   return {
-      text: dadJoke,
-      image: {
-        url: image
-      }
-    }
-  } else {
     // Get content from local content.js file 
     // filter based on searchTerm (note that if you use a web API, then filtering can be done in the web API itself)
     if (searchTerm) {
@@ -33,20 +18,23 @@ exports.function = function (searchTerm) {
       var index = Math.floor(content.length * Math.random())
       chosenContent = content[index]
     }
-  }
   
   // return content if exists, else null (No Result)
-  var image = "images/laugh" + Math.floor(Math.random() * 12) + ".jpg";
   if (chosenContent) {
     return {
       question: chosenContent.question,
       answer: chosenContent.answer,
       image: {
-        url: image
+        url: "images/laugh/laugh" + Math.floor(Math.random() * 13) + ".jpg"
       },
-      searchTerm: searchTerm
     }
   } else {
-    return null;
+    return {
+      question: "Hmmm I don't know any " + searchTerm + " jokes ",
+      image: {
+        url: "images/idk/idk" + Math.floor(Math.random() * 4) + ".jpg"
+      },
+      answer: " ",
+    }
   }
 }
