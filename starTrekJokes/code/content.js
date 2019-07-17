@@ -368,5 +368,270 @@ module.exports = [
     answer: "You believe George Lucas is the Anti-Christ",
     tags: ["star trek", "star", "trek", "Trekkie"]
   },
+  {
+    question: "How do you stop from falling out of a Bird of Prey?",
+    answer: "You just have to Klingon.",
+    tags: ["star trek", "star", "trek", "klingon", "bird", "prey", "bird of prey"]
+  },
+  {
+    question: "Kirk: Bones, that man is choking! Do Something",
+    answer: "McCoy: Damn it, Jim, I'm a Doctor not a... oh, yeah right.",
+    tags: ["star trek", "star", "trek", "doctor", "kirk", "bones", "bone", "mccoy", "jim"]
+  },
+  {
+    question: "Why did Worf change his hair color?",
+    answer: "It was a good day to dye.",
+    tags: ["star trek", "star", "trek", "worf", "hair", "hair dye", "dye", "death"]
+  },
+  {
+    question: "How many Betazoids does it take to change a lightbulb?",
+    answer: "Two... one to change it & one to say, Captain, I sense darkness.",
+    tags: ["star trek", "star", "trek", "betazoid", "betazoids", "light bulb", "lightbulb", "light", "bulb"]
+  },
+  {
+    question: "What is the least popular show on Bajor?",
+    answer: "Keeping up with the Cardassians!",
+    tags: ["star trek", "star", "trek", "bajor", "cardassians", "cardassian"]
+  },
+  {
+    question: "How many crew members of the Voyager does it take to change a lightbulb?",
+    answer: "I don't know, but they'll blow up at least one shuttle while doing it.",
+    tags: ["star trek", "star", "trek", "voyager", "crew members", "light bulb", "lightbulb", "light", "bulb"]
+  },
+  {
+    question: "Picard was devastated to have accidentally broken Dr. Crusher's antique sewing machine. It seemed it was beyond repair until Data said he had detailed files and could fix it, to which Picard replied",
+    answer: "Mr. Data, make it sew.",
+    tags: ["star trek", "star", "trek", "picard", "tragic", "accident", "sewing", "sew", "data", "mr data"]
+  },
+  {
+    question: "If you're browsing the communication logs and happen to notice that condolences have already been sent to your next of kin... ",
+    answer: "you might be a redshirt.",
+    tags: ["star trek", "star", "trek", "logs", "communication logs", "red", "shirt", "red shirt"]
+  },
+  {
+    question: "What do you call a Cardassian on a sailing ship?",
+    answer: "A sea-Gul.",
+    tags: ["star trek", "star", "trek", "cardassian", "cardassians"]
+  },
+  {
+    question: "How many Ferengi does it take to change a light bulb?",
+    answer: "Two: one for changing it and another one to sell the broken one.",
+    tags: ["star trek", "star", "trek", "light bulb", "lightbulb", "light", "bulb", "ferengi"]
+  },
+  {
+    question: "How does one join the Star Trek fandom?",
+    answer: "They Klingon.",
+    tags: ["star trek", "star", "trek", "fandom", "klingon", "klingons"]
+  },
+  {
+    question: "A stormtrooper and a Red Shirt get into a fight, the storm trooper misses every shot,",
+    answer: "but the red shirt dies anyway.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "The Kzinti had captured a Medusan, but since Medusans are energy beings, they had trouble deciding how to eat him. The Kzinti captain had the last word. He said they should use lots of sugar, because, ",
+    answer: "everyone knows a spoonful of sugar helps the Medusan go down.",
+    tags: ["star trek", "star", "trek", "kzinti", "medusan", "medusans", "energy beings"]
+  },
+  {
+    question: "Where does a ten-foot Mugato sleep?",
+    answer: "Anywhere he wants to.",
+    tags: ["star trek", "star", "trek", "sleep", "ten-foot mugato", "ten foot mugato", "mugato"]
+  },
+  {
+    question: "What do you call a ten-foot Mugato?",
+    answer: "Sir.",
+    tags: ["star trek", "star", "trek", "ten-foot mugato", "ten foot mugato", "mugato"]
+  },
+  {
+    question: "When the Melkotians beamed Kirk, Spock, Chekov, and McCoy down to the recreation of the OK Corral, none of the officers knew how to use the old-style six-guns.",
+    answer: "You see, they came from a time when no man had guns before.",
+    tags: ["star trek", "star", "trek", "kirk", "spock", "chekov", "mccoy", "corral", "gun", "guns", "melkotian", "melkotians"]
+  },
+  {
+    question: "What would you have if all the Star Trek fans in Switzerland got together?",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "fan", "fans", "nothing"]
+  },
+  {
+    question: "Show me a man who is a good loser...",
+    answer: "and I'll show you a junior officer who is playing 3-D chess with his captain.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "Captain Kirk: Since all of you crewmembers performed so inefficiently today, there'll be no liberty at Starbase Seven.\n Voice: Give me liberty or give me death!\n Kirk: Who said that?\n Voice: Patrick Henry.",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "kirk", "bar", "crew members", "performance", "starbase", "starbase seven", "patrick", "patrick henry"]
+  },
+  {
+    question: "McCoy: Should we have a friendly game of cards?",
+    answer: "Kirk: No, let's play poker.",
+    tags: ["star trek", "star", "trek", "poker", "kirk", "mccoy", "cards"]
+  },
+  {
+    question: "Kirk was chatting with a newly commissioned ensign when a crewman approached and asked to speak to him.\nGo ahead, son, Kirk said. It's kind of confidential, captain. I'd rather not say it in front of the ensign.\nWell said Kirk, spell it then.",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "kirk", "crewman", "ensign", "bar"]
+  },
+  {
+    question: "Noticing medals on Balok's chest, Kirk asked, Did you win those in combat?\nOh, no, said Balok. I don't believe in military service.\nDid you shrink from battle? asked Kirk.\nNo, shrugged Balok, I've always been this size.",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "balok", "kirk", "combat", "bar"]
+  },
+  {
+    question: "When the ENTERPRISE crew beamed down to the Guardian of Forever, Dr. McCoy refused to go through.",
+    answer: "You're all the same, he grumbled, In one era and out the other.",
+    tags: ["star trek", "star", "trek", "mccoy", "doctor", "enterprise", "crew", "beam", "guardian of forever"]
+  },
+  {
+    question: "McCoy: I've borrowed Mr. Scott's bagpipes.\nKirk: But you can't play them.\nMcCoy: While I've got them, neither can he!",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "bar", "mccoy", "scott", "bagpipes", "kirk"]
+  },
+  {
+    question: "Lieutenant Kyle: Dr. McCoy, I sleep all day, stay awake all night. I'm hot all the time and can't stop dancing. And I see rings before my eyes! What's wrong with me?",
+    answer: "McCoy: Sounds like Saturn Day Night Fever.",
+    tags: ["star trek", "star", "trek", "kyle", "mccoy", "saturn"]
+  },
+  {
+    question: "Dr. McCoy was impressed by the professional manner of new ENTERPRISE psychiatrist Dr. Zhrink. After a long shift, an amazed McCoy asked him, how can you stay so fresh and cool after eight hours of listening to such terrible problems?",
+    answer: "Dr. Zhrink shrugged. Who listens?",
+    tags: ["star trek", "star", "trek", "mccoy", "zhrink", "enterprise", "psychiatrist"]
+  },
+  {
+    question: "McCoy: Do you serve crabs here?",
+    answer: "Mess officer: We serve anybody. Sit down.",
+    tags: ["star trek", "star", "trek", "mccoy", "mess officer"]
+  },
+  {
+    question: "Harry Mudd was arrested and charged with fraud for selling maps to the Fountain of Youth.",
+    answer: "When computer records were checked, it was discovered he had been arrested for the same offense in 1716, 1986, 2005, and Stardate 25.8.",
+    tags: ["star trek", "star", "trek", "harry mudd", "mudd", "harry", "fountain of youth"]
+  },
+  {
+    question: "Harry Mudd was on trial again.\nHarry, said the judge, You're accused of throwing your wife, Stella, out of the window. This is a most serious crime.\nBut your honor, cried Harry, be lenient. You've met my wife.\nYes, answered the judge with a shudder, and I don't blame you for what you did. But don't you understand-- she could have LANDED on somebody?",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "harry mudd", "mudd", "harry"]
+  },
+  {
+    question: "It seems the Klingons had a diabolical plan to trap the ENTERPRISE in silver paper.",
+    answer: "Luckily, the plan was foiled.",
+    tags: ["star trek", "star", "trek", "silver paper", "klingon", "klingons", "enterprise"]
+  },
+  {
+    question: "Do you know what they call a Klingon with half a brain?",
+    answer: "Gifted!",
+    tags: ["star trek", "star", "trek", "klingon", "klingons"]
+  },
+  {
+    question: "Do you know what they call a Klingon with no brain at all?",
+    answer: "Normal.",
+    tags: ["star trek", "star", "trek", "klingon", "klingons"]
+  },
+  {
+    question: "What is the longest four years of a Klingon's life?",
+    answer: "Third Grade.",
+    tags: ["star trek", "star", "trek", "klingon", "klingons"]
+  },
+  {
+    question: "Why can't Klingon kids play in sandboxes?",
+    answer: "Cats keep trying to cover them up.",
+    tags: ["star trek", "star", "trek", "klingon", "klingons"]
+  },
+  {
+    question: "Scotty and Sulu had been at the K-7 saloon for three hours when suddenly in walked a strange alien being. He was eight feet tall, weighted less than a hundred pounds, and had orange skin, purple hair, and six yellow eyes. To top it all off, he was wearing a red-and-blue-striped suit. Scotty stared at him for a long while and finally rose and staggered over to the being.",
+    answer: "Pardon me for askin', friend, bu' wha' do ye look like when Ah'm sober?",
+    tags: ["star trek", "star", "trek", "bar"]
+  },
+  {
+    question: "The next day, the bartender was just opening up the place when a pink elephant and a rhinoceros came strolling in. The bartender shook his head. ",
+    answer: "Sorry, boys, Scotty hasn't come in yet.",
+    tags: ["star trek", "star", "trek", "scotty"]
+  },
+  {
+    question: "Dr. McCoy finished his examination of Scotty and shook his head. Scotty, I can't find any reason for your stomach pains. Frankly, I think it's due to drinking.",
+    answer: "In that case, Leonard, said Scotty, I'll come back when you're sober.",
+    tags: ["star trek", "star", "trek", "scotty"]
+  },
+  {
+    question: "Mr. Spock: What is the formula for PI?",
+    answer: "Chekov: Er...apple or blueberry, sir?",
+    tags: ["star trek", "star", "trek", "spock", "math"]
+  },
+  {
+    question: "Mr. Spock: A syzygy is three heavenly bodies lined up in a row. Give me an example.",
+    answer: "Sulu: Mudd's Women!",
+    tags: ["star trek", "star", "trek", "spock", "mudds wife", "syzygy"]
+  },
+  {
+    question: "What do you call it when two science officers are having an argument?",
+    answer: "Science Friction.",
+    tags: ["star trek", "star", "trek", "science officer", "science"]
+  },
+  {
+    question: "Sulu: I've just discovered that Ilia's sister is a redhead.\nChekov: But I thought Deltans don't have any hair.\nSulu: She doesn't. She just has a red head.",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "bar", "sulu", "chekov", "deltan", "deltans", "hair"]
+  },
+  {
+    question: "Show me Uhura reciting verse at warpspeed...",
+    answer: "and I'll show you poetry in motion.",
+    tags: ["star trek", "star", "trek", "warpspeed", "uhura"]
+  },
+  {
+    question: "Uhura: Everyone on this ship thinks I'm crazy because I like pastrami on rye.\nMcCoy: That doesn't mean you're crazy. I like pastrami on rye, too.\nUhura: Great! You must come and see my collection!",
+    answer: " ",
+    tags: ["star trek", "star", "trek", "bar"]
+  },
+  {
+    question: "This celebratory gathering occurs at my behest and I shall be lachrymose if it so befits me.",
+    answer: "It's my party and I'll cry if I want to.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "She chooses to purchase a terraced incline directed toward a post-life paradisiacal region.",
+    answer: "And she's buying a stairway to heaven.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "The leather coverings now encasing my pedal extremities have been manufactured for the specific purpose of ambulatory forward motion.",
+    answer: "These Boots Were Made For Walkin",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "Adieu, jaundiced vehicular pathway consisting of bricks of baked clay.",
+    answer: "Goodbye, Yellow Brick Road",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "And we will engage in much jubilant activity until such time as the male parent chooses to repossess her vehicle of motorized transport.",
+    answer: "And we'll have fun, fun, fun till her daddy takes the T-bird away.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "The deity had little or nothing to do with the manufacture of minuscule viridescent seed-bearing fruits.",
+    answer: "God didn't make little green apples.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "Allow me the honor of portraying for you a miniaturized representation of a member of the family Ursidae of the order Carnivora.",
+    answer: "Let me be your Teddy Bear.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "You provide illumination for the period of time delimited by my nativity and the complete cessation of my metabolic functions.",
+    answer: "Again, nitpicky. It's You Light Up My Life.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "Express deep affection towards yours truly in the manner of a hardened igneous object.",
+    answer: "Love me like a rock.",
+    tags: ["star trek", "star", "trek"]
+  },
+  {
+    question: "Spock: I possess the capability of performing ocular scans of manual inscriptions on a vertical partition.",
+    answer: "I can read the writing on the wall.",
+    tags: ["star trek", "star", "trek", "spock"]
+  },
   // END PASTE FROM SPREADSHEET HERE
 ]
