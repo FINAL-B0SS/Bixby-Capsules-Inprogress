@@ -2,7 +2,7 @@ capsule-info {
   display-name (Star Trek Jokes)
   developer-name (Ada Dev)
   icon-asset (/images/logo.png)
-  description (Ask Star Trek Jokes for bar jokes, klingon jokes, or for anything to tickle ones funny bone.)
+  description (Ask Star Trek Jokes for klingon jokes, bar jokes, or anything Star Trek related to tickle ones funny bone.)
   search-keywords{
     keyword (star trek)
     keyword (star trek jokes)

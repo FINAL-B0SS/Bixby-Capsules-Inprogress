@@ -1,6 +1,7 @@
 const UTIL = require("./lib/util");
 const CONTENT = require("./content");
 const GET_REMOTE = require('./lib/getRemoteContent.js')
+var console = require('console')
 // GetContent
 exports.function = function (searchTerm) {
   //You can replace with a call to a web api - make sure you map api response to content model
