@@ -19,7 +19,7 @@ module.exports = [
   {
     question: "Why don't the Borg go to prison?",
     answer: "Because they obey the Lore!",
-    tags: ["borg", "prison", "lore"],
+    tags: ["borg", "prison", "lore", "jail"],
     image: {
       url: "images/Borg_drone.jpg"
     }
@@ -27,23 +27,23 @@ module.exports = [
    {
     question: "What do you call it when that Strategic Operations Officer on DS9 runs as fast as he can?",
     answer: "Worf Speed.",
-     tags: ["strategic operations officer", "officer", "ds9", "speed"],
+     tags: ["strategic operations officer", "officer", "ds9", "speed", "travel"],
     image: {
       url: "images/Worf.jpg"
     }
   },
   {
-    question: "Did you hear that the crew of the Enterprise is getting married? They have engaged the Borg",
-    answer: "It had good Genes.",
+    question: "Did you hear that the crew of the Enterprise is getting married?",
+    answer: "They have engaged the Borg",
     tags: ["crew", "enterprise", "borg", "marrriage", "engagement"],
     image: {
     url: "images/Borg.jpg"
     }
   },
   {
-    question: "What does the Enterprise and Toliet paper have in common?",
+    question: "What does the Enterprise and Toilet paper have in common?",
     answer: "They both circle Uranus wiping out Klingons.",
-    tags: ["enterprise", "toilet", "klingon"],
+    tags: ["enterprise", "toilet", "klingon", "toilet paper", "comparison"],
   },
   {
     question: "What does a Romulan frog use for camouflage?",
@@ -58,17 +58,17 @@ module.exports = [
   {
     question: "What did Spock find in Kirk's toilet?",
     answer: "The Captain's Log",
-    tags: ["captain kirk", "kirk", "spock", "toilet"],
+    tags: ["captain kirk", "kirk", "spock", "toilet", "log", "logs"],
   },
   {
     question: "Have you heard the new Klingon army motto?",
     answer: "Join the Klingon army. Visit exotic planets, meet interesting people, and kill them!",
-    tags: ["klingon", "army"],
+    tags: ["klingon", "army", "motto", "klingons"],
   },
   {
     question: "Where do the Borg eat fast food?",
     answer: "At their local Borger King!",
-    tags: ["borg", "fast food", "food"],
+    tags: ["borg", "fast food", "food", "borgs"],
   },
   {
     question: "Why was Star Trek so successful?",
@@ -78,12 +78,12 @@ module.exports = [
   {
     question: "How many ears does Picard have?",
     answer: "Three. A right ear. A left ear. And a final front ear.",
-    tags: ["ear", "piccard"],
+    tags: ["ear", "piccard", "ears", "final frontier", "frontier"],
   },
   {
     question: "What is Captain Picards biggest pet peeve?",
     answer: "When the crew replaces his dilithium crystals with Folgers crystals.",
-    tags: ["peeve", "pet peeve", "pet peeves", "peeves", "picard"],
+    tags: ["peeve", "pet peeve", "pet peeves", "peeves", "picard", "captain picard"],
   },
   {
     question: "Did you hear that the crew of the Enterprise is getting married?",
@@ -93,57 +93,57 @@ module.exports = [
   {
     question: "How many Romulans does it take to screw in a light bulb?",
     answer: "ONE HUNDRED FIFTY_ONE: One to screw the light bulb in, and 150 to self-destruct the ship out of disgrace.",
-    tags: ["romulan", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
+    tags: ["romulan", "romulans", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "How many Vulcans does it take to screw in a light bulb? ",
     answer: "Approximately 1.00000000000000000000000000000000",
-    tags: ["vulcan", "vuclans", "light bulb"],
+    tags: ["vulcan", "vulcans", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "How many Borg does it take to change a light-bulb?",
     answer: "All of them! ",
-    tags: ["borg", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
+    tags: ["borg", "borgs", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "How many Klingons does it take to change a lightbulb?",
     answer: "TWO: One to screw it in, and one to stab the other in the back and take all of the credit.",
-    tags: ["klingons", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
+    tags: ["klingons", "klingon", "capitalism", "capitalist", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "How many Klingons does it take to change a lightbulb?",
     answer: "NONE: Klingons aren't afraid of the dark.",
-    tags: ["klingon", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
+    tags: ["klingon", "klingons", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "What do the Klingons do with the dead bulb?",
     answer: "Execute it for failure.",
-    tags: ["klingon", "dead bulb", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
+    tags: ["klingon", "klingons", "dead bulb", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "What is Commander Rikers favorite hobby?",
     answer: "Sewing, because the captain says",
-    tags: ["riker", "hobby", "commander riker"],
+    tags: ["riker", "hobby", "commander riker", "commander"],
   },
   {
     question: "What do the Klingons do with the Klingon who replaces the bulb?",
     answer: "Execute him for cowardice.",
-    tags: ["klingon", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
+    tags: ["klingon", "klingons", "justice", "light bulb", "lightbulb", "lightbulbs", "light bulbs", "bulbs", "bulb"],
   },
   {
     question: "Have you read the book The Positronic Brain?",
     answer: " It's by: Anne Droid",
-    tags: ["book", "positronic"]
+    tags: ["book", "positronic", "positronic", "brain", "positronic brain"]
   },
   {
     question: "Why Did Lieutenant Uhuru look so shocked?",
     answer: "Because William Shatner (shat in her).",
-    tags: ["uhuru", "shocked"],
+    tags: ["uhuru", "shocked", "lieutenant uhuru", "lieutenant"],
   },
   {
     question: "Have you read the book Damn it Jim?",
     answer: "It's by: Ima Doctor and Nada Bricklayer.",
-    tags: ["book", "jim"],
+    tags: ["book", "jim", "damn it", "doctor"],
   },
   {
     question: "Have you read the book Chekov: The Navigator?",
@@ -153,27 +153,27 @@ module.exports = [
   {
     question: "What did one Borg say to one another right before their ship was destroyed in sector zero zero one?",
     answer: "Hoisted by our own Picard. ",
-    tags: ["borg", "ship", "sector", "zero zero one", "sector zero zero one"],
+    tags: ["borg", "borgs", "ship", "sector", "zero zero one", "sector zero zero one"],
   },
   {
     question: "Did you hear about the new uniform making machine on the Enterprise?",
     answer: "Piccard told Riker to Make it sew, Number One.",
-    tags: ["uniform", "machine", "enterprise", "commander riker"],
+    tags: ["uniform", "machine", "enterprise", "commander riker", "riker", "commander"],
   },
   {
     question: "How do you get a one-armed Klingon out of a tree?",
     answer: "Wave to him",
-    tags: ["klingon", "tree"],
+    tags: ["klingon", "tree", "rescue", "heights", "stupid"],
   },
   {
     question: "What did the first officer answer when Picard asked Why did you let Troi win at poker?",
     answer: "Because I Riker.",
-    tags: ["officer", "picard", "troi", "riker", "commander riker"],
+    tags: ["officer", "picard", "troi", "riker", "commander riker", "poker"],
   },
   {
     question: "What is Thomas Riker's dating philosophy?",
     answer: "If at first you don't succeed, try Troi again.",
-    tags: ["thomas", "riker", "dating", "philosophy", "commander riker", "troi"],
+    tags: ["thomas", "riker", "dating", "philosophy", "commander riker", "troi", "thomas riker"],
   },
   {
     question: "Why can't Klingon kids play in sandboxes?",
@@ -193,37 +193,37 @@ module.exports = [
   {
     question: "What are eyeglasses called on Vulcan?",
     answer: "Spocktacles Cross The Road",
-    tags: ["eyeglasses", "vuclans", "vulcan"],
+    tags: ["eyeglasses", "vuclans", "vulcan", "glasses", "eye wear"],
   },
   {
     question: "Why did the Klingon cross the road?",
     answer: "To conquer the other side.",
-    tags: ["klingon", "road"],
+    tags: ["klingon", "road", "klingons", "crossing", "road crossing"],
   },
   {
     question: "Why did the chicken cross the road?",
     answer: "James T. Kirk: To boldly go where no chicken has gone before",
-    tags: ["captain kirk", "chicken", "road"],
+    tags: ["captain kirk", "chicken", "road", "crossing", "road crossing"],
   },
   {
     question: "Why did the chicken cross the road?",
     answer: "Cos ma wee transporter beam was na functioning properly. Ah canna work miracles, Captain.",
-    tags: ["chicken", "road"],
+    tags: ["chicken", "road", "crossing", "road crossing"],
   },
   {
     question: "Why did the chicken cross the road?",
     answer: "Dr. McCoy: Dammit Jim!! I'm a doctor not an farmer!",
-    tags: ["chicken", "road"],
+    tags: ["chicken", "road", "crossing", "road crossing"],
   },
   {
     question: "Why did the chicken cross the road?",
     answer: "Obviously, it was the logical thing to do.",
-    tags: ["chicken", "road"],
+    tags: ["chicken", "road", "crossing", "road crossing"],
   },
   {
     question: "Why did the chicken cross the road?",
     answer: "Mr. Data: Why is a barn yard fowl crossing a thoroughfare humorous?",
-    tags: ["chicken", "road"],
+    tags: ["chicken", "road", "crossing", "road crossing"],
   },
   {
     question: "Sarek and Amanda were dating. \n\Amanda was patiently waiting. \n\For signs of romance. \n\Soft words, a slow dance. \n\What she got was an efficiency rating", 
@@ -233,17 +233,17 @@ module.exports = [
   {
     question: "A visiting admiral approached Chekov's station on the ENTERPRISE. Thinking he would test the young officer, he asked, What would you do if the weapons officer suddenly got his head blown off? \n\Nothing, sir. \n\Why nothing? \n\Because I'm the weapons officer, sir.",
     answer: " ",
-    tags: ["bar", "admiral", "chekov", "weapons officer"],
+    tags: ["bar", "admiral", "chekov", "weapons officer", "officer", "young officer"],
   },
   {
     question: "A young man was applying to join Starfleet \n\Where were you born? asked the recruiting officer. \n\Earth, sir. \n\What part? \n\All of me, sir.", 
     answer: " ",
-    tags: ["bar", "star fleet", "starfleet", "recruiting officer", "earth"]
+    tags: ["bar", "star fleet", "starfleet", "recruiting officer", "earth", "officer"]
   },
   {
     question: "Overheard in a corridor: \n\Crewman: I've got a brother at Starfleet Science Academy. \n\Crewwoman: What's he studying? \n\Crewman: Nothin'. They're studying him.",
     answer: " ",
-    tags: ["bar", "corridor", "crewman", "crewwoman", "crew man", "crew woman", "science academy", "studying"]
+    tags: ["bar", "corridor", "crewman", "crewwoman", "crew man", "crew woman", "science academy", "studying", "starfleet science academy"]
   },
   {
     question: "You Might Be A Trekkie If!",
@@ -368,17 +368,17 @@ module.exports = [
   {
     question: "How do you stop from falling out of a Bird of Prey?",
     answer: "You just have to Klingon.",
-    tags: ["klingon", "bird", "prey", "bird of prey"]
+    tags: ["klingon", "bird", "prey", "bird of prey","falling"]
   },
   {
     question: "Kirk: Bones, that man is choking! Do Something",
     answer: "McCoy: Damn it, Jim, I'm a Doctor not a... oh, yeah right.",
-    tags: ["doctor", "kirk", "bones", "bone", "mccoy", "jim"]
+    tags: ["doctor", "kirk", "bones", "bone", "mccoy", "jim", "choking"]
   },
   {
     question: "Why did Worf change his hair color?",
     answer: "It was a good day to dye.",
-    tags: ["worf", "hair", "hair dye", "dye", "death"]
+    tags: ["worf", "hair", "hair dye", "dye", "death", "hair color"]
   },
   {
     question: "How many Betazoids does it take to change a lightbulb?",
@@ -588,46 +588,46 @@ module.exports = [
   {
     question: "She chooses to purchase a terraced incline directed toward a post-life paradisiacal region.",
     answer: "And she's buying a stairway to heaven.",
-    tags: []
+    tags: ["translation"]
   },
   {
     question: "The leather coverings now encasing my pedal extremities have been manufactured for the specific purpose of ambulatory forward motion.",
     answer: "These Boots Were Made For Walkin",
-    tags: []
+    tags: ["translation"]
   },
   {
     question: "Adieu, jaundiced vehicular pathway consisting of bricks of baked clay.",
     answer: "Goodbye, Yellow Brick Road",
-    tags: []
+    tags: ["translation"]
   },
   {
     question: "And we will engage in much jubilant activity until such time as the male parent chooses to repossess her vehicle of motorized transport.",
     answer: "And we'll have fun, fun, fun till her daddy takes the T-bird away.",
-    tags: []
+    tags: ["translation"]
   },
   {
     question: "The deity had little or nothing to do with the manufacture of minuscule viridescent seed-bearing fruits.",
     answer: "God didn't make little green apples.",
-    tags: []
+    tags: ["translation"]
   },
   {
     question: "Allow me the honor of portraying for you a miniaturized representation of a member of the family Ursidae of the order Carnivora.",
     answer: "Let me be your Teddy Bear.",
-    tags: []
+    tags: ["translations"]
   },
   {
     question: "You provide illumination for the period of time delimited by my nativity and the complete cessation of my metabolic functions.",
     answer: "Again, nitpicky. It's You Light Up My Life.",
-    tags: []
+    tags: ["translations"]
   },
   {
     question: "Express deep affection towards yours truly in the manner of a hardened igneous object.",
     answer: "Love me like a rock.",
-    tags: []
+    tags: ["translation"]
   },
   {
     question: "Spock: I possess the capability of performing ocular scans of manual inscriptions on a vertical partition.",
     answer: "I can read the writing on the wall.",
-    tags: []
+    tags: ["spock", "scan"]
   },
 ]
