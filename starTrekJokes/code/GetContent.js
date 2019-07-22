@@ -26,7 +26,7 @@ exports.function = function (searchTerm) {
       question: chosenContent.question,
       answer: chosenContent.answer,
       image: {
-        url: "images/laugh/laugh" + Math.floor(Math.random() * 16) + ".jpg"
+        url: "images/laugh/laugh" + Math.floor(Math.random() * 15) + ".jpg"
       },
     }
   } else {

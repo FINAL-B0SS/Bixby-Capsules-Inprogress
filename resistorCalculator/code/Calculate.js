@@ -113,7 +113,7 @@ exports.function = function (text) {
 
   if (colors.length < 3) {
     return {
-      text: "I need more bands too work with",
+      text: "I need more bands to work with",
       image: {
         url: "images/resistor.png"
       }
