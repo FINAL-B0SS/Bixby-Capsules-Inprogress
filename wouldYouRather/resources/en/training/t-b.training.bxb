@@ -1,0 +1,15 @@
+train (t-b3h6ohx8ym4zxvc3xaox1trcm) {
+  utterance ("[g:GetContent] Provide me humor of the (star trek)[v:SearchTerm] variety")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241315254)
+}
+train (t-b7snblw0q068tpmhidtcsu7rt) {
+  utterance ("[g:GetContent] Joke pertaining to (trekkies)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241506829)
+}
+train (t-bx1tudbv94r7xyvlcr9zkpam1) {
+  utterance ([g:GetContent] Provide me content of the humorous variety)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241342957)
+}

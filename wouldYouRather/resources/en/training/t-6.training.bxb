@@ -1,0 +1,10 @@
+train (t-6gi33845td2wwhc1m5u971bbd) {
+  utterance ("[g:GetContent] Present me humor pertaining to (star trek)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241380593)
+}
+train (t-6oi6uoswul0whxxqkr73wg2nj) {
+  utterance ([g:GetContent] Help me giggle)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241604205)
+}

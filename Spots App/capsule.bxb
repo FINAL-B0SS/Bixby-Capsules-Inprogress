@@ -1,0 +1,24 @@
+capsule {
+  id (example.spots)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  permissions {
+    user-profile-access
+  }
+  
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+  }
+
+  capsule-imports {
+    import (viv.common) {as (common) version (3.28.9)}
+    import (viv.time) {as (time) version (2.65.45)}
+    import (viv.contact) { as (contact) version (2.5125.7)}
+    import (viv.geo) { as (geo) version-from (contact)}
+    import (viv.navigation) { as (navigation) version (1.9.0)}
+  }
+}

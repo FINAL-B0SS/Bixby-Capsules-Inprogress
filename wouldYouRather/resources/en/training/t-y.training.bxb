@@ -1,0 +1,15 @@
+train (t-y3eyo9h8hrckwzoaijm0g5zpp) {
+  utterance ("[g:GetContent] Got any (star trek)[v:SearchTerm] jokes")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241611212)
+}
+train (t-ykh4pto7i8frtij565k80mdor) {
+  utterance ([g:GetContent] Say something funny)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241379693)
+}
+train (t-ylp8kz9h55ypyd5p2rc4kjzha) {
+  utterance ([g:GetContent] Is it joke time)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241345987)
+}

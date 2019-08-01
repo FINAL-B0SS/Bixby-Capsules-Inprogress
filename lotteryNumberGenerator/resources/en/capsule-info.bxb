@@ -14,9 +14,4 @@ capsule-info {
     keyword (Mega Millions)
   }
   dispatch-name (Lucky Lottery Numbers)
-  dispatch-aliases {
-    alias (Lucky Lottery)
-    alias (Lucky Numbers)
-    alias (Lottery Numbers Generator)
-  }
 }

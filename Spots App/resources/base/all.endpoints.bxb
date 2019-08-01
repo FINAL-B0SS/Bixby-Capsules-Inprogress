@@ -1,0 +1,17 @@
+endpoints {
+
+  action-endpoints {
+    action-endpoint (SubmitSpot) {
+      accepted-inputs (spotName, categories, description, location)
+      local-endpoint (submitSpot.js)
+    }
+    action-endpoint (FindSpots) {
+      accepted-inputs (categories, location, distance)
+      local-endpoint (findSpots.js)
+    }
+    action-endpoint (ConstructDestination) {
+      accepted-inputs (spot)
+      local-endpoint (ConstructDestination.js)
+    }
+}
+}

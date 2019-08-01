@@ -1,0 +1,22 @@
+action (SelectSpot) {
+  type (Search)
+  collect {
+    input (spot) {
+      type (Spot)
+      min (Required) max (Many)
+      // force a selection prompt
+      prompt-behavior (AlwaysSelection)
+
+      default-init {
+        intent {
+          goal: FindSpots
+        }
+      }
+    }
+  }
+  output (Spot) {
+    evaluate {
+      $expr (spot)
+    }
+  }
+}

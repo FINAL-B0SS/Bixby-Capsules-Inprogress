@@ -1,0 +1,27 @@
+input-view {
+  match {
+    Description (description) { 
+      to-input: SubmitSpot
+    }
+  }
+  message {
+    template ("How would you describe this Spot?")
+  }
+  render {
+    form {
+      elements {
+        textarea {
+          id (Description)
+          type (Description)
+          label (Description)
+          max-length (320)
+          value ("#{raw(description)}")
+        }
+      }
+      on-submit {
+        goal: Description
+        value: viv.core.FormElement(Description)
+      }
+    }
+  }
+}

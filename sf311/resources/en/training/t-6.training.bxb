@@ -1,0 +1,5 @@
+train (t-6qc2i99b7w3ybnexolgz7lwgv) {
+  utterance ([g:SelectSpot] Find a spot)
+  plan (Y2BmEEqtSMwtyEnVKy7ILynWCwaSDBJoYqk5qcklYBlsqpkYGIGYAUgyMjDAaAA=)
+  last-modified (1555235089455)
+}

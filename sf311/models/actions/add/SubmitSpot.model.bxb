@@ -1,0 +1,36 @@
+action (SubmitSpot) {
+  description (An action that takes a required Spot as an input)
+  type (Constructor)
+  collect {
+    input (categories) {
+      type (Categories)
+      min (Required) max (One)
+      default-init {
+        // Possible values are the enum values - code below shows enum values
+        intent {
+          goal: Categories
+          value-set {@prompt-behavior(AlwaysElicitation) Categories}
+        }
+    }
+    }
+    input (spotName) {
+      type(SpotName)
+      min (Required) max(One)
+    }
+    input (description) {
+      type (Description)
+      min (Required) max (One)
+    }
+    input (location) {
+      type (Location)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: Location
+          route: geo.CurrentLocation
+        }
+      }
+    }
+  }
+  output (Spot)
+}

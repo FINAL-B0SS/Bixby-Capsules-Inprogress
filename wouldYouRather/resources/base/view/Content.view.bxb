@@ -1,0 +1,24 @@
+result-view {
+  match: Content (this)
+  render {
+    layout {
+      section {
+        content {
+          paragraph {
+            value ("#{raw(this.question)}")
+            style (Title_S)
+          }
+          image {
+            aspect-ratio (4:3)
+            lightbox-enabled (false)
+            url ("#{raw(this.image.url)}")
+          }
+          paragraph {
+            value ("#{raw(this.answer)}")
+            style (Title_S)
+          }
+        }
+      }
+    }
+  }
+}

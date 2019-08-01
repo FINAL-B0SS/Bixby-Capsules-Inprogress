@@ -1,0 +1,5 @@
+train (t-s5lr7n1rig9ngyf2rp1f3ae4m) {
+  utterance ("[g:SelectSpot] Find a spot within (5)[v:Distance] miles of me")
+  plan (Y2BnEEqtSMwtyEnVKy7ILynWCwaSDBJoYqk5qcklYBlsqsVRxdwy81JA4sXoxjgnlqSm5xdlphYziKHKuGQWlyTmJaeii/vkJyeWZObnMbAxMDIwMTAzsDCwAtkMUB4IMoJ5MMAEZLMyMAAA)
+  last-modified (1555235018919)
+}

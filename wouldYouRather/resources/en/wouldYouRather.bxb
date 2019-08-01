@@ -1,0 +1,8 @@
+hints {
+  uncategorized {
+    utterance (Start a game of would you rather)
+    utterance (Play would you rather)
+    utterance (Give me a would you rather question)
+  }
+}
+

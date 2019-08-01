@@ -1,0 +1,26 @@
+enum (Categories) {
+
+  // Spot categories
+  symbol (Archery)
+  symbol (Bird Watching)
+  symbol (BMX)
+  symbol (Drift)
+  symbol (Fishing)
+  symbol (Film)
+  symbol (Graffiti)
+  symbol (Hiking)
+  symbol (Kite Flying)
+  symbol (Skate)
+  symbol (Smoke)
+  symbol (Stargazing)
+  symbol (Larping)
+  symbol (Longboarding)
+  symbol (Mountain Biking)
+  symbol (Offroading)
+  symbol (Parkour)
+  symbol (Shooting)
+  symbol (Photography)
+  symbol (RC Boating)
+  symbol (RC Flying)
+  symbol (RC Driving)
+}  

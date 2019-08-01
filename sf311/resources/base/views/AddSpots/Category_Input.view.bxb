@@ -1,0 +1,37 @@
+input-view {
+  match {
+    Categories (categories) { 
+      to-input: SubmitSpot
+    }
+  }
+  message {
+    template ("What kind of Spot?")
+  }
+  render {
+      selection-of (categories) {
+      navigation-mode {
+        read-none {
+          list-summary ("") // optional
+          item-selection-question("Select a spot category")
+        }
+      }
+      where-each (one) { 
+        cell-card {
+          on-click {
+            intent {
+              goal: Categories
+              value: $expr(one)
+            }
+          }
+          slot2 {
+            content {
+              primary {
+                template ("#{value (one)}")
+              }
+            }
+          }          
+        }
+      }
+    }
+  }
+}

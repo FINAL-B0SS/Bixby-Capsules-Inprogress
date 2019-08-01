@@ -1,0 +1,15 @@
+train (t-z6qbgyx7tk1v9sg7smx5kiadf) {
+  utterance ("[g:GetContent] A (borg)[v:SearchTerm] related joke")
+  plan (Y2BmkE2tSMwtyEnVKy5JLAopSs32ys9OLdZzzs8rSc0rYVDALu2eWkJARXBqYlFyRkhqUS4DEwMjEDMASUYGEIDyAQ==)
+  last-modified (1563470750953)
+}
+train (t-zpthayjact5hqovn2mlof1fn7) {
+  utterance ([g:GetContent] A joke that will make me chuckle)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563242089032)
+}
+train (t-zsiau6696rdvf93nxda2w18tg) {
+  utterance ("[g:GetContent] Got any (bar)[v:SearchTerm] jokes")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241989862)
+}

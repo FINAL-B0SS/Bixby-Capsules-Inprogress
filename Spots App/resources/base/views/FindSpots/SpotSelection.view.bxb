@@ -1,0 +1,68 @@
+// PersonSelectionView.view.bxb
+input-view {
+  match: Spot (this)
+
+  // optional selection dialog to overwrite any other default dialog
+  message (Pick a spot)
+
+  render {
+    // used to iterate over the list of candidates
+    selection-of (this) {
+      navigation-mode {
+        read-none {
+          //page-size(4)
+          //underflow-statement (This is the first set)
+          list-summary ("There are #{size(this)} #{value(categories)} spots near you") // optional
+          //page-selection-question (Do you like one of these?)
+          item-selection-question (Which one would you like?)
+          //overflow-statement (That's all I have)
+          //overflow-question (What would you like to do?)
+        }
+      }
+      where-each (one) {
+        // you can use conditional logic to control how candidates are displayed,
+        // using either a standard layout with a match pattern, or a layout macro
+        compound-card {
+          content {
+            map-card {
+              title-area {
+                slot1 {
+                  text {
+                    value("#{value (one.spotName)}")
+                  }
+                }
+                slot3 {
+                  single-line {
+                    text {
+                      value("#{value (one.distance)} Miles away")
+                    }
+                  }
+                }
+              }
+              aspect-ratio (1:1)
+              markers {
+                marker {
+                  geo ("Location.point")
+                  icon {
+                    template (/images/icons/red-marker.png)
+                  }
+                  width (15)
+                  height (20)
+                  anchor-x (5)
+                  anchor-y (15)
+                  rotation (0)
+                }
+              }
+            }
+            paragraph {
+              value {
+                template ("#{raw(description)}")
+              }
+              style (Detail_L)
+            }
+          }
+        }
+      }
+    }
+  }
+}

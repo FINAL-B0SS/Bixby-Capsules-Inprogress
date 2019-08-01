@@ -1,0 +1,18 @@
+action (ConstructDestination) {
+  type (Constructor)
+  description (Make a NamedPoint from a Spot.)
+  collect {
+    input (spot) {
+      type (Spot)
+      min (Required) max (One)
+      default-init {
+        // Note: To enable current location access, in your capsule.bxb,
+        // add 'user-profile-access' to capsule.permissions
+        intent {
+          goal: SelectSpot
+        }
+      }
+    }
+  }
+  output (navigation.Destination)
+}

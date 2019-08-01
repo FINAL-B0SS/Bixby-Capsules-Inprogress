@@ -1,0 +1,15 @@
+train (t-1cozukh1g5gy38mdn1445ping) {
+  utterance ([g:GetContent] Make me laugh)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563241466088)
+}
+train (t-1pec6idd8lyh31um9nizyb29y) {
+  utterance ("[g:GetContent] Present me humor pertaining to (borgs)[v:SearchTerm]")
+  plan (Y2BmkE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21hKCa4NTEouSMkNSiXAYmBkYgZgCSjAwgAOUDAA==)
+  last-modified (1563241457057)
+}
+train (t-1qs730i10t02cf5wbd005w96m) {
+  utterance ([g:GetContent] Funny)
+  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
+  last-modified (1563242032676)
+}

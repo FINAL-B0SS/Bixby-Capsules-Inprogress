@@ -1,0 +1,22 @@
+structure (Spot) {
+  property (categories) {
+    type (Categories)
+    min (Required) max (One)
+  }
+  property (spotName) {
+    type(SpotName)
+    min (Required) max(One)
+  }
+  property (description) {
+    type (Description)
+    min (Required) max (One)
+  }
+  property (Location) {
+    type (Location)
+    min (Required) max (One)
+  }
+  property (distance) {
+    type (Distance)
+    min (Required) max (One)
+  }
+}
