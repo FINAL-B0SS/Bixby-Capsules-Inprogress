@@ -1,6 +1,4 @@
-/*
-Takes a color and converts it to a number
-*/
+//Takes a color and converts it to a number
 function colorToDigit(color) {
   var digit = 0;
   digit = color == "black" ? 0 : digit;
@@ -39,9 +37,7 @@ function colorToMultiplier(color) {
   return multiplier;
 }
 
-/*
- Takes a color and figures out what the tolerance percent is
-*/
+//Takes a color and figures out what the tolerance percent is
 function colorToTolerance(color) {
   var tolerance = 0;
   tolerance = color == "brown" ? 1 : tolerance;
@@ -81,27 +77,39 @@ function colorToTempco(color) {
   split the string by spaces, then parses for colors in the
   the string and stores those colors in a new array
 */
+
 function textToColors(text) {
   var colors = [];
+  var str = ""
   
   text = text.toLowerCase();
-  text = text.split(" ");
-
+  
+  // Remove hypens from string
+  for (var i = 0; i < text.length; i++)
+    str += text[i] == '-' ? " " : text[i];  
+  
+  str = str.split(" ");
+  
+  // Pull colors from array
   for (var i = 0; i < text.length; i++) {
-    text[i] == "black" ? colors.push(text[i]) : 0;
-    text[i] == "brown" ? colors.push(text[i]) : 0;
-    text[i] == "red" ? colors.push(text[i]) : 0;
-    text[i] == "orange" ? colors.push(text[i]) : 0;
-    text[i] == "yellow" ? colors.push(text[i]) : 0;
-    text[i] == "green" ? colors.push(text[i]) : 0;
-    text[i] == "blue" ? colors.push(text[i]) : 0;
-    text[i] == "violet" ? colors.push(text[i]) : 0;
-    text[i] == "grey" || text[i] == "gray" ? colors.push(text[i]) : 0;
-    text[i] == "white" ? colors.push(text[i]) : 0;
-    text[i] == "gold" ? colors.push(text[i]) : 0;
-    text[i] == "silver" ? colors.push(text[i]) : 0;
+    str[i] == "black" ? colors.push(str[i]) : 0;
+    str[i] == "brown" ? colors.push(str[i]) : 0;
+    str[i] == "red" ? colors.push(str[i]) : 0;
+    str[i] == "orange" ? colors.push(str[i]) : 0;
+    str[i] == "yellow" ? colors.push(str[i]) : 0;
+    str[i] == "green" ? colors.push(str[i]) : 0;
+    str[i] == "blue" ? colors.push(str[i]) : 0;
+    str[i] == "violet" ? colors.push(str[i]) : 0;
+    str[i] == "grey" || str[i] == "gray" ? colors.push(str[i]) : 0;
+    str[i] == "white" ? colors.push(str[i]) : 0;
+    str[i] == "gold" ? colors.push(str[i]) : 0;
+    str[i] == "silver" ? colors.push(str[i]) : 0;
   }
   return colors;
+}
+
+function formatNumber(num) {
+  return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
 }
 
 exports.function = function (text) {
@@ -131,18 +139,15 @@ exports.function = function (text) {
       }
     }
   }
-  if (colors.length <= 5)
-      tolerance = colorToTolerance(colors[colors.length - 1]);
-  else if (colors.length == 6)
-      tolerance = colorToTolerance(colors[colors.length - 2]);
-  if (tolerance == 0)
+  tolerance = colorToTolerance(colors[colors.length < 5 ? 3 : 4]);
+  if (tolerance == 0 && colors.length != 3)
     return {
       text: "Black, orange, yellow, and white can not be used as the tolerance band",
       image: {
         url: "images/resistor.png"
       }
     }
-  for (var i = 0; i < colors.length - 2; i++) {
+  for (var i = 0; i < (colors.length < 5 ? 2 : 3); i++) {
     number *= 10;
     digit = colorToDigit(colors[i]);
     if (digit == 10)
@@ -154,12 +159,14 @@ exports.function = function (text) {
       }
     number += digit
   }
-  number *= colorToMultiplier(colors[colors.length - 2]);
+  number *= colorToMultiplier(colors[colors.length < 4 ? 2 : 3]);
   number = Math.round(10*number)/10
-  if (colors.length == 6)
-    text = number + " " + "Ohms" + " a " + tolerance + "% tolerance" + " and a temperature Coefficient of " + colorToTempco(colors[colors.length - 1]) + " degrees celsius"
+  if (colors.length == 3)
+    text = formatNumber(number) + " " + "Ohms"
+  else if (colors.length == 6)
+    text = formatNumber(number) + " " + "Ohms" + " a " + tolerance + "% tolerance" + " and a temperature Coefficient of " + colorToTempco(colors[colors.length - 1]) + " degrees celsius"
   else
-    text = number + " " + "Ohms" + " and  " + tolerance + "% tolerance"
+    text = formatNumber(number) + " " + "Ohms" + " and  " + tolerance + "% tolerance"
   return {
     text: text,
     image: {
