@@ -1,6 +1,6 @@
 capsule {
   id (final_boss.resistor_calculator)
-  version (1.0.1)
+  version (1.0.2)
   format(3)
   runtime-flags {
     modern-prompt-rejection

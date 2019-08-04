@@ -1,3 +1,5 @@
+console = require('console');
+
 //Takes a color and converts it to a number
 function colorToDigit(color) {
   var digit = 0;
@@ -159,7 +161,7 @@ exports.function = function (text) {
       }
     number += digit
   }
-  number *= colorToMultiplier(colors[colors.length < 4 ? 2 : 3]);
+  number *= colorToMultiplier(colors[colors.length < 5 ? 2 : 3]);
   number = Math.round(10*number)/10
   if (colors.length == 3)
     text = formatNumber(number) + " " + "Ohms"

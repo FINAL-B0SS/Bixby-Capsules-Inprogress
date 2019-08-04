@@ -2,6 +2,6 @@ hints {
   uncategorized {
     utterance (Tell me the value of a blue-black red gold resistor)
     utterance (Get the resistance of white yellow red brown)
-    utterance (Get the value of a orange brown red green blue violet resistor)
+    utterance (Get the value of a orange-brown red green blue violet resistor)
   }
 }
