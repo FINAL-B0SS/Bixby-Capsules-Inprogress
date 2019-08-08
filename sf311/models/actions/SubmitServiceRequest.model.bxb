@@ -6,6 +6,10 @@ action (SubmitServiceRequest) {
       type (ServiceCode)
       min (Required) max (One)
     }
+    input (serviceName) {
+      type (ServiceName)
+      min (Optional) max (One)
+    }
     input (description) {
       type (Description)
       min (Required) max (One)
@@ -66,12 +70,20 @@ action (SubmitServiceRequest) {
       type (Type)
       min (Optional) max (One)
     }
-    input (conatainRacialSlursOrProfanity) {
-      type (ConatainRacialSlursOrProfanity)
+    input (conatainsRacialSlursOrProfanity) {
+      type (ConatainsRacialSlursOrProfanity)
       min (Optional) max (One)
     }
     input (wholeBlock) {
       type (WholeBlock)
+      min (Optional) max (One)
+    }
+    input (signType) {
+      type (SignType)
+      min (Optional) max (One)
+    }
+    input (poleStatus) {
+      type (PoleStatus)
       min (Optional) max (One)
     }
     input (location) {

@@ -7,9 +7,11 @@ result-view {
     if ("size(this) > 1") {
       list-of (this) {
         where-each (service) {
-          layout-macro (service-summary-fragment) {
-            param (service) {
-              expression (service)
+          if (service.serviceCode != '55d6cb85df86af51c305616e') {
+            layout-macro (service-summary-fragment) {
+              param (service) {
+                expression (service)
+              }
             }
           }
         }
@@ -24,6 +26,7 @@ result-view {
           if (true) {
             intent {
               goal: SubmitServiceRequest
+              value: $expr(this.serviceName)
               value: $expr(this.serviceCode)
             }
           }

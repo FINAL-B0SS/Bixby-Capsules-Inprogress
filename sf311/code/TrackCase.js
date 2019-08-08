@@ -14,8 +14,8 @@ module.exports.function = function trackCase (serviceRequestNumber) {
       serviceRequestId: ret[i].service_request_id,
       status: ret[i].status,
       serviceName: ret[i].service_name,
-      dateOpened: ret[i].requested_datetime.substring(0, 10),
-      dateUpdated: ret[i].updated_datetime.substring(0, 10),
+      dateOpened: String(ret[i].requested_datetime).substring(0, 10),
+      dateUpdated: String(ret[i].updated_datetime).substring(0, 10),
       address: ret[i].address,
     }
    if ((serviceRequestNumber && ret[i].service_request_id == serviceRequestNumber) || !serviceRequestNumber || serviceRequestNumber == 'all')

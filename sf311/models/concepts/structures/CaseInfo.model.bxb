@@ -2,7 +2,7 @@ structure (CaseInfo) {
   description (Information about a service request)
   property (serviceRequestId) {
     type (ServiceRequestId)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (status) {
     type (Status)
