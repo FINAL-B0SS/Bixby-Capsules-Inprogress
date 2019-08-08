@@ -1,0 +1,34 @@
+result-view {
+  match {
+    ServiceInfo (this)
+  }
+  
+  render {
+    if ("size(this) > 1") {
+      list-of (this) {
+        where-each (service) {
+          layout-macro (service-summary-fragment) {
+            param (service) {
+              expression (service)
+            }
+          }
+        }
+      }
+    }
+  }
+  refresh {
+    if ("size(this) == 1") {
+      spec {
+        delay-seconds (0.001)
+        with-request {
+          if (true) {
+            intent {
+              goal: SubmitServiceRequest
+              value: $expr(this.serviceCode)
+            }
+          }
+        }
+      }
+    }
+  }
+}

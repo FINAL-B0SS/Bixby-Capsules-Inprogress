@@ -18,10 +18,11 @@ capsule {
   }
 
   capsule-imports {
+    import (viv.core) { as (core) }
     import (viv.common) {as (common) version (3.32.8)}
     import (viv.time) {as (time) version (2.89.17)}
     import (viv.contact) { as (contact) version (2.5146.44)}
-    import (viv.geo) { as (geo) version-from (contact)}
+    import (viv.geo) { as (geo) version (9.17.33)}
     import (viv.navigation) { as (navigation) version (1.9.0)}
-  }
+    }
 }

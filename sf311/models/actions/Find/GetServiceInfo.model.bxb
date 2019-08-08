@@ -1,0 +1,11 @@
+action (GetServiceInfo) {
+  description (Get info about all the services the user can request)
+  type (Constructor)
+  collect {
+    input (searchName) {
+      type (core.Text)
+      min (Optional) max (Many)
+    }
+  }
+  output (ServiceInfo)
+}

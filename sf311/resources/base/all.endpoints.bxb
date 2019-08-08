@@ -1,17 +1,16 @@
 endpoints {
-
   action-endpoints {
-    action-endpoint (SubmitSpot) {
-      accepted-inputs (spotName, categories, description, location)
-      local-endpoint (submitSpot.js)
+    action-endpoint (GetServiceInfo) {
+      accepted-inputs (searchName)
+      local-endpoint (GetServiceInfo.js)
     }
-    action-endpoint (FindSpots) {
-      accepted-inputs (categories, location, distance)
-      local-endpoint (findSpots.js)
+    action-endpoint (SubmitServiceRequest) {
+      accepted-inputs (description, makemodel, licensePlate, color, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, conatainRacialSlursOrProfanity, wholeBlock, location, serviceCode)
+      local-endpoint (SubmitServiceRequest.js)
     }
-    action-endpoint (ConstructDestination) {
-      accepted-inputs (spot)
-      local-endpoint (ConstructDestination.js)
+    action-endpoint (TrackCase) {
+      accepted-inputs (serviceRequestNumber)
+      local-endpoint (TrackCase.js)
     }
-}
+  }
 }

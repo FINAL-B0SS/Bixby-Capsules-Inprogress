@@ -1,0 +1,136 @@
+input-view {
+  match: Description (description) {
+    //from-property: serviceCode (ServiceCode)
+  }
+  message {
+    template ("Test Form")
+  }
+  render {
+    form {
+      elements {
+        text-input {
+          id (firstName)
+          type (FirstName)
+          label (First Name)
+          max-length (30)
+        }
+        text-input {
+          id (lastName)
+          type (LastName)
+          label (Last Name)
+          max-length (30)
+        }
+        text-input {
+          id (email)
+          type (Email)
+          label (Email)
+          max-length (256)
+        }
+        textarea {
+          id (description)
+          type (Description)
+          label (Description)
+          max-length (1024)
+        }
+        text-input {
+          id (phone)
+          type (Phone)
+          label (Phone Number)
+          max-length (20)
+        }
+        text-input {
+          id (makemodel)
+          type (MakeModel)
+          label (Make/Model)
+          max-length (50)
+        }
+        text-input {
+          id (licensePlate)
+          type (LicensePlate)
+          label (License Plate)
+          max-length (15)
+        }
+        text-input {
+          id (color)
+          type (Color)
+          label (Color)
+          max-length (50)
+        }
+        switch-input {
+          id (conatainRacialSlursOrProfanity)
+          type (ConatainRacialSlursOrProfanity)
+          primary-text (Contains Racial Slurs Or Profanity)
+        }
+        switch-input {
+          id (wholeBlock)
+          type (WholeBlock)
+          primary-text (Whole Block?)
+        }
+        text-input {
+          id (natureOfRequest)
+          type (NatureOfRequest)
+          label (Nature Of Request)
+          max-length (256)
+        }
+        text-input {
+          id (objectID)
+          type (ObjectID)
+          label (Object ID)
+          max-length (30)
+        }
+        text-input {
+          id (howManyTents)
+          type (HowManyTents)
+          label (How Many Tents)
+          max-length (7)
+        }
+        text-input {
+          id (howManyPeople)
+          type (HowManyPeople)
+          label (How Many People)
+          max-length (7)
+        }
+        text-input {
+          id (object)
+          type (Object)
+          label (Object)
+          max-length (256)
+        }
+        text-input {
+          id (poleType)
+          type (PoleType)
+          label (Pole Type)
+          max-length (256)
+        }
+        text-input {
+          id (type)
+          type (Type)
+          label (Type)
+          max-length (256)
+        }
+      }
+
+      on-submit {
+        goal: SubmitServiceRequest
+        value: viv.core.FormElement(firstName)
+        value: viv.core.FormElement(lastName)
+        value: viv.core.FormElement(email)
+        value: viv.core.FormElement(description)
+        value: viv.core.FormElement(makemodel)
+        value: viv.core.FormElement(licensePlate)
+        value: viv.core.FormElement(color)
+        value: viv.core.FormElement(phone)
+        value: viv.core.FormElement(objectID)
+        value: viv.core.FormElement(object)
+        value: viv.core.FormElement(natureOfRequest)
+        value: viv.core.FormElement(howManyPeople)
+        value: viv.core.FormElement(howManyTents)
+        value: viv.core.FormElement(poleType)
+        value: viv.core.FormElement(type)
+        value: viv.core.FormElement(conatainRacialSlursOrProfanity)
+        value: viv.core.FormElement(wholeBlock)
+       // value: ServiceCode (sf311.serviceCode)
+      }
+    }
+  }
+}

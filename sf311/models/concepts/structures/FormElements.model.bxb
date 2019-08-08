@@ -1,0 +1,74 @@
+structure (FormElements) {
+    property (description) {
+    type (Description)
+    min (Optional) max (One)
+  }
+  property (serviceCode) {
+      type (ServiceCode)
+      min (Required) max (One)
+  }
+  property (makeModel) {
+    type (MakeModel)
+    min (Optional) max (One)
+  }
+  property (licensePlate) {
+    type (LicensePlate)
+    min (Optional) max (One)
+  }
+  property (color) {
+    type (Color)
+    min (Optional) max (One)
+  }
+  property (firstName) {
+    type (FirstName)
+    min (Optional) max (One)
+  }
+  property (lastName) {
+    type (LastName)
+    min (Optional) max (One)
+  }
+  property (email) {
+    type (Email)
+    min (Optional) max (One)
+  }
+  property (phone) {
+    type (Phone)
+    min (Optional) max (One)
+  }
+  property (objectID) {
+    type (ObjectID)
+    min (Optional) max (One)
+  }
+  property (object) {
+    type (Object)
+    min (Optional) max (One)
+  }
+  property (natureOfRequest) {
+    type (NatureOfRequest)
+    min (Optional) max (One)
+  }
+  property (howManyPeople) {
+    type (HowManyPeople)
+    min (Optional) max (One)
+  }
+  property (howManyTents) {
+    type (HowManyTents)
+    min (Optional) max (One)
+  }
+  property (poleType) {
+    type (PoleType)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (Type)
+    min (Optional) max (One)
+  }
+  property (conatainRacialSlursOrProfanity) {
+    type (ConatainRacialSlursOrProfanity)
+    min (Optional) max (One)
+  }
+  property (wholeBlock) {
+    type (WholeBlock)
+    min (Optional) max (One)
+  }
+}

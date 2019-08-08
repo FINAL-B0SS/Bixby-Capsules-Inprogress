@@ -1,3 +1,0 @@
-structure (Navigate) {
-  role-of (navigation.Navigate)
-}
