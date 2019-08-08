@@ -19,7 +19,7 @@ result-view {
   refresh {
     if ("size(this) == 1") {
       spec {
-        delay-seconds (0.001)
+        delay-seconds (0.00001)
         with-request {
           if (true) {
             intent {

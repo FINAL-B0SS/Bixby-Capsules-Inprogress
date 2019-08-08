@@ -129,7 +129,7 @@ input-view {
         value: viv.core.FormElement(type)
         value: viv.core.FormElement(conatainRacialSlursOrProfanity)
         value: viv.core.FormElement(wholeBlock)
-       // value: ServiceCode (sf311.serviceCode)
+        value: ServiceCode (sf311.serviceCode)
       }
     }
   }
