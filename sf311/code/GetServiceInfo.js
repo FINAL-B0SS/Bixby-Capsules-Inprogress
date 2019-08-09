@@ -6,7 +6,7 @@ module.exports.function = function GetServiceInfo(searchName) {
   var url = "http://mobile311-dev.sfgov.org/open311/v2/services.json"
   var test = http.getUrl(url, {format: 'text'})
   var ret = JSON.parse(test)
-  var services = [];
+  var services = []
   var template
   
   for (var i = 0; i < ret.length; i++) {

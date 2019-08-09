@@ -1,0 +1,20 @@
+result-view {
+  match {
+    ServiceRequestId (this)
+  }
+  
+  message("Service request submitted succesfully, use the request ID below to track it's progress later")
+  render {
+    layout {
+      section {
+        content {
+          single-line {
+            text {
+              value ("#{value(this)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -41,7 +41,7 @@ input-view {
         }
         if (action.serviceCode == '518d5d52601827e3880001b1' || action.serviceCode == '5a6b5ac2d0521c1134854b01') {
           text-input {
-            id (makemodel)
+            id (makeModel)
              type (MakeModel)
             label (Make/Model)
             max-length (50)
@@ -61,8 +61,8 @@ input-view {
         }
         if (action.serviceCode == '50fea92c4aa48a4a9e000099') {
           switch-input {
-            id (conatainsRacialSlursOrProfanity)
-            type (ConatainsRacialSlursOrProfanity)
+            id (containsRacialSlursOrProfanity)
+            type (ContainsRacialSlursOrProfanity)
             primary-text (Contains Racial Slurs Or Profanity)
           }
         }
@@ -157,7 +157,7 @@ input-view {
         value: viv.core.FormElement(email)
         value: viv.core.FormElement(description)
         if (action.serviceCode == '518d5d52601827e3880001b1' || action.serviceCode == '5a6b5ac2d0521c1134854b01') {
-          value: viv.core.FormElement(makemodel)
+          value: viv.core.FormElement(makeModel)
           value: viv.core.FormElement(licensePlate)
           value: viv.core.FormElement(color)
         }
@@ -186,7 +186,7 @@ input-view {
           value: viv.core.FormElement(type)
         }
         if (action.serviceCode == '50fea92c4aa48a4a9e000099') {
-          value: viv.core.FormElement(conatainsRacialSlursOrProfanity) 
+          value: viv.core.FormElement(containsRacialSlursOrProfanity) 
         }
         if (action.serviceCode == '50fea6d54aa48a4a9e00002e') {
           value: viv.core.FormElement(wholeBlock)

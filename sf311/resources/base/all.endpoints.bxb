@@ -5,7 +5,7 @@ endpoints {
       local-endpoint (GetServiceInfo.js)
     }
     action-endpoint (SubmitServiceRequest) {
-      accepted-inputs (description, makemodel, licensePlate, color, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, conatainsRacialSlursOrProfanity, wholeBlock, location, serviceCode, serviceName)
+      accepted-inputs (description, makeModel, licensePlate, color, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceCode, serviceName)
       local-endpoint (SubmitServiceRequest.js)
     }
     action-endpoint (TrackCase) {

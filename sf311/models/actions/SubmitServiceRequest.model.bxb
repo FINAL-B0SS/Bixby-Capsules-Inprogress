@@ -14,7 +14,7 @@ action (SubmitServiceRequest) {
       type (Description)
       min (Required) max (One)
     }
-    input (makemodel) {
+    input (makeModel) {
       type (MakeModel)
       min (Optional) max (One)
     }
@@ -70,8 +70,8 @@ action (SubmitServiceRequest) {
       type (Type)
       min (Optional) max (One)
     }
-    input (conatainsRacialSlursOrProfanity) {
-      type (ConatainsRacialSlursOrProfanity)
+    input (containsRacialSlursOrProfanity) {
+      type (ContainsRacialSlursOrProfanity)
       min (Optional) max (One)
     }
     input (wholeBlock) {
