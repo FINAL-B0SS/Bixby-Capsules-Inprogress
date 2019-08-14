@@ -1,6 +1,6 @@
 dialog (Result) {
   match: User
-  template("A new identity for you") {
-    speech ("A new identity for you, use it wisely")
+  template("A new identity just for you") {
+    speech ("A new identity just for you, use it wisely")
   }
 }
