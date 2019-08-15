@@ -1,0 +1,8 @@
+dialog (Result) {
+  match: Lyrics (this)
+  if (exists(this.Lyrics)) {
+    template("#{value(this.Song)} by #{value(this.Artist)}") {
+      speech ("Lyrics found for #{value(this.Song)} by #{value(this.Artist)}")
+    }
+  }
+}
