@@ -1,0 +1,35 @@
+structure (Character) {
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  } 
+  property (status) {
+    type (Status)
+    min (Optional) max (One)
+  }
+  property (species) {
+    type (Species)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (Type)
+    min (Optional) max (One)
+  }
+  property (gender) {
+    type (Gender)
+    min (Optional) max (One)
+  }
+  property (origin) {
+    type (Location)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (location) {
+    type (Location)
+    min (Optional) max (One)
+  }
+  property (episodes) {
+    type (Episode)
+    min (Optional) max (Many)
+  }
+}

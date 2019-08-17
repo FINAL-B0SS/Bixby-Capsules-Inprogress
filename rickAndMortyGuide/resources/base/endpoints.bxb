@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (CharacterSearch) {
+      accepted-inputs (text)
+      local-endpoint (CharacterSearch.js)
+    }
+  }
+}

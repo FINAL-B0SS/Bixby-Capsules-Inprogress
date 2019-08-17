@@ -1,0 +1,18 @@
+structure (Location) {
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (type) {
+    type (Type)
+    min (Optional) max (One)
+  }
+  property (dimension) {
+    type (Dimension)
+    min (Optional) max (One)
+  }
+  property (residents) {
+    type (Character)
+    min (Optional) max (Many)
+  }
+}

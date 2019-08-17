@@ -1,20 +1,16 @@
 capsule {
-  id (final_boss.lyricsFetcher)
-  version (1.0.2)
-  format(3)
-  runtime-flags {
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
-    concepts-inherit-super-type-features
-    no-filtering-with-validation
-    modern-default-view-behavior
-  } 
+  id (final_boss.rickAndMortyGuide)
+  version (0.1.0)
+  format (3)
   targets {
     target (bixby-mobile-en-US)
   }
-  store-sections {
-    section (Utilities)
-    section (MusicAndAudio)
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    modern-default-view-behavior
   }
   capsule-imports {
     import (viv.core) {
@@ -25,4 +21,3 @@ capsule {
     }
   }
 }
-

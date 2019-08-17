@@ -1,0 +1,17 @@
+structure (Episode) {
+  property (name) {
+    type (Name)
+    min (Optional) max (One)
+  }
+  property (air_date) {
+    type (Air_Date)
+    min (Optional) max (One)
+  }
+  property (season) {
+    type (Season)
+    min (Optional) max (One)
+  }
+  property (characters) {
+    type (Character)
+  }
+}

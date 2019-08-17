@@ -1,0 +1,11 @@
+action (CharacterSearch) {
+  type (Search)
+  description (Handles character search)
+  collect {
+    input (text) {
+      type (Text)
+      min (Optional) max (One)
+    }
+  }
+  output (Character)
+}
