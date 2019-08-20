@@ -1,0 +1,125 @@
+result-view {
+  match {
+    Episode (episode)
+  }
+  
+  render {
+      layout {
+        section {
+          content {
+            compound-card {
+							content {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Title")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(episode.name)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+                hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Season")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(episode.season)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+                hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Air Date")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(episode.air_date)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+            title-area {
+							halign (Center)
+								slot2 {
+									single-line {
+										text ("Characters that appear")
+									}
+								}
+						}
+						for-each (episode.characters) {
+							as (character) {
+								compound-card {
+									content {
+                    cell-area {
+                      slot1 {
+                        image {
+                          url ("#{value(character.picture.url)}")
+                          shape (Square)
+                        }
+                      }
+                      slot2 {
+                        content {
+                          primary ("#{value(character.name)}")
+                        }
+                      }
+                    }
+									}
+									on-click {
+										intent {
+											goal: CharacterSearch
+	     							  value: Text("all")
+										}
+									}
+								}
+							}
+						}
+          }
+        }
+      }
+  }
+}

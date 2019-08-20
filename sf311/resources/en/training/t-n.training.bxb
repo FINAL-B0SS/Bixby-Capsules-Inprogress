@@ -1,0 +1,5 @@
+train (t-nsdb7hwn2b51icojgy4rz2wm8) {
+  utterance ([g:GetServiceInfo] Fetch services available in the city)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271804695)
+}

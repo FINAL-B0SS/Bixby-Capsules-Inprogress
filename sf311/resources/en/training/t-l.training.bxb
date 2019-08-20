@@ -1,0 +1,10 @@
+train (t-l7xfnrlbag6dzbkge6ktxpp87) {
+  utterance ("[g:TrackCase]Get the status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
+  last-modified (1566272453094)
+}
+train (t-lu8zva87q8n2vl7pxq1jy6plc) {
+  utterance ([g:GetServiceInfo] Fetch me services the city provides)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271811238)
+}

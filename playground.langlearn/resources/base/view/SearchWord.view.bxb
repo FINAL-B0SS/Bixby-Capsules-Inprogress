@@ -1,0 +1,102 @@
+result-view {
+  match: WordSearchResult (result)
+  render {
+    // if (size(result.meanings) > 1) {
+    //   list-of (result.meanings) {
+    //     has-details (true)
+    //     where-each (item) {
+    //       layout-macro (meaning-in-list) {
+    //         param (meaning) {
+    //           expression (item)
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    // else-if (size(result.meanings) == 1) {
+    //     layout {
+    //     layout-macro (meaning-details) {
+    //       param (meaning) {
+    //         intent {
+    //           goal: Meaning
+    //           //value: Id(1560)
+    //           value: $expr(result.meanings)
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+  }
+}
+
+
+
+
+// result-view {
+//   match: WordSearchResult (result)
+//   render {
+//     if (size(result.meanings) > 1) {
+//       list-of (result.meanings) {
+//         has-details (true)
+//         where-each (item) {
+//          cell-card {
+//             slot1 {
+//               image {
+//                 url ("https:#{value(item.previewUrl)}")
+//                 shape (Square)
+//               }
+//             }
+//             slot2 {
+//               content {
+//                 order (PrimarySecondary)
+//                 primary ("#{value(item.translation.text)}")
+//                 secondary ("#{value(item.translation.note)}")
+//               }
+//             }
+//             on-click {
+//               // intent {
+//               //   goal: Meaning
+//               //   //value: Id(item.id)
+//               //   value: MeaningShort { $expr(item) }
+//               // }
+//               intent {
+//                 goal: Meaning
+//                 value: MeaningShort {
+//                   id: Id(1551) }
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+// result-view {
+//   match: WordSearchResult (result)
+//   render {
+//     layout {
+//       section {
+//         content {
+//           for-each (result.meanings) {
+//             as (item) {
+//               section {
+//                 content {
+//                      render {
+//                     layout-macro (meaning-in-list) {
+//                       param (meaning) {
+//                         expression (item)
+//                       }
+//                     }
+//                   }
+//                 }
+//               }
+//             }
+//           }
+//           divider
+//         }
+//       }
+//     }
+//   }
+// }

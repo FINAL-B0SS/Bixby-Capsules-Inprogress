@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (Track a service request)
+    utterance (Start a service Request)
+    utterance (Show availible services)
+  }
+}

@@ -1,0 +1,5 @@
+train (t-717tqh8r3swnkaa0iu1zpupdc) {
+  utterance ([g:GetServiceInfo] List city services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272030633)
+}

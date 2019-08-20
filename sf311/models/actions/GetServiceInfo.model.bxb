@@ -3,7 +3,7 @@ action (GetServiceInfo) {
   type (Constructor)
   collect {
     input (searchName) {
-      type (core.Text)
+      type (SearchName)
       min (Optional) max (Many)
     }
   }

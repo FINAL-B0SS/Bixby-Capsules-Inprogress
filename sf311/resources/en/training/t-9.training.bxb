@@ -1,0 +1,15 @@
+train (t-92rqgedtrefyb5loghq6lc083) {
+  utterance ([g:GetServiceInfo] Research the services this city can provide)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272088189)
+}
+train (t-96mksu4s0tw22nnp42wupannn) {
+  utterance ([g:GetServiceInfo] List San Francisco Services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272035909)
+}
+train (t-9ecbji4v9vgouxc0q8cj666jv) {
+  utterance ([g:GetServiceInfo] Get services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272020086)
+}

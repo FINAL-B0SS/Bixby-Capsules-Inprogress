@@ -1,0 +1,15 @@
+train (t-o12vo54irra7tz1xn74o3pnej) {
+  utterance ([g:GetServiceInfo] Tell me available services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272168764)
+}
+train (t-oakysj7i4lzvoarszruuvxv53) {
+  utterance ([g:GetServiceInfo] What services are there)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272198331)
+}
+train (t-oniw99ykt8tm5idhuvftagg1x) {
+  utterance ([g:TrackCase] track a case)
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycjAAKMB)
+  last-modified (1566273062752)
+}

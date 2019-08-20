@@ -1,0 +1,20 @@
+train (t-88tmw9z5u5k0pzayj7d9xnddo) {
+  utterance ([g:GetServiceInfo] Tell me what this city has to offer)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272166946)
+}
+train (t-8e78vwgwjrwrjwe7f3nwyv76p) {
+  utterance ([g:GetServiceInfo] Find out what services are in san francisco)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271784519)
+}
+train (t-8grbvjpfnrfr8g130l4npmmmw) {
+  utterance ([g:TrackCase]Tell me the status of a service request)
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycjAAKMB)
+  last-modified (1566272497072)
+}
+train (t-8q0djiy785z5n6uqhotu1at7n) {
+  utterance ([g:GetServiceInfo] Figure out what services this city has to offer)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271792351)
+}

@@ -1,5 +1,290 @@
 result-view {
-  match: Character
-  
-  render
+	match {
+		Character (character)
+	}
+
+	render {
+		if ("size(character) == 0") {
+			layout {
+				section {
+					content {
+						image {
+							aspect-ratio (1:1)
+								url(images/RefError.png)
+						}
+					}
+				}
+			}
+		}
+		if ("size(character) > 1") {
+			list-of (character) {
+				where-each (character) {
+					layout-macro (character-summary-fragment) {
+						param (character) {
+							expression (character)
+						}
+					}
+				}
+			}
+		} else-if ("size(character) == 1") {
+			layout {
+				section {
+					content {
+						compound-card {
+							content {
+								image-card {
+									aspect-ratio(4:3)
+										image-object-fit (Cover)
+										image-url ("#{value(character.picture.url)}")
+										title-area {
+											slot1 {
+												text {
+													value (".")
+												}
+											}
+										}
+								}
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Name")
+															style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(character.name)}")
+															style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Gender")
+															style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(character.gender)}")
+															style (Detail_L)
+													}
+												}
+											} 
+										} 
+									}
+								}
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Species")
+															style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(character.species)}")
+															style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Status")
+															style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(character.status)}")
+															style (Detail_L)
+													} 
+												}
+											}
+										}
+									}
+								}
+								if (exists(character.type)) {
+									hbox {
+										content {
+											vbox {
+												content {
+													single-line {
+														text {
+															value ("Type")
+																style (Detail_L_Soft)
+														}
+													}
+												}
+											}
+											vbox {
+												content {
+													single-line {
+														text {
+															value ("#{value(character.type)}")
+																style (Detail_L)
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+						compound-card {
+							content {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Origin")
+															style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(character.origin.name)}")
+															style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							on-click {
+								intent {
+									goal: Location
+	     						value: $expr(character.location)
+								}
+							}
+						}
+						compound-card {
+							content {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Location")
+															style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(character.location.name)}")
+															style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							on-click {
+								intent {
+									goal: Location
+	      					value: $expr(character.location)
+								}
+							}
+						}
+						title-area {
+							halign (Center)
+								slot2 {
+									single-line {
+										text ("Appears in")
+									}
+								}
+						}
+						for-each (character.episodes) {
+							as (episode) {
+								compound-card {
+									content {
+										hbox {
+											content {
+												vbox {
+													content {
+														single-line {
+															text {
+																value ("#{value(episode.season)}")
+																	style (Detail_L_Soft)
+															}
+														}
+													}
+												}
+												vbox {
+													content {
+														single-line {
+															text {
+																value ("#{value(episode.name)}")
+																	style (Detail_L)
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+									on-click {
+										intent {
+											goal: Episode
+	     							  value: $expr(episode)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

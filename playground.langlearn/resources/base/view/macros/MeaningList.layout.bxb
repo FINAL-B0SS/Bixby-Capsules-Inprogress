@@ -1,0 +1,68 @@
+// layout-macro-def (meaning-in-list) {
+//   params {
+//     param (meaning) {
+//       type (MeaningShort)
+//       min (Required) max (One)
+//     }
+//   }
+//   content {
+//     compound-card {
+//       content {
+//         image-card {
+//           aspect-ratio (4:3)
+//           image-url ("https:#{value(meaning.imageUrl)}")
+//           title-area {
+//             halign (Start)
+//             slot1 {
+//               text {
+//                 value ("#{value(meaning.translation.text)}")
+//                 style (Title_M)
+//               }
+//             }
+//           }
+//         }
+//       }
+//       on-click {
+//         intent {
+//           goal: SearchMeaning
+//           //value: Id(1560)
+//           value: $expr(meaning)
+//         }
+//       }
+//     }
+//   }
+// }
+
+
+layout-macro-def (meaning-in-list) {
+  params {
+    param (meaning) {
+      type (MeaningShort)
+      min (Required) max (One)
+    }
+  }
+  content {
+    cell-card {
+      slot1 {
+        image {
+          url ("https:#{value(meaning.previewUrl)}") //("https:#{value(meaning.images[0].url)}")
+          shape (Square)
+        }
+      }
+      slot2 {
+        content {
+          order (PrimarySecondary)
+          primary ("#{value(meaning.translation.text)}")
+          secondary ("#{value(meaning.translation.note)}")
+        }
+      }
+      on-click {
+        intent {
+          goal: SearchMeaning
+          //value: Id(1560)
+          value: $expr(meaning)
+        }
+      }
+    }
+  }
+}

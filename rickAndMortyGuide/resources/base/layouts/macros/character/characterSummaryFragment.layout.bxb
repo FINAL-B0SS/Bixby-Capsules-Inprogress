@@ -1,0 +1,26 @@
+layout-macro-def ("character-summary-fragment") {
+  params {
+    param (character) {
+      type (Character)
+      min(Required) max(One)
+    }
+  }
+  content{
+    compound-card {
+      content {
+        image-card {
+          aspect-ratio(4:3)
+          image-object-fit (Cover)
+          image-url ("#{value(character.picture.url)}")
+          title-area {
+          slot1 {
+            text {
+              value ("#{value(character.name)}")
+            }
+          }
+        }
+      }
+     }
+    }
+  }
+}

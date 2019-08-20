@@ -1,15 +1,20 @@
 var http = require('http')
 var console = require('console')
-
+//[{"token":"5d57c95be8969e867076606d"}]
 module.exports = function SubmitServiceRequest (description, makeModel, licensePlate, color, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceCode, serviceName) {
   var url = "http://mobile311-dev.sfgov.org/open311/v2/requests.json"
   var data = http.getUrl(url, {format: 'text'})
   var ret = JSON.parse(data)
-  var api_key = 'a4cb845ebcb8c15b4fb2f79fdd28f0e6'
+  var options = {
+    format: "json",
+    query: {
+      api_key: "a4cb845ebcb8c15b4fb2f79fdd28f0e6"
+    }
+  }
   var request = {
     status: 'open',
-    latitude: location.point.latitude,
-    longitude: location.point.longitude,
+    lat: location.point.latitude,
+    long: location.point.longitude,
     service_code: serviceCode,
     first_name: firstName,
     last_name: lastName,
@@ -17,7 +22,6 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
     phone: phone,
     description: description,
   }
-  //PLEASE IGNORE - testing app for reporting graffiti in sf
   if (makeModel)
     request.make_model = makeModel
   if (licensePlate)
@@ -45,5 +49,6 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
   if (serviceName)
    request.service_name = serviceName
 
-  return http.postUrl(url, request, {api_key: api_key}, {format: 'json'})
+  // http.postUrl(url, request, options)
+  return "2"
 }

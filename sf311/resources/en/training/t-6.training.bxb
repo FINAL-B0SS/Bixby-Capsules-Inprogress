@@ -1,0 +1,5 @@
+train (t-6uzvqjxgh57sgnr5338bpt0g1) {
+  utterance ([g:GetServiceInfo] What services are available in san francisco)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272199549)
+}

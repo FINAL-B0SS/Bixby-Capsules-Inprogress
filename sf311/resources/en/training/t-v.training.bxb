@@ -1,0 +1,20 @@
+train (t-vfyd53uanv6gjefyfo3nsg3j4) {
+  utterance ([g:TrackCase] Fetch service request status)
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycjAAKMB)
+  last-modified (1566272292540)
+}
+train (t-vgomui72ekvps5mi71lx6eywj) {
+  utterance ([g:GetServiceInfo] Fetch services available in San francisco)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271808943)
+}
+train (t-vk0rcf0v6lb8lbj3go2e0zmov) {
+  utterance ([g:GetServiceInfo] What services does San Fran provide)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272229141)
+}
+train (t-vpkib81yfqxmicc5suf0lqj8z) {
+  utterance ("[g:GetServiceInfo] File a (graffiti)[v:SearchName] siting")
+  plan (Y2BmkEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICuRxWpEYlFyhl9ibioDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1566272836892)
+}

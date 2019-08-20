@@ -141,13 +141,13 @@ input-view {
             } 
           }
         }
-        text-input {
-          id (serviceCode)
-          type (ServiceCode)
-          label (Service Code)
-          value ("#{value(action.serviceCode)}")
-          max-length (30)
-        }
+      //   text-input {
+      //     id (serviceCode)
+      //     type (ServiceCode)
+      //     label (Service Code)
+      //     value ("#{value(action.serviceCode)}")
+      //     max-length (30)
+      //   }
       }
 
       on-submit {
@@ -191,7 +191,7 @@ input-view {
         if (action.serviceCode == '50fea6d54aa48a4a9e00002e') {
           value: viv.core.FormElement(wholeBlock)
         }
-        value: viv.core.FormElement(serviceCode)
+        value: $expr(action.serviceCode)
       }
     }
   }

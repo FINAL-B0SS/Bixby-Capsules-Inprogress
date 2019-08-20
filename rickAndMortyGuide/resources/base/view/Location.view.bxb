@@ -1,0 +1,136 @@
+result-view {
+  match {
+    Location (location)
+  }
+  
+  render {
+    // if ("size(this) > 1") {
+    //   list-of (this) {
+    //     where-each (location) {
+    //       layout-macro (location-summary-fragment) {
+    //         param (location) {
+    //           expression (location)
+    //         }
+    //       }
+    //     }
+    //   }
+    // } else-if ("size(this) == 1") {
+      layout {
+        section {
+          content {
+            compound-card {
+							content {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Name")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(location.name)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+                hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Type")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(location.type)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+                hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Dimension")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(location.dimension)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+            title-area {
+							halign (Center)
+								slot2 {
+									single-line {
+										text ("Residents")
+									}
+								}
+						}
+						for-each (location.residents) {
+							as (resident) {
+								compound-card {
+									content {
+                    cell-area {
+                      slot1 {
+                        image {
+                          url ("#{value(resident.picture.url)}")
+                          shape (Square)
+                        }
+                      }
+                      slot2 {
+                        content {
+                          primary ("#{value(resident.name)}")
+                        }
+                      }
+                    }
+									}
+									on-click {
+										intent {
+											goal: CharacterSearch
+	     							  value: Text($expr(resident.name))
+										}
+									}
+								}
+							}
+						}
+          }
+        }
+      }
+  }
+}

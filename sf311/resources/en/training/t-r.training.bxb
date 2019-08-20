@@ -1,0 +1,20 @@
+train (t-r36g4hci1834flkyc6gyjmld0) {
+  utterance ([g:GetServiceInfo] What services are available)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272201132)
+}
+train (t-rl4hfqb34fhsh386aympebz9g) {
+  utterance ("[g:GetServiceInfo] Help me report (graffiti)[v:SearchName]")
+  plan (Y2BmkEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICuRxWpEYlFyhl9ibioDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1566272855377)
+}
+train (t-rq8fzb2t2haq0ibvfwwwg1235) {
+  utterance ([g:GetServiceInfo] Fetch available services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271664464)
+}
+train (t-rrkscuv5jraotbuewv909lkdk) {
+  utterance ([g:GetServiceInfo] Provide a list of available services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272065141)
+}

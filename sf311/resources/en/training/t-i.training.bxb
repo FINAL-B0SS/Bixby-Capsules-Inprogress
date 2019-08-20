@@ -1,0 +1,5 @@
+train (t-i96jw27s4brxdi6aja2oblijy) {
+  utterance ([g:GetServiceInfo] Show me what you got)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272117387)
+}

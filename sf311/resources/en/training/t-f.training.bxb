@@ -1,0 +1,10 @@
+train (t-f6sr73lb3vyjxe8en3j238q0k) {
+  utterance ([g:GetServiceInfo] Fetch a list of services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271650496)
+}
+train (t-f9atryzo9sbkbjv5zpl1q0tx5) {
+  utterance ([g:GetServiceInfo] Find out what services are in this city)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271782043)
+}

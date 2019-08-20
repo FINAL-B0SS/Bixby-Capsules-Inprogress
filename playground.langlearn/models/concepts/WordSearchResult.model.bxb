@@ -1,0 +1,18 @@
+structure (WordSearchResult) {
+  description (word search result)
+  property (id) {
+    type (viv.core.Integer)
+    min (Required)
+    visibility (Private)
+  }
+  property (text) {
+    type (viv.core.Text)
+    min (Required)
+    visibility (Private)
+  }
+  property (meanings) {
+    type (MeaningShort)
+    min (Required)
+    max (Many)
+  }
+}

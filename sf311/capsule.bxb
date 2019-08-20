@@ -1,5 +1,5 @@
 capsule {
-  id (example.sf311)
+  id (final_boss.sfServices)
   version (0.1.0)
   format (3)
   targets {

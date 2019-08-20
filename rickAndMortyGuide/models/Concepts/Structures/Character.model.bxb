@@ -32,4 +32,8 @@ structure (Character) {
     type (Episode)
     min (Optional) max (Many)
   }
+  property (picture) {
+    type (image.Image)
+    min (Optional) max (Many)
+  }
 }

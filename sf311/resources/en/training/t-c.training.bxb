@@ -1,0 +1,20 @@
+train (t-c23wb3kb2qclhqgqa4ea7bu5w) {
+  utterance ([g:GetServiceInfo] Find out services in San francisco)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271787391)
+}
+train (t-cfrg9hwj1r6e455bm4b2dwr8t) {
+  utterance ("[g:GetServiceInfo] Help me report a (car)[v:SearchName] accident")
+  plan (Y2BmkEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICuRxWpEYlFyhl9ibioDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1566272844835)
+}
+train (t-cfz7i9u26gspms3o03cyesyyi) {
+  utterance ("[g:GetServiceInfo] Begin a service request for a (pothole)[v:SearchName] repair")
+  plan (Y2BmkEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICuRxWpEYlFyhl9ibioDEwMjEDMASUYGEIDyAQ==)
+  last-modified (1566272826962)
+}
+train (t-cpjcjblyq4kr8w9q4yuzjo5xu) {
+  utterance ([g:GetServiceInfo] Perform reconnaissance on san francisco services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272059422)
+}

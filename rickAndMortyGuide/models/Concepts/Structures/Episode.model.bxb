@@ -13,5 +13,6 @@ structure (Episode) {
   }
   property (characters) {
     type (Character)
+    min (Optional) max (Many)
   }
 }

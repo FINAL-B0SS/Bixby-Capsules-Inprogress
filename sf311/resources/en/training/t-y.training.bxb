@@ -1,0 +1,15 @@
+train (t-ycl0kyqgqim1fagm867kxc8mp) {
+  utterance ("[g:GetServiceInfo] Get a list of services available in san francisco ")
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271769288)
+}
+train (t-ysphc34vogj5lapj522176zng) {
+  utterance ([g:GetServiceInfo] Fetch San Francisco services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271807295)
+}
+train (t-yxv81duyicotedp0mbxqem0op) {
+  utterance ([g:GetServiceInfo] Figure out the cities services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566271799935)
+}

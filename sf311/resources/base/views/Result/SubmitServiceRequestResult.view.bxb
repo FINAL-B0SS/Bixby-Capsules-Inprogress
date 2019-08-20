@@ -3,14 +3,23 @@ result-view {
     ServiceRequestId (this)
   }
   
-  message("Service request submitted succesfully, use the request ID below to track it's progress later")
   render {
     layout {
       section {
         content {
-          single-line {
-            text {
-              value ("#{value(this)}")
+          if ("this == ''") {
+            image {
+              aspect-ratio(3:4)
+              object-fit (Contain)
+              lightbox-enabled (false)
+              url (/images/warning.png)
+            }
+          } else {
+            image {
+              aspect-ratio(3:4)
+              object-fit (Contain)
+              lightbox-enabled (false)
+              url (/images/thumb-up.png)
             }
           }
         }

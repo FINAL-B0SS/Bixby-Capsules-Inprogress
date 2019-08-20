@@ -1,1 +1,5 @@
-text (FirstName)
+text (FirstName) {
+  features {
+    profile-stored
+  }
+}

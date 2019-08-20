@@ -1,0 +1,30 @@
+train (t-20e4uybucuo1bm23jb8dmwrn6) {
+  utterance ([g:GetServiceInfo] Return a list of service)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272095844)
+}
+train (t-23sfdnhz3nzyj14gncgg0la6h) {
+  utterance ([g:GetServiceInfo] What services does s f have)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272228165)
+}
+train (t-25kk2ugulrv42wuntl28r9k7y) {
+  utterance ([g:GetServiceInfo] Tell me what can be done)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272167789)
+}
+train (t-2fqfnvg98dhvga8ery7fjkxqx) {
+  utterance ([g:GetServiceInfo] Perform reconnaissance on city services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272054862)
+}
+train (t-2iedbgbdg1qojcj9ly5bd1p91) {
+  utterance ([g:TrackCase] track)
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycjAAKMB)
+  last-modified (1566273761970)
+}
+train (t-2ykb4is1ahojrxvqzw4rcv013) {
+  utterance ([g:GetServiceInfo] Provide a list of services I can request)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272081348)
+}

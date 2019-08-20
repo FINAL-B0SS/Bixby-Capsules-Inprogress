@@ -1,0 +1,10 @@
+train (t-g5fikeamgut5vgesry1spowjn) {
+  utterance ("[g:TrackCase] Show status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
+  last-modified (1566272487377)
+}
+train (t-ggygs2x7z2loweyozakj3m17l) {
+  utterance ([g:GetServiceInfo] List all services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272026091)
+}

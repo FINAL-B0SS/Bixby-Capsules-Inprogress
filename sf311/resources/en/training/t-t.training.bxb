@@ -1,10 +1,15 @@
-train (t-tr759gqa7d8nthuoc460mftm2) {
-  utterance ([g:TrackCase] Look up service request)
-  plan (Y2BmEEutSMwtyEnVK04zNjTUc04sTvXMS8tnEEcVDylKTM4GSTIooUoEpxaVZSanBqUWlqYWl/iV5ialFjEwMTACMQOQZGRggNEA)
-  last-modified (1565219060081)
+train (t-t7vinlrkopvypm2wl53nht0p1) {
+  utterance ("[g:TrackCase] Show me the status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
+  last-modified (1566272478073)
 }
-train (t-tztwc824pta7g0n49erpbyh1w) {
-  utterance ([g:GetServiceInfo] Show me services)
-  plan (Y2BikEytSMwtyEnVK04zNjTUC04tKstMTvXMS8tnkEGVck8tQZZlBEIGKAaSAA==)
-  last-modified (1565141045060)
+train (t-thdma9jxc071d7brrnqdo9x9i) {
+  utterance ([g:GetServiceInfo] List services)
+  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
+  last-modified (1566272040799)
+}
+train (t-tr77rnxg1b2gfabevc29ws5az) {
+  utterance ("[g:TrackCase] What’s the status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
+  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
+  last-modified (1566272510659)
 }
