@@ -9,7 +9,7 @@ input-view {
         text-input {
           id (serviceRequestNumber)
           type (ServiceRequestNumber)
-          label (Search by name, id, location, or status)
+          label (Search by Name, ID, Street Address, or Status)
           max-length (20)
         }
       }
