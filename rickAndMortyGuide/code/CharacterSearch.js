@@ -85,15 +85,10 @@ exports.function = function (text, page) {
       name: "No character was found in the Rick and Morty multiverse named " + text,
       gender: "error"
     })
-  } //else {
-  //   for (var i = page; i < 5; i += 1) {
-  //     var person = build_character(i)
-  //       // if (person.name == text || text == 'all' || !text) {
-  //       ret.push(person)
-  //       // ret.push(build_character(2))
-  //       // ret.push(build_character(3))
-  //       // }
-  //     }
-  //     return ret
-  //   }
+  } else {
+    for (var i = page; i < 5; i += 1) {
+      ret.push(build_character(i))
+    }
+  }
+  return (ret)
 }
