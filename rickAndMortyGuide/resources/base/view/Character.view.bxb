@@ -4,13 +4,12 @@ result-view {
 	}
 
 	render {
-		if ("size(character) == 0") {
+		if ("character.gender == 'error'") {
 			layout {
 				section {
 					content {
-						image {
-							aspect-ratio (1:1)
-								url(images/RefError.png)
+						paragraph {
+							value("#{value(character.name)}")
 						}
 					}
 				}

@@ -12,6 +12,10 @@ capsule {
     no-filtering-with-validation
     modern-default-view-behavior
   }
+  store-sections {
+    section (GamesAndFun)
+    section (MoviesAndTV)
+  }
   capsule-imports {
     import (viv.core) {
       as (core)

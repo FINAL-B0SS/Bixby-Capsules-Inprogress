@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Rick and Morty Character Guide)
+  developer-name (Final Boss)
+  icon-asset (icon.png)
+  description ("Learn about all the characters Rick and Morty has to offer")
+  dispatch-name (Rick and Morty Character Guide)
+  terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
+  search-keywords {
+    keyword (Guide)
+  }
+}
