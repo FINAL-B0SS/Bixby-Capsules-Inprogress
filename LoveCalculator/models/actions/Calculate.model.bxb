@@ -1,0 +1,14 @@
+action (Calculate) {
+  type (Search)
+  collect {
+    input (nameOne) {
+      type (NameOne)
+      min (Required) max (One)
+    }
+    input (nameTwo) {
+      type (NameTwo)
+      min (Required) max (One)
+    }
+  }
+  output (Content)
+}

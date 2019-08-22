@@ -1,0 +1,15 @@
+structure (Content) {
+  description (Output)
+  property (message) {
+    type (Message)
+    min (Required) max (One)
+  }
+  property (percent) {
+    type (Percent)
+    min (Required) max (One)
+  }
+  property (image) {
+    type (Image)
+    min (Required) max (One)
+  }
+}

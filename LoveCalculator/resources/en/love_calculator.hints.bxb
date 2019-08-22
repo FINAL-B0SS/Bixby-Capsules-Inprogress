@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (Are Bob and Karen a good match)
+    utterance (Do Mabel and Sarah make a good pair)
+    utterance (Should Mark and Jim date)
+  }
+}
