@@ -15,6 +15,7 @@ capsule {
     concepts-inherit-super-type-features
     no-filtering-with-validation
     modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
 
   store-sections {
@@ -25,6 +26,6 @@ capsule {
   capsule-imports {
     import (viv.core) { as (core) }
     import (viv.common) {as (common) version (3.32.8)}
-    import (viv.geo) { as (geo) version (9.17.33)}
+    import (viv.geo) { as (geo) version (9.18.18)}
     } 
 }
