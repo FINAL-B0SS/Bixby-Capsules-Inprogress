@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (GetServiceInfo) {
-      accepted-inputs (searchName)
+      accepted-inputs ()
       local-endpoint (GetServiceInfo.js)
     }
     action-endpoint (SubmitServiceRequest) {

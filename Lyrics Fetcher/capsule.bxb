@@ -1,5 +1,5 @@
 capsule {
-  id (final_boss.lyricsFetcher)
+  id (final_boss.lyrics_fetcher)
   version (1.0.2)
   format(3)
   runtime-flags {

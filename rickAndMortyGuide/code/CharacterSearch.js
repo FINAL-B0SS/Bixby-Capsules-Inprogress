@@ -71,24 +71,25 @@ function build_character(id) {
   return ret
 }
 
-exports.function = function (text, page) {
+exports.function = function (text) {
   var ret = []
   
-  if (text) {
-    for (var i = 1; i < 494; i += 1) {
-     if (JSON.parse(http.getUrl("https://rickandmortyapi.com/api/character/" + i, {format: 'text'})).name.toLowerCase() == text) {
-        // console.log(JSON.parse(http.getUrl("https://rickandmortyapi.com/api/character/" + i, {format: 'text'})).name.toLowerCase())
-       return (build_character(i))
-      }
-    }
-    return ({
-      name: "No character was found in the Rick and Morty multiverse named " + text,
-      gender: "error"
-    })
-  } else {
-    for (var i = page; i < 5; i += 1) {
-      ret.push(build_character(i))
-    }
-  }
+  return (build_character(1))
+  // if (text) {
+  //   for (var i = 1; i < 494; i += 1) {
+  //    if (JSON.parse(http.getUrl("https://rickandmortyapi.com/api/character/" + i, {format: 'text'})).name.toLowerCase() == text) {
+  //       // console.log(JSON.parse(http.getUrl("https://rickandmortyapi.com/api/character/" + i, {format: 'text'})).name.toLowerCase())
+  //      return (build_character(i))
+  //     }
+  //   }
+  //   // return ({
+  //   //   name: "No character was found in the Rick and Morty multiverse named " + text,
+  //   //   gender: "error"
+  //   // })
+  // } else {
+  //   for (var i = 1; i < 5; i += 1) {
+  //     ret.push(build_character(i))
+  //   }
+  // }
   return (ret)
 }

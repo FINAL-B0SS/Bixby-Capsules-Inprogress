@@ -2,7 +2,7 @@ var console = require('console')
 var http = require('http')
 var config = require('config')
 
-module.exports.function = function GetServiceInfo(searchName) {
+module.exports.function = function GetServiceInfo() {
   var url = "http://mobile311-dev.sfgov.org/open311/v2/services.json"
   var test = http.getUrl(url, {format: 'text'})
   var ret = JSON.parse(test)

@@ -1,5 +1,5 @@
 capsule {
-  id (final_boss.rickAndMortyGuide)
+  id (final_boss.rick_and_morty_guide)
   version (0.1.0)
   format (3)
   targets {

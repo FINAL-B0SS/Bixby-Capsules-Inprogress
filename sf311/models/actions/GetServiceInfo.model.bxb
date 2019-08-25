@@ -1,11 +1,5 @@
 action (GetServiceInfo) {
   description (Get info about all the services the user can request)
-  type (Constructor)
-  collect {
-    input (searchName) {
-      type (SearchName)
-      min (Optional) max (Many)
-    }
-  }
+  type (ArchiveLookup)
   output (ServiceInfo)
 }

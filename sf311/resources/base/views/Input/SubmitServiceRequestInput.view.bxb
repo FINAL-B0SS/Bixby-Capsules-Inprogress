@@ -141,13 +141,6 @@ input-view {
             } 
           }
         }
-      //   text-input {
-      //     id (serviceCode)
-      //     type (ServiceCode)
-      //     label (Service Code)
-      //     value ("#{value(action.serviceCode)}")
-      //     max-length (30)
-      //   }
       }
 
       on-submit {

@@ -30,6 +30,13 @@ layout-macro-def ("service-summary-fragment") {
           }
         }
       }
+      on-click {
+			  	intent {
+			  		goal: SubmitServiceRequest
+	    		  value: $expr(service.serviceName)
+	  			  value: $expr(service.serviceCode)
+				  }
+			  }
+      }
     }
   }
-}
