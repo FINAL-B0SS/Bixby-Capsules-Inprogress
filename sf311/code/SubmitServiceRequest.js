@@ -1,7 +1,7 @@
 var http = require('http')
 var console = require('console')
 //[{"token":"5d57c95be8969e867076606d"}]
-module.exports = function SubmitServiceRequest (description, makeModel, licensePlate, color, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceCode, serviceName) {
+module.exports = function SubmitServiceRequest (description, makeModel, licensePlate, color, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo) {
   var url = "http://mobile311-dev.sfgov.org/open311/v2/requests.json"
   var data = http.getUrl(url, {format: 'text'})
   var ret = JSON.parse(data)
@@ -15,7 +15,7 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
     status: 'open',
     lat: location.point.latitude,
     long: location.point.longitude,
-    service_code: serviceCode,
+    service_code: serviceInfo.serviceCode,
     first_name: firstName,
     last_name: lastName,
     email: email,
@@ -46,8 +46,8 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
    request.contains_racialSlurs_or_profanity = containsRacialSlursOrProfanity
   if (wholeBlock)
    request.whole_block = wholeBlock
-  if (serviceName)
-   request.service_name = serviceName
+  if (serviceInfo.serviceName)
+   request.service_name = serviceInfo.serviceName
 
   // http.postUrl(url, request, options)
   return "2"

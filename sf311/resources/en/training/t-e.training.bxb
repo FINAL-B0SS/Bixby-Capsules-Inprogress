@@ -1,10 +1,10 @@
 train (t-e81wnhf5dr3qt7invonul1bhb) {
-  utterance ("[g:GetServiceInfo] Begin a (pothole)[v:SearchName] repair service request")
-  plan (Y2BmkEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICuRxWpEYlFyhl9ibioDEwMjEDMASUYGEIDyAQ==)
-  last-modified (1566272813952)
+  utterance ([g:SubmitServiceRequest] Begin a pothole repair service request)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953492)
 }
 train (t-e89lf6ievv8u2czddtr4ex2s4) {
-  utterance ([g:GetServiceInfo] Figure out what services there are)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566271794398)
+  utterance ([g:SubmitServiceRequest] Figure out what services there are)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953558)
 }

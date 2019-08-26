@@ -1,15 +1,15 @@
 train (t-u3entq8tw36kyfr995sop5dlv) {
-  utterance ("[g:GetServiceInfo] Assist me in reporting (graffiti)[v:SearchName]")
-  plan (Y2BmkEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICuRxWpEYlFyhl9ibioDEwMjEDMASUYGEIDyAQ==)
-  last-modified (1566272727786)
+  utterance ([g:SubmitServiceRequest] Assist me in reporting graffiti)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775897762)
 }
 train (t-ui66lm116gipigvk7dwhj7v04) {
-  utterance ([g:GetServiceInfo] FInd out what services san francisco offers)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566271775807)
+  utterance ([g:SubmitServiceRequest] FInd out what services san francisco offers)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775864066)
 }
 train (t-uv7kotfz6oiy0dah3dcww6j56) {
   utterance ("[g:TrackCase] Find out the status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
-  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
-  last-modified (1566272439635)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMIQPkA)
+  last-modified (1566775956273)
 }

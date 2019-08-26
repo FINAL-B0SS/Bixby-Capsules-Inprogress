@@ -1,5 +1,5 @@
 train (t-wvgpllizo1uio1h6xageg96qi) {
-  utterance ([g:GetServiceInfo] Find services)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566271773661)
+  utterance ([g:SubmitServiceRequest] Find services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775435934)
 }

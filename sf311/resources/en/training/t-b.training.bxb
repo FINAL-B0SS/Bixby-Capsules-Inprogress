@@ -1,10 +1,10 @@
 train (t-bols39dwt6bureoxlwca1h7cy) {
-  utterance ([g:GetServiceInfo] Fetch me city services)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566271916806)
+  utterance ([g:SubmitServiceRequest] Fetch me city services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952698)
 }
 train (t-bxv6f4qqyk4udeak9ol7akymv) {
-  utterance ([g:GetServiceInfo] Find out what services I can request)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566271779768)
+  utterance ([g:SubmitServiceRequest] Find out what services I can request)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952797)
 }

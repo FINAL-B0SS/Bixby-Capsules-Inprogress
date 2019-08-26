@@ -1,10 +1,10 @@
 train (t-g5fikeamgut5vgesry1spowjn) {
   utterance ("[g:TrackCase] Show status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
-  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
-  last-modified (1566272487377)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMIQPkA)
+  last-modified (1566775953798)
 }
 train (t-ggygs2x7z2loweyozakj3m17l) {
-  utterance ([g:GetServiceInfo] List all services)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566272026091)
+  utterance ([g:SubmitServiceRequest] List all services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953876)
 }

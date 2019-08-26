@@ -1,5 +1,10 @@
 train (t-717tqh8r3swnkaa0iu1zpupdc) {
-  utterance ([g:GetServiceInfo] List city services)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566272030633)
+  utterance ([g:SubmitServiceRequest] List city services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775951990)
+}
+train (t-7w896566dna9yw3wr0b36i7in) {
+  utterance ("[g:Description:prompt] (It's blocking my driveway)[v:Description]")
+  plan (Y2BiUErLzEvMiU/KLy7WK06LL04tKstMTi3Wc0ktTi7KLCjJzM8jSg0jEDIw8AAxExAD2QA=)
+  last-modified (1566776955016)
 }

@@ -1,15 +1,15 @@
 train (t-t7vinlrkopvypm2wl53nht0p1) {
   utterance ("[g:TrackCase] Show me the status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
-  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
-  last-modified (1566272478073)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMIQPkA)
+  last-modified (1566775955925)
 }
 train (t-thdma9jxc071d7brrnqdo9x9i) {
-  utterance ([g:GetServiceInfo] List services)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566272040799)
+  utterance ([g:SubmitServiceRequest] List services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775891570)
 }
 train (t-tr77rnxg1b2gfabevc29ws5az) {
   utterance ("[g:TrackCase] What’s the status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
-  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycgAAlA+AA==)
-  last-modified (1566272510659)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMIQPkA)
+  last-modified (1566775956066)
 }

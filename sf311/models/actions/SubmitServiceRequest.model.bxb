@@ -2,13 +2,30 @@ action (SubmitServiceRequest) {
   description (An action that takes a required Spot as an input)
   type (Calculation)
   collect {
-    input (serviceCode) {
-      type (ServiceCode)
+    input (serviceInfo) {
+      type (ServiceInfo)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: GetServiceInfo
+        }
+      }
+    }
+    input (firstName) {
+      type (FirstName)
       min (Required) max (One)
     }
-    input (serviceName) {
-      type (ServiceName)
-      min (Optional) max (One)
+    input (lastName) {
+      type (LastName)
+      min (Required) max (One)
+    }
+     input (email) {
+      type (Email)
+      min (Required) max (One)
+    }
+    input (phone) {
+      type (Phone)
+      min (Required) max (One)
     }
     input (description) {
       type (Description)
@@ -25,22 +42,6 @@ action (SubmitServiceRequest) {
     input (color) {
       type (Color)
       min (Optional) max (One)
-    }
-    input (firstName) {
-      type (FirstName)
-      min (Required) max (One)
-    }
-    input (lastName) {
-      type (LastName)
-      min (Required) max (One)
-    }
-    input (email) {
-      type (Email)
-      min (Required) max (One)
-    }
-    input (phone) {
-      type (Phone)
-      min (Required) max (One)
     }
     input (objectID) {
       type (ObjectID)

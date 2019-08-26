@@ -1,20 +1,20 @@
 train (t-d2q0eq5g6f0sbjk7fivuk4x53) {
-  utterance ([g:GetServiceInfo] Figure out what services the city has to offer)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566271797751)
+  utterance ([g:SubmitServiceRequest] Figure out what services the city has to offer)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953219)
 }
 train (t-dddcp3iojqtqrjn7i9l9e94f0) {
-  utterance ([g:GetServiceInfo] List services I can request)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566272048749)
+  utterance ([g:SubmitServiceRequest] List services I can request)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953293)
 }
 train (t-dls7k4hxskftzuhl10w3shw2x) {
-  utterance ([g:GetServiceInfo] Fetch services available near me)
-  plan (Y2BikEutSMwtyEnVK04LTi0qy0xOLdaDMjzz0vIZFLHIu6eWICthBEIGKAaSAA==)
-  last-modified (1566271802181)
+  utterance ([g:SubmitServiceRequest] Fetch services available near me)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953363)
 }
 train (t-dw13j3pg947n3sq0fjcizt0ar) {
   utterance ([g:TrackCase] Get the status of my service request)
-  plan (Y2BmkE6tSMwtyEnVK04LTi0qy0xOLdZzTixO9cxLy2eQwSIZUpSYnA1SwaCORRbKCEotLE0tLvErzU1KLWJgYmAEYgYgycjAAKMB)
-  last-modified (1566272446877)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1566775953432)
 }
