@@ -1,0 +1,11 @@
+dialog (Result) {
+  match : CaseInfo (this)
+  if ("size(this) > 1") {
+    template ("These are all the cases in San Francisco") {
+    }
+  } else-if ("size(this) == 1") {
+    template ("I've got one case that matches your search") {    }
+  } else {
+    template ("No case was found with the ID #{value(this.serviceRequestId)}")
+  }
+}

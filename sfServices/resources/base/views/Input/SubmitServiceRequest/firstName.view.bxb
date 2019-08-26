@@ -1,0 +1,21 @@
+input-view {
+  match: FirstName (firstName)
+
+  message (Provide your first name)
+  render {
+    form {
+      elements {
+        text-input {
+          id (FirstName)
+          type (FirstName)
+          label (First Name)
+          max-length (100)
+        }
+      }
+      on-submit {
+        goal: FirstName
+        value: viv.core.FormElement(FirstName)
+      }
+    }
+  }
+}

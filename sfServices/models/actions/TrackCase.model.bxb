@@ -1,0 +1,11 @@
+action (TrackCase) {
+  type (Search)
+  description (Check the status of a service request)
+  collect {
+    input (serviceRequestNumber) {
+      type (ServiceRequestNumber)
+      min (Required) max (One)
+    }
+  }
+  output (CaseInfo)
+}

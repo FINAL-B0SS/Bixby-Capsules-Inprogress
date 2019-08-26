@@ -1,0 +1,22 @@
+input-view {
+  match: Description (descrition)
+
+  message (Describe the issue)
+  
+  render {
+    form {
+      elements {
+        textarea {
+          id (Description)
+          type (Description)
+          label (Description)
+          max-length (1024)
+        }
+      }
+      on-submit {
+        goal: Description
+        value: viv.core.FormElement(Description)
+      }
+    }
+  }
+}

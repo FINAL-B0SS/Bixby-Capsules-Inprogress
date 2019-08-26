@@ -1,0 +1,29 @@
+result-view {
+  match {
+    ServiceRequestId (this)
+  }
+  
+  render {
+    layout {
+      section {
+        content {
+          if ("this == ''") {
+            image {
+              aspect-ratio(3:4)
+              object-fit (Contain)
+              lightbox-enabled (false)
+              url (/images/warning.png)
+            }
+          } else {
+            image {
+              aspect-ratio(3:4)
+              object-fit (Contain)
+              lightbox-enabled (false)
+              url (/images/thumb-up.png)
+            }
+          }
+        }
+      }
+    }
+  }
+}

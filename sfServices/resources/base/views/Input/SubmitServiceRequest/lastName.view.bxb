@@ -1,0 +1,21 @@
+input-view {
+  match: LastName (lastName)
+
+  message (Provide your last name)
+  render {
+    form {
+      elements {
+        text-input {
+          id (LastName)
+          type (LastName)
+          label (Last Name)
+          max-length (100)
+        }
+      }
+      on-submit {
+        goal: LastName
+        value: viv.core.FormElement(LastName)
+      }
+    }
+  }
+}
