@@ -9,11 +9,20 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
   var options = {
     format: "json",
     query: {
-      api_key: "a4cb845ebcb8c15b4fb2f79fdd28f0e6"
+      api_key: "a4cb845ebcb8c15b4fb2f79fdd28f0e6",
+      // service_code: serviceInfo.serviceCode,
+      // lat: location.point.latitude,
+      // long: location.point.longitude,
+      // first_name: firstName,
+      // last_name: lastName,
+      // email: email,
+      // phone: phone,
+      // description: description,
     }
   }
   var request = {
-    status: 'open',
+    api_key: "a4cb845ebcb8c15b4fb2f79fdd28f0e6",
+    jurisdiction_id: "sfgov.org",
     lat: location.point.latitude,
     long: location.point.longitude,
     service_code: serviceInfo.serviceCode,
@@ -50,6 +59,6 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
   if (serviceInfo.serviceName)
    request.service_name = serviceInfo.serviceName
 
-  // http.postUrl(url, request, options)
+  http.postUrl(url, request, options)
   return "2"
 }
