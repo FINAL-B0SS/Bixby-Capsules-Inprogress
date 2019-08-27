@@ -2,7 +2,7 @@ var http = require('http')
 var console = require('console')
 //[{"token":"5d57c95be8969e867076606d"}]
 // 5d632bb9195448dfebb788e4
-module.exports = function SubmitServiceRequest (description, makeModel, licensePlate, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo) {
+module.exports = function SubmitServiceRequest (description, makeModel, licensePlate, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo) {
   var url = "http://mobile311-dev.sfgov.org/open311/v2/requests.json"
   var data = http.getUrl(url, {format: 'text'})
   var ret = JSON.parse(data)
@@ -24,28 +24,32 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
     phone: phone,
     description: description,
   }
-  if (makeModel)
-    request.make_model = makeModel
-  if (licensePlate)
-   request.license_plate = licensePlate
-  if (objectID)
-   request.object_id = objectID
-  if (object)
-   request.object = object
-  if (natureOfRequest)
-   request.nature_of_request = natureOfRequest
-  if (howManyPeople)
-   request.how_many_people = howManyPeople
-  if (howManyTents)
-   request.how_many_tents = howManyTents
-  if (poleType)
-   request.pole_type = poleType
-  if (type)
-   request.type = type
-  if (containsRacialSlursOrProfanity)
-   request.contains_racialSlurs_or_profanity = containsRacialSlursOrProfanity
-  if (wholeBlock)
-   request.whole_block = wholeBlock
+  // if (makeModel)
+  //   request.make_model = makeModel
+  // if (licensePlate)
+  //  request.license_plate = licensePlate
+  // if (objectID)
+  //  request.object_id = objectID
+  // if (object)
+  //  request.object = object
+  // if (natureOfRequest)
+  //  request.nature_of_request = natureOfRequest
+  // if (howManyPeople)
+  //  request.how_many_people = howManyPeople
+  // if (howManyTents)
+  //  request.how_many_tents = howManyTents
+  // if (type)
+  //  request.type = type
+  // if (containsRacialSlursOrProfanity)
+  //  request.contains_racialSlurs_or_profanity = containsRacialSlursOrProfanity
+  // if (wholeBlock)
+  //  request.whole_block = wholeBlock
+  // if (signType)
+  //  request.sign_type = signType
+  // if (signStatus)
+  //  request.sign_status = signStatus
+  // if (poleStatus)
+  //  request.pole_status = poleStatus
   if (serviceInfo.serviceName)
    request.service_name = serviceInfo.serviceName
 

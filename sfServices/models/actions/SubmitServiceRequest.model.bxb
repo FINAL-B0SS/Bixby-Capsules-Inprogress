@@ -11,6 +11,33 @@ action (SubmitServiceRequest) {
         }
       }
     }
+    input (signStatus) {
+      type (SignStatus)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildSignStatus
+        }
+      }
+    }
+    input (signType) {
+      type (SignType)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildSignType
+        }
+      }
+    }
+    input (poleStatus) {
+      type (PoleStatus)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildPoleStatus
+        }
+      }
+    }
     input (type) {
       type (Type)
       min (Optional) max (One)
@@ -104,18 +131,6 @@ action (SubmitServiceRequest) {
     }
     input (objectID) {
       type (ObjectID)
-      min (Optional) max (One)
-    }
-    input (poleType) {
-      type (PoleType)
-      min (Optional) max (One)
-    }
-    input (signType) {
-      type (SignType)
-      min (Optional) max (One)
-    }
-    input (poleStatus) {
-      type (PoleStatus)
       min (Optional) max (One)
     }
     input (location) {

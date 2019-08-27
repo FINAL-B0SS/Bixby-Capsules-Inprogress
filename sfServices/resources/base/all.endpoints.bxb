@@ -5,7 +5,7 @@ endpoints {
       local-endpoint (GetServiceInfo.js)
     }
     action-endpoint (SubmitServiceRequest) {
-      accepted-inputs (description, makeModel, licensePlate, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo)
+      accepted-inputs (description, makeModel, licensePlate, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo, signType, signStatus, poleStatus)
       local-endpoint (SubmitServiceRequest.js)
     }
     action-endpoint (TrackCase) {
@@ -35,6 +35,18 @@ endpoints {
     action-endpoint (BuildWholeBlock) {
       accepted-inputs (serviceInfo)
       local-endpoint (Builds/BuildWholeBlock.js)
+    }
+    action-endpoint (BuildSignStatus) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildSignStatus.js)
+    }
+    action-endpoint (BuildSignType) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildSignType.js)
+    }
+    action-endpoint (BuildPoleStatus) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildPoleStatus.js)
     }
     action-endpoint (BuildType) {
       accepted-inputs (serviceInfo)
