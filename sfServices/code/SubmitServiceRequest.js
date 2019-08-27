@@ -2,7 +2,23 @@ var http = require('http')
 var console = require('console')
 //[{"token":"5d57c95be8969e867076606d"}]
 // 5d632bb9195448dfebb788e4
-module.exports = function SubmitServiceRequest (description, makeModel, licensePlate, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo) {
+
+function BuildnatureOfRequestCode(sc) {
+  if (sc == "518d564b601827e38800002d")
+    return "request_type"
+  if (sc == "518d5cc9601827e388000183")
+    return "details"
+  if (sc == "5a6b5ac2d0521c1134854b01")
+    return "Nature_of_request"
+  return ("nature_of_request")
+}
+
+function BuildtypeCode(sc) {
+  if (sc == "518d5c0d601827e388000156")
+    return ("nature_of_request")
+  return ("request_type")
+}
+module.exports = function SubmitServiceRequest (description, firstName, lastName, email, phone, object, natureOfRequest, howManyPeople, howManyTents, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo, signStatus, signType, poleStatus, poleType) {
   var url = "http://mobile311-dev.sfgov.org/open311/v2/requests.json"
   var data = http.getUrl(url, {format: 'text'})
   var ret = JSON.parse(data)
@@ -23,36 +39,37 @@ module.exports = function SubmitServiceRequest (description, makeModel, licenseP
     email: email,
     phone: phone,
     description: description,
+    attribute: {}
   }
-  // if (makeModel)
-  //   request.make_model = makeModel
-  // if (licensePlate)
-  //  request.license_plate = licensePlate
-  // if (objectID)
-  //  request.object_id = objectID
-  // if (object)
-  //  request.object = object
-  // if (natureOfRequest)
-  //  request.nature_of_request = natureOfRequest
-  // if (howManyPeople)
-  //  request.how_many_people = howManyPeople
-  // if (howManyTents)
-  //  request.how_many_tents = howManyTents
-  // if (type)
-  //  request.type = type
-  // if (containsRacialSlursOrProfanity)
-  //  request.contains_racialSlurs_or_profanity = containsRacialSlursOrProfanity
-  // if (wholeBlock)
-  //  request.whole_block = wholeBlock
-  // if (signType)
-  //  request.sign_type = signType
-  // if (signStatus)
-  //  request.sign_status = signStatus
-  // if (poleStatus)
-  //  request.pole_status = poleStatus
-  if (serviceInfo.serviceName)
-   request.service_name = serviceInfo.serviceName
+  
+  var natureOfRequestCode = BuildnatureOfRequestCode(serviceInfo.serviceCode)
+  var typeCode = BuildtypeCode(serviceInfo.serviceCode)
 
-  //http.postUrl(url, request, options)
+  if (object)
+   request.attribute.request_type = object.name
+  if (natureOfRequest)
+   request.attribute[natureOfRequestCode] = natureOfRequest.name
+  if (howManyPeople)
+   request.attribute.cmbpeople = howManyPeople.name
+  if (howManyTents)
+   request.attribute.cmbstructures = howManyTents.name
+  if (type)
+   request.attribute[typeCode] = type
+  if (containsRacialSlursOrProfanity)
+   request.attribute.nature_of_request = containsRacialSlursOrProfanity.name
+  if (wholeBlock)
+   request.attribute.whole_block = wholeBlock.name
+  if (signType)
+   request.attribute.cmbtype = signType.name
+  if (signStatus)
+   request.attribute.cmbnature = signStatus.name
+  if (poleStatus)
+   request.attribute.cmbsupport = poleStatus.name
+  if (poleType)
+   request.attribute.pole_type = poleType.name
+  if (serviceInfo.serviceName)
+   request.service_name = serviceInfo.serviceName.name
+  console.log(request)
+  http.postUrl(url, request, options)
   return "2"
 }

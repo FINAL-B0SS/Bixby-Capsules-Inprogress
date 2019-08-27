@@ -11,6 +11,44 @@ action (SubmitServiceRequest) {
         }
       }
     }
+    input (natureOfRequest) {
+      type (NatureOfRequest)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildNatureOfRequest
+        }
+      }
+    }
+    input (firstName) {
+      type (FirstName)
+      min (Required) max (One)
+    }
+    input (lastName) {
+      type (LastName)
+      min (Required) max (One)
+    }
+     input (email) {
+      type (Email)
+      min (Required) max (One)
+    }
+    input (phone) {
+      type (Phone)
+      min (Required) max (One)
+    }
+    input (description) {
+      type (Description)
+      min (Required) max (One)
+    }
+    input (poleType) {
+      type (PoleType)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildPoleType
+        }
+      }
+    }
     input (signStatus) {
       type (SignStatus)
       min (Optional) max (One)
@@ -91,47 +129,6 @@ action (SubmitServiceRequest) {
           goal: BuildObject
         }
       }
-    }
-    input (natureOfRequest) {
-      type (NatureOfRequest)
-      min (Optional) max (One)
-      default-init {
-        intent {
-          goal: BuildNatureOfRequest
-        }
-      }
-    }
-    input (firstName) {
-      type (FirstName)
-      min (Required) max (One)
-    }
-    input (lastName) {
-      type (LastName)
-      min (Required) max (One)
-    }
-     input (email) {
-      type (Email)
-      min (Required) max (One)
-    }
-    input (phone) {
-      type (Phone)
-      min (Required) max (One)
-    }
-    input (description) {
-      type (Description)
-      min (Required) max (One)
-    }
-    input (makeModel) {
-      type (MakeModel)
-      min (Optional) max (One)
-    }
-    input (licensePlate) {
-      type (LicensePlate)
-      min (Optional) max (One)
-    }
-    input (objectID) {
-      type (ObjectID)
-      min (Optional) max (One)
     }
     input (location) {
       type (Location)

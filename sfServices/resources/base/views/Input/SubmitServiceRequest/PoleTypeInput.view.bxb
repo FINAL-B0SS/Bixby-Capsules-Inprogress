@@ -1,6 +1,6 @@
 input-view {
   match {
-    ServiceInfo (this)
+    PoleType (this)
   }
 
   render {
@@ -10,18 +10,20 @@ input-view {
           page-size (size(this))
           page-content {
             underflow-statement (This is the first page)
-            item-selection-question (Select a service to begin a request)
+            item-selection-question (What is the pole type?)
             overflow-statement (This is the last page)
             overflow-question (What would you like to do?)
           }
         }
       }
-      select-button-text ("Request")
-      where-each (service) {
-        spoken-summary ("#{value(service.serviceName)}.")
-        layout-macro (service-summary-fragment) {
-          param (service) {
-            expression (service)
+      select-button-text ("Select")
+      where-each (this) {
+        spoken-summary ("#{value(this.name)}.")
+        cell-card {
+          slot2 {
+            content {
+              primary ("#{value(this.name)}")
+            }
           }
         }
       }
