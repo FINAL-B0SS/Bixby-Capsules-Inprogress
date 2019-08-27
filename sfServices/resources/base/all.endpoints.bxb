@@ -5,12 +5,40 @@ endpoints {
       local-endpoint (GetServiceInfo.js)
     }
     action-endpoint (SubmitServiceRequest) {
-      accepted-inputs (description, makeModel, licensePlate, color, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo)
+      accepted-inputs (description, makeModel, licensePlate, firstName, lastName, email, phone, objectID, object, natureOfRequest, howManyPeople, howManyTents, poleType, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo)
       local-endpoint (SubmitServiceRequest.js)
     }
     action-endpoint (TrackCase) {
       accepted-inputs (serviceRequestNumber)
       local-endpoint (TrackCase.js)
+    }
+    action-endpoint (BuildNatureOfRequest) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildNatureOfRequest.js)
+    }
+    action-endpoint (BuildObject) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildObject.js)
+    }
+    action-endpoint (BuildHowManyPeople) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildHowManyPeople.js)
+    }
+    action-endpoint (BuildHowManyTents) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildHowManyTents.js)
+    }
+    action-endpoint (BuildContainsRacialSlursOrProfanity) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildContainsRacialSlursOrProfanity.js)
+    }
+    action-endpoint (BuildWholeBlock) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildWholeBlock.js)
+    }
+    action-endpoint (BuildType) {
+      accepted-inputs (serviceInfo)
+      local-endpoint (Builds/BuildType.js)
     }
   }
 }

@@ -11,6 +11,69 @@ action (SubmitServiceRequest) {
         }
       }
     }
+    input (type) {
+      type (Type)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildType
+        }
+      }
+    }
+    input (wholeBlock) {
+      type (WholeBlock)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildWholeBlock
+        }
+      }
+    }
+    input (containsRacialSlursOrProfanity) {
+      type (ContainsRacialSlursOrProfanity)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildContainsRacialSlursOrProfanity
+        }
+      }
+    }
+    input (howManyTents) {
+      type (HowManyTents)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildHowManyTents
+        }
+      }
+    }
+    input (howManyPeople) {
+      type (HowManyPeople)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildHowManyPeople
+        }
+      }
+    }
+    input (object) {
+      type (Object)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildObject
+        }
+      }
+    }
+    input (natureOfRequest) {
+      type (NatureOfRequest)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildNatureOfRequest
+        }
+      }
+    }
     input (firstName) {
       type (FirstName)
       min (Required) max (One)
@@ -39,44 +102,12 @@ action (SubmitServiceRequest) {
       type (LicensePlate)
       min (Optional) max (One)
     }
-    input (color) {
-      type (Color)
-      min (Optional) max (One)
-    }
     input (objectID) {
       type (ObjectID)
       min (Optional) max (One)
     }
-    input (object) {
-      type (Object)
-      min (Optional) max (One)
-    }
-    input (natureOfRequest) {
-      type (NatureOfRequest)
-      min (Optional) max (One)
-    }
-    input (howManyPeople) {
-      type (HowManyPeople)
-      min (Optional) max (One)
-    }
-    input (howManyTents) {
-      type (HowManyTents)
-      min (Optional) max (One)
-    }
     input (poleType) {
       type (PoleType)
-      min (Optional) max (One)
-    }
-    input (type) {
-      type (Type)
-      min (Optional) max (One)
-    }
-    input (containsRacialSlursOrProfanity) {
-      type (ContainsRacialSlursOrProfanity)
-      min (Optional) max (One)
-    }
-    input (wholeBlock) {
-      type (WholeBlock)
       min (Optional) max (One)
     }
     input (signType) {

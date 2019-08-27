@@ -1,0 +1,10 @@
+structure (HowManyPeople) {
+  property (key) {
+    type (Key)
+    min (Required) max (One)
+  }
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+}
