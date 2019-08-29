@@ -1,5 +1,0 @@
-text (LastName) {
-  features {
-    profile-stored
-  }
-}

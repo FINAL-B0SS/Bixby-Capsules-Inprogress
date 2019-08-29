@@ -1,5 +1,0 @@
-action (GetServiceInfo) {
-  description (Get info about all the services the user can request)
-  type (Search)
-  output (ServiceInfo)
-}
