@@ -1,0 +1,76 @@
+result-view {
+  match: Info (this)
+
+  render {
+    if (size(this) > 1) {
+    list-of (this) {
+      navigation-mode {
+        read-many {
+          page-size (4)
+          page-content {
+            underflow-statement (This is the first page)
+            overflow-statement (This is the last page)
+            overflow-question (What would you like to do?)
+          }
+        }
+      }
+      where-each (this) {
+        spoken-summary ("#{value(this.description)}")
+        compound-card {
+          content {
+            image-card {
+              image-url ("#{value(this.image.url)}")
+              aspect-ratio (4:3)
+              title-area {
+                slot1 {
+                  text ()
+                }
+              }
+            }
+            paragraph {
+              value ("#{value(this.description)}")
+              style (Detail_L)
+            }
+            single-line {
+              text {
+                value ("#{value(this.date)}")
+                style (Legal)
+              }
+            }
+          }
+        }
+      }
+    }
+  } if (size(this) == 1) {
+    layout {
+      section {
+        content {
+          paragraph {
+            value ("#{value(this.title)}")
+            style (Title_S)
+          }
+          image {
+            url ("#{value(this.image.url)}")
+          }
+          paragraph {
+              value ("#{value(this.description)}")
+              style (Detail_L)
+            }
+            if (exists(this.link)) {
+            attribution-link {
+              label (Click here to see full story)
+              url ("#{value(this.link)}")
+            }
+            }
+            single-line {
+              text {
+                value ("#{value(this.date)}")
+                style (Legal)
+              }
+            }
+        }
+      }
+    }
+  }
+  }
+}

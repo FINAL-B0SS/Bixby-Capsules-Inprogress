@@ -1,0 +1,13 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (fetchSportsList) {
+      accepted-inputs ()
+      local-endpoint (fetchSportsList.js)
+      }
+      
+      action-endpoint (fetchNews) {
+        accepted-inputs (sport)
+        local-endpoint (fetchNews.js)
+      }
+    }
+  }
