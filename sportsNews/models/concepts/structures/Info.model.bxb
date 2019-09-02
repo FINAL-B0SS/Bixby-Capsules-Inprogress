@@ -23,4 +23,7 @@ structure (Info) {
     type (Sport)
     min (Required) max (One)
   }
+  features {
+    transient
+  }
 }

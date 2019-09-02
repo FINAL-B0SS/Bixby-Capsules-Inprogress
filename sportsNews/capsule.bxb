@@ -1,5 +1,5 @@
 capsule {
-  id (final_boss.sports_news)
+  id (final_boss.sports_feeds)
   version (0.1.0)
   format (3)
   targets {
