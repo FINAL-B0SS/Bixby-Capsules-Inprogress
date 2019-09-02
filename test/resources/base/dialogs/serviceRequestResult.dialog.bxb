@@ -1,0 +1,9 @@
+dialog (Result) {
+  match: ServiceRequestId (this)
+  
+  if ("this == ''") {
+    template (Something has gone wrong with this request, please try again.)
+  } else {
+    template (Thank You, your Service request has been submitted successfully.)
+  }
+}

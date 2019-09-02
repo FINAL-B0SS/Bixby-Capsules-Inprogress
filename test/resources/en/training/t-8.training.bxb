@@ -1,0 +1,20 @@
+train (t-88tmw9z5u5k0pzayj7d9xnddo) {
+  utterance ([g:SubmitServiceRequest] Tell me what this city has to offer)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952105)
+}
+train (t-8e78vwgwjrwrjwe7f3nwyv76p) {
+  utterance ([g:SubmitServiceRequest] Find out what services are in san francisco)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952182)
+}
+train (t-8grbvjpfnrfr8g130l4npmmmw) {
+  utterance ([g:TrackCase]Tell me the status of a service request)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1566775952253)
+}
+train (t-8q0djiy785z5n6uqhotu1at7n) {
+  utterance ([g:SubmitServiceRequest] Figure out what services this city has to offer)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952335)
+}

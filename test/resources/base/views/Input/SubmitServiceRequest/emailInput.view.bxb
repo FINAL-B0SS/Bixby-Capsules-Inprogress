@@ -1,0 +1,26 @@
+input-view {
+  match: Email (email)
+
+  message (Provide your email)
+  render {
+    form {
+      elements {
+        text-input {
+          id (Email)
+          type (Email)
+          label (Email Address)
+          max-length (100)
+          pattern {
+            email {
+              on-error("Please provide a valid email.")
+            }
+          }
+        }
+      }
+      on-submit {
+        goal: Email
+        value: viv.core.FormElement(Email)
+      }
+    }
+  }
+}

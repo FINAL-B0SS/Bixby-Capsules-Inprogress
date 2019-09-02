@@ -1,0 +1,17 @@
+capsule-info {
+  display-name (SF Services)
+  developer-name (Final Boss)
+  icon-asset (/logo.png)
+  description (Use Sf Services to make and track service requests in San Francisco)
+  terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
+  search-keywords{
+    keyword (SF)
+    keyword (city services)
+    keyword (reporting)
+    keyword (san francisco)  
+  }
+  dispatch-name (SF Services)
+  action-bg-color (#3daa4b)
+  action-fg-color (#FFFFFF)
+}
+

@@ -1,0 +1,5 @@
+text (Phone) {
+  features {
+    profile-stored
+  }
+}

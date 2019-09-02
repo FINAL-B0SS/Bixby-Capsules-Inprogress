@@ -1,0 +1,10 @@
+action (BuildSignStatus) {
+  type (Search)
+  collect {
+    input (serviceInfo) {
+      type (ServiceInfo)
+      min (Required) max (One)
+    }
+  }
+  output (SignStatus)
+}
