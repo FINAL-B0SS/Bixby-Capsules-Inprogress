@@ -1,4 +1,0 @@
-dialog (Result) {
-  match: Info (this)
-  template("#{value(this.sport)} headlines")
-}
