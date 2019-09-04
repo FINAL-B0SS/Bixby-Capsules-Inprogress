@@ -1,0 +1,145 @@
+action (SubmitServiceRequest) {
+  description (An action that takes a required Spot as an input)
+  type (Calculation)
+  collect {
+    input (serviceInfo) {
+      type (ServiceInfo)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: GetServiceInfo
+        }
+      }
+    }
+    input (natureOfRequest) {
+      type (NatureOfRequest)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildNatureOfRequest
+        }
+      }
+    }
+    input (firstName) {
+      type (FirstName)
+      min (Required) max (One)
+    }
+    input (lastName) {
+      type (LastName)
+      min (Required) max (One)
+    }
+     input (email) {
+      type (Email)
+      min (Required) max (One)
+    }
+    input (phone) {
+      type (Phone)
+      min (Required) max (One)
+    }
+    input (description) {
+      type (Description)
+      min (Required) max (One)
+    }
+    input (poleType) {
+      type (PoleType)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildPoleType
+        }
+      }
+    }
+    input (signStatus) {
+      type (SignStatus)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildSignStatus
+        }
+      }
+    }
+    input (signType) {
+      type (SignType)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildSignType
+        }
+      }
+    }
+    input (poleStatus) {
+      type (PoleStatus)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildPoleStatus
+        }
+      }
+    }
+    input (type) {
+      type (Type)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildType
+        }
+      }
+    }
+    input (wholeBlock) {
+      type (WholeBlock)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildWholeBlock
+        }
+      }
+    }
+    input (containsRacialSlursOrProfanity) {
+      type (ContainsRacialSlursOrProfanity)
+      min (Optional) max (One)
+        default-init {
+          intent {
+            goal: BuildContainsRacialSlursOrProfanity
+        }
+      }
+    }
+    input (howManyTents) {
+      type (HowManyTents)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildHowManyTents
+        }
+      }
+    }
+    input (howManyPeople) {
+      type (HowManyPeople)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildHowManyPeople
+        }
+      }
+    }
+    input (object) {
+      type (Object)
+      min (Optional) max (One)
+      default-init {
+        intent {
+          goal: BuildObject
+        }
+      }
+    }
+    input (location) {
+      type (Location)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: Location
+          route: geo.CurrentLocation
+        }
+      }
+    }
+  }
+  output (ServiceRequestId)
+}

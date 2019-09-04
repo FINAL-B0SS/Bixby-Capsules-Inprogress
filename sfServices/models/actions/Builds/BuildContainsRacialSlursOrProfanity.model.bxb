@@ -1,0 +1,10 @@
+action (BuildContainsRacialSlursOrProfanity) {
+  type (Search)
+  collect {
+    input (serviceInfo) {
+      type (ServiceInfo)
+      min (Required) max (One)
+    }
+  }
+  output (ContainsRacialSlursOrProfanity)
+}

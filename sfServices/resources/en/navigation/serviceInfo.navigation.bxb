@@ -1,0 +1,42 @@
+navigation-support {
+  match: ServiceInfo
+
+  navigation-commands {
+    next {
+      response (show me more)
+      response (show more)
+      response (more)
+      response (next page)
+      response (continue)
+      response (next)
+      response (next set)
+      response (forward)
+      response (advance)
+    }
+
+    previous {
+      response (go back)
+      response (last page)
+      response (return)
+      response (retreat)
+      response (previous)
+      response (go back one)
+      response (run that back)
+      response (go back a page)
+    }
+
+    repeat {
+      response (come again)
+      response (one more time)
+      response (run it back)
+      response (run that back)
+      response (pardon)
+      response (what)
+      response (repeat that)
+      response (I didn't hear)
+      response (say it again)
+      response (list them again)
+      response (reread that)
+    }
+  }
+}

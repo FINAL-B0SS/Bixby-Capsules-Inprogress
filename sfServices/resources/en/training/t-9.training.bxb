@@ -1,0 +1,35 @@
+train (t-90dgpiheznofy3y6nwp4e440e) {
+  utterance ([g:viewMyRequests] what is the status of my service request)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567555386099)
+}
+train (t-92p6bs9gam8b8svx4s2zxyh53) {
+  utterance ([g:viewMyRequests]What is my case status)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556426929)
+}
+train (t-92rqgedtrefyb5loghq6lc083) {
+  utterance ([g:SubmitServiceRequest] Research the services this city can provide)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952404)
+}
+train (t-96mksu4s0tw22nnp42wupannn) {
+  utterance ([g:SubmitServiceRequest] List San Francisco Services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952503)
+}
+train (t-9dftbfxyr9clexznd3snnsf4c) {
+  utterance ([g:viewMyRequests] Check on my case)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556386094)
+}
+train (t-9ecbji4v9vgouxc0q8cj666jv) {
+  utterance ([g:SubmitServiceRequest] Get services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775952606)
+}
+train (t-9ojntl6yn7k7fhvtvkyii2tpm) {
+  utterance ([g:viewMyRequests] Give me a report of my cases)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556461451)
+}

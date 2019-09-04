@@ -1,0 +1,26 @@
+input-view {
+  match: Phone (phone)
+
+  message (Provide your phone number)
+  render {
+    form {
+      elements {
+        text-input {
+          id (Phone)
+          type (Phone)
+          label (Phone Number)
+          max-length (20)
+          pattern {
+            regex (^[0-9]*$) {
+              on-error (Please provide a valid phone number with no hyphens or spaces.)
+            }
+          }
+        }
+      }
+      on-submit {
+        goal: Phone
+        value: viv.core.FormElement(Phone)
+      }
+    }
+  }
+}

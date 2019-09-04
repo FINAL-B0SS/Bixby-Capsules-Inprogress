@@ -1,0 +1,45 @@
+train (t-d2q0eq5g6f0sbjk7fivuk4x53) {
+  utterance ([g:SubmitServiceRequest] Figure out what services the city has to offer)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953219)
+}
+train (t-d92axv0b4u19kjncciaxe15dq) {
+  utterance ([g:SubmitServiceRequest] open a request)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1567555097722)
+}
+train (t-dddcp3iojqtqrjn7i9l9e94f0) {
+  utterance ([g:SubmitServiceRequest] List services I can request)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953293)
+}
+train (t-dgfbhzv0y6tzbq4joivps1vqx) {
+  utterance ([g:viewMyRequests] Show service request)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556542708)
+}
+train (t-dls7k4hxskftzuhl10w3shw2x) {
+  utterance ([g:SubmitServiceRequest] Fetch services available near me)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953363)
+}
+train (t-dlw19oo16qerymgsnx90kzw1i) {
+  utterance ([g:TrackCase] search case)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1567555202811)
+}
+train (t-dnz0tny5tcru38gaft0r6b38q) {
+  utterance ("[g:viewMyRequests] What's my service request status")
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556573011)
+}
+train (t-dw13j3pg947n3sq0fjcizt0ar) {
+  utterance ([g:TrackCase] Get the status of my service request)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1566775953432)
+}
+train (t-dw7tsytfww74t96qu24xf34ym) {
+  utterance ("[g:viewMyRequests] How's my service request ")
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556546995)
+}

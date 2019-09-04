@@ -1,0 +1,18 @@
+structure (ServiceInfo) {
+  property (serviceName) {
+    type (ServiceName)
+    min (Required) max (One)
+  }
+  property (group) {
+    type (Group)
+    min (Required) max (One)
+  }
+  property (description) {
+    type (Description)
+    min (Required) max (One)
+  }
+  property (serviceCode) {
+    type (ServiceCode)
+    min (Required) max (One)
+  }
+}

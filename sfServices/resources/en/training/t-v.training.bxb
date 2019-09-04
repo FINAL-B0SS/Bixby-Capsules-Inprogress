@@ -1,0 +1,25 @@
+train (t-vfyd53uanv6gjefyfo3nsg3j4) {
+  utterance ([g:TrackCase] Fetch service request status)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1566775956327)
+}
+train (t-vgomui72ekvps5mi71lx6eywj) {
+  utterance ([g:SubmitServiceRequest] Fetch services available in San francisco)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775869619)
+}
+train (t-vk0rcf0v6lb8lbj3go2e0zmov) {
+  utterance ([g:SubmitServiceRequest] What services does San Fran provide)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775876051)
+}
+train (t-vpkib81yfqxmicc5suf0lqj8z) {
+  utterance ([g:SubmitServiceRequest] File a graffiti siting)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775845899)
+}
+train (t-vr630ba7e2qmjrxot6fx4ujmo) {
+  utterance ([g:viewMyRequests] show status of my request)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567555298347)
+}

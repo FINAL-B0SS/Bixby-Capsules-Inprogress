@@ -1,0 +1,15 @@
+train (t-z4fvd1meh4j16cseio42iq918) {
+  utterance ("[g:ServiceRequestNumber:prompt] (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
+  plan (Y2Bi0E7LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLS/xKc5NSi0hTzAiEDAw8QMwExEA2AA==)
+  last-modified (1567122337368)
+}
+train (t-zkommfoemmymfyp1yy0ue6xpc) {
+  utterance ([g:SubmitServiceRequest] open a case)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1567556779740)
+}
+train (t-znkpde68oq7n0xsbfgxhk0csa) {
+  utterance ([g:viewMyRequests] Check on my service request)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556533459)
+}

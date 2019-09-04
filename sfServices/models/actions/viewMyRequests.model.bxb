@@ -1,0 +1,10 @@
+action (viewMyRequests) {
+  type (Search)
+  collect {
+    input (serviceRequestId) {
+      type (ServiceRequestId)
+      min (Optional) max (Many)
+    }
+  }
+  output (CaseInfo)
+}

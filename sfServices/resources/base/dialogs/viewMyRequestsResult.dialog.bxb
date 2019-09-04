@@ -1,0 +1,11 @@
+dialog (Result) {
+  match: CaseInfo (case) {
+			from-output: viewMyRequests
+	}
+
+  if (size(case) > 0) {
+    template("These are the services you have requested.")
+  } else {
+    template("You have not requested a service yet.")
+  }
+}

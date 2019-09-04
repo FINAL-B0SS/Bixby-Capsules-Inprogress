@@ -1,0 +1,45 @@
+train (t-o0oyyo4i416tn8kiw4f4vxkhp) {
+  utterance ("[g:viewMyRequests] What's the status of my case")
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556451097)
+}
+train (t-o12vo54irra7tz1xn74o3pnej) {
+  utterance ([g:SubmitServiceRequest] Tell me available services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775954802)
+}
+train (t-o7aflhpgn8t7de43thknh7pt5) {
+  utterance ([g:TrackCase] search request)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1567555253211)
+}
+train (t-o7lxfmpi0awr7q5dezeexhd02) {
+  utterance ([g:viewMyRequests] What are my case)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556416723)
+}
+train (t-oakysj7i4lzvoarszruuvxv53) {
+  utterance ([g:SubmitServiceRequest] What services are there)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775954872)
+}
+train (t-oniw99ykt8tm5idhuvftagg1x) {
+  utterance ([g:TrackCase] track a case)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1566775954942)
+}
+train (t-osmirxea6wyggt19doev7gt51) {
+  utterance ([g:viewMyRequests] Check on my requests)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567555461494)
+}
+train (t-otiupad782y16t6x823co70fk) {
+  utterance ([g:viewMyRequests] How are my service request looking)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556601851)
+}
+train (t-ouiyuz23667geccuoo550h0k0) {
+  utterance ([g:viewMyRequests] Give me a request report)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567555628958)
+}

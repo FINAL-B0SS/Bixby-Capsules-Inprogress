@@ -1,0 +1,20 @@
+train (t-f303vvwgka4recfjbxd43dw7r) {
+  utterance ([g:viewMyRequests] Check requests)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567555469188)
+}
+train (t-f6sr73lb3vyjxe8en3j238q0k) {
+  utterance ([g:SubmitServiceRequest] Fetch a list of services)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953627)
+}
+train (t-f9atryzo9sbkbjv5zpl1q0tx5) {
+  utterance ([g:SubmitServiceRequest] Find out what services are in this city)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775953735)
+}
+train (t-fsfahqf94wedbv2qiy78lc2mn) {
+  utterance ("[g:Phone:prompt] (9541234567)[v:Phone]")
+  plan (Y2BikEnLzEvMiU/KLy7WK06LL04tKstMTi3WC8jIz0slIMsIhAwMPEDMBMRANgA=)
+  last-modified (1566777935641)
+}

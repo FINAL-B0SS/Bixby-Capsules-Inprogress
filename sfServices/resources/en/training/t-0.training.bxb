@@ -1,0 +1,20 @@
+train (t-0acn5pvs1mwiygt9m89qjgcmr) {
+  utterance ([g:SubmitServiceRequest] new service request)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1567556833831)
+}
+train (t-0i20wh5uzpl4ixpeijbtmv2g6) {
+  utterance ([g:SubmitServiceRequest] What services does san francisco provide)
+  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
+  last-modified (1566775907562)
+}
+train (t-0iy288902kr0fj6y9cii2o6p9) {
+  utterance ([g:viewMyRequests] Check my service request)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1567556584483)
+}
+train (t-0mghmfxcg0651vs35d40ixj26) {
+  utterance ("[g:ServiceRequestNumber:prompt] (graffiti)[v:ServiceRequestNumber]")
+  plan (Y2Bi0E7LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLS/xKc5NSi0hTzAiEDAw8QMwExEA2AA==)
+  last-modified (1567122199433)
+}
