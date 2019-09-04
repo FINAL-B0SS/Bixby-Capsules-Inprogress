@@ -1,0 +1,10 @@
+train (t-pmhnmzy32qw4coasa38ee5dbm) {
+  utterance ("[g:fetchNews] Show me what you got for (college football)[v:Sport]")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559388828)
+}
+train (t-ps8kfivshl3oxxfkw6x8lhgx7) {
+  utterance ("[g:fetchNews] Fetch (golf)[v:Sport] headlines")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559114888)
+}

@@ -1,0 +1,25 @@
+train (t-b0claqvststjbbfyeaqpy84r5) {
+  utterance ([g:fetchNews] Show me what you got for)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559771662)
+}
+train (t-b1ksku3wyis46846ywkru6u9g) {
+  utterance ([g:fetchNews] Tell me about today)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559776143)
+}
+train (t-b390ajxdaep2oeeudfed68bkd) {
+  utterance ([g:fetchNews] List headlines)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559679712)
+}
+train (t-bbh0zfaaouagtgklqhkpi81z7) {
+  utterance ([g:fetchNews] Fetch news)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559793215)
+}
+train (t-bzjzvbk0a4zy2iq54c63fjm21) {
+  utterance ("[g:fetchNews] Fetch (golf)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559118532)
+}

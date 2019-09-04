@@ -1,0 +1,5 @@
+train (t-a70adwoz061kdqengmobs3203) {
+  utterance ("[g:fetchNews] List (college football)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559294736)
+}

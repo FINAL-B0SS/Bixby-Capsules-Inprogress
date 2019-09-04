@@ -1,0 +1,15 @@
+train (t-3o75cl0x8g2dqnl827h0wp4yw) {
+  utterance ("[g:fetchNews] Get a list of new (golf)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567558963336)
+}
+train (t-3qv5bqpq6956y12rhdsm7q42g) {
+  utterance ([g:fetchNews] Get a list of headlines)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559566537)
+}
+train (t-3wqh10703vtiikew6veqwtnjj) {
+  utterance ("[g:fetchNews] Fetch new me (golf)[v:Sport] headlines")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567558893912)
+}

@@ -1,0 +1,35 @@
+train (t-j64xo63s99oc8ymz75isv2ujv) {
+  utterance ("[g:fetchNews] Check (college football)[v:Sport]")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559457535)
+}
+train (t-j9xgvkyzjfm6h26025xfvgqft) {
+  utterance ([g:fetchNews] List new stories)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559697587)
+}
+train (t-jhbtz4jpeg2jda7pyt6f9hahf) {
+  utterance ([g:fetchNews] Fetch headlines)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559466672)
+}
+train (t-jo0172qdgchiqecltyj440aeh) {
+  utterance ("[g:fetchNews] Find all (golf)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567558922824)
+}
+train (t-jowkzei3tc37efhmg0znwg6xr) {
+  utterance ("[g:fetchNews] List (college football)[v:Sport] news")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559267536)
+}
+train (t-jrsgn063mjmdpoy7glmgrow2p) {
+  utterance ("[g:fetchNews] Show all (college football)[v:Sport] headlines")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559374616)
+}
+train (t-jzef4sltd0491ndf5que3pqv7) {
+  utterance ([g:fetchNews] Get a list of new stories)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559655656)
+}

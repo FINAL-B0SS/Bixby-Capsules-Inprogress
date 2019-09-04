@@ -1,0 +1,15 @@
+train (t-6fx84hrtbjnecir77qj9qxrbm) {
+  utterance ("[g:fetchNews] List (golf)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567558979315)
+}
+train (t-6pidjbh1ghfhq6fp6ex2nwsb7) {
+  utterance ([g:fetchNews] Find top stories)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559545353)
+}
+train (t-6y4hz0rjczz1lwtm49bwx5m6r) {
+  utterance ("[g:fetchNews] Provide a list of (college football)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559361513)
+}

@@ -1,5 +1,25 @@
+train (t-26gh6un4t1hwutvtzabdugy1v) {
+  utterance ([g:fetchNews] Perform reconnaissance for)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559703328)
+}
+train (t-2aei82dp7zq3cdswfg8cedycg) {
+  utterance ([g:fetchNews] Perform reconnaissance for new)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559722365)
+}
+train (t-2cdj0kq6ea9tohzxlccrwzfss) {
+  utterance ("[g:fetchNews] Perform reconnaissance for new (college football)[v:Sport]")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559334154)
+}
 train (t-2ku8noyot2w44xi3eybtc12rw) {
   utterance ([g:fetchNews] Show me headlines)
   plan (Y2BmkE7LzEvMiU/KLy7WKy7ILyopjs9LLS/W88xLy2dQwCGZllqSnOEHZDHI4FARDGIzMDEwAjEDkGRkYIDRAA==)
   last-modified (1567243760285)
+}
+train (t-2w8rw2818jp4aonz3xix46efy) {
+  utterance ("[g:fetchNews] Find top (college football)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559212533)
 }

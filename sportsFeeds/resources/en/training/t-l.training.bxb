@@ -1,0 +1,20 @@
+train (t-ldjddnv275xxxg0z86iawrykf) {
+  utterance ([g:fetchNews] Fetch new stories)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559525145)
+}
+train (t-leuduui4oeitk2752435bgyt6) {
+  utterance ("[g:fetchNews] Find all (college football)[v:Sport] news")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559216816)
+}
+train (t-lhktente8ubxfolyw1r5o6i3y) {
+  utterance ("[g:fetchNews] Show (golf)[v:Sport] headlines")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559131720)
+}
+train (t-loumiskv62pprihfrhgoshy8r) {
+  utterance ("[g:fetchNews] Get a list of new (college football)[v:Sport] stories")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559258296)
+}

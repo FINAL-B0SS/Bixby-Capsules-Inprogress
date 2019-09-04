@@ -2,7 +2,7 @@ var console = require('console')
 var http = require('http')
 
 function buildUrl(sport) {
-  var ret = ''
+  var ret = 'error'
   if (sport.includes('nfl') || sport == 'football')
     ret = 'NFL'
   if (sport.includes('nba') || sport == 'basketball')
@@ -39,7 +39,10 @@ function buildUrl(sport) {
 }
 
 module.exports.function = function fetchNews (sport) {
+  s = sport
   sport = buildUrl(sport.toLowerCase())
+  if (sport == 'error')
+    return [{sport: s}]
   var slash = sport != '' ? '/' : ''
   var url = 'https://www.espn.com/espn/rss'+slash+sport.toLowerCase()+'/news'
   var data = http.getUrl(url, {format: 'xmljs'})

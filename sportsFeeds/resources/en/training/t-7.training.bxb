@@ -1,0 +1,10 @@
+train (t-79ry9kxyn0rcxto055q2txqtb) {
+  utterance ([g:fetchNews] Show all headlines)
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpGBAUYDAA==)
+  last-modified (1567559762270)
+}
+train (t-7fvocytv0p37q0dzvhgkzzv46) {
+  utterance ("[g:fetchNews] Show me all (golf)[v:Sport] headlines")
+  plan (Y2BmkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCLS0kwiMPAxMAIxAxAkpEBBKB8AA==)
+  last-modified (1567559061024)
+}
