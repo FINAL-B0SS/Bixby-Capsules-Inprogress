@@ -1,8 +1,0 @@
-// dialog (Result) {
-//   match {
-//     ServiceInfo (this) {
-//       from-output: GetServiceInfo(ServiceInfo)
-//     }
-//   }
-//   template (Select a service to begin a request)
-// }
