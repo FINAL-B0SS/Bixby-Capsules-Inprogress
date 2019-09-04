@@ -1,0 +1,15 @@
+action (fetchNews) {
+  type (Search)
+  collect {
+    input (sport) {
+      type (Sport)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: fetchSportsList
+        }
+      }
+    }
+  }
+  output (Info)
+}
