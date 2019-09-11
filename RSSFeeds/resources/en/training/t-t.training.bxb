@@ -1,0 +1,15 @@
+train (t-t4uuf5oxdsfaftcaymxgqx14q) {
+  utterance ("[g:fetchNews] Fetch (business)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747095706)
+}
+train (t-tk5efmlymlmbdxfdoto58qkho) {
+  utterance ("[g:fetchNews] (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567748255704)
+}
+train (t-tkuudgur1wwt89fnmnhutd59l) {
+  utterance ("[g:fetchNews] Show all (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747564849)
+}

@@ -1,0 +1,20 @@
+action (fetchNews) {
+  type (Search)
+  collect {
+    input (tag) {
+      type (Tag)
+      min (Optional) max (One)
+    }
+    input (search) {
+      type (Search)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: fetchSearch
+          value: $expr(tag)
+        }
+      }
+    }
+  }
+  output (Info)
+}

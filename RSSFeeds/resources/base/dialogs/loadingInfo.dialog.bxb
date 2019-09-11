@@ -1,0 +1,9 @@
+dialog (Progress) {
+  match: Info (this)
+  choose (Random) {
+    template (Finding headlines)
+    template (Consulting Reporters)
+    template (Scouting the field)
+    template (Searching the galaxy)
+  }
+}

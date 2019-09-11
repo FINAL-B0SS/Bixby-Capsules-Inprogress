@@ -1,0 +1,17 @@
+structure (Search) {
+  property (text) {
+    type (Text)
+    min (Optional) max (One)
+  }
+  property (url) {
+    type (Url)
+    min (Optional) max (One)
+  }
+  property (tags) {
+    type (Tags)
+    min (Optional) max (One)
+  }
+  features {
+    transient
+  }
+}

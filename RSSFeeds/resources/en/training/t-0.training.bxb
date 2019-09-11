@@ -1,0 +1,15 @@
+train (t-0iqdnpvm95n59pukag8ue9d1h) {
+  utterance ("[g:fetchNews] Find top (wired guides)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747401672)
+}
+train (t-0lggogszjpk8052pk4e2gpx2b) {
+  utterance ("[g:fetchNews] Provide a list of (business)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747225250)
+}
+train (t-0qi2icncm26kbqchmyieliulh) {
+  utterance ("[g:fetchNews] Provide a list of (wired guides)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747544065)
+}

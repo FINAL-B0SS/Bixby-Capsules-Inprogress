@@ -1,0 +1,5 @@
+train (t-wwokpcskn9os5987ap2rg8dxv) {
+  utterance ([g:fetchNews] Fetch news)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567748087276)
+}
