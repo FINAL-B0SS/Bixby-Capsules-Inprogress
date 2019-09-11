@@ -1,0 +1,10 @@
+train (t-n52e33glqz7p5mpgr8nob61rn) {
+  utterance ("[g:Fetch] (unbothered)[v:Song] by (ski mask the slump god)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132187147)
+}
+train (t-nrijloqvue2ftcp0hvarga6uo) {
+  utterance ("[g:Fetch] Find the words to (Kamikaze)[v:Song] by (eminem)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132625912)
+}

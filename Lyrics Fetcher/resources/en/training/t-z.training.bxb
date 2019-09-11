@@ -1,0 +1,10 @@
+train (t-zadnrhbff1gziabn73ta6j59s) {
+  utterance ("[g:Fetch] Find the lyrics to (Old town road)[v:Song] by (lil nas)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132537873)
+}
+train (t-zxw37kfp0g76c2qi9mz9lfoga) {
+  utterance ("[g:Fetch] Fetch the lyrics to (Kamikaze)[v:Song] by (eminem)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132592480)
+}

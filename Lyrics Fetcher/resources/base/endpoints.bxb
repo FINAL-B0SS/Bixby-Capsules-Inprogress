@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (Fetch) {
+      accepted-inputs (artist, song)
+      local-endpoint (Fetch.js)
+    }
+  }
+}

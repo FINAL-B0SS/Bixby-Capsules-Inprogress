@@ -1,0 +1,17 @@
+structure (Lyrics) {
+  property (Lyrics) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (Artist) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (Song) {
+    type (core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
+}

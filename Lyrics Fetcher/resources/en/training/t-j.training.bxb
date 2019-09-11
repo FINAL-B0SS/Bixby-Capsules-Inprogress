@@ -1,0 +1,15 @@
+train (t-j9y4o5vmyobu8l2ft1ujh4h4t) {
+  utterance ("[g:Fetch] Get (Savior)[v:Song] by (Rise Against)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132446737)
+}
+train (t-jd0lynil7tgl4w7gd5p2ilj0w) {
+  utterance ("[g:Fetch] How does (Money longer)[v:Song] by (lil uzi vert)[v:Artist] go")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132467370)
+}
+train (t-jilgcpq51j860dk8qqm7cz68w) {
+  utterance ("[g:Fetch] Show lyrics for (Old town road)[v:Song] by (lil nas)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132528274)
+}

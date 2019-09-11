@@ -1,0 +1,10 @@
+train (t-d4v4rx2z53sylkfwou8d5pssc) {
+  utterance ("[g:Fetch] Get (Old town road)[v:Song] by (lil nas)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132533265)
+}
+train (t-dy2o6z25yw0gouzwtwu4sq597) {
+  utterance ("[g:Fetch] Find the lyrics to (Money longer)[v:Song] by (lil uzi vert)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132486836)
+}

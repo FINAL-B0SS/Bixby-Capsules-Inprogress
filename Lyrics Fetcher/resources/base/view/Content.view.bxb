@@ -1,0 +1,20 @@
+result-view {
+  match: Lyrics (this)
+  render {
+    layout {
+      section {
+        content {
+          if (!exists(this)) {
+            image {
+              url ("images/error.png")
+              lightbox-enabled (false)
+            }
+          }
+          paragraph {
+            value ("#{value(this.Lyrics)}")
+          }
+        }
+      }
+    }
+  }
+}

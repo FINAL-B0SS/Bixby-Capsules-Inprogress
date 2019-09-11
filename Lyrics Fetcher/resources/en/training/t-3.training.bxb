@@ -1,0 +1,5 @@
+train (t-3puj24vxcpc0no6zrt7ewsnhu) {
+  utterance ("[g:Fetch] Show lyrics for (Savior)[v:Song] by (Rise Against)[v:Artist]")
+  plan (Y2BhUEjLzEvMiU/KLy7Wy6ksykwujk9LLUnOSC3S8wFzGeRxq3AD0fiMcCwqySwuYZDDrSI4Py+dgZmBkYEJSDIAaRCEALgoAA==)
+  last-modified (1567132442121)
+}
