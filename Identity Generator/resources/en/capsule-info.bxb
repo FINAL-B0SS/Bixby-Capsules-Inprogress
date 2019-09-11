@@ -1,0 +1,14 @@
+capsule-info {
+  display-name (Identity Generator)
+  developer-name (Final Boss)
+  icon-asset (icon.png)
+  description (Identity Generator is a tool that instantly provides you with a randomly generated identity you can use for your incognito operations.)
+  terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
+  search-keywords {
+    keyword (Generate)
+    keyword (Random)
+    keyword (Data)
+    keyword (People)
+  }
+  dispatch-name (Identity Generator)
+} 

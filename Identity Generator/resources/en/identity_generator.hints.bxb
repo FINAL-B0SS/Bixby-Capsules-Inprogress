@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    hint (Ask Identity Generator for a new identity)
+    hint (With Identity Generator create a new identity)
+    hint (On Identity Generator generate a new identity)
+  }
+}
