@@ -1,7 +1,0 @@
-hints {
-  uncategorized {
-    utterance (Get me a random user)
-    utterance (Generate some user data)
-    utterance (Create me a new identity)
-  }
-}

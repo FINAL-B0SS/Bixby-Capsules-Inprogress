@@ -1,6 +1,0 @@
-dialog (Result) {
-  match: User
-  template("A new identity just for you") {
-    speech ("A new identity just for you, use it wisely")
-  }
-}

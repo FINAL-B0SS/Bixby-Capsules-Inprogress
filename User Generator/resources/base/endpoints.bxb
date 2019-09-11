@@ -1,8 +1,0 @@
-endpoints {
-  action-endpoints {
-    action-endpoint (Generate) {
-      accepted-inputs ()
-      local-endpoint (Generate.js)
-    }
-  }
-}
