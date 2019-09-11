@@ -25,13 +25,9 @@ module.exports = function SubmitServiceRequest (description, firstName, lastName
   var token = ""
   var options = {
     format: "json",
-    query: {
-      api_key: "a4cb845ebcb8c15b4fb2f79fdd28f0e6"
-    }
   }
   var request = {
     api_key: "a4cb845ebcb8c15b4fb2f79fdd28f0e6",
-    jurisdiction_id: "sfgov.org",
     lat: location.point.latitude,
     long: location.point.longitude,
     service_code: serviceInfo.serviceCode,
@@ -47,32 +43,32 @@ module.exports = function SubmitServiceRequest (description, firstName, lastName
   var typeCode = BuildtypeCode(serviceInfo.serviceCode)
 
   if (object)
-   request.attribute.request_type = object.name
+   request['attribute']['request_type'] = object.key
   if (natureOfRequest)
-   request.attribute[natureOfRequestCode] = natureOfRequest.name
+   request['attribute'][natureOfRequestCode] = natureOfRequest.key
   if (howManyPeople)
-   request.attribute.cmbpeople = howManyPeople.name
+   request['attribute']['cmbpeople'] = howManyPeople.key
   if (howManyTents)
-   request.attribute.cmbstructures = howManyTents.name
+   request['attribute']['cmbstructures'] = howManyTents.key
   if (type)
-   request.attribute[typeCode] = type
+   request['attribute'][typeCode] = type.key
   if (containsRacialSlursOrProfanity)
-   request.attribute.nature_of_request = containsRacialSlursOrProfanity.name
+   request['attribute']['nature_of_request'] = containsRacialSlursOrProfanity.key
   if (wholeBlock)
-   request.attribute.whole_block = wholeBlock.name
+   request['attribute']['whole_block'] = wholeBlock.key
   if (signType)
-   request.attribute.cmbtype = signType.name
+   request['attribute']['cmbtype'] = signType.key
   if (signStatus)
-   request.attribute.cmbnature = signStatus.name
+   request['attribute']['cmbnature'] = signStatus.key
   if (poleStatus)
-   request.attribute.cmbsupport = poleStatus.name
+   request['attribute']['cmbsupport'] = poleStatus.key
   if (poleType)
-   request.attribute.pole_type = poleType.name
+   request['attribute']['pole_type'] = poleType.key
   if (serviceInfo.serviceName)
    request.service_name = serviceInfo.serviceName.name
 
+  console.log(request['attribute'])
   var postResponse = http.postUrl(url, request, options)
-
   if (Array.isArray(postResponse))
     token = postResponse[0].token
   else

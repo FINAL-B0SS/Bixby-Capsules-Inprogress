@@ -7,7 +7,7 @@ input-view {
     selection-of (this) {
       navigation-mode {
         read-many {
-          page-size (4)
+          page-size (size(this))
           page-content {
             underflow-statement (This is the first page)
             item-selection-question (Select a service to begin a request)

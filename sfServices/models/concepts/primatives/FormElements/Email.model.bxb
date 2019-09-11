@@ -1,5 +1,5 @@
 text (Email) {
-  features {
-    profile-stored
-  }
+  // features {
+  //   profile-stored
+  // }
 }
