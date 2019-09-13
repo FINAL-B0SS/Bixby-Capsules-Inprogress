@@ -1,0 +1,7 @@
+dialog (Progress) {
+  description (This is shown when users are waiting for the list of RSS feeds to load)
+  match: Search (this)
+  choose (Random) {
+    template (Building options)
+  }
+}

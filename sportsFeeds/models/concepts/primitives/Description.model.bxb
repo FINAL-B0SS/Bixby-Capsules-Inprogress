@@ -1,0 +1,6 @@
+text (Description) {
+  description (A medium rundown of the story)
+  features {
+    transient
+  }
+}
