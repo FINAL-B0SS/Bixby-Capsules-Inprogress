@@ -1,4 +1,0 @@
-action (fetchSportsList) {
-  type (Search)
-  output (Sport)
-}

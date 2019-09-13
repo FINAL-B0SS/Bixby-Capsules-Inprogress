@@ -1,5 +1,0 @@
-text (Date) {
-  features {
-    transient
-  }
-}
