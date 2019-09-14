@@ -5,7 +5,7 @@
 module.exports = [{
       url: 'https://www.espn.com/espn/rss/news',
       text: 'Top',
-      tags: ['top']
+      tags: ['top', 'trending', 'popular']
     },
     {
       url: 'https://www.espn.com/espn/rss/nfl/news',
@@ -15,22 +15,22 @@ module.exports = [{
     {
       url: 'https://www.espn.com/espn/rss/nba/news',
       text: 'NBA',
-      tags: ['nba', 'basketball', 'national basketball assosiation']
+      tags: ['nba', 'basketball', 'national basketball association']
     },
     {
       url: 'https://www.espn.com/espn/rss/mlb/news',
       text: 'MLB',
-      tags: ['baseball', 'major league baseball']
+      tags: ['baseball', 'major league baseball', 'mlb']
     },
     {
       url: 'https://www.espn.com/espn/rss/nhl/news',
       text: 'NHL',
-      tags: ['hockey', 'national hockey league']
+      tags: ['hockey', 'national hockey league', 'nhl']
     },
     {
       url: 'https://www.espn.com/espn/rss/golf/news',
       text: 'Golf',
-      tags: ['']
+      tags: ['golf', 'golfer', 'golfing']
     },
     {
       url: 'https://www.espn.com/espn/rss/poker/news',
@@ -40,7 +40,7 @@ module.exports = [{
     {
       url: 'https://www.espn.com/espn/rss/rpm/news',
       text: 'RPM',
-      tags: ['auto', 'car', 'race', 'racing']
+      tags: ['auto', 'car', 'race', 'racing', 'rpm']
     },
     {
       url: 'https://www.espn.com/espn/rss/tennis/news',
@@ -60,26 +60,26 @@ module.exports = [{
     {
       url: 'https://www.espn.com/espn/rss/ncb/news',
       text: 'NCB',
-      tags: ['college basketball', 'ncb']
+      tags: ['college basketball', 'ncb', 'national college basketball']
     },
     {
       url: 'https://www.espn.com/espn/rss/ncf/news',
       text: 'NCF',
-      tags: ['college football', 'ncf']
+      tags: ['college football', 'ncf', 'national college football']
     },
     {
       url: 'https://www.espn.com/espn/rss/ncaa/news',
       text: 'NCAA',
-      tags: ['national collegiate athletic association', 'ncaa']
+      tags: ['national collegiate athletic association', 'ncaa', 'national college athletic association']
     },
     {
       url: 'https://www.espn.com/espn/rss/oly/news',
       text: 'Olympic',
-      tags: ['olympic']
+      tags: ['olympic', 'olympian']
     },
     {
       url: 'https://www.espn.com/espn/rss/horse/news',
       text: 'Horse Racing',
-      tags: ['horse']
+      tags: ['horse', 'horse races', 'horse racing', 'horse race']
     },
   ]

@@ -6,5 +6,6 @@ dialog (Progress) {
     template (Consulting Reporters)
     template (Scouting the field)
     template (Searching the galaxy)
+    template (Finding something interesting)
   }
 }

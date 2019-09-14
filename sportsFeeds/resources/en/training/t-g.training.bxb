@@ -1,7 +1,17 @@
+train (t-g7n2jdkcasevvonlyy7jezdp1) {
+  utterance ("[g:fetchNews] show (golf)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410725592)
+}
 train (t-g811ha1oqr20b4nvoqn7jdqrq) {
   utterance ("[g:fetchNews] List (business)[v:Tag] news")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747169106)
+}
+train (t-gdm6glq0rqowuyjoyfj4psi6s) {
+  utterance ("[g:fetchNews] find me (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568412009731)
 }
 train (t-gdtokf3wd1hjau1hs4p7b178c) {
   utterance ([g:fetchNews] Fetch me stories)

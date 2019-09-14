@@ -18,6 +18,11 @@ train (t-dn401ctanedwsy7p1lvfyo0h3) {
   plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
   last-modified (1567747753533)
 }
+train (t-du9q7n4ho4k9kfggbkighhe6w) {
+  utterance ("[g:fetchNews] Fetch (national college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409394451)
+}
 train (t-dyh2o1pbkwibgmk8r55cav21w) {
   utterance ("[g:fetchNews] List (wired guides)[v:Tag] news")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)

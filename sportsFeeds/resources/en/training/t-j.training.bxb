@@ -3,6 +3,11 @@ train (t-j57bmulvfl6iiwy2rh4ms7o01) {
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747419905)
 }
+train (t-jbvnajs4ok7z7exeq79l1zzuj) {
+  utterance ("[g:fetchNews] get me (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411449011)
+}
 train (t-jc7kknzakvquczx2o60aoc0pl) {
   utterance ("[g:fetchNews] Show me what you got for (business)[v:Tag]")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
