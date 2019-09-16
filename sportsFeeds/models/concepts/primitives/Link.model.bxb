@@ -1,6 +1,0 @@
-text (Link) {
-  description (Link to the full news article)
-  features {
-    transient
-  }
-}
