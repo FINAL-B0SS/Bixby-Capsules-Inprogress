@@ -1,0 +1,43 @@
+input-view {
+  match {
+    Search (this)
+  }
+
+  // Creates navigation buttons
+  conversation-drivers {
+	  conversation-driver {
+		  template (Previous Page)
+	  }
+	conversation-driver {
+		  template (Next page)
+	  }
+  }
+
+  render {
+    // Handles hands free navigation options
+    selection-of (this) {
+      navigation-mode {
+        read-many {
+          page-size (10)
+          page-content {
+            underflow-statement (This is the first page)
+            item-selection-question (Select a category.)
+            overflow-statement (This is the last page)
+            overflow-question (What would you like to do?)
+          }
+        }
+      }
+      select-button-text ("Select")
+      where-each (this) {
+        spoken-summary ("#{value(this.text)}.")
+        cell-card {
+          slot2 {
+            content {
+              primary ("#{value(this.text)}")
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+dialog (Progress) {
+  description (This is displayed when users select an RSS feed and are waiting for stories to load)
+  match: Info (this)
+  choose (Random) {
+    template (Finding headlines)
+    template (Consulting Reporters)
+    template (Scouting the field)
+    template (Searching the galaxy)
+    template (Finding something interesting)
+  }
+}

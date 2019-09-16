@@ -1,0 +1,84 @@
+result-view {
+	match: Info (this)
+	
+	// Creates navigation buttons
+	conversation-drivers {
+		conversation-driver {
+			template (Previous Page)
+		}
+		conversation-driver {
+			template (Next page)
+		}
+	}
+	
+	render {
+		if (size(this) > 1) {
+			list-of (this) {
+				// Handles hands free navigation options
+				navigation-mode {
+					read-many {
+						page-size (10)
+						page-content {
+							underflow-statement (This is the first page)
+							overflow-statement (This is the last page)
+							overflow-question (What would you like to do?)
+								}
+								}
+								}
+								where-each (this) {
+									// Added newlines to have Bixby pause between titles
+									spoken-summary ("#{value(this.title)}\n\n\n\n\n\n\n\n\n\n")
+									thumbnail-card {
+										image-url("#{value(this.image.url)}")
+										title-area {
+											slot1 {
+												text {
+													value ("#{value(this.title)}")
+												}
+											}
+											slot3 {
+												single-line {
+													text {
+														value ("Published on: #{value(this.date)}")
+														style (Legal)
+													}
+												}
+											}
+										}
+									}
+								}
+								}
+								}
+								if (size(this) == 1) {
+									layout {
+										section {
+											content {
+												paragraph {
+													value ("#{value(this.title)}")
+													style (Title_S)
+												}
+												image {
+													url ("#{value(this.image.url)}")
+												}
+												paragraph {
+													value ("#{value(this.description)}")
+													style (Detail_L)
+												}
+												if (exists(this.link)) {
+													attribution-link {
+														label (Click here to see full story)
+														url ("#{value(this.link)}")
+													}
+												}
+												single-line {
+													text {
+														value ("Published on: #{value(this.date)}")
+														style (Legal)
+													}
+												}
+											}
+										}
+									}
+								}
+								}
+								}

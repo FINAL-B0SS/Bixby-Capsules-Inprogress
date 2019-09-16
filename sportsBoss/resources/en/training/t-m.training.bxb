@@ -1,0 +1,55 @@
+train (t-mad9e89f1gmmpqc66s0hoafzu) {
+  utterance ([g:fetchNews] List new stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747877063)
+}
+train (t-mf793snnwhb4f6idkxwz38u52) {
+  utterance ([g:fetchNews] Find top news)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747754941)
+}
+train (t-mh1ihtni0lso9gizygld7bqxo) {
+  utterance ("[g:fetchNews] whats new in (college football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568417722658)
+}
+train (t-mlydzi4vpv7nle6js9sqwjdbg) {
+  utterance ("[g:fetchNews] Perform reconnaissance for new (business)[v:Tag]")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747214026)
+}
+train (t-mpgykmqt2bt33l5eod3hvixvs) {
+  utterance ("[g:fetchNews] List new (wired guides)[v:Tag] new")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747458401)
+}
+train (t-mq4zathce31uxjf1q2eejjm1x) {
+  utterance ("[g:fetchNews] Perform reconnaissance for new (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747217786)
+}
+train (t-ms87jnlt1r23uxozh1got3r1t) {
+  utterance ("[g:fetchNews] Find top (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747129706)
+}
+train (t-mto5d7whjw39g5umrrw1jxpn4) {
+  utterance ("[g:fetchNews] show (national college football)[v:Tag] stories")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410553022)
+}
+train (t-mu1z4dae1bn1s5b09zs011gi2) {
+  utterance ("[g:fetchNews] Find all (national college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409455273)
+}
+train (t-mx43meobkjpblxbj961a2byzn) {
+  utterance ("[g:fetchNews] List new (business)[v:Tag] new")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747182673)
+}
+train (t-my0et7s02ivtusze1upn15tny) {
+  utterance ("[g:fetchNews] Perform reconnaissance for new (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747526386)
+}

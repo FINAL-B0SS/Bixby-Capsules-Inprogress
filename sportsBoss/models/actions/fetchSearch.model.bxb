@@ -1,0 +1,10 @@
+action (fetchSearch) {
+  type (Search)
+  collect {
+    input (tag) {
+      type (Tag)
+      min (Optional) max (One)
+    }
+  }
+  output (Search)
+}
