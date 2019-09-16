@@ -4,10 +4,14 @@ result-view {
 	// Creates navigation buttons
 	conversation-drivers {
 		conversation-driver {
-			template (Previous Page)
+			if (size(this) > 1) {
+				template (Previous Page)
+			}
 		}
 		conversation-driver {
-			template (Next page)
+			if (size(this) > 1) {
+				template (Next page)
+			}
 		}
 	}
 	
@@ -39,9 +43,37 @@ result-view {
 											slot3 {
 												single-line {
 													text {
-														value ("Published on: #{value(this.date)}")
+														value ("Published: #{value(this.date)}")
 														style (Legal)
 													}
+												}
+											}
+										}
+									}
+								}
+								header {
+									title-area {
+										slot2 {
+											if (exists(this.feedDescription)) {
+												paragraph {
+													value ("#{value(this.feedDescription)}")
+													style (Legal)
+												}
+											} else {
+												paragraph {
+													value ()
+												}
+											}
+										}
+										slot3 {
+											if (exists(this.copyright)) {
+												paragraph {
+													value ("#{value(this.copyright)}")
+													style (Legal)
+												}
+											} else {
+												paragraph {
+													value ()
 												}
 											}
 										}
@@ -59,6 +91,8 @@ result-view {
 												}
 												image {
 													url ("#{value(this.image.url)}")
+													lightbox-enabled (false)
+													object-fit (Contain)
 												}
 												paragraph {
 													value ("#{value(this.description)}")
@@ -66,14 +100,30 @@ result-view {
 												}
 												if (exists(this.link)) {
 													attribution-link {
-														label (Click here to see full story)
+														label ("Click here to see the full story on espn.com")
 														url ("#{value(this.link)}")
 													}
 												}
 												single-line {
 													text {
-														value ("Published on: #{value(this.date)}")
+														value ("Published: #{value(this.date)}")
 														style (Legal)
+													}
+												}
+												if (exists(this.feedDescription)) {
+													single-line {
+														text {
+															value ("#{value(this.feedDescription)}")
+															style (Legal)
+														}
+													}
+												}
+												if (exists(this.copyright)) {
+													single-line {
+														text {
+															value ("#{value(this.copyright)}")
+															style (Legal)
+														}
 													}
 												}
 											}
