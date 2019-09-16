@@ -1,3 +1,8 @@
+train (t-527f3bt6zpybdqbhlsdxx04uk) {
+  utterance ("[g:fetchNews]news about the (national college football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568422396284)
+}
 train (t-52q3ya2t6lxvcu3nckdi9pd14) {
   utterance ("[g:fetchNews] Check on (wired guides)[v:Tag] news")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)

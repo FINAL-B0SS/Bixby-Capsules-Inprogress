@@ -23,6 +23,11 @@ train (t-7liirh4m370y9iczu7njq9pf8) {
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1568409507752)
 }
+train (t-7qazoxf80p7cbah3rbdhd7gqm) {
+  utterance ("[g:fetchNews]news about the (national football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568422374565)
+}
 train (t-7seel73vt1fb30399ek5x4dkv) {
   utterance ("[g:fetchNews] Get (wired guides)[v:Tag]")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)

@@ -1,3 +1,8 @@
+train (t-q25al4ribmeccdff5fhitxnf6) {
+  utterance ("[g:fetchNews]whats new in (golf)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568421925812)
+}
 train (t-q9c2itpq8qaobez53rif65ik5) {
   utterance ("[g:fetchNews] Get a list of (national college football)[v:Tag] stories")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
