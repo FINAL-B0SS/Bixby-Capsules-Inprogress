@@ -1,6 +1,6 @@
 capsule {
   id (final_boss.sports_boss)
-  version (0.1.0)
+  version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -18,6 +18,6 @@ capsule {
     section (Sports)
   }
   capsule-imports {
-    import (viv.image) { as (image) version (2.12.8) }
+    import (viv.image) { as (image) version (2.12.10) }
   }
 }
