@@ -1,5 +1,5 @@
 text (ServiceRequestId) {
-  // features {
-  //   profile-stored
-  // }
+  features {
+    profile-stored
+  }
 }

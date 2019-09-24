@@ -1,138 +1,200 @@
 layout-macro-def ("case-summary-fragment") {
-  params {
-    param (case) {
-      type (CaseInfo)
-      min(Required) max(One)
-    }
-  }
-  content {
-    compound-card {
-      content {
-        paragraph {
-          value ("#{value(case.serviceName)}")
-          style(Title_S)
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Status")
-                    style (Detail_L_Soft)
-                  }
-                }
-              }
-            }
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(case.status)}")
-                    style (Detail_L)
-                  }
-                }
-              }
-            }
-          }
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Request ID")
-                    style (Detail_L_Soft)
-                  }
-                }
-              }
-            }
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(case.serviceRequestId)}")
-                    style (Detail_L)
-                  }
-                }
-              }
-            }
-          }
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Location")
-                    style (Detail_L_Soft)
-                  }
-                }
-              }
-            }
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(case.address)}")
-                    style (Detail_L)
-                  }
-                }
-              }
-            }
-          }
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Date Opened")
-                    style (Detail_L_Soft)
-                  }
-                }
-              }
-            }
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(case.dateOpened)}")
-                    style (Detail_L)
-                  }
-                }
-              }
-            }
-          }
-        }
-        hbox {
-          content {
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("Date Updated")
-                    style (Detail_L_Soft)
-                  }
-                }
-              }
-            }
-            vbox {
-              content {
-                single-line {
-                  text {
-                    value ("#{value(case.dateUpdated)}")
-                    style (Detail_L)
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
+	params {
+		param (case) {
+			type (CaseInfo)
+			min(Required) max(One)
+		}
+	}
+	content {
+		compound-card {
+			content {
+				if (exists(case.serviceName)) {
+					paragraph {
+						value ("#{value(case.serviceName)}")
+						style(Title_S)
+					}
+				}
+				if (exists(case.status)) {
+					hbox {
+						content {
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("Status")
+											style (Detail_L_Soft)
+										}
+									}
+								}
+							}
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("#{value(case.status)}")
+											style (Detail_L)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(case.statusNotes)) {
+					hbox {
+						content {
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("Status Notes")
+											style (Detail_L_Soft)
+										}
+									}
+								}
+							}
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("#{value(case.statusNotes)}")
+											style (Detail_L)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(case.serviceRequestId)) {
+					hbox {
+						content {
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("Request ID")
+											style (Detail_L_Soft)
+										}
+									}
+								}
+							}
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("#{value(case.serviceRequestId)}")
+											style (Detail_L)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(case.address)) {
+					hbox {
+						content {
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("Location")
+											style (Detail_L_Soft)
+										}
+									}
+								}
+							}
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("#{value(case.address)}")
+											style (Detail_L)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(case.dateOpened)) {
+					hbox {
+						content {
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("Date Opened")
+											style (Detail_L_Soft)
+										}
+									}
+								}
+							}
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("#{value(case.dateOpened)}")
+											style (Detail_L)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(case.dateUpdated)) {
+					hbox {
+						content {
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("Date Updated")
+											style (Detail_L_Soft)
+										}
+									}
+								}
+							}
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("#{value(case.dateUpdated)}")
+											style (Detail_L)
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+				if (exists(case.description) && case.description != 'undefined') {
+					hbox {
+						content {
+							vbox {
+								content {
+									single-line {
+										text {
+											value ("Description")
+											style (Detail_L_Soft)
+										}
+									}
+								}
+							}
+							vbox {
+								content {
+									text {
+										value ("#{value(case.description)}")
+										style (Detail_L)
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

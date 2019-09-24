@@ -133,12 +133,12 @@ action (SubmitServiceRequest) {
     input (location) {
       type (Location)
       min (Required) max (One)
-      // default-init {
-      //   intent {
-      //     goal: Location
-      //     route: geo.CurrentLocation
-      //   }
-      // }
+      default-init {
+        intent {
+          goal: Location
+          route: geo.CurrentLocation
+        }
+      }
     }
   }
   output (ServiceRequestId)

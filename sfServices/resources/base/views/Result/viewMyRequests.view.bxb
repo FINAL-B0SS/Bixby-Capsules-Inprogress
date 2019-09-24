@@ -4,34 +4,64 @@ result-view {
 			from-output: viewMyRequests
 		}
 	}
-
+	
 	render {
 		list-of (case) {
 			where-each (caseInfo) {
 				compound-card {
 					content {
-						paragraph {
-							value ("#{value(caseInfo.serviceName)}")
+						if (exists(caseInfo.serviceName)) {
+							paragraph {
+								value ("#{value(caseInfo.serviceName)}")
 								style(Title_S)
+							}
 						}
-						hbox {
-							content {
-								vbox {
-									content {
-										single-line {
-											text {
-												value ("Status")
+						if (exists(caseInfo.status)) {
+							hbox {
+								content {
+									vbox {
+										content {
+											single-line {
+												text {
+													value ("Status")
 													style (Detail_L_Soft)
+												}
+											}
+										}
+									}
+									vbox {
+										content {
+											single-line {
+												text {
+													value ("#{value(caseInfo.status)}")
+													style (Detail_L)
+												}
 											}
 										}
 									}
 								}
-								vbox {
-									content {
-										single-line {
-											text {
-												value ("#{value(caseInfo.status)}")
+							}
+						}
+						if (exists(caseInfo.statusNotes)) {
+							hbox {
+								content {
+									vbox {
+										content {
+											single-line {
+												text {
+													value ("Status Notes")
+													style (Detail_L_Soft)
+												}
+											}
+										}
+									}
+									vbox {
+										content {
+											single-line {
+												text {
+													value ("#{value(caseInfo.statusNotes)}")
 													style (Detail_L)
+												}
 											}
 										}
 									}
@@ -46,7 +76,7 @@ result-view {
 											single-line {
 												text {
 													value ("Request ID")
-														style (Detail_L_Soft)
+													style (Detail_L_Soft)
 												}
 											}
 										}
@@ -56,7 +86,7 @@ result-view {
 											single-line {
 												text {
 													value ("#{value(caseInfo.serviceRequestId)}")
-														style (Detail_L)
+													style (Detail_L)
 												}
 											}
 										}
@@ -72,7 +102,7 @@ result-view {
 											single-line {
 												text {
 													value ("Location")
-														style (Detail_L_Soft)
+													style (Detail_L_Soft)
 												}
 											}
 										}
@@ -82,7 +112,7 @@ result-view {
 											single-line {
 												text {
 													value ("#{value(caseInfo.address)}")
-														style (Detail_L)
+													style (Detail_L)
 												}
 											}
 										}
@@ -98,7 +128,7 @@ result-view {
 											single-line {
 												text {
 													value ("Date Opened")
-														style (Detail_L_Soft)
+													style (Detail_L_Soft)
 												}
 											}
 										}
@@ -108,7 +138,7 @@ result-view {
 											single-line {
 												text {
 													value ("#{value(caseInfo.dateOpened)}")
-														style (Detail_L)
+													style (Detail_L)
 												}
 											}
 										}
@@ -124,7 +154,7 @@ result-view {
 											single-line {
 												text {
 													value ("Date Updated")
-														style (Detail_L_Soft)
+													style (Detail_L_Soft)
 												}
 											}
 										}
@@ -134,7 +164,7 @@ result-view {
 											single-line {
 												text {
 													value ("#{value(caseInfo.dateUpdated)}")
-														style (Detail_L)
+													style (Detail_L)
 												}
 											}
 										}
@@ -142,10 +172,25 @@ result-view {
 								}
 							}
 						}
-            if (exists(caseInfo.description) && caseInfo.description != 'undefined') {
+						if (exists(caseInfo.description) && caseInfo.description != 'undefined') {
+							hbox {
+								content {
+									vbox {
+										halign (Center)
+										content {
+											single-line {
+												text {
+													value ("Description")
+													style (Detail_L_Soft)
+												}
+											}
+										}
+									}
+								}
+							}
 							paragraph {
-                value ("#{value(caseInfo.description)}")
-              }
+								value ("#{value(caseInfo.description)}")
+							}
 						}
 					}
 				}

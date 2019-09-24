@@ -10,11 +10,11 @@ input-view {
           type (Phone)
           label (Phone Number)
           max-length (20)
-          // pattern {
-          //   regex (^[0-9]*$) {
-          //     on-error (Please provide a valid phone number with no hyphens or spaces.)
-          //   }
-          // }
+          pattern {
+            regex (^[0-9]*$) {
+              on-error (Please provide a valid phone number with no hyphens or spaces.)
+            }
+          }
         }
       }
       on-submit {

@@ -1,31 +1,29 @@
 capsule {
-  id (final_boss.sf_services)
-  version (0.1.0)
-  format (3)
-  targets {
-    target (bixby-mobile-en-US)
-  }
-  permissions {
-    user-profile-access
-  }
-  
-  runtime-flags {
-    support-halt-effect-in-computed-inputs
-    modern-prompt-rejection
-    concepts-inherit-super-type-features
-    no-filtering-with-validation
-    modern-default-view-behavior
-    use-input-views-for-selection-list-detail
-  }
-
-  store-sections {
-    section (Utilities)
-    section (Local)
-  }
-  
-  capsule-imports {
-    import (viv.core) { as (core) }
-    import (viv.common) {as (common) version (3.32.8)}
-    import (viv.geo) { as (geo) version (9.18.18)}
-    } 
+	id (final_boss.sf_services)
+	version (0.1.0)
+	format (3)
+	targets {
+		target (bixby-mobile-en-US)
+	}
+	permissions {
+		user-profile-access
+	}
+	
+	runtime-flags {
+		support-halt-effect-in-computed-inputs
+		modern-prompt-rejection
+		concepts-inherit-super-type-features
+		no-filtering-with-validation
+		modern-default-view-behavior
+		use-input-views-for-selection-list-detail
+	}
+	
+	store-sections {
+		section (Utilities)
+		section (Local)
+	}
+	
+	capsule-imports {
+		import (viv.geo) { as (geo) version (9.20.3)}
+	}
 }

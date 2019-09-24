@@ -8,6 +8,10 @@ structure (CaseInfo) {
     type (Status)
     min (Optional) max (One)
   }
+  property (statusNotes) {
+    type (StatusNotes)
+    min (Optional) max (One)
+  }
   property (serviceName) {
     type (ServiceName)
     min (Optional) max (One)

@@ -1,14 +1,14 @@
 var console = require('console')
 var http = require('http')
-var config = require('config')
+var secret = require('secret')
 
 module.exports.function = function GetServiceInfo() {
-  var url = "http://mobile311.sfgov.org/open311/v2/services.json"
-  var test = http.getUrl(url, {format: 'text'})
+  var url = secret.get('url.services')
+  var test = http.getUrl(url, { format: 'text' })
   var ret = JSON.parse(test)
   var services = []
   var template
-  
+
   for (var i = 0; i < ret.length; i++) {
     template = {
       serviceName: ret[i].service_name,

@@ -4,7 +4,7 @@ dialog (Result) {
 	}
 
   if (size(case) > 0) {
-    template("These are the services you have requested.")
+    template("Here are the services you have requested.")
   } else {
     template("You have not requested a service yet.")
   }
