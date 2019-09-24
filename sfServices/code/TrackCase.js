@@ -29,6 +29,8 @@ module.exports.function = function trackCase(serviceRequestNumber) {
       cases.push(caseInfo)
     fallback.push(caseInfo)
   }
+  cases.sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
+  fallback.sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
   if (cases.length == 0)
     return (fallback)
   return cases

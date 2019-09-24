@@ -22,5 +22,6 @@ module.exports.function = function viewMyRequests(serviceRequestId) {
       console.error(error)
     }
   }
+  requests.sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
   return requests
 }
