@@ -1,5 +1,15 @@
+train (t-37beg1dbugd4so9xzkfofu0xe) {
+  utterance ([g:viewMyRequests] what have I requested)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1569459406117)
+}
 train (t-38attsqot9cpbnxmgk87s2b6q) {
   utterance ([g:SubmitServiceRequest] What can I request)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775981882)
+}
+train (t-3eymae1206y92lnhohw4op4d2) {
+  utterance ([g:viewMyRequests] what services have I requested)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1569459364445)
 }

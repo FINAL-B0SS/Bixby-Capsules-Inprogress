@@ -4,6 +4,7 @@ capsule-info {
   icon-asset (/logo.png)
   description (Use Sf Services to make and track service requests in San Francisco)
   terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
+  privacy-policy-url (https://app.termly.io/document/privacy-policy/c99c63ba-5e9e-4eb1-9173-cc8721211602)
   search-keywords{
     keyword (SF)
     keyword (city services)
@@ -14,4 +15,3 @@ capsule-info {
   action-bg-color (#3daa4b)
   action-fg-color (#FFFFFF)
 }
-

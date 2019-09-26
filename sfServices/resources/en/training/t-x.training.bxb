@@ -13,3 +13,8 @@ train (t-xebu4olzk79pkbdvki1gmz1v8) {
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
   last-modified (1567556606851)
 }
+train (t-xp3r44hx8oyc7pdk078pk9tgh) {
+  utterance ([g:TrackCase] find a case)
+  plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
+  last-modified (1569459210886)
+}

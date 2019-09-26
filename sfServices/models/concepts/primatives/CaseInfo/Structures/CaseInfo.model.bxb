@@ -32,4 +32,8 @@ structure (CaseInfo) {
     type (Description)
     min (Optional) max (One)
   }
+  property (location) {
+    type (Location)
+    min (Optional) max (One)
+  }
 }

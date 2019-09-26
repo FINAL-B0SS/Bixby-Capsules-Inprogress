@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    hint (On SF Services Track a service request)
-    hint (With SF Services Start a service Request)
-    hint (In SF Services Show availible services)
+    hint (On SF Services track a service request)
+    hint (With SF Services start a service request)
+    hint (On SF Services view my service requests)
   }
 }

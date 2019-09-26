@@ -13,3 +13,8 @@ train (t-znkpde68oq7n0xsbfgxhk0csa) {
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
   last-modified (1567556533459)
 }
+train (t-zqk8ofa6vou5snahokt5n0jja) {
+  utterance ([g:viewMyRequests] view my service requests)
+  plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
+  last-modified (1569457021618)
+}

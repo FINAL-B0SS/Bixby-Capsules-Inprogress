@@ -19,7 +19,13 @@ module.exports.function = function trackCase(serviceRequestNumber) {
       dateUpdated: String(ret[i].updated_datetime).substring(0, 10),
       address: ret[i].address,
       statusNotes: ret[i].status_notes,
-      description: ret[i].description
+      location: {
+        point: {
+          latitude: ret[i].lat,
+          longitude: ret[i].long,
+        }
+      },
+      description: ret[i].description,
     }
     if ((String(ret[i].service_request_id).toLowerCase() == String(serviceRequestNumber).toLowerCase()
       || String(ret[i].service_name).toLowerCase().includes(String(serviceRequestNumber).toLowerCase())

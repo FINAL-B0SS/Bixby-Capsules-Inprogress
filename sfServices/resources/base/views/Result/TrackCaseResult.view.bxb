@@ -1,17 +1,154 @@
 result-view {
-  match {
-    CaseInfo (this)
-  }
-  
-  render {
-    list-of (this) {
-      where-each (caseInfo) {
-        layout-macro (case-summary-fragment) {
-          param (case) {
-            expression (caseInfo)
-          }
-        }
-      }
-    }
-  }
+	match {
+		CaseInfo (this)
+	}
+	
+	render {
+		if (size(this) > 1) {
+			list-of (this) {
+				where-each (caseInfo) {
+					layout-macro (case-summary-fragment) {
+						param (case) {
+							expression (caseInfo)
+						}
+					}
+				}
+			}
+		} else-if (size(this) == 1) {
+			layout {
+				section {
+					content {
+						if (exists(this.serviceName)) {
+							single-line {
+								text {
+									value ("Service Name")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.serviceName)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.status)) {
+							single-line {
+								text {
+									value ("Status")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.status)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.statusNotes)) {
+							single-line {
+								text {
+									value ("Status Notes")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.statusNotes)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.serviceRequestId)) {
+							single-line {
+								text {
+									value ("Service Request ID")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.serviceRequestId)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.address)) {
+							single-line {
+								text {
+									value ("Address")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.address)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.dateOpened)) {
+							single-line {
+								text {
+									value ("Date Opened")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.dateOpened)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.dateUpdated)) {
+							single-line {
+								text {
+									value ("Date Updated")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.dateUpdated)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.description)) {
+							single-line {
+								text {
+									value ("Description")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(this.description)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(this.location)) {
+							map-card {
+								title-area {
+									slot1 {
+										single-line {
+											text {
+												value ()
+											}
+										}
+									}
+								}
+								markers {
+									marker {
+										geo (this.location.point)
+										icon ("/images/pin.png")
+										width (15)
+										height (20)
+										anchor-x (5)
+										anchor-y (15)
+										rotation (0)
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
 }

@@ -1,0 +1,7 @@
+dialog (Progress) {
+  match: ServiceInfo
+  choose (Random) {
+    template (Fetching request)
+    template (Retrieving requests)
+  }
+}

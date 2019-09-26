@@ -1,0 +1,9 @@
+dialog (Progress) {
+	match: ServiceInfo
+	choose (Random) {
+		template (Getting service info)
+		template (Building service list)
+		template (Fetching services)
+		template (Building list of services)
+	}
+}

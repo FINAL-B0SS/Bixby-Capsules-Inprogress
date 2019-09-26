@@ -15,6 +15,12 @@ module.exports.function = function viewMyRequests(serviceRequestId) {
         dateUpdated: String(data[0].updated_datetime).substring(0, 10),
         address: data[0].address,
         statusNotes: data[0].status_notes,
+        location: {
+          point: {
+            latitude: data[0].lat,
+            longitude: data[0].long,
+          }
+        },
         description: data[0].description
       }
       requests.push(request)

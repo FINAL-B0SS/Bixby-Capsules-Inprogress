@@ -6,190 +6,327 @@ result-view {
 	}
 	
 	render {
-		list-of (case) {
-			where-each (caseInfo) {
-				compound-card {
+		if (size(case) > 1) {
+			list-of (case) {
+				where-each (caseInfo) {
+					compound-card {
+						content {
+							if (exists(caseInfo.serviceName)) {
+								paragraph {
+									value ("#{value(caseInfo.serviceName)}")
+									style(Title_S)
+								}
+							}
+							if (exists(caseInfo.status)) {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Status")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(caseInfo.status)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							if (exists(caseInfo.statusNotes)) {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Status Notes")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(caseInfo.statusNotes)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							if (exists(caseInfo.serviceRequestId) && caseInfo.serviceRequestId != 'undefined') {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Request ID")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(caseInfo.serviceRequestId)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							if (exists(caseInfo.address) && caseInfo.address != 'undefined') {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Location")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(caseInfo.address)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							if (exists(caseInfo.dateOpened) && caseInfo.dateOpened != 'undefined') {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Date Opened")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(caseInfo.dateOpened)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							if (exists(caseInfo.dateUpdated) && caseInfo.dateUpdated != 'undefined') {
+								hbox {
+									content {
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("Date Updated")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+										vbox {
+											content {
+												single-line {
+													text {
+														value ("#{value(caseInfo.dateUpdated)}")
+														style (Detail_L)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							if (exists(caseInfo.description) && caseInfo.description != 'undefined') {
+								hbox {
+									content {
+										vbox {
+											halign (Center)
+											content {
+												single-line {
+													text {
+														value ("Description")
+														style (Detail_L_Soft)
+													}
+												}
+											}
+										}
+									}
+								}
+								paragraph {
+									value ("#{value(caseInfo.description)}")
+								}
+							}
+						}
+					}
+				}
+			}
+		} else-if (size(case) == 1) {
+			layout {
+				section {
 					content {
-						if (exists(caseInfo.serviceName)) {
-							paragraph {
-								value ("#{value(caseInfo.serviceName)}")
-								style(Title_S)
-							}
-						}
-						if (exists(caseInfo.status)) {
-							hbox {
-								content {
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("Status")
-													style (Detail_L_Soft)
-												}
-											}
-										}
-									}
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("#{value(caseInfo.status)}")
-													style (Detail_L)
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-						if (exists(caseInfo.statusNotes)) {
-							hbox {
-								content {
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("Status Notes")
-													style (Detail_L_Soft)
-												}
-											}
-										}
-									}
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("#{value(caseInfo.statusNotes)}")
-													style (Detail_L)
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-						if (exists(caseInfo.serviceRequestId) && caseInfo.serviceRequestId != 'undefined') {
-							hbox {
-								content {
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("Request ID")
-													style (Detail_L_Soft)
-												}
-											}
-										}
-									}
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("#{value(caseInfo.serviceRequestId)}")
-													style (Detail_L)
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-						if (exists(caseInfo.address) && caseInfo.address != 'undefined') {
-							hbox {
-								content {
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("Location")
-													style (Detail_L_Soft)
-												}
-											}
-										}
-									}
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("#{value(caseInfo.address)}")
-													style (Detail_L)
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-						if (exists(caseInfo.dateOpened) && caseInfo.dateOpened != 'undefined') {
-							hbox {
-								content {
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("Date Opened")
-													style (Detail_L_Soft)
-												}
-											}
-										}
-									}
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("#{value(caseInfo.dateOpened)}")
-													style (Detail_L)
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-						if (exists(caseInfo.dateUpdated) && caseInfo.dateUpdated != 'undefined') {
-							hbox {
-								content {
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("Date Updated")
-													style (Detail_L_Soft)
-												}
-											}
-										}
-									}
-									vbox {
-										content {
-											single-line {
-												text {
-													value ("#{value(caseInfo.dateUpdated)}")
-													style (Detail_L)
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-						if (exists(caseInfo.description) && caseInfo.description != 'undefined') {
-							hbox {
-								content {
-									vbox {
-										halign (Center)
-										content {
-											single-line {
-												text {
-													value ("Description")
-													style (Detail_L_Soft)
-												}
-											}
-										}
-									}
+						if (exists(case.serviceName)) {
+							single-line {
+								text {
+									value ("Service Name")
+									style (Detail_L_Soft)
 								}
 							}
 							paragraph {
-								value ("#{value(caseInfo.description)}")
+								value ("#{value(case.serviceName)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.status)) {
+							single-line {
+								text {
+									value ("Status")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(case.status)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.statusNotes)) {
+							single-line {
+								text {
+									value ("Status Notes")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(case.statusNotes)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.serviceRequestId)) {
+							single-line {
+								text {
+									value ("Service Request ID")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(case.serviceRequestId)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.address)) {
+							single-line {
+								text {
+									value ("Address")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(case.address)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.dateOpened)) {
+							single-line {
+								text {
+									value ("Date Opened")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(case.dateOpened)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.dateUpdated)) {
+							single-line {
+								text {
+									value ("Date Updated")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(case.dateUpdated)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.description)) {
+							single-line {
+								text {
+									value ("Ddescription")
+									style (Detail_L_Soft)
+								}
+							}
+							paragraph {
+								value ("#{value(case.description)}")
+								style (Detail_L)
+							}
+						}
+						divider
+						if (exists(case.location)) {
+							map-card {
+								title-area {
+									slot1 {
+										single-line {
+											text {
+												value ()
+											}
+										}
+									}
+								}
+								markers {
+									marker {
+										geo (case.location.point)
+										icon ("/images/pin.png")
+										width (15)
+										height (20)
+										anchor-x (5)
+										anchor-y (15)
+										rotation (0)
+									}
+								}
 							}
 						}
 					}

@@ -1,0 +1,10 @@
+dialog (Result) {
+  match: CaseInfo
+  choose (Random) {
+    template (Fetching cases)
+    template (Retrieving cases)
+    template (Finding case)
+    template (Searching cases)
+    template (Pulling files)
+  }
+}
