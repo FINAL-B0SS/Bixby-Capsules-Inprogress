@@ -3,12 +3,12 @@ structure (Info) {
   property (date) {
     description (Date the article was published)
     type (Date)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (description) {
     description (A medium rundown of the story)
     type (Description)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (link) {
     description (Link to the full news article)
@@ -18,18 +18,18 @@ structure (Info) {
   property (title) {
     description (The stories headline)
     type (Title)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (image) {
     description (Picture relevent to the posting)
     type (image.Image)
-    min (Required) max (One)
+    min (Optional) max (One)
     visibility (Private)
   }
   property (copyrightImage) {
     description (RSS feed image)
     type (image.Image)
-    min (Required) max (One)
+    min (Optional) max (One)
   }
   property (tag) {
     description (Used to match utterance to a specific RSS feed)

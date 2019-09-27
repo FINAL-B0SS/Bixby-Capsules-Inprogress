@@ -1,5 +1,5 @@
 capsule {
-  id (final_boss.sports_boss)
+  id (final_boss.podcast_boss)
   version (1.0.0)
   format (3)
   targets {

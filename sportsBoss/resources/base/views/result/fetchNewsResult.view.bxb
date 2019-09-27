@@ -85,18 +85,24 @@ result-view {
 									layout {
 										section {
 											content {
-												paragraph {
-													value ("#{value(this.title)}")
-													style (Title_S)
+												if (exists(this.title)) {
+													paragraph {
+														value ("#{value(this.title)}")
+														style (Title_S)
+													}
 												}
-												image {
-													url ("#{value(this.image.url)}")
-													lightbox-enabled (false)
-													object-fit (Contain)
+												if (exists(this.image)) {
+													image {
+														url ("#{value(this.image.url)}")
+														lightbox-enabled (false)
+														object-fit (Contain)
+													}
 												}
-												paragraph {
-													value ("#{value(this.description)}")
-													style (Detail_L)
+												if (exists(this.description)) {
+													paragraph {
+														value ("#{value(this.description)}")
+														style (Detail_L)
+													}
 												}
 												if (exists(this.link)) {
 													attribution-link {
@@ -104,10 +110,12 @@ result-view {
 														url ("#{value(this.link)}")
 													}
 												}
-												single-line {
-													text {
-														value ("Published: #{value(this.date)}")
-														style (Legal)
+												if (exists(this.date)) {
+													single-line {
+														text {
+															value ("Published: #{value(this.date)}")
+															style (Legal)
+														}
 													}
 												}
 												if (exists(this.feedDescription)) {
