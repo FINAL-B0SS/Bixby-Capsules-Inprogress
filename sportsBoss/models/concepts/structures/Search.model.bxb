@@ -10,7 +10,7 @@ structure (Search) {
   }
   property (tags) {
     type (Tags)
-    min (Required) max (Many)
+    min (Optional) max (Many)
   }
   features {
     transient

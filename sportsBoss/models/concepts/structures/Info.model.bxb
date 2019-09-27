@@ -1,9 +1,15 @@
 structure (Info) {
   description (Stores a news story)
-  property (date) {
-    description (Date the article was published)
-    type (Date)
-    min (Optional) max (One)
+  property (title) {
+    description (The stories headline)
+    type (Title)
+    min (Required) max (One)
+  }
+  property (image) {
+    description (Picture relevent to the posting)
+    type (image.Image)
+    min (Required) max (One)
+    visibility (Private)
   }
   property (description) {
     description (A medium rundown of the story)
@@ -15,16 +21,10 @@ structure (Info) {
     type (Link)
     min (Optional) max (One)
   }
-  property (title) {
-    description (The stories headline)
-    type (Title)
+  property (date) {
+    description (Date the article was published)
+    type (Date)
     min (Optional) max (One)
-  }
-  property (image) {
-    description (Picture relevent to the posting)
-    type (image.Image)
-    min (Optional) max (One)
-    visibility (Private)
   }
   property (copyrightImage) {
     description (RSS feed image)
@@ -34,7 +34,7 @@ structure (Info) {
   property (tag) {
     description (Used to match utterance to a specific RSS feed)
     type (Tag)
-    min (Optional) max (One)
+    min (Required) max (One)
   }
   property (copyright) {
     description (RSS feed copyright message)
@@ -46,7 +46,10 @@ structure (Info) {
     type (FeedDescription)
     min (Optional) max (One)
   }
-  
+  property (audioItem) {
+    type (audioPlayer.AudioItem)
+    min (Optional) max (One)
+  }
   features {
     transient
   }

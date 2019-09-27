@@ -41,10 +41,18 @@ result-view {
 												}
 											}
 											slot3 {
-												single-line {
-													text {
-														value ("Published: #{value(this.date)}")
-														style (Legal)
+												if (exists(this.date)) {
+													single-line {
+														text {
+															value ("Published: #{value(this.date)}")
+															style (Legal)
+														}
+													}
+												} else {
+													single-line {
+														text {
+															value ()
+														}
 													}
 												}
 											}
@@ -91,7 +99,25 @@ result-view {
 														style (Title_S)
 													}
 												}
-												if (exists(this.image)) {
+												if (exists(this.audioItem)) {
+													image-card {
+														image-url ("play_button.png")
+														image-object-fit (Contain)
+														title-area {
+															slot1 {
+																text {
+																	value ("Play Audio")
+																}
+															}
+														}
+														on-click {
+															intent {
+																goal: playSound
+																value: $expr(this.audioItem)
+															}
+														}
+													}
+												} else-if (exists(this.image)) {
 													image {
 														url ("#{value(this.image.url)}")
 														lightbox-enabled (false)
@@ -119,11 +145,9 @@ result-view {
 													}
 												}
 												if (exists(this.feedDescription)) {
-													single-line {
-														text {
-															value ("#{value(this.feedDescription)}")
-															style (Legal)
-														}
+													paragraph {
+														value ("#{value(this.feedDescription)}")
+														style (Legal)
 													}
 												}
 												if (exists(this.copyright)) {

@@ -1,87 +1,76 @@
 var http = require('http')
 var console = require('console')
 
+/*
+  Builds an object with the tags shared between all types of RSS Feeds
+  */
+function buildSharedtags(channel, i, search) {
+	var ret = {}
+
+	ret.tag = search.text
+	if (channel.item[i].link)
+		ret.link = channel.item[i].link
+	if (channel.copyright)
+		ret.copyright = channel.copyright
+	if ("enclosure" in channel.item[i]) {
+		if (channel.item[i]['itunes:image'])
+			ret.image = { url: channel.item[i]['itunes:image']['@href'] }
+		else
+			ret.image = { url: "icon.png" }
+	} else if (channel.image)
+		ret.copyrightImage = { url: channel.image.url }
+	if (channel.description)
+		ret.feedDescription = channel.description
+	if (channel.item[i].title)
+		ret.title = channel.item[i].title
+	else
+		ret.title = "No title"
+	if (channel.item[i].pubDate)
+		ret.date = channel.item[i].pubDate
+	else
+		ret.date = "Unknown"
+	if (channel.item[i].image)
+		ret.image = { url: channel.item[i].image }
+	else
+		ret.image = { url: "icon.png" }
+	if (typeof channel.item[i].description == 'string'
+		&& channel.item[i].description
+		&& channel.item[i].description != 'null')
+		ret.description = channel.item[i].description
+	else
+		ret.description = "No description"
+	return ret;
+}
+
+/*
+  Builds audioItem with given item from RSS feed
+  */
+function buildAudioItem(data, i) {
+	return ({
+		id: 1,
+		stream: [
+			{
+				url: data.rss.channel.item[i]['enclosure']['@url'],
+				format: "mp3"
+			}
+		],
+		title: data.rss.channel.item[i].title,
+		subtitle: data.rss.channel.item[i]['itunes:subtitle'],
+		artist: data.rss.channel.item[i]['itunes:author'],
+		albumArtUrl: data.rss.channel.item[i]['itunes:image']['@href']
+	})
+}
+
 module.exports.function = function fetchNews(tag, search) {
+	var data = http.getUrl(search.url, { format: 'xmljs' })
+	var ret = []
 
-  var data = http.getUrl(search.url, { format: 'xmljs' })
-  var ret = []
-  var tmp = {}
-
-  console.log(data)
-  if ("enclosure" in data.rss.channel.item[0]) {
-    tmp = {}
-    var i = 0;
-    tmp.tag = search.text
-    if (data.rss.channel.item[i].link)
-      tmp.link = data.rss.channel.item[i].link
-    if (data.rss.channel.copyright)
-      tmp.copyright = data.rss.channel.copyright
-    if (data.rss.channel.image)
-      tmp.copyrightImage = { url: data.rss.channel.image.url }
-    if (data.rss.channel.item[i].title)
-      tmp.title = data.rss.channel.item[i].title
-    else
-      tmp.title = "No title"
-    if (data.rss.channel.item[i].pubDate)
-      tmp.date = data.rss.channel.item[i].pubDate
-    else
-      tmp.date = "Unknown"
-    if (data.rss.channel.item[i]['itunes:image'])
-      tmp.image = { url: data.rss.channel.item[i]['itunes:image']['@href'] }
-    else
-      tmp.image = { url: "icon.png" }
-    if (typeof data.rss.channel.item[i].description == 'string'
-      && data.rss.channel.item[i].description
-      && data.rss.channel.item[i].description != 'null')
-      tmp.description = data.rss.channel.item[i].description
-    else
-      tmp.description = "No description"
-    tmp.audioItem = {
-      id: 1,
-      stream: [
-        {
-          url: "https://storage.googleapis.com/bixby-audio-player-example/meows/203121_777645-lq.mp3",
-          format: "mp3"
-        }
-      ],
-      title: "Cat-ch Phrase",
-      subtitle: data.rss.channel.item[i]['itunes:subtitle'],
-      artist: "Cool Cat",
-      albumName: "Catatonic",
-      albumArtUrl: data.rss.channel.item[i]['itunes:image']['@href']
-    }
-    temp = tmp
-    return ([temp, tmp])
-  } else {
-    for (var i = 0; i < data.rss.channel.item.length; i += 1) {
-      tmp = {}
-      tmp.tag = search.text
-      if (data.rss.channel.item[i].link)
-        tmp.link = data.rss.channel.item[i].link
-      if (data.rss.channel.copyright)
-        tmp.copyright = data.rss.channel.copyright
-      if (data.rss.channel.image)
-        tmp.copyrightImage = { url: data.rss.channel.image.url }
-      if (data.rss.channel.description)
-        tmp.feedDescription = data.rss.channel.description
-      if (data.rss.channel.item[i].title)
-        tmp.title = data.rss.channel.item[i].title
-      else
-        tmp.title = "No title"
-      if (data.rss.channel.item[i].pubDate)
-        tmp.date = data.rss.channel.item[i].pubDate
-      else
-        tmp.date = "Unknown"
-      if (data.rss.channel.item[i].image)
-        tmp.image = { url: data.rss.channel.item[i].image }
-      else
-        tmp.image = { url: "icon.png" }
-      if (data.rss.channel.item[i].description && data.rss.channel.item[i].description != 'null')
-        tmp.description = data.rss.channel.item[i].description
-      else
-        tmp.description = "No description"
-      ret.push(tmp)
-    }
-  }
-  return ret
+	for (var i = 0; i < data.rss.channel.item.length; i += 1) {
+		ret.push(buildSharedtags(data.rss.channel, i, search))
+		if ("enclosure" in data.rss.channel.item[i]) {
+			console.log(buildAudioItem(data, i))
+			ret[ret.length - 1].audioItem = buildAudioItem(data, i)
+		}
+	}
+	return ret
 }
