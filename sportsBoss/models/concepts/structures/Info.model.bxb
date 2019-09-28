@@ -50,6 +50,10 @@ structure (Info) {
     type (audioPlayer.AudioItem)
     min (Optional) max (One)
   }
+  property (urlText) {
+    type (UrlText)
+    min (Required) max (One)
+  }
   features {
     transient
   }

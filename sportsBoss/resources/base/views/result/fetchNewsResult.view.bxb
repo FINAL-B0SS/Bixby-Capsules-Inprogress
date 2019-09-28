@@ -141,7 +141,7 @@ result-view {
 												}
 												if (exists(this.link)) {
 													attribution-link {
-														label ("Click here to see the full story on espn.com")
+														label ("#{value(this.urlText)}")
 														url ("#{value(this.link)}")
 													}
 												}

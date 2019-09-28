@@ -16,7 +16,7 @@ function removeHTML(str) {
 function buildSharedtags(channel, i, search) {
 	var ret = {}
 
-	console.log(channel.item[i])
+	ret.urlText = search.urlText
 	ret.tag = search.text
 	if (channel.item[i].link)
 		ret.link = channel.item[i].link

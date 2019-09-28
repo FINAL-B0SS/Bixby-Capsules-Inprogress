@@ -12,6 +12,10 @@ structure (Search) {
     type (Tags)
     min (Optional) max (Many)
   }
+  property (urlText) {
+    type (UrlText)
+    min (Required) max (One)
+  }
   features {
     transient
   }
