@@ -9,9 +9,11 @@ result-view {
 				content {
 					image {
 						url ("#{value(this.albumArtUrl)}")
+						object-fit (Contain)
             lightbox-enabled (false)
 					}
 					if (exists(this.title)) {
+						divider
 						single-line {
 							text {
 								value ("Title")
@@ -22,6 +24,7 @@ result-view {
               value ("#{value(this.title)}")
               style (Title_M)
             }
+						divider
 					}
 					if (exists(this.artist)) {
 						single-line {
@@ -34,6 +37,7 @@ result-view {
               value ("#{value(this.artist)}")
               style (Title_M)
             }
+						divider
 					}
 				}
 			}

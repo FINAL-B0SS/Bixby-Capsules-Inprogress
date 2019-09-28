@@ -123,18 +123,21 @@ result-view {
 															}
 														}
 													}
+													divider
 												} else-if (exists(this.image)) {
 													image {
 														url ("#{value(this.image.url)}")
 														lightbox-enabled (false)
 														object-fit (Contain)
 													}
+													divider
 												}
 												if (exists(this.description)) {
 													paragraph {
 														value ("#{value(this.description)}")
 														style (Detail_L)
 													}
+													divider
 												}
 												if (exists(this.link)) {
 													attribution-link {

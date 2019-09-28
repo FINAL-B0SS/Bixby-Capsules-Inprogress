@@ -2,11 +2,7 @@
 // Url: Link to RSS feed xml
 // Text: What users see in feed selection list
 // Tags: What the user can say to automatically call certain feeds
-module.exports = module.exports = [//{
-    //   url: 'http://feed.thisamericanlife.org/talpodcast',
-    //   text: 'Audio',
-    //   tags: ['audio']
-    // },
+module.exports = module.exports = [
     {
       url: 'https://www.espn.com/espn/rss/news',
       text: 'Top',
@@ -64,12 +60,12 @@ module.exports = module.exports = [//{
     },
     {
       url: 'https://www.espn.com/espn/rss/ncb/news',
-      text: 'NCB',
+      text: 'College Basketball',
       tags: ['college basketball', 'ncb', 'national college basketball']
     },
     {
       url: 'https://www.espn.com/espn/rss/ncf/news',
-      text: 'NCF',
+      text: 'College Football',
       tags: ['college football', 'ncf', 'national college football']
     },
     {
@@ -86,5 +82,5 @@ module.exports = module.exports = [//{
       url: 'https://www.espn.com/espn/rss/horse/news',
       text: 'Horse Racing',
       tags: ['horse', 'horse races', 'horse racing', 'horse race']
-    },
+    }
   ]
