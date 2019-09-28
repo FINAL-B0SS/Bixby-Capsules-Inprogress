@@ -23,6 +23,11 @@ train (t-qifppxs87h6h26n9eh9s28k97) {
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747561007)
 }
+train (t-qkrqi0su24y8aaqj3fmp7o8n3) {
+  utterance ("[g:fetchNews] (golf)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WK8hPSU4sLoFwPPPS8hkUccmmpZYkZ/illhczyOFSEpyaWJScwSCNSz4kMZ2BmYGRgQlIMgBpEIQAJiALKAYA)
+  last-modified (1569635400542)
+}
 train (t-qkw6s7luls4z52sd624d49ktn) {
   utterance ("[g:fetchNews] Provide a list of (national college football)[v:Tag] stories")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)

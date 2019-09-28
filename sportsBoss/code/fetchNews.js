@@ -1,17 +1,27 @@
 var http = require('http')
 var console = require('console')
 
+
+function removeHTML(str) {
+   if ((str===null) || (str===''))
+       return false;
+  else
+   str = str.toString();
+  return str.replace(/<[^>]*>/g, '');
+}
+
 /*
   Builds an object with the tags shared between all types of RSS Feeds
   */
 function buildSharedtags(channel, i, search) {
 	var ret = {}
 
+	console.log(channel)
 	ret.tag = search.text
 	if (channel.item[i].link)
 		ret.link = channel.item[i].link
 	if (channel.copyright)
-		ret.copyright = channel.copyright
+		ret.copyright = removeHTML(channel.copyright)
 	if ("enclosure" in channel.item[i]) {
 		if (channel.item[i]['itunes:image'])
 			ret.image = { url: channel.item[i]['itunes:image']['@href'] }
@@ -20,9 +30,9 @@ function buildSharedtags(channel, i, search) {
 	} else if (channel.image)
 		ret.copyrightImage = { url: channel.image.url }
 	if (channel.description)
-		ret.feedDescription = channel.description
+		ret.feedDescription = removeHTML(channel.description)
 	if (channel.item[i].title)
-		ret.title = channel.item[i].title
+		ret.title = removeHTML(channel.item[i].title)
 	else
 		ret.title = "No title"
 	if (channel.item[i].pubDate)
@@ -36,7 +46,7 @@ function buildSharedtags(channel, i, search) {
 	if (typeof channel.item[i].description == 'string'
 		&& channel.item[i].description
 		&& channel.item[i].description != 'null')
-		ret.description = channel.item[i].description
+		ret.description = removeHTML(channel.item[i].description)
 	else
 		ret.description = "No description"
 	return ret;
@@ -45,7 +55,7 @@ function buildSharedtags(channel, i, search) {
 /*
   Builds audioItem with given item from RSS feed
   */
-function buildAudioItem(data, i) {
+function buildAudioItem(data, i, image) {
 	return ({
 		id: 1,
 		stream: [
@@ -57,7 +67,7 @@ function buildAudioItem(data, i) {
 		title: data.rss.channel.item[i].title,
 		subtitle: data.rss.channel.item[i]['itunes:subtitle'],
 		artist: data.rss.channel.item[i]['itunes:author'],
-		albumArtUrl: data.rss.channel.item[i]['itunes:image']['@href']
+		albumArtUrl: image
 	})
 }
 
@@ -68,8 +78,7 @@ module.exports.function = function fetchNews(tag, search) {
 	for (var i = 0; i < data.rss.channel.item.length; i += 1) {
 		ret.push(buildSharedtags(data.rss.channel, i, search))
 		if ("enclosure" in data.rss.channel.item[i]) {
-			console.log(buildAudioItem(data, i))
-			ret[ret.length - 1].audioItem = buildAudioItem(data, i)
+			ret[ret.length - 1].audioItem = buildAudioItem(data, i, ret[ret.length - 1].image.url)
 		}
 	}
 	return ret
