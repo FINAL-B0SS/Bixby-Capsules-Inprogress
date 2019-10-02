@@ -1,0 +1,25 @@
+capsule {
+  id (final_boss.console_update)
+  version (1.0.1)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    modern-default-view-behavior
+    use-input-views-for-selection-list-detail
+  }
+  store-sections {
+    section (NewsAndMagazines)
+    section (Sports)
+  }
+  capsule-imports {
+    import (viv.image) { as (image) version (2.12.10) }
+    import (bixby.audioPlayer) { version (0.3.6) as (audioPlayer)
+    }
+  }
+}

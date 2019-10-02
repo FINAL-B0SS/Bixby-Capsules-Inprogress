@@ -1,0 +1,20 @@
+train (t-i0w4oicxk2sj11jjtxib9pzmn) {
+  utterance ("[g:fetchNews] Perform reconnaissance for new (national college football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409594782)
+}
+train (t-i35xytxalb79i0wmyagnhr61x) {
+  utterance ([g:fetchNews] Perform reconnaissance for new stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747950862)
+}
+train (t-iw7r00ixsyz6pcr7y05aaq6x1) {
+  utterance ("[g:fetchNews] show (golf)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410831235)
+}
+train (t-izq9myj9uyfrf4ns7lfcgy6hf) {
+  utterance ("[g:fetchNews] Fetch (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747088266)
+}

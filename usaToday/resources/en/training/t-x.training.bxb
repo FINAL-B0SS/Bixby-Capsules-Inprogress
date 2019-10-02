@@ -1,0 +1,40 @@
+train (t-x3jgxmmc0ymtngk4rers2e0my) {
+  utterance ("[g:fetchNews] Find all (wired guides)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747395649)
+}
+train (t-x4u661hvzc992e6t9ueqkuob6) {
+  utterance ("[g:fetchNews] Find (national college football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409469093)
+}
+train (t-x92cmt5t2gqkzrekbf7x87zrx) {
+  utterance ("[g:fetchNews] Fetch new me (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747084650)
+}
+train (t-xa9k5dwvoo4ihl04w82mp8ih9) {
+  utterance ([g:fetchNews] Perform reconnaissance for new stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747941125)
+}
+train (t-xgc81u35gadixo5jltzplblgx) {
+  utterance ("[g:fetchNews] Assist me in finding (national college football)[v:Tag] headlines")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409692966)
+}
+train (t-xk2pz3fs3t34b3dwv4rk861dv) {
+  utterance ("[g:fetchNews] let me see (golf)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410199952)
+}
+train (t-xmyrr32f7t945i7lkhu6sk6h5) {
+  utterance ("[g:fetchNews] Fetch (wired guides)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747366561)
+}
+train (t-xn4twl4plbmg9yhnqxvzz5ugs) {
+  utterance ("[g:fetchNews] for news about (national football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568418439783)
+}

@@ -1,0 +1,45 @@
+train (t-l0nnavzyszlg4d4uvtozi3wcf) {
+  utterance ("[g:fetchNews] (wired guide)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567748244251)
+}
+train (t-la8vlf9n5613s4cer0no6cx7x) {
+  utterance ("[g:fetchNews] Perform reconnaissance for (wired guides)[v:Tag]")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747473321)
+}
+train (t-ld29brnzmy50cfdm7c8k75oqb) {
+  utterance ("[g:fetchNews] (national hockey league)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410073702)
+}
+train (t-lgo9xuib4p3u8oxo4y36yo993) {
+  utterance ("[g:fetchNews] find me (national college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568412116377)
+}
+train (t-lgxl2s6rb73e65dnlwxj6k55w) {
+  utterance ("[g:fetchNews] find (golf)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411840718)
+}
+train (t-lmdy7cb5yelnv35l4o9mz6y4r) {
+  utterance ("[g:fetchNews] see whats happening with (Horse Racing)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568418108019)
+}
+train (t-lr5d32tab1nwr9zvlxo0asd3p) {
+  utterance ("[g:fetchNews] find (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411997838)
+}
+train (t-lv3aw0sck0xdmuokb57xlt3ya) {
+  utterance ("[g:fetchNews] Get a list of (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747409873)
+}
+train (t-lyz6hhkf0fc419cwma00dyp04) {
+  utterance ("[g:fetchNews] news about (golfing)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568417981226)
+}

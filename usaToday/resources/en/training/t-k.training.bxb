@@ -1,0 +1,20 @@
+train (t-k5rzgvlt0so337to8upy7nsim) {
+  utterance ("[g:fetchNews] Assist me in finding (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747581427)
+}
+train (t-kii5v6bzhjn0rdhlzcflrer0m) {
+  utterance ("[g:fetchNews] (business)[v:Tag] headlines")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568353041865)
+}
+train (t-knf1c3wi6wlipxg4apxrrjwq0) {
+  utterance ("[g:fetchNews] Provide a list of (wired guides)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747552441)
+}
+train (t-krsxbz2xrsu5fr85j47daduu1) {
+  utterance ([g:fetchNews] Show me all headlines)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567748016963)
+}

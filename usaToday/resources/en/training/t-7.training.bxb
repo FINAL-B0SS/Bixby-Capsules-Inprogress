@@ -1,0 +1,45 @@
+train (t-73qvygv7jem5hay9vjo60cec1) {
+  utterance ("[g:fetchNews] Fetch me new (business)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747109194)
+}
+train (t-7aqy7h6r73ut2x8ui5olto3e7) {
+  utterance ("[g:fetchNews] Tell me about (business)[v:Tag] today")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747258561)
+}
+train (t-7fukbigxa20c43goda63dhfkq) {
+  utterance ("[g:fetchNews] let me see (national college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410238457)
+}
+train (t-7k7nvkjsglb57wtmy3feib5iu) {
+  utterance ("[g:fetchNews] Fetch (national college football)[v:Tag] stories")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409410166)
+}
+train (t-7liirh4m370y9iczu7njq9pf8) {
+  utterance ("[g:fetchNews] Get (national college football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409507752)
+}
+train (t-7qazoxf80p7cbah3rbdhd7gqm) {
+  utterance ("[g:fetchNews]news about the (national football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568422374565)
+}
+train (t-7seel73vt1fb30399ek5x4dkv) {
+  utterance ("[g:fetchNews] Get (wired guides)[v:Tag]")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747436728)
+}
+train (t-7v0hfggicg6py546ke9ytlyl9) {
+  utterance ("[g:fetchNews] Fetch (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747297043)
+}
+train (t-7xe5fmxh2i42qb2jxwcmjznb5) {
+  utterance ("[g:fetchNews] show (college basketball)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568413257925)
+}
