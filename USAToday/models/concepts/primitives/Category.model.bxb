@@ -1,6 +1,0 @@
-enum (Category) {
-  symbol (SINGLE)
-  symbol (RADIO)
-  symbol (PODCAST)
-  symbol (MUSIC)
-}
