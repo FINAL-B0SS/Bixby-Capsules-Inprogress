@@ -1,0 +1,35 @@
+train (t-b14slwijyu1fz7jwukv0vyetz) {
+  utterance ("[g:fetchNews] (wired guide)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567748243484)
+}
+train (t-b3w35ltifvmybh4hgdenmoof5) {
+  utterance ("[g:fetchNews] Show all (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747247625)
+}
+train (t-b4k3luf8wibcjnuy6qknsxv0u) {
+  utterance ([g:fetchNews] Perform reconnaissance for stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747921671)
+}
+train (t-banud9l0rcggn2rxt2ajy2kma) {
+  utterance ("[g:fetchNews] List new (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747187705)
+}
+train (t-batvgg67h3vnu9g7e93j9zmhx) {
+  utterance ("[g:fetchNews] Fetch new  (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747308457)
+}
+train (t-bqef84q5kch5plf9gt3oko4op) {
+  utterance ("[g:fetchNews] National football league (headlines)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568405393689)
+}
+train (t-bw6ucntnvmlfjuy4m2o1q68ft) {
+  utterance ("[g:fetchNews] Fetch new  (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747080642)
+}

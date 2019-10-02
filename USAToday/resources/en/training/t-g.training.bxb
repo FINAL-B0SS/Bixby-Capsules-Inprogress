@@ -1,0 +1,50 @@
+train (t-g7n2jdkcasevvonlyy7jezdp1) {
+  utterance ("[g:fetchNews] show (golf)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410725592)
+}
+train (t-g811ha1oqr20b4nvoqn7jdqrq) {
+  utterance ("[g:fetchNews] List (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747169106)
+}
+train (t-gdm6glq0rqowuyjoyfj4psi6s) {
+  utterance ("[g:fetchNews] find me (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568412009731)
+}
+train (t-gdtokf3wd1hjau1hs4p7b178c) {
+  utterance ([g:fetchNews] Fetch me stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747671623)
+}
+train (t-giz8scfhcqwi0ebwrlseabvfw) {
+  utterance ([g:fetchNews] Fetch new headlines)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747633393)
+}
+train (t-gj98sj97m5uu3ozuth8pbrc79) {
+  utterance ("[g:fetchNews] List new (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747463624)
+}
+train (t-grm58jw8ncio5u5k1vlld7osr) {
+  utterance ("[g:fetchNews] Show (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747292338)
+}
+train (t-gtpp561ylbugt2ad9tvkpvefw) {
+  utterance ("[g:fetchNews] Find all (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747125563)
+}
+train (t-gtwn24675l538wj2v4ml2lo6b) {
+  utterance ([g:fetchNews] Fetch new me headlines)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747637509)
+}
+train (t-gxtnbcjoq55up640hlfb5271x) {
+  utterance ([g:fetchNews] Find all news)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747704176)
+}
