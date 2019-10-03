@@ -14,7 +14,8 @@ function removeHTML(str) {
 	str = str.split('[&#8230;]')[0]
 	// Replace SGML with ascii symbols
 	for (var i = 0; i < HTMLCODES.length; i++)
-		str = str.replace(HTMLCODES[i].key, HTMLCODES[i].value)
+		while (str.includes(HTMLCODES[i].key))
+			str = str.replace(HTMLCODES[i].key, HTMLCODES[i].value)
 	return str
 }
 

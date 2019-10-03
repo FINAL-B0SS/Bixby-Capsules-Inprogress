@@ -1,12 +1,14 @@
 capsule-info {
   display-name (Oprah’s SuperSoul Conversations)
-  dispatch-name (Oprah’s SuperSoul Conversations)
+  dispatch-name (Oprah’s Super Soul Conversations)
   developer-name (Final Boss)
   icon-asset (icon.png)
-  description (Oprah’s SuperSoul Conversations) //is a simple Capsule for reading ESPN RSS feeds (NFL, NBA, MLB, NHL, RPM, NCB, NCAA, Golf, Poker, Tennis, Boxing, Soccer, Olympic, and Horse Racing). All content is sourced from ESPN’s public RSS feeds. See the following links for sources. https://www.espn.com/espn/rss/news, https://www.espn.com/espn/rss/nfl/news, https://www.espn.com/espn/rss/nba/news, https://www.espn.com/espn/rss/mlb/news, https://www.espn.com/espn/rss/nhl/news, https://www.espn.com/espn/rss/golf/news, https://www.espn.com/espn/rss/rpm/news, https://www.espn.com/espn/rss/tennis/news, https://www.espn.com/espn/rss/boxing/news, https://www.espn.com/espn/rss/ncb/news, https://www.espn.com/espn/rss/ncf/news, https://www.espn.com/espn/rss/ncaa/news, https://www.espn.com/espn/rss/oly/news, https://www.espn.com/espn/rss/horse/news, https://www.espn.com/espn/rss/poker/news, https://www.espn.com/espn/rss/soccer/news)
+  description (Oprah’s SuperSoul Conversations is a simple Capsule for listening to Oprah's SuperSoul Conversations podcast. All content is sourced from Oprah's public RSS feed at https://rss.art19.com/oprah-supersoul-conversations.)
   terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
   search-keywords {
     keyword (News)
     keyword (RSS)
+    keyword (Oprah)
+    keyword (Podcast)
   }
 }
