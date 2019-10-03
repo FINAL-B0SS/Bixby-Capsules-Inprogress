@@ -1,6 +1,6 @@
 capsule {
   id (final_boss.oprahs_supersoul_conversations)
-  version (1.0.1)
+  version (1.0.3)
   format (3)
   targets {
     target (bixby-mobile-en-US)
@@ -15,7 +15,6 @@ capsule {
   }
   store-sections {
     section (NewsAndMagazines)
-    section (Sports)
   }
   capsule-imports {
     import (viv.image) { as (image) version (2.12.10) }
