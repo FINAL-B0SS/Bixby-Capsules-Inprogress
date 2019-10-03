@@ -1,0 +1,40 @@
+train (t-q25al4ribmeccdff5fhitxnf6) {
+  utterance ("[g:fetchNews]whats new in (golf)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568421925812)
+}
+train (t-q9c2itpq8qaobez53rif65ik5) {
+  utterance ("[g:fetchNews] Get a list of (national college football)[v:Tag] stories")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409488179)
+}
+train (t-qex4typw26li20u9sz9qwn7g7) {
+  utterance ("[g:fetchNews] Fetch me (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747076498)
+}
+train (t-qfnlg93abd2n3xoha5oa8gfiw) {
+  utterance ("[g:fetchNews] get me (national college football)[v:Tag] headlines")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411509342)
+}
+train (t-qifppxs87h6h26n9eh9s28k97) {
+  utterance ("[g:fetchNews] Return a list of (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747561007)
+}
+train (t-qkrqi0su24y8aaqj3fmp7o8n3) {
+  utterance ("[g:fetchNews] (golf)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WK8hPSU4sLoFwPPPS8hkUccmmpZYkZ/illhczyOFSEpyaWJScwSCNSz4kMZ2BmYGRgQlIMgBpEIQAJiALKAYA)
+  last-modified (1569635400542)
+}
+train (t-qkw6s7luls4z52sd624d49ktn) {
+  utterance ("[g:fetchNews] Provide a list of (national college football)[v:Tag] stories")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409617831)
+}
+train (t-qwy4bw64nogdenyvo1zgbkoww) {
+  utterance ("[g:fetchNews] Check (national college football)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409732228)
+}

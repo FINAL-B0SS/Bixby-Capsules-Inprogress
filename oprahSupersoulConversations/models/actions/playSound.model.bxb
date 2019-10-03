@@ -1,0 +1,34 @@
+action (playSound) {
+	type (Search)
+	collect {
+		input (audioItem) {
+			type (audioPlayer.AudioItem)
+			min (Required) max (One)
+		}
+		input (soundToPlay) {
+			type (audioPlayer.AudioInfo)
+			min (Required) max (One)
+			default-init {
+				intent {
+          goal: audioPlayer.AudioInfo
+					value: audioPlayer.AudioInfo {
+						category: (PODCAST)
+						displayName: (PODCAST)
+						audioItem: $expr(audioItem)
+          }
+				}
+			}
+		}
+		computed-input (sound) {
+			type (audioPlayer.Result)
+			compute {
+				intent {
+					goal: audioPlayer.PlayAudio
+					value: $expr(soundToPlay)
+				}
+			}
+			hidden
+		}
+	}
+	output (audioPlayer.AudioItem)
+}

@@ -7,43 +7,43 @@ module.exports = module.exports = [
     url: 'http://rssfeeds.usatoday.com/usatoday-NewsTopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'All Top Headlines',
-    tags: ['']
+    tags: ['top']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodaycomNation-TopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'National',
-    tags: ['']
+    tags: ['national']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodaycomWashington-TopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'Washington',
-    tags: ['']
+    tags: ['washington']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodaycomWorld-TopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'World',
-    tags: ['']
+    tags: ['world']
   },
   {
     url: 'http://rssfeeds.usatoday.com/News-Opinion',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'Opinion',
-    tags: ['']
+    tags: ['opinion']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodaycomSports-TopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'All Sports Headlines',
-    tags: ['']
+    tags: ['sports']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodaycomNfl-TopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'NFL',
-    tags: ['']
+    tags: ['nfl', 'football']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodaycomCollegeFootball-TopStories',
@@ -173,12 +173,6 @@ module.exports = module.exports = [
     tags: ['']
   },
   {
-    url: 'Cars',
-    urlText: 'Click here to see the full story on usatoday.com',
-    text: 'http://rssfeeds.usatoday.com/UsatodaycomMoney-Healey',
-    tags: ['']
-  },
-  {
     url: 'http://rssfeeds.usatoday.com/usatoday-TechTopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'All Tech Headlines',
@@ -200,30 +194,30 @@ module.exports = module.exports = [
     url: 'http://rssfeeds.usatoday.com/UsatodaycomTravel-TopStories',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'All Travel Headlines',
-    tags: ['']
+    tags: ['travel']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodayTravel-Destinations',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'Destinations',
-    tags: ['']
+    tags: ['destinations']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodayTravel-Flights',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'Flights',
-    tags: ['']
+    tags: ['flights']
   },
   {
     url: 'http://rssfeeds.usatoday.com/TP-TheCruiseLog',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'Cruises',
-    tags: ['']
+    tags: ['cruise']
   },
   {
     url: 'http://rssfeeds.usatoday.com/UsatodayTravel-Hotels',
     urlText: 'Click here to see the full story on usatoday.com',
     text: 'Hotels',
-    tags: ['']
+    tags: ['hotels']
   },
 ]

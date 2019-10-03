@@ -51,7 +51,7 @@ function buildSharedtags(channel, i, search) {
 	else
 		ret.description = "No description"
 	if (channel.item[i]['itunes:summary'])
-			ret.description = channel.item[i]['itunes:summary']
+			ret.description = removeHTML(channel.item[i]['itunes:summary'])
 	return ret;
 }
 

@@ -1,0 +1,22 @@
+action (fetchNews) {
+  description (Pulls news data to show user)
+  type (Search)
+  collect {
+    input (tag) {
+      type (Tag)
+      min (Optional) max (One)
+    }
+    input (search) {
+      type (Search)
+      min (Required) max (One)
+      // Calls the fetchSearch action which generates a list of feeds for users to choose from
+      default-init {
+        intent {
+          goal: fetchSearch
+          value: $expr(tag)
+        }
+      }
+    }
+  }
+  output (Info)
+}

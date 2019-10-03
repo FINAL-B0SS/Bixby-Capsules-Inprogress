@@ -1,5 +1,5 @@
 capsule {
-  id (final_boss.console_update)
+  id (final_boss.usa_today)
   version (1.0.1)
   format (3)
   targets {

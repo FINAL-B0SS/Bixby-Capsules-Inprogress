@@ -1,0 +1,6 @@
+text (Date) {
+  description (Date the article was published)
+  features {
+    transient
+  }
+}

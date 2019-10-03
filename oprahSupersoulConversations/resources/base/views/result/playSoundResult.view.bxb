@@ -1,0 +1,46 @@
+result-view {
+	match: audioPlayer.AudioItem (this)
+	
+	message (Playing podcast)
+	
+	render {
+		layout {
+			section {
+				content {
+					image {
+						url ("#{value(this.albumArtUrl)}")
+						object-fit (Contain)
+            lightbox-enabled (false)
+					}
+					if (exists(this.title)) {
+						divider
+						single-line {
+							text {
+								value ("Title")
+                style (Legal)
+							}
+						}
+            paragraph {
+              value ("#{value(this.title)}")
+              style (Title_M)
+            }
+						divider
+					}
+					if (exists(this.artist)) {
+						single-line {
+							text {
+								value ("Artist")
+                style (Legal)
+							}
+						}
+            paragraph {
+              value ("#{value(this.artist)}")
+              style (Title_M)
+            }
+						divider
+					}
+				}
+			}
+		}
+	}
+}

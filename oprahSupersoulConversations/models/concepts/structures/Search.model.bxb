@@ -1,0 +1,22 @@
+structure (Search) {
+  description (Stores RSS feed source)
+  property (text) {
+    type (Text)
+    min (Required) max (One)
+  }
+  property (url) {
+    type (Url)
+    min (Required) max (One)
+  }
+  property (tags) {
+    type (Tags)
+    min (Optional) max (Many)
+  }
+  property (urlText) {
+    type (UrlText)
+    min (Required) max (One)
+  }
+  features {
+    transient
+  }
+}

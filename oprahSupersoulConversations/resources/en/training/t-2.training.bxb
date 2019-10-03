@@ -1,0 +1,60 @@
+train (t-21naaohbch5edm31wcvjojw33) {
+  utterance ("[g:fetchNews] Perform reconnaissance for new (wired guides)[v:Tag]")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747518143)
+}
+train (t-229us9nrsh122paoc5zkta4wt) {
+  utterance ("[g:fetchNews] Get a list of new (business)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747159273)
+}
+train (t-22sv0vtbbka6aj07evfih45kb) {
+  utterance ("[g:fetchNews] get me (college football)[v:Tag] headlines")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411457172)
+}
+train (t-24b209inidxwroetjbv4i07lk) {
+  utterance ("[g:fetchNews] Research (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747239367)
+}
+train (t-2b42vvckgcamz0ze411zjxib9) {
+  utterance ("[g:fetchNews] Fetch new (wired guides)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747373209)
+}
+train (t-2d1l1i81iubzi9v6zod9m0pps) {
+  utterance ("[g:fetchNews] Get a list of (wired guides)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747414074)
+}
+train (t-2d2d5xrh35eh12xzqthw76rs4) {
+  utterance ("[g:fetchNews] Fetch new me (national college football)[v:Tag] headlines")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409393166)
+}
+train (t-2d70b4le1uvvlht0ek9lz6urm) {
+  utterance ([g:fetchNews] Get a list of new stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747789592)
+}
+train (t-2idrqp4b7l394os7l2j71futj) {
+  utterance ("[g:fetchNews] Provide a list of (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747548226)
+}
+train (t-2vn0v01edob81pshd5n1c43j0) {
+  utterance ("[g:fetchNews] Find top (wired guides)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747386543)
+}
+train (t-2wlhv1boks7qum6x46s6j4bvv) {
+  utterance ("[g:fetchNews] get me (golf)[v:Tag] headlines")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411397017)
+}
+train (t-2x984gq26dfdwhlee8o2ldaq9) {
+  utterance ([g:fetchNews] Find top stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747697523)
+}

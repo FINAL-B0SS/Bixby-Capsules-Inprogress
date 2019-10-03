@@ -1,0 +1,10 @@
+train (t-wwokpcskn9os5987ap2rg8dxv) {
+  utterance ([g:fetchNews] Fetch news)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567748087276)
+}
+train (t-wy1dhus9ado5ksyg11543z3wm) {
+  utterance ("[g:fetchNews] get (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411195940)
+}

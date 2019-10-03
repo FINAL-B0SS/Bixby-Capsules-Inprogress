@@ -1,0 +1,16 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (fetchSearch) {
+      accepted-inputs (tag)
+      local-endpoint (fetchSearch.js)
+      }
+      action-endpoint (fetchNews) {
+        accepted-inputs (tag, search)
+        local-endpoint (fetchNews.js)
+      }
+      action-endpoint (playSound) {
+        accepted-inputs (soundToPlay, audioItem)
+        local-endpoint (playSound.js)
+      }
+    }
+  }
