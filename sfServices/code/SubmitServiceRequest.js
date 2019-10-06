@@ -2,19 +2,17 @@ var http = require('http')
 var secret = require('secret')
 
 function BuildnatureOfRequestCode(sc) {
-  if (sc == "518d564b601827e38800002d")
-    return "request_type"
-  if (sc == "518d5cc9601827e388000183")
-    return "details"
-  if (sc == "5a6b5ac2d0521c1134854b01")
-    return "Nature_of_request"
-  return ("nature_of_request")
+  var requestCodes = {
+    "518d564b601827e38800002d" : "request_type",
+    "518d5cc9601827e388000183" : "details",
+    "5a6b5ac2d0521c1134854b01" : "Nature_of_request"
+  }
+  return (sc in requestCodes ? requestCodes[sc] : "nature_of_request")
 }
 
 function BuildtypeCode(sc) {
-  if (sc == "518d5c0d601827e388000156")
-    return ("nature_of_request")
-  return ("request_type")
+  var typeCodes = { "518d5c0d601827e388000156" : "nature_of_request" }
+  return (sc in typeCodes ? typeCodes[sc] : "request_type")
 }
 
 module.exports = function SubmitServiceRequest(description, firstName, lastName, email, phone, object, natureOfRequest, howManyPeople, howManyTents, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo, signStatus, signType, poleStatus, poleType) {
