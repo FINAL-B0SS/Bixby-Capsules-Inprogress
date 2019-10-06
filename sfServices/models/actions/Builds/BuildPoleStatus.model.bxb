@@ -5,6 +5,16 @@ action (BuildPoleStatus) {
       type (ServiceInfo)
       min (Required) max (One)
     }
+    input (valueKey) {
+      type (ValueKey)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: ValueKey
+          value: ValueKey(pole status)
+        }
+      }
+    }
   }
   output (PoleStatus)
 }
