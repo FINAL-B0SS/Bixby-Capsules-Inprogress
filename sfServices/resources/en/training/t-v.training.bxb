@@ -13,6 +13,11 @@ train (t-vk0rcf0v6lb8lbj3go2e0zmov) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775876051)
 }
+train (t-vl3bd5d4j7gbnr4dqt3dtvlla) {
+  utterance ("[g:ServiceInfo:prompt] (Abandoned Vehicles)[v:VoiceName]")
+  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1570362722772)
+}
 train (t-vpkib81yfqxmicc5suf0lqj8z) {
   utterance ([g:SubmitServiceRequest] File a graffiti siting)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)

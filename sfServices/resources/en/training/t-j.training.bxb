@@ -8,3 +8,8 @@ train (t-jgndulw6fczlcjkb2eypnyqne) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775954146)
 }
+train (t-jo5cyi15ahslmqinhqnueja8p) {
+  utterance ("[g:ServiceInfo:prompt] (Illegal Postings)[v:VoiceName]")
+  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1570362686972)
+}

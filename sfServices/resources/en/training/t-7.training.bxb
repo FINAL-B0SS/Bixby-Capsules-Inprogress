@@ -1,3 +1,8 @@
+train (t-703qo5atycp8hh0lolva7fdct) {
+  utterance ("[g:ServiceInfo:prompt] (Blocked Pedestrian Walkway)[v:VoiceName]")
+  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1570362717380)
+}
 train (t-717tqh8r3swnkaa0iu1zpupdc) {
   utterance ([g:SubmitServiceRequest] List city services)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)

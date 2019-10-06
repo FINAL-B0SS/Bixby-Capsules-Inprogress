@@ -2,7 +2,7 @@ var console = require('console')
 var http = require('http')
 var secret = require('secret')
 
-module.exports.function = function GetServiceInfo() {
+module.exports.function = function GetServiceInfo(voiceName) {
   var url = secret.get('url.services')
   var ret = http.getUrl(url, { format: 'json' })
   var services = []
@@ -15,6 +15,8 @@ module.exports.function = function GetServiceInfo() {
       description: String(ret[i].description).replace(/<[^>]*>?/gm, ''),
       serviceCode: ret[i].service_code
     }
+    if (voiceName && ret[i].service_name.toLowerCase().includes(voiceName.toLowerCase()))
+      return template
     services.push(template)
   }
   return services

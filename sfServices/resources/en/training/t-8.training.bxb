@@ -18,6 +18,11 @@ train (t-8i7din2aq6oqhb7dzc7e4yhef) {
   plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
   last-modified (1569459245254)
 }
+train (t-8p6tk2lalb6xkjihwpfbqsbjd) {
+  utterance ("[g:ServiceInfo:prompt] (Graffiti)[v:VoiceName]")
+  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1570362648888)
+}
 train (t-8q0djiy785z5n6uqhotu1at7n) {
   utterance ([g:SubmitServiceRequest] Figure out what services this city has to offer)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)

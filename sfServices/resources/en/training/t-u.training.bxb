@@ -13,6 +13,11 @@ train (t-ui66lm116gipigvk7dwhj7v04) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775864066)
 }
+train (t-uk5w0xbflmm1lvlylet9hau0t) {
+  utterance ("[g:ServiceInfo:prompt] (Curb & Sidewalk Issues)[v:VoiceName]")
+  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
+  last-modified (1570362709003)
+}
 train (t-umnl18700snow96rjxtk3cls1) {
   utterance ([g:viewMyRequests] How is my service request)
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
