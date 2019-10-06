@@ -5,6 +5,10 @@ action (BuildSignStatus) {
       type (ServiceInfo)
       min (Required) max (One)
     }
+    input (voiceKey) {
+      type (VoiceSignStatus)
+      min (Optional) max (One)
+    }
     input (valueKey) {
       type (ValueKey)
       min (Required) max (One)

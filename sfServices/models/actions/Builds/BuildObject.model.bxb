@@ -5,6 +5,10 @@ action (BuildObject) {
       type (ServiceInfo)
       min (Required) max (One)
     }
+    input (voiceKey) {
+      type (VoiceObject)
+      min (Optional) max (One)
+    }
     input (valueKey) {
       type (ValueKey)
       min (Required) max (One)

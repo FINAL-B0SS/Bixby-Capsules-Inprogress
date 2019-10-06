@@ -5,6 +5,10 @@ action (BuildPoleType) {
       type (ServiceInfo)
       min (Required) max (One)
     }
+    input (voiceKey) {
+      type (VoicePoleType)
+      min (Optional) max (One)
+    }
     input (valueKey) {
       type (ValueKey)
       min (Required) max (One)

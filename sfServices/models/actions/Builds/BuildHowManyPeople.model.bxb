@@ -5,6 +5,10 @@ action (BuildHowManyPeople) {
       type (ServiceInfo)
       min (Required) max (One)
     }
+    input (voiceKey) {
+      type (VoicePeople)
+      min (Optional) max (One)
+    }
     input (valueKey) {
       type (ValueKey)
       min (Required) max (One)

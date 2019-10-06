@@ -15,7 +15,7 @@ module.exports.function = function GetServiceInfo(voiceName) {
       description: String(ret[i].description).replace(/<[^>]*>?/gm, ''),
       serviceCode: ret[i].service_code
     }
-    if (voiceName && ret[i].service_name.toLowerCase().includes(voiceName.toLowerCase()))
+    if (voiceName && ret[i].service_name.toLowerCase().replace('&', 'and') == voiceName.toLowerCase())
       return template
     services.push(template)
   }

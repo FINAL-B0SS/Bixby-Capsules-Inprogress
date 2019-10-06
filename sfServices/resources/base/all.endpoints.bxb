@@ -13,47 +13,47 @@ endpoints {
       local-endpoint (TrackCase.js)
     }
     action-endpoint (BuildNatureOfRequest) {
-      accepted-inputs (serviceInfo)
+      accepted-inputs (serviceInfo, voiceKey)
       local-endpoint (BuildNatureOfRequest.js)
     }
     action-endpoint (BuildObject) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildHowManyPeople) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildHowManyTents) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildContainsRacialSlursOrProfanity) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildWholeBlock) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildSignStatus) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildSignType) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildPoleStatus) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildType) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (BuildPoleType) {
-      accepted-inputs (serviceInfo, valueKey)
+      accepted-inputs (serviceInfo, valueKey, voiceKey)
       local-endpoint (BuildValues.js)
     }
     action-endpoint (viewMyRequests) {

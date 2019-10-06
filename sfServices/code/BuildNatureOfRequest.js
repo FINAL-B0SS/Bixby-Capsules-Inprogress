@@ -1,12 +1,15 @@
 var http = require('http')
 
-module.exports.function = function BuildNatureOfRequest(serviceInfo) {
+module.exports.function = function BuildNatureOfRequest(serviceInfo, voiceKey) {
   var url = "http://mobile311.sfgov.org/open311/v2/services/"+serviceInfo.serviceCode+".json"
   var data = JSON.parse(http.getUrl(url, {format: 'text'}))
-  for (var i = 0; i < data.attributes.length; i += 1) {
+
+  for (var i = 0; i < data.attributes.length; i += 1)
     if (data.attributes[i].description.toLowerCase() == "nature of request") {
-      return (data.attributes[i].values)
+      for (var j = 0; j < data.attributes[i].values.length; j++)
+        if (voiceKey && data.attributes[i].values[j].name.toLowerCase() == voiceKey.toLowerCase())
+          return data.attributes[i].values[j]
+      return data.attributes[i].values
     }
-  }
-  return ;
+  return
 }

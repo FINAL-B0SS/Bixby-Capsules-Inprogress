@@ -6,6 +6,10 @@ action (SubmitServiceRequest) {
       type (VoiceName)
       min (Optional) max (One)
     }
+    input (voiceContainsRacial) {
+      type (VoiceContainsRacial)
+      min (Optional) max (One)
+    }
     input (serviceInfo) {
       type (ServiceInfo)
       min (Optional) max (One)
@@ -106,6 +110,7 @@ action (SubmitServiceRequest) {
         default-init {
           intent {
             goal: BuildContainsRacialSlursOrProfanity
+            value: $expr(voiceContainsRacial)
         }
       }
     }

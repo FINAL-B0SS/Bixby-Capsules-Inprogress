@@ -8,6 +8,11 @@ train (t-ycl0kyqgqim1fagm867kxc8mp) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775434087)
 }
+train (t-yiccmdspkl5r1aymlzrc446nu) {
+  utterance ("[g:Type:prompt] (Flooding on property)[v:VoiceType]")
+  plan (Y2BlkE7LzEvMiU/KLy7WK06LL04tKstMTi3WC6ksSGVQwCHpVJqZkwJWoYRDRTCE4ZmXls8gj0NNWGJOaap3aiVOa8LygRTYGhYGRgYmBmYgzQBkQSAMMAExUBwA)
+  last-modified (1570365574779)
+}
 train (t-ysphc34vogj5lapj522176zng) {
   utterance ([g:SubmitServiceRequest] Fetch San Francisco services)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
