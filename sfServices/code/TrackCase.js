@@ -4,8 +4,7 @@ var secret = require('secret')
 
 module.exports.function = function trackCase(serviceRequestNumber) {
   var url = secret.get('url.requests') + '.json'
-  var test = http.getUrl(url, { format: 'text' })
-  var ret = JSON.parse(test)
+  var ret = http.getUrl(url, { format: 'json' })
   var cases = []
   var fallback = []
   var caseInfo

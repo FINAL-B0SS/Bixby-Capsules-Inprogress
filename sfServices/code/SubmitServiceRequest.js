@@ -17,7 +17,7 @@ function BuildtypeCode(sc) {
 
 module.exports = function SubmitServiceRequest(description, firstName, lastName, email, phone, object, natureOfRequest, howManyPeople, howManyTents, type, containsRacialSlursOrProfanity, wholeBlock, location, serviceInfo, signStatus, signType, poleStatus, poleType) {
   var url = secret.get('url.requests') + '.json'
-  var ret = JSON.parse(http.getUrl(url, { format: 'text' }))
+  var ret = http.getUrl(url, { format: 'json' })
   var token = ""
   var options = {
     format: "json",

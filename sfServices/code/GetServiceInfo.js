@@ -4,8 +4,7 @@ var secret = require('secret')
 
 module.exports.function = function GetServiceInfo() {
   var url = secret.get('url.services')
-  var test = http.getUrl(url, { format: 'text' })
-  var ret = JSON.parse(test)
+  var ret = http.getUrl(url, { format: 'json' })
   var services = []
   var template
 

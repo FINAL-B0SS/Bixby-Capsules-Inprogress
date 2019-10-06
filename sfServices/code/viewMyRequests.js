@@ -6,7 +6,7 @@ module.exports.function = function viewMyRequests(serviceRequestId) {
   var requests = []
   for (var i = 0; i < serviceRequestId.length; i += 1) {
     try {
-      var data = JSON.parse(http.getUrl(secret.get('url.requests') + '/' + serviceRequestId[i] + ".json", { format: 'text' }))
+      var data = http.getUrl(secret.get('url.requests') + '/' + serviceRequestId[i] + ".json", { format: 'json' })
       request = {
         serviceRequestId: data[0].service_request_id,
         status: data[0].status,
