@@ -1,10 +1,11 @@
+var http = require('http')
+var console = require('console')
+
 exports.function = function () {
   var url = "https://randomuser.me/api/"
-  var http = require('http')
-  var console = require('console')
-  var config = require('config')
-  var data = http.getUrl(url, {format: 'text'})
-  var ret = JSON.parse(data)
+  var ret = http.getUrl(url, {format: 'json'})
+
+  console.log(ret)
   var name = ret.results[0].name.first + " " + ret.results[0].name.last
   name = name.toLowerCase()
     .split(' ')
@@ -13,7 +14,7 @@ exports.function = function () {
   return {
     Gender: ret.results[0].gender,
     Name: name,
-    Street: ret.results[0].location.street,
+    Street: ret.results[0].location.street.number + " " + ret.results[0].location.street.name,
     City: ret.results[0].location.city,
     State: ret.results[0].location.state,
     Postcode: ret.results[0].location.postcode,
