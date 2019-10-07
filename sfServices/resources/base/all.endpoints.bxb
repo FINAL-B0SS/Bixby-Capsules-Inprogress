@@ -1,7 +1,7 @@
 endpoints {
   action-endpoints {
     action-endpoint (GetServiceInfo) {
-      accepted-inputs (voiceName)
+      accepted-inputs ()
       local-endpoint (GetServiceInfo.js)
     }
     action-endpoint (SubmitServiceRequest) {

@@ -1,7 +1,7 @@
 train (t-u3entq8tw36kyfr995sop5dlv) {
   utterance ([g:SubmitServiceRequest] Assist me in reporting graffiti)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775897762)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421934515)
 }
 train (t-u3mxi7ro5bbm6roer9btego81) {
   utterance ("[g:SignStatus:prompt] (one two three)[v:VoiceSignStatus]")
@@ -20,13 +20,8 @@ train (t-uhn4te6ikchxwl9021yw0r7tp) {
 }
 train (t-ui66lm116gipigvk7dwhj7v04) {
   utterance ([g:SubmitServiceRequest] FInd out what services san francisco offers)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775864066)
-}
-train (t-uk5w0xbflmm1lvlylet9hau0t) {
-  utterance ("[g:ServiceInfo:prompt] (Curb & Sidewalk Issues)[v:VoiceName]")
-  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
-  last-modified (1570362709003)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421934650)
 }
 train (t-umnl18700snow96rjxtk3cls1) {
   utterance ([g:viewMyRequests] How is my service request)

@@ -1,22 +1,17 @@
 train (t-h10d0wcl2vm3vlcu56ctqdve8) {
   utterance ([g:SubmitServiceRequest] show availible services)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1569456990794)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421931785)
 }
 train (t-h93y6zgydg6178gq9s4ltoqxc) {
   utterance ([g:SubmitServiceRequest] Provide a list of services)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775953950)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421931821)
 }
 train (t-hg0veee0jut6d3likzlvxilqb) {
   utterance ("[g:TrackCase] Figure out the status of (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
   plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMIQPkA)
   last-modified (1566775954012)
-}
-train (t-hg7qpv1xnvdu2ckr569qmw4i3) {
-  utterance ("[g:ServiceInfo:prompt] (Noise Issue)[v:VoiceName]")
-  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
-  last-modified (1570362682615)
 }
 train (t-hgbl67xxnuppqkrhtrxnbqjl1) {
   utterance ("[g:Email:prompt] (mlkjean8@gmail.com)[v:Email]")

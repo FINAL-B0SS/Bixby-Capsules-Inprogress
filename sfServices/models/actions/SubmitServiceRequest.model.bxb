@@ -2,17 +2,17 @@ action (SubmitServiceRequest) {
 	description (An action that takes a required Spot as an input)
 	type (Calculation)
 	collect {
-		input (voiceName) {
-			type (VoiceName)
-			min (Optional) max (One)
-		}
+		// input (voiceName) {
+		// 	type (VoiceName)
+		// 	min (Optional) max (One)
+		// }
 		input (serviceInfo) {
 			type (ServiceInfo)
 			min (Optional) max (One)
 			default-init {
 				intent {
 					goal: GetServiceInfo
-					value: $expr(voiceName)
+					// value: $expr(voiceName)
 				}
 			}
 		}

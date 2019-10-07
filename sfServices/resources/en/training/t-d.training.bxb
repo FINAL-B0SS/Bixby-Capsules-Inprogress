@@ -5,23 +5,18 @@ train (t-d1d9xyvm2hvuc8mf1en9pgn5g) {
 }
 train (t-d2q0eq5g6f0sbjk7fivuk4x53) {
   utterance ([g:SubmitServiceRequest] Figure out what services the city has to offer)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775953219)
-}
-train (t-d3oxpblzv79nbojqp7tka022k) {
-  utterance ("[g:ServiceInfo:prompt] (Damaged Public Property)[v:VoiceName]")
-  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
-  last-modified (1570362704954)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421930991)
 }
 train (t-d92axv0b4u19kjncciaxe15dq) {
   utterance ([g:SubmitServiceRequest] open a request)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1567555097722)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421931058)
 }
 train (t-dddcp3iojqtqrjn7i9l9e94f0) {
   utterance ([g:SubmitServiceRequest] List services I can request)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775953293)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421931090)
 }
 train (t-dgfbhzv0y6tzbq4joivps1vqx) {
   utterance ([g:viewMyRequests] Show service request)
@@ -30,8 +25,8 @@ train (t-dgfbhzv0y6tzbq4joivps1vqx) {
 }
 train (t-dls7k4hxskftzuhl10w3shw2x) {
   utterance ([g:SubmitServiceRequest] Fetch services available near me)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775953363)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421931157)
 }
 train (t-dlw19oo16qerymgsnx90kzw1i) {
   utterance ([g:TrackCase] search case)

@@ -15,13 +15,13 @@ train (t-92p6bs9gam8b8svx4s2zxyh53) {
 }
 train (t-92rqgedtrefyb5loghq6lc083) {
   utterance ([g:SubmitServiceRequest] Research the services this city can provide)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775952404)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421930231)
 }
 train (t-96mksu4s0tw22nnp42wupannn) {
   utterance ([g:SubmitServiceRequest] List San Francisco Services)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775952503)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421930262)
 }
 train (t-9d43p4khjqq7jzhy89kb0jucd) {
   utterance ("[g:SignType:prompt] (one)[v:VoiceSignType]")
@@ -35,8 +35,8 @@ train (t-9dftbfxyr9clexznd3snnsf4c) {
 }
 train (t-9ecbji4v9vgouxc0q8cj666jv) {
   utterance ([g:SubmitServiceRequest] Get services)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775952606)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421930361)
 }
 train (t-9ojntl6yn7k7fhvtvkyii2tpm) {
   utterance ([g:viewMyRequests] Give me a report of my cases)

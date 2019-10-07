@@ -5,8 +5,8 @@ train (t-r0nlb5ccxrghitrbha88gi8ne) {
 }
 train (t-r36g4hci1834flkyc6gyjmld0) {
   utterance ([g:SubmitServiceRequest] What services are available)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775955381)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421933667)
 }
 train (t-re142chc4pq555vc31ql2q3a1) {
   utterance ("[g:Description:prompt] (Random text to represent description here)[v:Description]")
@@ -25,8 +25,8 @@ train (t-rk99lp6i08u2v4l25s9vstkxs) {
 }
 train (t-rl4hfqb34fhsh386aympebz9g) {
   utterance ([g:SubmitServiceRequest] Help me report graffiti)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775955445)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421933807)
 }
 train (t-rotl2o7wyeco59ke49skspcfb) {
   utterance ([g:viewMyRequests] How are my case)
@@ -40,13 +40,13 @@ train (t-rp0bm9tie4p1mv3d3c3qzxnbq) {
 }
 train (t-rq8fzb2t2haq0ibvfwwwg1235) {
   utterance ([g:SubmitServiceRequest] Fetch available services)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775955517)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421933914)
 }
 train (t-rrkscuv5jraotbuewv909lkdk) {
   utterance ([g:SubmitServiceRequest] Provide a list of available services)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775955583)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421933949)
 }
 train (t-rvpyg69mwwkacthsfhow343ii) {
   utterance ([g:viewMyRequests] View my request)

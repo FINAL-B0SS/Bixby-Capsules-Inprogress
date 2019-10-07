@@ -18,20 +18,10 @@ train (t-6g2mkuqoi1kes94tghz7yb9n6) {
   plan (Y2BlkE7LzEvMiU/KLy7WK06LL04tKstMTi3WC6ksSGVQwCHpVJqZkwJWoYRDRTCE4ZmXls8gj0NNWGJOaap3aiVOa8LygRTYGhYGRgYmBmYgzQBkQSAMMAExUBwA)
   last-modified (1570414565678)
 }
-train (t-6heeegydbu0c2lshkhuv7x58a) {
-  utterance ("[g:ServiceInfo:prompt] (Pothole & Street Issues)[v:VoiceName]")
-  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
-  last-modified (1570362669581)
-}
-train (t-6s4jlfb2tfuy6xomde70jknz8) {
-  utterance ("[g:ServiceInfo:prompt] (Tree Maintenance)[v:VoiceName]")
-  plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
-  last-modified (1570362649685)
-}
 train (t-6uzvqjxgh57sgnr5338bpt0g1) {
   utterance ([g:SubmitServiceRequest] What services are available in san francisco)
-  plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
-  last-modified (1566775951899)
+  plan (Y+BgUE/LzEvMiU/KLy7WK06LL04tKstMTi3WC4YwglILS1OLSzxTGLRxKSxNys0sQVXOoIRDsUtqcXJRZkFJZn4egwwONa65iZk5DAo4ZN0yi4pL/BJzUxnkcajwSSSkID85Ea8LAjLy81IZ2BkYGZgYmBlYGFgZ2IA8BiAfGaICsAgA)
+  last-modified (1570421929533)
 }
 train (t-6ve9qoqg4kzkkkg1dxscz1pug) {
   utterance ("[g:viewMyRequests] what's the status of my service request")
