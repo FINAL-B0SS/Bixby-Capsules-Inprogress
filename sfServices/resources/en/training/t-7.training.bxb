@@ -8,6 +8,16 @@ train (t-717tqh8r3swnkaa0iu1zpupdc) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775951990)
 }
+train (t-77rcocm7kerezrcxwoszbtga6) {
+  utterance ("[g:SignStatus:prompt] (one two)[v:VoiceSignStatus]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC85MzwsuSSwpLWZQw6HEqTQzJwVJnRIuoyAMz7y0fAZ5HGrCEnNKU71TK3FaFpYPpJAsY2FgZGBiYAbSDEAWBMIAExADxQE=)
+  last-modified (1570414454995)
+}
+train (t-77rjsr5p3uzhc7dynr395qo24) {
+  utterance ("[g:WholeBlock:prompt] (one two three)[v:VoiceWholeBlock]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC8/Iz0l1yslPzmZQw6HEqTQzJwVJnRIOdcEQhmdeWj6DPA41YYk5paneqZU4LQvLB1JIlrEwMDIwMTADaQYgCwJhgAmIgeIA)
+  last-modified (1570414596997)
+}
 train (t-7jl7rd0275bugkf8q9qkdneqe) {
   utterance ([g:viewMyRequests] what requests have I made)
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
@@ -22,4 +32,9 @@ train (t-7w896566dna9yw3wr0b36i7in) {
   utterance ("[g:Description:prompt] (It's blocking my)[v:Description]")
   plan (Y2BiUErLzEvMiU/KLy7WK06LL04tKstMTi3Wc0ktTi7KLCjJzM8jSg0jEDIw8AAxExAD2QA=)
   last-modified (1566783660644)
+}
+train (t-7ylxadz5w6pg3x4zpb0osvps6) {
+  utterance ("[g:PoleStatus:prompt] (one two three)[v:VoicePoleStatus]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC8jPSQ0uSSwpLWZQw6HEqTQzJwVJnRIOdcEQhmdeWj6DPA41YYk5paneqZU4LQvLB1JIlrEwMDIwMTADaQYgCwJhgAmIgeIA)
+  last-modified (1570414300246)
 }

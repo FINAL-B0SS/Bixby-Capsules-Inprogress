@@ -1,3 +1,8 @@
+train (t-n733sboswjtn2lcus73j7hlhb) {
+  utterance ("[g:Description:prompt] (test test)[v:Description]")
+  plan (Y2BiUErLzEvMiU/KLy7WK06LL04tKstMTi3Wc0ktTi7KLCjJzM8jSg0jEDIw8AAxExAD2QA=)
+  last-modified (1570410371636)
+}
 train (t-nd4c0m3pvg904wgop5om0x7fc) {
   utterance ("[g:LastName:prompt] (Jean)[v:LastName]")
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3W80ksLvFLzE0lrIARCBkYeICYCYiBbAA=)

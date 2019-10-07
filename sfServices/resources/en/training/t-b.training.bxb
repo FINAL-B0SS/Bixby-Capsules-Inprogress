@@ -1,3 +1,8 @@
+train (t-b3it8qz7w0458669sxdp3enpb) {
+  utterance ("[g:SignStatus:prompt] (one)[v:VoiceSignStatus]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC85MzwsuSSwpLWZQw6HEqTQzJwVJnRIuoyAMz7y0fAZ5HGrCEnNKU71TK3FaFpYPpJAsY2FgZGBiYAbSDEAWBMIAExADxQE=)
+  last-modified (1570414455574)
+}
 train (t-bols39dwt6bureoxlwca1h7cy) {
   utterance ([g:SubmitServiceRequest] Fetch me city services)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)

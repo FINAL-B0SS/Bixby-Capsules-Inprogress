@@ -3,6 +3,16 @@ train (t-14x5kz8qorn5mc5sp1z0koet8) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775928403)
 }
+train (t-1a6e9f4mzusxpje8bpsqemr0c) {
+  utterance ("[g:Object:prompt] (one two three)[v:VoiceObject]")
+  plan (Y2BlkE3LzEvMiU/KLy7WK06LL04tKstMTi3W80/KSk0uYVDCIe1UmpmTQkBNMIThmZeWzyCPQ01YYk5pqndqJU5DwvKBFNQiFgZGBiYGZiDNAGRBIAwwATFQHAA=)
+  last-modified (1570415102974)
+}
+train (t-1fkvsz4a8g5089s7wluizu145) {
+  utterance ("[g:NatureOfRequest:prompt] (tipped over public garbage can)[v:VoiceNatureOfRequest]")
+  plan (Y2BhUEvLzEvMiU/KLy7WK06LL04tKstMTi3W80ssKS1K9U8LSi0sTS0uYdDGoc6pNDMnBV2xEg7FwRCGZ15aPk4Dw/KBFLqBzAyMDExAkgFIgyAEMAExUAwA)
+  last-modified (1570414750469)
+}
 train (t-1j2x8wxbt6wr5nt1i6csp7tkb) {
   utterance ([g:SubmitServiceRequest] What services are available)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)

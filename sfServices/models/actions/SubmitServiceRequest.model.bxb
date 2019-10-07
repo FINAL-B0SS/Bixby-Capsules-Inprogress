@@ -1,156 +1,206 @@
 action (SubmitServiceRequest) {
-  description (An action that takes a required Spot as an input)
-  type (Calculation)
-  collect {
-    input (voiceName) {
-      type (VoiceName)
-      min (Optional) max (One)
-    }
-    input (voiceContainsRacial) {
-      type (VoiceContainsRacial)
-      min (Optional) max (One)
-    }
-    input (serviceInfo) {
-      type (ServiceInfo)
-      min (Optional) max (One)
-      default-init {
-        intent {
-          goal: GetServiceInfo
-          value: $expr(voiceName)
-        }
-      }
-    }
-    input (natureOfRequest) {
-      type (NatureOfRequest)
-      min (Optional) max (One)
-      default-init {
-        intent {
-          goal: BuildNatureOfRequest
-          value: $expr(serviceInfo)
-        }
-      }
-    }
-    input (firstName) {
-      type (FirstName)
-      min (Required) max (One)
-    }
-    input (lastName) {
-      type (LastName)
-      min (Required) max (One)
-    }
-     input (email) {
-      type (Email)
-      min (Required) max (One)
-    }
-    input (phone) {
-      type (Phone)
-      min (Required) max (One)
-    }
-    input (description) {
-      type (Description)
-      min (Required) max (One)
-    }
-    input (poleType) {
-      type (PoleType)
-      min (Optional) max (One)
-        default-init {
-          intent {
-            goal: BuildPoleType
-        }
-      }
-    }
-    input (signStatus) {
-      type (SignStatus)
-      min (Optional) max (One)
-        default-init {
-          intent {
-            goal: BuildSignStatus
-        }
-      }
-    }
-    input (signType) {
-      type (SignType)
-      min (Optional) max (One)
-        default-init {
-          intent {
-            goal: BuildSignType
-        }
-      }
-    }
-    input (poleStatus) {
-      type (PoleStatus)
-      min (Optional) max (One)
-        default-init {
-          intent {
-            goal: BuildPoleStatus
-        }
-      }
-    }
-    input (type) {
-      type (Type)
-      min (Optional) max (One)
-        default-init {
-          intent {
-            goal: BuildType
-        }
-      }
-    }
-    input (wholeBlock) {
-      type (WholeBlock)
-      min (Optional) max (One)
-        default-init {
-          intent {
-            goal: BuildWholeBlock
-        }
-      }
-    }
-    input (containsRacialSlursOrProfanity) {
-      type (ContainsRacialSlursOrProfanity)
-      min (Optional) max (One)
-        default-init {
-          intent {
-            goal: BuildContainsRacialSlursOrProfanity
-            value: $expr(voiceContainsRacial)
-        }
-      }
-    }
-    input (howManyTents) {
-      type (HowManyTents)
-      min (Optional) max (One)
-      default-init {
-        intent {
-          goal: BuildHowManyTents
-        }
-      }
-    }
-    input (howManyPeople) {
-      type (HowManyPeople)
-      min (Optional) max (One)
-      default-init {
-        intent {
-          goal: BuildHowManyPeople
-        }
-      }
-    }
-    input (object) {
-      type (Object)
-      min (Optional) max (One)
-      default-init {
-        intent {
-          goal: BuildObject
-        }
-      }
-    }
-    input (location) {
-      type (Location)
-      min (Required) max (One)
-      default-init {
-        intent {
-          goal: Location
-          route: geo.CurrentLocation
-        }
-      }
-    }
-  }
-  output (ServiceRequestId)
+	description (An action that takes a required Spot as an input)
+	type (Calculation)
+	collect {
+		input (voiceName) {
+			type (VoiceName)
+			min (Optional) max (One)
+		}
+		input (serviceInfo) {
+			type (ServiceInfo)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: GetServiceInfo
+					value: $expr(voiceName)
+				}
+			}
+		}
+		input (voiceNatureOfrequest) {
+			type (VoiceNatureOfRequest)
+			min (Optional) max (One)
+		}
+		input (natureOfRequest) {
+			type (NatureOfRequest)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildNatureOfRequest
+					value: $expr(serviceInfo)
+					value: $expr(voiceNatureOfrequest)
+				}
+			}
+		}
+		input (firstName) {
+			type (FirstName)
+			min (Required) max (One)
+		}
+		input (lastName) {
+			type (LastName)
+			min (Required) max (One)
+		}
+		input (email) {
+			type (Email)
+			min (Required) max (One)
+		}
+		input (phone) {
+			type (Phone)
+			min (Required) max (One)
+		}
+		input (description) {
+			type (Description)
+			min (Required) max (One)
+		}
+		input (voicePoleType) {
+			type (VoicePoleType)
+			min (Optional) max (One)
+		}
+		input (poleType) {
+			type (PoleType)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildPoleType
+					value: $expr(voicePoleType)
+				}
+			}
+		}
+		input (voiceSignStatus) {
+			type (VoiceSignStatus)
+			min (Optional) max (One)
+		}
+		input (signStatus) {
+			type (SignStatus)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildSignStatus
+					value: $expr(voiceSignStatus)
+				}
+			}
+		}
+		input (voiceSignType) {
+			type (VoiceSignType)
+			min (Optional) max (One)
+		}
+		input (signType) {
+			type (SignType)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildSignType
+					value: $expr(voiceSignType)
+				}
+			}
+		}
+		input (voicePoleStatus) {
+			type (VoicePoleStatus)
+			min (Optional) max (One)
+		}
+		input (poleStatus) {
+			type (PoleStatus)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildPoleStatus
+					value: $expr(voicePoleStatus)
+				}
+			}
+		}
+		input (voiceType) {
+			type (VoiceType)
+			min (Optional) max (One)
+		}
+		input (type) {
+			type (Type)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildType
+					value: $expr(voiceType)
+				}
+			}
+		}
+		input (voiceWholeBlock) {
+			type (VoiceWholeBlock)
+			min (Optional) max (One)
+		}
+		input (wholeBlock) {
+			type (WholeBlock)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildWholeBlock
+					value: $expr(voiceWholeBlock)
+				}
+			}
+		}
+		input (voiceContainsRacial) {
+			type (VoiceContainsRacial)
+			min (Optional) max (One)
+		}
+		input (containsRacialSlursOrProfanity) {
+			type (ContainsRacialSlursOrProfanity)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildContainsRacialSlursOrProfanity
+					value: $expr(voiceContainsRacial)
+				}
+			}
+		}
+		input (voiceTents) {
+			type (VoiceTents)
+			min (Optional) max (One)
+		}
+		input (howManyTents) {
+			type (HowManyTents)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildHowManyTents
+					value: $expr(voiceTents)
+				}
+			}
+		}
+		input (voicePeople) {
+			type (VoicePeople)
+			min (Optional) max (One)
+		}
+		input (howManyPeople) {
+			type (HowManyPeople)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildHowManyPeople
+					value: $expr(voicePeople)
+				}
+			}
+		}
+    input (voiceObject) {
+			type (VoiceObject)
+			min (Optional) max (One)
+		}
+		input (object) {
+			type (Object)
+			min (Optional) max (One)
+			default-init {
+				intent {
+					goal: BuildObject
+          value: $expr(voiceObject)
+				}
+			}
+		}
+		input (location) {
+			type (Location)
+			min (Required) max (One)
+			default-init {
+				intent {
+					goal: Location
+					route: geo.CurrentLocation
+				}
+			}
+		}
+	}
+	output (ServiceRequestId)
 }

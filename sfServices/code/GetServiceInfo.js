@@ -6,6 +6,7 @@ module.exports.function = function GetServiceInfo(voiceName) {
   var url = secret.get('url.services')
   var ret = http.getUrl(url, { format: 'json' })
   var services = []
+  var voiceServices = []
   var template
 
   for (var i = 0; i < ret.length; i++) {
@@ -15,9 +16,9 @@ module.exports.function = function GetServiceInfo(voiceName) {
       description: String(ret[i].description).replace(/<[^>]*>?/gm, ''),
       serviceCode: ret[i].service_code
     }
-    if (voiceName && ret[i].service_name.toLowerCase().replace('&', 'and') == voiceName.toLowerCase())
-      return template
+    if (voiceName && ret[i].service_name.toLowerCase().replace('&', 'and').includes(voiceName.toLowerCase()))
+      voiceServices.push(template)
     services.push(template)
   }
-  return services
+  return voiceServices.length > 0 ? voiceServices : services
 }

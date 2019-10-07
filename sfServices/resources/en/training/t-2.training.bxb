@@ -1,3 +1,8 @@
+train (t-204hbqqudm49rxmrl796xqclm) {
+  utterance ("[g:PoleType:prompt] (one)[v:VoicePoleType]")
+  plan (Y2BlkE/LzEvMiU/KLy7WK06LL04tKstMTi3WC8jPSQ2pLEhlUMGhwKk0MycFrkoJh6pgCMMzLy0fp1VhiTmlqd6plTitCssHUnCrWBgYGZgYmIE0A5AFgTDABMRAcQA=)
+  last-modified (1570414369072)
+}
 train (t-20e4uybucuo1bm23jb8dmwrn6) {
   utterance ([g:SubmitServiceRequest] Return a list of service)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
@@ -27,6 +32,11 @@ train (t-2dllan2upmlo5l2vz0lqltwjl) {
   utterance ("[g:ServiceInfo:prompt] (Streetlight Repair)[v:VoiceName]")
   plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
   last-modified (1570362655186)
+}
+train (t-2f2c900oyff007js0xbd2zzni) {
+  utterance ("[g:HowManyTents:prompt] (one)[v:VoiceTents]")
+  plan (Y2BlUE7LzEvMiU/KLy7WK06LL04tKstMTi3W88gv903MqwxJzSspZtDAocipNDMnBUWlEg6VwRCGZ15aPoM8DjVhiTmlqd6plQyKuBTkAymIPSwMjAxMDMxAmgHIgkAYYAJioDgA)
+  last-modified (1570414535397)
 }
 train (t-2fqfnvg98dhvga8ery7fjkxqx) {
   utterance ([g:SubmitServiceRequest] Perform reconnaissance on city services)

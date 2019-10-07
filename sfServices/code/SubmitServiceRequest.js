@@ -63,11 +63,11 @@ module.exports = function SubmitServiceRequest(description, firstName, lastName,
   if (serviceInfo.serviceName)
     request.service_name = serviceInfo.serviceName.name
 
-  // var postResponse = http.postUrl(url, request, options)
-  // if (Array.isArray(postResponse))
-  //   token = postResponse[0].token
-  // else
-  //   token = postResponse.token
-  // return (token)
-  return
+  return '42'
+  var postResponse = http.postUrl(url, request, options)
+  if (Array.isArray(postResponse))
+    token = postResponse[0].token
+  else
+    token = postResponse.token
+  return (token)
 }

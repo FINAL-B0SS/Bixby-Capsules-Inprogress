@@ -3,6 +3,11 @@ train (t-q46d3mouqkiaea69tq70auu53) {
   plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMIQPkA)
   last-modified (1566775955140)
 }
+train (t-q54lux5zkp08b3sjpcw83p9es) {
+  utterance ("[g:PoleType:prompt] (one two)[v:VoicePoleType]")
+  plan (Y2BlkE/LzEvMiU/KLy7WK06LL04tKstMTi3WC8jPSQ2pLEhlUMGhwKk0MycFrkoJh6pgCMMzLy0fp1VhiTmlqd6plTitCssHUnCrWBgYGZgYmIE0A5AFgTDABMRAcQA=)
+  last-modified (1570414363061)
+}
 train (t-qdbfp13uymijfa9e5h26ebckx) {
   utterance ([g:viewMyRequests] Give me a report of my requests)
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)

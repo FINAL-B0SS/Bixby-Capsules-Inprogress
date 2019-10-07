@@ -8,6 +8,11 @@ train (t-o12vo54irra7tz1xn74o3pnej) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775954802)
 }
+train (t-o6z4p6yq4wikp5hyqmaby79tr) {
+  utterance ("[g:HowManyPeople:prompt] (one two)[v:VoicePeople]")
+  plan (Y2BlUEnLzEvMiU/KLy7WK06LL04tKstMTi3W88gv903MqwxIzS/ISWXQxKHKqTQzJwVVqRIOpcEQhmdeWj6DPA41YYk5paneqZU4DQnLB1JQi1gYGBmYGJiBNAOQBYEwwATEQHEA)
+  last-modified (1570414254228)
+}
 train (t-o7aflhpgn8t7de43thknh7pt5) {
   utterance ([g:TrackCase] search request)
   plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)

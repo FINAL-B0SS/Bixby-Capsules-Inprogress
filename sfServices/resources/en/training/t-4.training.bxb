@@ -1,0 +1,5 @@
+train (t-4cp7wzfpyuke40ig8onus10ai) {
+  utterance ("[g:WholeBlock:prompt] (one two)[v:VoiceWholeBlock]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC8/Iz0l1yslPzmZQw6HEqTQzJwVJnRIOdcEQhmdeWj6DPA41YYk5paneqZU4LQvLB1JIlrEwMDIwMTADaQYgCwJhgAmIgeIA)
+  last-modified (1570414613423)
+}

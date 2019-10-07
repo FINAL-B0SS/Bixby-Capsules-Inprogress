@@ -2,41 +2,47 @@ var http = require('http')
 var console = require('console')
 var secret = require('secret')
 
+function buildCaseInfo(info) {
+  return {
+    serviceRequestId: info.service_request_id,
+    status: info.status,
+    serviceName: info.service_name,
+    dateOpened: String(info.requested_datetime).substring(0, 10),
+    dateUpdated: String(info.updated_datetime).substring(0, 10),
+    address: info.address,
+    statusNotes: info.status_notes,
+    location: {
+      point: {
+        latitude: info.lat,
+        longitude: info.long,
+      }
+    },
+    description: info.description,
+  }
+}
+
 module.exports.function = function trackCase(serviceRequestNumber) {
   var url = secret.get('url.requests') + '.json'
-  var ret = http.getUrl(url, { format: 'json' })
-  var cases = []
+  const ret = http.getUrl(url, { format: 'json' }).sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
+  let key_list = ['service_request_id', 'service_name', 'status', 'address']
   var fallback = []
-  var caseInfo
 
-  for (var i = 0; i < ret.length; i++) {
-    caseInfo = {
-      serviceRequestId: ret[i].service_request_id,
-      status: ret[i].status,
-      serviceName: ret[i].service_name,
-      dateOpened: String(ret[i].requested_datetime).substring(0, 10),
-      dateUpdated: String(ret[i].updated_datetime).substring(0, 10),
-      address: ret[i].address,
-      statusNotes: ret[i].status_notes,
-      location: {
-        point: {
-          latitude: ret[i].lat,
-          longitude: ret[i].long,
-        }
-      },
-      description: ret[i].description,
-    }
-    if ((String(ret[i].service_request_id).toLowerCase() == String(serviceRequestNumber).toLowerCase()
-      || String(ret[i].service_name).toLowerCase().includes(String(serviceRequestNumber).toLowerCase())
-      || String(ret[i].status).includes(String(serviceRequestNumber).toLowerCase())
-      || String(ret[i].address).includes(String(serviceRequestNumber).toLowerCase()))
-      || String(serviceRequestNumber).toLowerCase() == 'all')
-      cases.push(caseInfo)
-    fallback.push(caseInfo)
-  }
-  cases.sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
-  fallback.sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
-  if (cases.length == 0)
-    return (fallback)
-  return cases
+  var cases = ret.map(function (info) {
+    caseInfo = buildCaseInfo(info)
+    
+    var matched = key_list.some(function (key) {
+      return (String(info[key]).toLowerCase().includes(String(serviceRequestNumber).toLowerCase()));
+    })
+
+    if (matched || String(serviceRequestNumber).toLowerCase() == 'all')
+      return caseInfo
+  });
+
+  var fallback = ret.map(function (info) {
+    caseInfo = buildCaseInfo(info)
+    return caseInfo
+  });
+
+  console.log(cases.length)
+  return cases.length == 0 ? fallback : cases
 }

@@ -23,6 +23,11 @@ train (t-vpkib81yfqxmicc5suf0lqj8z) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775845899)
 }
+train (t-vqsl8kpnc5k1hfseg8zxakaem) {
+  utterance ("[g:Type:prompt] (one)[v:VoiceType]")
+  plan (Y2BlkE7LzEvMiU/KLy7WK06LL04tKstMTi3WC6ksSGVQwCHpVJqZkwJWoYRDRTCE4ZmXls8gj0NNWGJOaap3aiVOa8LygRTYGhYGRgYmBmYgzQBkQSAMMAExUBwA)
+  last-modified (1570414566597)
+}
 train (t-vr630ba7e2qmjrxot6fx4ujmo) {
   utterance ([g:viewMyRequests] show status of my request)
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)

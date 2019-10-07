@@ -13,6 +13,11 @@ train (t-6bv7vkqgmhbynqc0zdeycul16) {
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
   last-modified (1567556431753)
 }
+train (t-6g2mkuqoi1kes94tghz7yb9n6) {
+  utterance ("[g:Type:prompt] (one two)[v:VoiceType]")
+  plan (Y2BlkE7LzEvMiU/KLy7WK06LL04tKstMTi3WC6ksSGVQwCHpVJqZkwJWoYRDRTCE4ZmXls8gj0NNWGJOaap3aiVOa8LygRTYGhYGRgYmBmYgzQBkQSAMMAExUBwA)
+  last-modified (1570414565678)
+}
 train (t-6heeegydbu0c2lshkhuv7x58a) {
   utterance ("[g:ServiceInfo:prompt] (Pothole & Street Issues)[v:VoiceName]")
   plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)

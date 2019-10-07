@@ -13,6 +13,11 @@ train (t-thdma9jxc071d7brrnqdo9x9i) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775891570)
 }
+train (t-thjq6gey0x0rzobz5o77im254) {
+  utterance ("[g:Object:prompt] (Bike rack)[v:VoiceObject]")
+  plan (Y2BlkE3LzEvMiU/KLy7WK06LL04tKstMTi3W80/KSk0uYVDCIe1UmpmTQkBNMIThmZeWzyCPQ01YYk5pqndqJU5DwvKBFNQiFgZGBiYGZiDNAGRBIAwwATFQHAA=)
+  last-modified (1570410259883)
+}
 train (t-tqs3yougwdxj4r6pug5gpaaq0) {
   utterance ("[g:ServiceInfo:prompt] (Blocked Driveway & Illegal Parking)[v:VoiceName]")
   plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
@@ -27,4 +32,9 @@ train (t-tskclgaymzsvqx9qogasdbbk4) {
   utterance ([g:viewMyRequests] Give me a report of my service request)
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
   last-modified (1567556612401)
+}
+train (t-tzph0dmixiol1ykmt3k5riuhd) {
+  utterance ("[g:Object:prompt] (one two)[v:VoiceObject]")
+  plan (Y2BlkE3LzEvMiU/KLy7WK06LL04tKstMTi3W80/KSk0uYVDCIe1UmpmTQkBNMIThmZeWzyCPQ01YYk5pqndqJU5DwvKBFNQiFgZGBiYGZiDNAGRBIAwwATFQHAA=)
+  last-modified (1570415104076)
 }

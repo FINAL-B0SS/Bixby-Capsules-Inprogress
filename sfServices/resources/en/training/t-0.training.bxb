@@ -1,7 +1,17 @@
+train (t-05wtije0v53heta2sb1g0pekx) {
+  utterance ("[g:NatureOfRequest:prompt] (parking on sidewalk)[v:VoiceNatureOfRequest]")
+  plan (Y2BhUEvLzEvMiU/KLy7WK06LL04tKstMTi3W80ssKS1K9U8LSi0sTS0uYdDGoc6pNDMnBV2xEg7FwRCGZ15aPk4Dw/KBFLqBzAyMDExAkgFIgyAEMAExUAwA)
+  last-modified (1570415074406)
+}
 train (t-0acn5pvs1mwiygt9m89qjgcmr) {
   utterance ([g:SubmitServiceRequest] new service request)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1567556833831)
+}
+train (t-0hfr8723pkkju78r84pjphj4g) {
+  utterance ("[g:Type:prompt] (one two three)[v:VoiceType]")
+  plan (Y2BlkE7LzEvMiU/KLy7WK06LL04tKstMTi3WC6ksSGVQwCHpVJqZkwJWoYRDRTCE4ZmXls8gj0NNWGJOaap3aiVOa8LygRTYGhYGRgYmBmYgzQBkQSAMMAExUBwA)
+  last-modified (1570414565092)
 }
 train (t-0i20wh5uzpl4ixpeijbtmv2g6) {
   utterance ([g:SubmitServiceRequest] What services does san francisco provide)

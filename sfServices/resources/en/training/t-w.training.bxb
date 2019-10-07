@@ -1,3 +1,8 @@
+train (t-w2x5sx3rxkrui6ygyc2hej9b0) {
+  utterance ("[g:Object:prompt] (fire/police callbox)[v:VoiceObject]")
+  plan (Y2BlkE3LzEvMiU/KLy7WK06LL04tKstMTi3W80/KSk0uYVDCIe1UmpmTQkBNMIThmZeWzyCPQ01YYk5pqndqJU5DwvKBFNQiFgZGBiYGZiDNAGRBIAwwATFQHAA=)
+  last-modified (1570415068884)
+}
 train (t-w8jughhcqswmaitvs2vmdzn48) {
   utterance ([g:viewMyRequests] View my case)
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)

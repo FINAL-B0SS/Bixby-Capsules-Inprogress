@@ -8,10 +8,25 @@ train (t-l4bjudvwsjx1zu0z9zwbljf8r) {
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
   last-modified (1567556560763)
 }
+train (t-l55yohu0jg2bbrfl1c6jd1fyc) {
+  utterance ("[g:PoleStatus:prompt] (one two)[v:VoicePoleStatus]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC8jPSQ0uSSwpLWZQw6HEqTQzJwVJnRIOdcEQhmdeWj6DPA41YYk5paneqZU4LQvLB1JIlrEwMDIwMTADaQYgCwJhgAmIgeIA)
+  last-modified (1570414308973)
+}
 train (t-l7xfnrlbag6dzbkge6ktxpp87) {
   utterance ("[g:TrackCase]Get the status of request (50fea77a4aa48a4a9e000059)[v:ServiceRequestNumber]")
   plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMIQPkA)
   last-modified (1566775954605)
+}
+train (t-lah1yung35kpjhqzoxqj565zq) {
+  utterance ("[g:SignType:prompt] (one two three)[v:VoiceSignType]")
+  plan (Y2BlkE/LzEvMiU/KLy7WK06LL04tKstMTi3WC85MzwupLEhlUMGhwKk0MycFrkoJlzEQhmdeWj5Oq8ISc0pTvVMrcVoVlg+k4FaxMDAyMDEwA2kGIAsCYYAJiIHiAA==)
+  last-modified (1570414486753)
+}
+train (t-ld9utoecvzc62awpurye68p1h) {
+  utterance ("[g:HowManyPeople:prompt] (one two three)[v:VoicePeople]")
+  plan (Y2BlUEnLzEvMiU/KLy7WK06LL04tKstMTi3W88gv903MqwxIzS/ISWXQxKHKqTQzJwVVqRIOpcEQhmdeWj6DPA41YYk5paneqZU4DQnLB1JQi1gYGBmYGJiBNAOQBYEwwATEQHEA)
+  last-modified (1570414245269)
 }
 train (t-lhsubcrx2xoi2p0q6zebod4gx) {
   utterance ([g:viewMyRequests] check on my requests)

@@ -3,6 +3,11 @@ train (t-s2swpjr1tilo5tzbbojfck1zl) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775955652)
 }
+train (t-s5npb5sdinp353a4gf9kj6j2o) {
+  utterance ("[g:SignType:prompt] (one two)[v:VoiceSignType]")
+  plan (Y2BlkE/LzEvMiU/KLy7WK06LL04tKstMTi3WC85MzwupLEhlUMGhwKk0MycFrkoJlzEQhmdeWj5Oq8ISc0pTvVMrcVoVlg+k4FaxMDAyMDEwA2kGIAsCYYAJiIHiAA==)
+  last-modified (1570414487452)
+}
 train (t-salcfhndqgi1ntuhp27iv2pcs) {
   utterance ("[g:ServiceInfo:prompt] (Garbage Containers)[v:VoiceName]")
   plan (Y2BmUErLzEvMiU/KLy7WK06LL04tKstMTi3WC4YwPPPS8hlUcahxTy1BVqaAQ1lYPpDyS8xNZWBiYARiBiDJyAACTBAMAA==)
@@ -12,6 +17,11 @@ train (t-skbz5p17eq8j1l9xlu0l3zu0q) {
   utterance ([g:TrackCase] Figure out my service request status)
   plan (Y2BmkE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMChIKQoMTkbpIpBG4eKYAgjKLWwNLW4xK80Nym1iIGJgRGIGYAkIwMDjAYA)
   last-modified (1566775955724)
+}
+train (t-spscsu3biq1izozvfiqdfa62x) {
+  utterance ("[g:PoleStatus:prompt] (one)[v:VoicePoleStatus]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC8jPSQ0uSSwpLWZQw6HEqTQzJwVJnRIOdcEQhmdeWj6DPA41YYk5paneqZU4LQvLB1JIlrEwMDIwMTADaQYgCwJhgAmIgeIA)
+  last-modified (1570414318341)
 }
 train (t-sqru6uo5w6h5l1bby8t28wwxb) {
   utterance ([g:SubmitServiceRequest] Show all services)

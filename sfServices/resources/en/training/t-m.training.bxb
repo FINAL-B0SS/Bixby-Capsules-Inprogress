@@ -8,10 +8,20 @@ train (t-mbv2rjnygp3j098l6cnic0ads) {
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
   last-modified (1567556446590)
 }
+train (t-mmhd7zvzv8hleuxqnip37wrrn) {
+  utterance ("[g:NatureOfRequest:prompt] (double parking)[v:VoiceNatureOfRequest]")
+  plan (Y2BhUEvLzEvMiU/KLy7WK06LL04tKstMTi3W80ssKS1K9U8LSi0sTS0uYdDGoc6pNDMnBV2xEg7FwRCGZ15aPk4Dw/KBFLqBzAyMDExAkgFIgyAEMAExUAwA)
+  last-modified (1570412382708)
+}
 train (t-mrxa4goo5cz77yqxe8dvb46bg) {
   utterance ([g:SubmitServiceRequest] File a stolen bike report)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775954462)
+}
+train (t-ms6wtggej2pxkeunyafefj0xo) {
+  utterance ("[g:HowManyTents:prompt] (one two three)[v:VoiceTents]")
+  plan (Y2BlUE7LzEvMiU/KLy7WK06LL04tKstMTi3W88gv903MqwxJzSspZtDAocipNDMnBUWlEg6VwRCGZ15aPoM8DjVhiTmlqd6plQyKuBTkAymIPSwMjAxMDMxAmgHIgkAYYAJioDgA)
+  last-modified (1570414521493)
 }
 train (t-mu58jekxcll9opx4f4pytv787) {
   utterance ([g:SubmitServiceRequest] Research city services)

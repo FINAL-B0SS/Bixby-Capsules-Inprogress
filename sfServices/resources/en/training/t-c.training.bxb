@@ -1,3 +1,8 @@
+train (t-c1qh6q6dxdv27b3hpbw9k8jvs) {
+  utterance ("[g:WholeBlock:prompt] (one)[v:VoiceWholeBlock]")
+  plan (Y2BlUEzLzEvMiU/KLy7WK06LL04tKstMTi3WC8/Iz0l1yslPzmZQw6HEqTQzJwVJnRIOdcEQhmdeWj6DPA41YYk5paneqZU4LQvLB1JIlrEwMDIwMTADaQYgCwJhgAmIgeIA)
+  last-modified (1570414614021)
+}
 train (t-c23wb3kb2qclhqgqa4ea7bu5w) {
   utterance ([g:SubmitServiceRequest] Find out services in San francisco)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)

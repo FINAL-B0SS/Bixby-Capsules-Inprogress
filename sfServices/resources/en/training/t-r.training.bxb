@@ -8,6 +8,16 @@ train (t-r36g4hci1834flkyc6gyjmld0) {
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
   last-modified (1566775955381)
 }
+train (t-re142chc4pq555vc31ql2q3a1) {
+  utterance ("[g:Description:prompt] (Random text to represent description here)[v:Description]")
+  plan (Y2BiUErLzEvMiU/KLy7WK06LL04tKstMTi3Wc0ktTi7KLCjJzM8jSg0jEDIw8AAxExAD2QA=)
+  last-modified (1570409501095)
+}
+train (t-rgfj8unkbw7prkjjn1eepr1uf) {
+  utterance ("[g:HowManyPeople:prompt] (one)[v:VoicePeople]")
+  plan (Y2BlUEnLzEvMiU/KLy7WK06LL04tKstMTi3W88gv903MqwxIzS/ISWXQxKHKqTQzJwVVqRIOpcEQhmdeWj6DPA41YYk5paneqZU4DQnLB1JQi1gYGBmYGJiBNAOQBYEwwATEQHEA)
+  last-modified (1570414264137)
+}
 train (t-rk99lp6i08u2v4l25s9vstkxs) {
   utterance ("[g:viewMyRequests] How's my case ")
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)

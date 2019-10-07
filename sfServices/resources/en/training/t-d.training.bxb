@@ -1,3 +1,8 @@
+train (t-d1d9xyvm2hvuc8mf1en9pgn5g) {
+  utterance ("[g:PoleType:prompt] (one two three)[v:VoicePoleType]")
+  plan (Y2BlkE/LzEvMiU/KLy7WK06LL04tKstMTi3WC8jPSQ2pLEhlUMGhwKk0MycFrkoJh6pgCMMzLy0fp1VhiTmlqd6plTitCssHUnCrWBgYGZgYmIE0A5AFgTDABMRAcQA=)
+  last-modified (1570414353933)
+}
 train (t-d2q0eq5g6f0sbjk7fivuk4x53) {
   utterance ([g:SubmitServiceRequest] Figure out what services the city has to offer)
   plan (hY/NCsIwEITHf30HQfHiodCnUKEgIvoAJY0bXGgSzaY+v0W9VIjuXnZnvsMMZlgbdqouKy+SiymFwoM1SX5+Hye6NySxuCBLgU1lOXZxrBLwhkQHvkX2DvMEs7WKaywT7o6DxIOyhEWC2Kt/gNfqZ4Lj1TtKdvhULZzxmKKHPgYYYoQxJu2PVunu97y0Jw==)
@@ -47,4 +52,9 @@ train (t-dw7tsytfww74t96qu24xf34ym) {
   utterance ("[g:viewMyRequests] How's my service request ")
   plan (Y2BikE/LzEvMiU/KLy7WK06LL04tKstMTi3Wc04sTvXMS8tnUMWhoCwztdy3Mii1sDS1uKSYgREIGaAYSAIA)
   last-modified (1567556546995)
+}
+train (t-dym9sryrv0kz9vws4dvj70e7j) {
+  utterance ("[g:Object:prompt] (one two three four)[v:VoiceObject]")
+  plan (Y2BlkE3LzEvMiU/KLy7WK06LL04tKstMTi3W80/KSk0uYVDCIe1UmpmTQkBNMIThmZeWzyCPQ01YYk5pqndqJU5DwvKBFNQiFgZGBiYGZiDNAGRBIAwwATFQHAA=)
+  last-modified (1570415102215)
 }
