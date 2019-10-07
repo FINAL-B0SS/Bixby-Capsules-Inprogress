@@ -1,6 +1,6 @@
 capsule {
   id (final_boss.lyrics_fetcher)
-  version (1.0.2)
+  version (1.0.0)
   format(3)
   runtime-flags {
     modern-prompt-rejection
