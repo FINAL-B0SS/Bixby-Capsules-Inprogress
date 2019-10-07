@@ -1,5 +1,5 @@
 action (BuildWholeBlock) {
-  type (Search)
+  type (Constructor)
   collect {
     input (serviceInfo) {
       type (ServiceInfo)

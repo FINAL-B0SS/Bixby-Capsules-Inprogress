@@ -8,7 +8,7 @@ action (SubmitServiceRequest) {
 		// }
 		input (serviceInfo) {
 			type (ServiceInfo)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
 				intent {
 					goal: GetServiceInfo

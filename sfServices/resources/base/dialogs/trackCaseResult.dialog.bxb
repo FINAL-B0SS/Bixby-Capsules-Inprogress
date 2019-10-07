@@ -1,15 +1,11 @@
 dialog (Result) {
 	match : CaseInfo (this)
 	if (size(this) > 1) {
-		template ("These are the cases I found in San Francisco") {
+		template (These are the cases I found in San Francisco) {
 		}
 	} else-if (size(this) == 1) {
-		if (exists(this.serviceName)) {
-			template ("#{value(this.serviceName)}") {
-        speech ()
-      }
-		}
+			template (Case info)
 	} else{
-		template ("No cases were found matching this request.")
+		template (No cases were found matching this request.)
 	}
 }

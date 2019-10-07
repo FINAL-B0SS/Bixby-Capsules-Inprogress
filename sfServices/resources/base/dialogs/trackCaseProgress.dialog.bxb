@@ -1,4 +1,4 @@
-dialog (Result) {
+dialog (Progress) {
   match: CaseInfo
   choose (Random) {
     template (Fetching cases)

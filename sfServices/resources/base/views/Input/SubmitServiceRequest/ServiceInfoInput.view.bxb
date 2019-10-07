@@ -7,7 +7,8 @@ input-view {
     selection-of (this) {
       navigation-mode {
         read-many {
-          page-size (size(this))
+          page-size (10)
+          with-navigation-conversation-drivers
           page-content {
             underflow-statement (This is the first page)
             item-selection-question (Select a service to begin a request)
@@ -16,7 +17,6 @@ input-view {
           }
         }
       }
-      select-button-text ("Request")
       where-each (service) {
         spoken-summary ("#{value(service.serviceName)}.")
         layout-macro (service-summary-fragment) {
