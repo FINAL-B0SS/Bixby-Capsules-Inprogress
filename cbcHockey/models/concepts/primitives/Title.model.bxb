@@ -1,0 +1,6 @@
+text (Title) {
+  description (The stories headline)
+  features {
+    transient
+  }
+}

@@ -1,0 +1,156 @@
+result-view {
+	match: Info (this)
+	
+	render {
+		if (size(this) > 1) {
+			list-of (this) {
+				// Handles hands free navigation options
+				navigation-mode {
+					read-many {
+						page-size (10)
+						with-navigation-conversation-drivers
+						page-content {
+							underflow-statement (This is the first page)
+							overflow-statement (This is the last page)
+							overflow-question (What would you like to do?)
+								}
+								}
+								}
+								where-each (this) {
+									// Added newlines to have Bixby pause between titles
+									spoken-summary ("#{value(this.title)}\n\n\n\n\n\n\n\n\n\n")
+									thumbnail-card {
+										image-url("#{value(this.image.url)}")
+										title-area {
+											slot1 {
+												text {
+													value ("#{value(this.title)}")
+												}
+											}
+											slot3 {
+												if (exists(this.date)) {
+													single-line {
+														text {
+															value ("Published: #{value(this.date)}")
+															style (Legal)
+														}
+													}
+												} else {
+													single-line {
+														text {
+															value ()
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+								header {
+									title-area {
+										slot2 {
+											if (exists(this.feedDescription)) {
+												paragraph {
+													value ("#{value(this.feedDescription)}")
+													style (Legal)
+												}
+											} else {
+												paragraph {
+													value ()
+												}
+											}
+										}
+										slot3 {
+											if (exists(this.copyright)) {
+												paragraph {
+													value ("#{value(this.copyright)}")
+													style (Legal)
+												}
+											} else {
+												paragraph {
+													value ()
+												}
+											}
+										}
+									}
+								}
+								}
+								}
+								if (size(this) == 1) {
+									layout {
+										section {
+											content {
+												if (exists(this.title)) {
+													paragraph {
+														value ("#{value(this.title)}")
+														style (Title_S)
+													}
+												}
+												if (exists(this.audioItem)) {
+													image-card {
+														image-url ("play_button.png")
+														image-object-fit (Contain)
+														title-area {
+															slot1 {
+																text {
+																	value ("Play Audio")
+																}
+															}
+														}
+														on-click {
+															intent {
+																goal: playSound
+																value: $expr(this.audioItem)
+															}
+														}
+													}
+													divider
+												} else-if (exists(this.image)) {
+													image {
+														url ("#{value(this.image.url)}")
+														lightbox-enabled (false)
+														object-fit (Contain)
+													}
+													divider
+												}
+												if (exists(this.description)) {
+													paragraph {
+														value ("#{value(this.description)}")
+														style (Detail_L)
+													}
+													divider
+												}
+												if (exists(this.link)) {
+													attribution-link {
+														label ("#{value(this.urlText)}")
+														url ("#{value(this.link)}")
+													}
+												}
+												if (exists(this.date)) {
+													single-line {
+														text {
+															value ("Published: #{value(this.date)}")
+															style (Legal)
+														}
+													}
+												}
+												if (exists(this.feedDescription)) {
+													paragraph {
+														value ("#{value(this.feedDescription)}")
+														style (Legal)
+													}
+												}
+												if (exists(this.copyright)) {
+													single-line {
+														text {
+															value ("#{value(this.copyright)}")
+															style (Legal)
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+								}
+								}

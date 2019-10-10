@@ -1,0 +1,6 @@
+text (Text) {
+  description (What's shown in the feed selection list)
+  features {
+    transient
+  }
+}

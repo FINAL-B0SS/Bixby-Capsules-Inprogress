@@ -1,0 +1,46 @@
+input-view {
+	match {
+		Search (this)
+	}
+	
+	render {
+		// Handles hands free navigation options
+		selection-of (this) {
+			navigation-mode {
+				read-many {
+					with-navigation-conversation-drivers
+					page-size (10)
+					page-content {
+						underflow-statement (This is the first page)
+						item-selection-question (Select a category.)
+						overflow-statement (This is the last page)
+						overflow-question (What would you like to do?)
+							}
+							}
+							}
+							select-button-text ("Select")
+							where-each (this) {
+								spoken-summary ("#{value(this.text)}.")
+								title-card{
+									title-area {
+										slot1 {
+											text{
+												value("#{value(this.text)}")
+											}
+										}
+										slot2 {
+											single-line{
+												if (exists(this.description)) {
+													text {
+														value("#{value(this.description)}")
+														style(Legal)
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							}
+							}
+							}

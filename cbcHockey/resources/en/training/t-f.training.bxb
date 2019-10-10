@@ -1,0 +1,30 @@
+train (t-ff42o8by01nhb5omzi7bseuw0) {
+  utterance ([g:fetchNews] Fetch me news)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747647144)
+}
+train (t-fi55cpyuckr0gcdd9tgkktxp2) {
+  utterance ("[g:fetchNews] Get a list of (business)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747150194)
+}
+train (t-fil8x3atetsd0cjxqupf9bzqn) {
+  utterance ("[g:fetchNews] Provide a list of (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747229585)
+}
+train (t-fivj9m4hay7rysx3l207xqwco) {
+  utterance ("[g:fetchNews] let me see (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410213454)
+}
+train (t-fndopx3epmau2vrza0un7mlcc) {
+  utterance ("[g:fetchNews] Fetch (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747072698)
+}
+train (t-fq0qr5rnyrb4k7et86m9cxmrh) {
+  utterance ("[g:fetchNews] find me (golf)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411977222)
+}

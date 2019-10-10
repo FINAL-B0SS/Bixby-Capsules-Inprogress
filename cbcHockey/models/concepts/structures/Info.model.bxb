@@ -1,0 +1,55 @@
+structure (Info) {
+  description (Stores a news story)
+  property (title) {
+    description (The stories headline)
+    type (Title)
+    min (Required) max (One)
+  }
+  property (image) {
+    description (Picture relevent to the posting)
+    type (image.Image)
+    min (Required) max (One)
+    visibility (Private)
+  }
+  property (description) {
+    description (A medium rundown of the story)
+    type (Description)
+    min (Optional) max (One)
+  }
+  property (link) {
+    description (Link to the full news article)
+    type (Link)
+    min (Optional) max (One)
+  }
+  property (date) {
+    description (Date the article was published)
+    type (Date)
+    min (Optional) max (One)
+  }
+  property (tag) {
+    description (Used to match utterance to a specific RSS feed)
+    type (Tag)
+    min (Required) max (One)
+  }
+  property (copyright) {
+    description (RSS feed copyright message)
+    type (Copyright)
+    min (Optional) max (One)
+  }
+  property (feedDescription) {
+    description (RSS feeds description)
+    type (FeedDescription)
+    min (Optional) max (One)
+  }
+  property (audioItem) {
+    type (audioPlayer.AudioItem)
+    min (Optional) max (One)
+  }
+  property (urlText) {
+    type (UrlText)
+    min (Required) max (One)
+  }
+  features {
+    transient
+  }
+}
