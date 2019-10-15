@@ -18,6 +18,11 @@ train (t-jccoy4aqoij25ze5k58mii22c) {
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747570008)
 }
+train (t-jcu4nrcqxpuypls4ff52o3xn9) {
+  utterance ("[g:Search:prompt] (one two)[v:Tag]")
+  plan (Y2BmkEvLzEvMiU/KLy7WKyouji9JzS3ISSxJ1QtOTSxKzmBQxiWfllqSnAFVJI1LUUhiOgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1571118570543)
+}
 train (t-jt7tgxzfmf77eclaygthmmcgq) {
   utterance ([g:fetchNews] Return a list of headlines)
   plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)

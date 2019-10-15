@@ -1,11 +1,11 @@
 capsule-info {
-  display-name (Hockey News Canada)
-  dispatch-name (Hockey News Canada)
-  developer-name (Final Boss)
-  icon-asset (icon.png)
-  description (Hockey News Canada is a simple Capsule for listening to the Hockey Night in Canada podcast. All content is sourced from CBC's public RSS feed at https://www.cbc.ca/podcasting/includes/hnic.xml.)
-  search-keywords {
-    keyword (News)
-    keyword (RSS)
-  }
+	display-name (Hockey News Canada)
+	dispatch-name (Hockey News Canada)
+	developer-name (CBC)
+	icon-asset (icon.png)
+	description (Hockey News Canada is a simple Capsule for listening to the Hockey Night in Canada podcast. All content is sourced from CBC's public RSS feed at https://www.cbc.ca/podcasting/includes/hnic.xml.)
+	search-keywords {
+		keyword (News)
+		keyword (RSS)
+	}
 }

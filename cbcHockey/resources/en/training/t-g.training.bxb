@@ -1,3 +1,8 @@
+train (t-g0rzgbac9iglh7v3t3iydtrwl) {
+  utterance ("[g:Search:prompt] (one)[v:Tag]")
+  plan (Y2BmkEvLzEvMiU/KLy7WKyouji9JzS3ISSxJ1QtOTSxKzmBQxiWfllqSnAFVJI1LUUhiOgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1571118397785)
+}
 train (t-g7n2jdkcasevvonlyy7jezdp1) {
   utterance ("[g:fetchNews] show (golf)[v:Tag] news")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)

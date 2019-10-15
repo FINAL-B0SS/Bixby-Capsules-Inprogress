@@ -43,6 +43,11 @@ train (t-zpp3e2cagu5qm053mmchiap9e) {
   plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
   last-modified (1567747751868)
 }
+train (t-zqxmt78hkq4a15tn8zz2emy45) {
+  utterance ("[g:Search:prompt] (one two three)[v:Tag]")
+  plan (Y2BmkEvLzEvMiU/KLy7WKyouji9JzS3ISSxJ1QtOTSxKzmBQxiWfllqSnAFVJI1LUUhiOgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1571118571271)
+}
 train (t-zs7we6qpr1abh6l1r0yukgxpx) {
   utterance ("[g:fetchNews] whats new in (national college football)[v:Tag]")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)

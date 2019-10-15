@@ -18,7 +18,7 @@ result-view {
 								}
 								where-each (this) {
 									// Added newlines to have Bixby pause between titles
-									spoken-summary ("#{value(this.title)}\n\n\n\n\n\n\n\n\n\n")
+									spoken-summary ("#{value(this.title)} ...")
 									thumbnail-card {
 										image-url("#{value(this.image.url)}")
 										title-area {
