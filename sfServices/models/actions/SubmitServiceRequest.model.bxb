@@ -2,17 +2,12 @@ action (SubmitServiceRequest) {
 	description (An action that takes a required Spot as an input)
 	type (Calculation)
 	collect {
-		// input (voiceName) {
-		// 	type (VoiceName)
-		// 	min (Optional) max (One)
-		// }
 		input (serviceInfo) {
 			type (ServiceInfo)
 			min (Required) max (One)
 			default-init {
 				intent {
 					goal: GetServiceInfo
-					// value: $expr(voiceName)
 				}
 			}
 		}
@@ -22,12 +17,22 @@ action (SubmitServiceRequest) {
 		}
 		input (natureOfRequest) {
 			type (NatureOfRequest)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildNatureOfRequest
-					value: $expr(serviceInfo)
-					value: $expr(voiceNatureOfrequest)
+				if (serviceInfo.serviceName != 'Abandoned Vehicles' &&serviceInfo.serviceName != 'Blocked Pedestrian Walkway' &&serviceInfo.serviceName != 'Encampment' && serviceInfo.serviceName != 'Graffiti' && serviceInfo.serviceName != 'Parking & Traffic Sign Repair' && serviceInfo.serviceName != 'Street or Sidewalk Cleaning' && serviceInfo.serviceName != 'Streetlight Repair' && serviceInfo.serviceName != 'Flooding & Sewer Issues') {
+					intent {
+						goal: BuildNatureOfRequest
+						value: $expr(serviceInfo)
+						value: $expr(voiceNatureOfrequest)
+					}
+				} else {
+					intent {
+						goal: NatureOfRequest
+						value: NatureOfRequest {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -57,11 +62,21 @@ action (SubmitServiceRequest) {
 		}
 		input (poleType) {
 			type (PoleType)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildPoleType
-					value: $expr(voicePoleType)
+				if (serviceInfo.serviceName == 'Streetlight Repair') {
+					intent {
+						goal: BuildPoleType
+						value: $expr(voicePoleType)
+					}
+				} else {
+					intent {
+						goal: PoleType
+						value: PoleType {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -71,11 +86,21 @@ action (SubmitServiceRequest) {
 		}
 		input (signStatus) {
 			type (SignStatus)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildSignStatus
-					value: $expr(voiceSignStatus)
+				if (serviceInfo.serviceName == 'Parking & Traffic Sign Repair') {
+					intent {
+						goal: BuildSignStatus
+						value: $expr(voiceSignStatus)
+					}
+				} else {
+					intent {
+						goal: SignStatus
+						value: SignStatus {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -85,11 +110,21 @@ action (SubmitServiceRequest) {
 		}
 		input (signType) {
 			type (SignType)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildSignType
-					value: $expr(voiceSignType)
+				if (serviceInfo.serviceName == 'Parking & Traffic Sign Repair') {
+					intent {
+						goal: BuildSignType
+						value: $expr(voiceSignType)
+					}
+				} else {
+					intent {
+						goal: SignType
+						value: SignType {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -99,11 +134,21 @@ action (SubmitServiceRequest) {
 		}
 		input (poleStatus) {
 			type (PoleStatus)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildPoleStatus
-					value: $expr(voicePoleStatus)
+				if (serviceInfo.serviceName == 'Parking & Traffic Sign Repair') {
+					intent {
+						goal: BuildPoleStatus
+						value: $expr(voicePoleStatus)
+					}
+				} else {
+					intent {
+						goal: PoleStatus
+						value: PoleStatus {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -113,11 +158,21 @@ action (SubmitServiceRequest) {
 		}
 		input (type) {
 			type (Type)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildType
-					value: $expr(voiceType)
+				if (serviceInfo.serviceName == 'Streetlight Repair' || serviceInfo.serviceName == 'Flooding & Sewer Issues') {
+					intent {
+						goal: BuildType
+						value: $expr(voiceType)
+					}
+				} else {
+					intent {
+						goal: Type
+						value: Type {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -127,11 +182,21 @@ action (SubmitServiceRequest) {
 		}
 		input (wholeBlock) {
 			type (WholeBlock)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildWholeBlock
-					value: $expr(voiceWholeBlock)
+				if (serviceInfo.serviceName == 'Illegal Postings') {
+					intent {
+						goal: BuildWholeBlock
+						value: $expr(voiceWholeBlock)
+					}
+				} else {
+					intent {
+						goal: WholeBlock
+						value: WholeBlock {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -141,11 +206,21 @@ action (SubmitServiceRequest) {
 		}
 		input (containsRacialSlursOrProfanity) {
 			type (ContainsRacialSlursOrProfanity)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildContainsRacialSlursOrProfanity
-					value: $expr(voiceContainsRacial)
+				if (serviceInfo.serviceName == 'Graffiti') {
+					intent {
+						goal: BuildContainsRacialSlursOrProfanity
+						value: $expr(voiceContainsRacial)
+					}
+				} else {
+					intent {
+						goal: ContainsRacialSlursOrProfanity
+						value: ContainsRacialSlursOrProfanity {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -155,11 +230,21 @@ action (SubmitServiceRequest) {
 		}
 		input (howManyTents) {
 			type (HowManyTents)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildHowManyTents
-					value: $expr(voiceTents)
+				if (serviceInfo.serviceName == 'Encampment') {
+					intent {
+						goal: BuildHowManyTents
+						value: $expr(voiceTents)
+					}
+				} else {
+					intent {
+						goal: HowManyTents
+						value: HowManyTents {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
@@ -169,25 +254,45 @@ action (SubmitServiceRequest) {
 		}
 		input (howManyPeople) {
 			type (HowManyPeople)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildHowManyPeople
-					value: $expr(voicePeople)
+				if (serviceInfo.serviceName == 'Encampment') {
+					intent {
+						goal: BuildHowManyPeople
+						value: $expr(voicePeople)
+					}
+				} else {
+					intent {
+						goal: HowManyPeople
+						value: HowManyPeople {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}
-    input (voiceObject) {
+		input (voiceObject) {
 			type (VoiceObject)
 			min (Optional) max (One)
 		}
 		input (object) {
 			type (Object)
-			min (Optional) max (One)
+			min (Required) max (One)
 			default-init {
-				intent {
-					goal: BuildObject
-          value: $expr(voiceObject)
+				if (serviceInfo.serviceName == 'Blocked Pedestrian Walkway' || serviceInfo.serviceName == 'Graffiti' || serviceInfo.serviceName == 'Street or Sidewalk Cleaning') {
+					intent {
+						goal: BuildObject
+						value: $expr(voiceObject)
+					}
+				} else {
+					intent {
+						goal: Object
+						value: Object {
+							key: (NULL)
+							name: (NULL)
+						}
+					}
 				}
 			}
 		}

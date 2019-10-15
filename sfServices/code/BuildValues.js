@@ -13,5 +13,4 @@ module.exports.function = function BuildValues(serviceInfo, valueKey, voiceKey) 
       }
       return data.attributes[i].values
     }
-  return
 }

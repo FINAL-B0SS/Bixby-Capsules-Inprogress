@@ -1,7 +1,7 @@
 input-view {
   match: ServiceRequestNumber (this)
     message {
-    template ("Enter the cases service request number below")
+    template (Track a case)
   }
   render {
     form {
@@ -10,7 +10,7 @@ input-view {
           id (serviceRequestNumber)
           type (ServiceRequestNumber)
           label (Search by Name, ID, Street Address, or Status)
-          max-length (20)
+          max-length (256)
         }
       }
       on-submit {

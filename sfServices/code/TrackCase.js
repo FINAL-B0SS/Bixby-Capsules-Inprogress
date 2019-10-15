@@ -2,47 +2,41 @@ var http = require('http')
 var console = require('console')
 var secret = require('secret')
 
-function buildCaseInfo(info) {
+function parseCaseInfo(caseInfo) {
   return {
-    serviceRequestId: info.service_request_id,
-    status: info.status,
-    serviceName: info.service_name,
-    dateOpened: String(info.requested_datetime).substring(0, 10),
-    dateUpdated: String(info.updated_datetime).substring(0, 10),
-    address: info.address,
-    statusNotes: info.status_notes,
+    serviceRequestId: caseInfo.service_request_id,
+    status: caseInfo.status,
+    serviceName: caseInfo.service_name,
+    dateOpened: String(caseInfo.requested_datetime).substring(0, 10),
+    dateUpdated: String(caseInfo.updated_datetime).substring(0, 10),
+    address: caseInfo.address,
+    statusNotes: caseInfo.status_notes,
     location: {
       point: {
-        latitude: info.lat,
-        longitude: info.long,
+        latitude: caseInfo.lat,
+        longitude: caseInfo.long,
       }
     },
-    description: info.description,
+    description: caseInfo.description,
   }
 }
 
 module.exports.function = function trackCase(serviceRequestNumber) {
   var url = secret.get('url.requests') + '.json'
-  const ret = http.getUrl(url, { format: 'json' }).sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
   let key_list = ['service_request_id', 'service_name', 'status', 'address']
+  const data = http.getUrl(url, { format: 'json' }).sort((a, b) => (a.dateUpdated < b.dateUpdated) ? 1 : -1)
   var fallback = []
+  var ret = []
 
-  var cases = ret.map(function (info) {
-    caseInfo = buildCaseInfo(info)
-    
-    var matched = key_list.some(function (key) {
-      return (String(info[key]).toLowerCase().includes(String(serviceRequestNumber).toLowerCase()));
+  data.forEach(caseInfo => {
+    temp = parseCaseInfo(caseInfo)
+    var matched = key_list.some(key => {
+      return (String(caseInfo[key]).toLowerCase().includes(String(serviceRequestNumber).toLowerCase()));
     })
-
     if (matched || String(serviceRequestNumber).toLowerCase() == 'all')
-      return caseInfo
-  });
+      ret.push(temp)
+    fallback.push(temp)
+  })
 
-  var fallback = ret.map(function (info) {
-    caseInfo = buildCaseInfo(info)
-    return caseInfo
-  });
-
-  console.log(cases.length)
-  return cases.length == 0 ? fallback : cases
+  return ret.length == 0 ? fallback : ret
 }

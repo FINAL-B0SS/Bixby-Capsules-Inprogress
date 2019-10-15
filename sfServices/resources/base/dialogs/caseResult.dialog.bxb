@@ -1,0 +1,8 @@
+dialog (Result) {
+	match : CaseInfo (this)
+	if (size(this) > 1) {
+		template ()// (These are the cases I found in San Francisco)
+	} else {
+			template (Case info)
+	}
+}

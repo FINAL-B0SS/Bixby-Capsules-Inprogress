@@ -12,7 +12,7 @@ result-view {
 						with-navigation-conversation-drivers
 						page-content {
 							underflow-statement (This is the first page)
-							item-selection-question (Select a case)
+							item-selection-question ()
 							overflow-statement (This is the last page)
 							overflow-question (What would you like to do?)
 								}

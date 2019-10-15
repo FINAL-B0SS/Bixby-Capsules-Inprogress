@@ -13,7 +13,6 @@ module.exports.function = function BuildNatureOfRequest(serviceInfo, voiceKey) {
           voiceMatches.push(data.attributes[i].values[j])
         }
       }
-      console.log(voiceMatches.length > 0 ? voiceMatches : data.attributes[i].values)
       return voiceMatches.length > 0 ? voiceMatches : data.attributes[i].values
     }
   }
