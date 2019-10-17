@@ -1,0 +1,4 @@
+action (RollDice) {
+  type (Search)
+  output (Roll)
+}

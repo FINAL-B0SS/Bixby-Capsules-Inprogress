@@ -1,0 +1,10 @@
+structure (Roll) {
+  property (trick) {
+    type (viv.core.Text)
+    min (Required) max (One)
+  }
+  property (dice) {
+    type (viv.core.BaseImage)
+    min (Required) max (Many)
+  }
+}

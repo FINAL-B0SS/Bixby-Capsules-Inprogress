@@ -1,0 +1,11 @@
+result-view {
+  match: Roll (this)
+  
+  message("#{value(this.trick)}")
+
+  render {
+    image-list-of (this.dice) {
+      size (Medium)
+    }
+  }
+}

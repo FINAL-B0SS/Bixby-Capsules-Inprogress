@@ -1,0 +1,14 @@
+capsule-info {
+	display-name (SK8 Dice)
+	dispatch-name (Skate Dice)
+	developer-name (Final Boss)
+	icon-asset (images/sk8dice.png)
+	description ("Roll the dice do a trick.\nIf SK8 DICE or X appears once or twice exclude those dice.\nIf a three way combo of SK8 DICE or X, the player must perform the trick with a variation.\nIf all four dice land on SK8 DICE you can give a letter to another player or take away a letter from yourself.\nIf all four dice land on X you can choose a trick.")
+	search-keywords {
+    keyword (Skateboarding)
+    keyword (Skate)
+    keyword (Sports)
+    keyword (Berrics)
+    keyword (BATB)
+  }
+}

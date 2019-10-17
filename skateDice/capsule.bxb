@@ -1,0 +1,23 @@
+capsule {
+  id (final_boss.skate_dice)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+    no-filtering-with-validation
+    use-input-views-for-selection-list-detail
+    modern-default-view-behavior
+  }
+  store-sections {
+    section (Sports)
+    section (GamesAndFun)
+  }
+  capsule-imports {
+    import (viv.image) { as (image) version (2.12.10) }
+  }
+}
