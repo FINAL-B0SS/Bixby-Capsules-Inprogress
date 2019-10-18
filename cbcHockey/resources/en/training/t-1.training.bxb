@@ -1,0 +1,35 @@
+train (t-10yuvs3y4nl0p98pl59955mlf) {
+  utterance ("[g:fetchNews] Show me what you got for (wired guides)[v:Tag]")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747573899)
+}
+train (t-13qg6bfh1e00yf3xzkpf8quqq) {
+  utterance ("[g:fetchNews] whats new in the (NFL)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568417696411)
+}
+train (t-1gp89tkwzs7n58e6bmupw1ojp) {
+  utterance ([g:OpenUrl:continue:Info]Click link below)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571357811191)
+}
+train (t-1jlufrpio5tsobdknnvovgke5) {
+  utterance ([g:OpenUrl:continue:Info] Please go to their website)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358080564)
+}
+train (t-1ktcywk4dkeftf4h0nnvwpqfv) {
+  utterance ([g:OpenUrl:continue:Info] Please go to their website for more)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358101863)
+}
+train (t-1o92jwdrhh8cfbtj8am5wvcup) {
+  utterance ([g:OpenUrl:continue:Info] Please go to their website for details)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358086540)
+}
+train (t-1tb7w7srsw6vqhorv5n52zyjr) {
+  utterance ("[g:fetchNews] Tell me about (national college football)[v:Tag] today")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409678347)
+}

@@ -1,0 +1,30 @@
+train (t-afisx9fyrllv0wwwsg0839w9p) {
+  utterance ("[g:fetchNews] Find all (business)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747115609)
+}
+train (t-aqhc40k8n3245wmmrlzsn4jqg) {
+  utterance ([g:playSound:continue:Info] Start audio)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357530379)
+}
+train (t-as7kfwl5hoeexwytmv771ilxa) {
+  utterance ("[g:fetchNews] Get a list of new (national college football)[v:Tag] stories")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409501318)
+}
+train (t-aszj95zktz2ru6ounq60k7v9q) {
+  utterance ("[g:fetchNews] Fetch (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747274393)
+}
+train (t-at3ay3aqb4oaki7xc088f4r56) {
+  utterance ([g:playSound:continue:Info] Play the podcast for me)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357505261)
+}
+train (t-awqjxqsvn2z52511pxjjezife) {
+  utterance ([g:OpenUrl:continue:Info] Click the link below)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571357931554)
+}

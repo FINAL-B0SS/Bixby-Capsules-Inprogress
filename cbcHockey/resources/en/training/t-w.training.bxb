@@ -1,0 +1,30 @@
+train (t-wg1iscjglfmku36xpbibnmpah) {
+  utterance ([g:OpenUrl:continue:Info] Just go to their website)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358040811)
+}
+train (t-wjp94xb2z7xgg1djeizyb5g1n) {
+  utterance ([g:OpenUrl:continue:Info] Go to their website here)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571357996627)
+}
+train (t-wpc94ho2p5y96lrh2wx34tbam) {
+  utterance ([g:playSound:continue:Info] Kickoff the podcast)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357451160)
+}
+train (t-wv9ksiq3kc3alzgcfesokqrx7) {
+  utterance ([g:OpenUrl:continue:Info] Take me to their website)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358569318)
+}
+train (t-wwokpcskn9os5987ap2rg8dxv) {
+  utterance ([g:fetchNews] Fetch news)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567748087276)
+}
+train (t-wy1dhus9ado5ksyg11543z3wm) {
+  utterance ("[g:fetchNews] get (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411195940)
+}
