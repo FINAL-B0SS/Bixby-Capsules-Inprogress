@@ -1,5 +1,9 @@
 var console = require('console')
 
+function shuffle(array) {
+  return array.sort(() => Math.random() - 0.5)
+}
+
 function countInArray(array, key) {
   var count = 0;
   for (var i = 0; i < array.length; i++) {
@@ -25,16 +29,18 @@ function buildTrick(rawTrick) {
 }
 
 module.exports.function = function roleDice() {
-  var flips = ['Kickflip', 'Heelflip']
+  var flips = ['Kickflip', 'Heelflip', 'Shuvit']
   var rotations = ['180', '360', 'x', 'sk8dice']
   var stances = ['Regular', 'Switch', 'Fakie', 'Nollie']
   var direction = ['Frontside', 'Backside', 'x', 'sk8dice']
-  var rawTrick = [stances[Math.floor(Math.random() * 4)], direction[Math.floor(Math.random() * 4)], rotations[Math.floor(Math.random() * 4)], flips[Math.floor(Math.random() * 2)]]
+  var rawTrick = [stances[Math.floor(Math.random() * 4)], direction[Math.floor(Math.random() * 4)], rotations[Math.floor(Math.random() * 4)], flips[Math.floor(Math.random() * 3)]]
+  var calculatedTrick = buildTrick(rawTrick)
 
   return {
-    trick: buildTrick(rawTrick),
-    dice: rawTrick.map(image => {
+    trick: calculatedTrick.replace('Shuvit', 'Pop Shove It'),
+    spokenTrick: calculatedTrick.replace('180', 'one eighty').replace('360', 'three sixty').replace('Shuvit', 'Pop Shove It'),
+    dice: shuffle(rawTrick.map(image => {
       return ({ url: 'images/' + image.toLowerCase() + '.png' })
-    })
+    }))
   }
 }

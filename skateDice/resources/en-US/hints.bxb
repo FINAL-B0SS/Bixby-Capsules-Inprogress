@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    hint (With Skate Dice roll dice)
+    hint (On Skate Dice roll dice)
     hint (On Skate Dice roll a trick)
-    hint (Ask Skate Dice to do a roll)
+    hint (Ask Skate Dice for a trick)
   }
 }

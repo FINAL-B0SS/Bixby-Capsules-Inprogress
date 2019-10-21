@@ -3,6 +3,11 @@ structure (Roll) {
     type (viv.core.Text)
     min (Required) max (One)
   }
+  property (spokenTrick) {
+    type (viv.core.Text)
+    min (Required) max (One)
+    visibility (Private)
+  }
   property (dice) {
     type (viv.core.BaseImage)
     min (Required) max (Many)
