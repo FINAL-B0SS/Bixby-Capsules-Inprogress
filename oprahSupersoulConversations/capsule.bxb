@@ -1,6 +1,6 @@
 capsule {
-  id (final_boss.oprahs_supersoul_conversations)
-  version (1.0.3)
+  id (unofficial_own.unofficial_oprah)
+  version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-en-US)

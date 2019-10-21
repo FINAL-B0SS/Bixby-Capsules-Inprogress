@@ -1,0 +1,5 @@
+dialog (Input) {
+	description (What's shown at the top of the page when users are at category selection)
+		match: Category (this)
+		template (Select a category)
+}

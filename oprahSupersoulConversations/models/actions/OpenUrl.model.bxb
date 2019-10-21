@@ -1,0 +1,9 @@
+action (OpenUrl) {
+  type (Constructor)
+  collect {
+    input (info) {
+      type (Info)
+    }
+  }
+  output (Url)
+}

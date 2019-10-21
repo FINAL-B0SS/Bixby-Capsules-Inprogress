@@ -1,7 +1,22 @@
+train (t-43psc3cvat2u2l1etovl8pgbe) {
+  utterance ([g:OpenUrl:continue:Info] Go to our website)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571357958400)
+}
+train (t-46kgtov9jopt9e8woq1alcbvi) {
+  utterance ([g:OpenUrl:continue:Info] Go to their website for details)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571357994853)
+}
 train (t-4l5zytapnlni76yxipkdfhs82) {
   utterance ("[g:fetchNews] Fetch me (national college football)[v:Tag] news")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1568409402899)
+}
+train (t-4l9i55tj763ov0ufvhp2rotfh) {
+  utterance ([g:OpenUrl:continue:Info] Please go to their website for more information)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358111613)
 }
 train (t-4pbfw9g7xbkns0m59eevb1t5g) {
   utterance ([g:fetchNews] Provide a list of stories)

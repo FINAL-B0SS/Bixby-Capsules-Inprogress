@@ -16,7 +16,17 @@ structure (Search) {
     type (UrlText)
     min (Required) max (One)
   }
-  features {
-    transient
+  property (copyright) {
+    type (Copyright)
+    min (Optional) max (One)
+  }
+  property (image) {
+    type (image.Image)
+    min (Optional) max (One)
+    visibility (Private)
+  }
+  property (description) {
+    type(Description)
+    min (Optional) max (One)
   }
 }

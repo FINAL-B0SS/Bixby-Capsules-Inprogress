@@ -9,8 +9,13 @@ endpoints {
         local-endpoint (fetchNews.js)
       }
       action-endpoint (playSound) {
-        accepted-inputs (soundToPlay, audioItem)
+        accepted-inputs (info, soundToPlay)
         local-endpoint (playSound.js)
+      }
+
+      action-endpoint (OpenUrl) {
+        accepted-inputs (info) 
+        local-endpoint (openUrl.js)  
       }
     }
   }

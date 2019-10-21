@@ -1,27 +1,28 @@
+//test
 result-view {
-	match: Info (this)
-	
-	// Creates navigation buttons
-	conversation-drivers {
-		conversation-driver {
-			if (size(this) > 1) {
-				template (Previous Page)
-			}
-		}
-		conversation-driver {
-			if (size(this) > 1) {
-				template (Next page)
-			}
-		}
+	match: Info (this) {
+		from-output: fetchNews(action)
 	}
 	
+	conversation-drivers {
+		if(size(this) > 1 && $handsFree) {
+			conversation-driver(Repeat)
+		}
+		if (size(this) == 1 && exists(this.audioItem)) {
+			conversation-driver(Play)
+		}
+		if (size(this) == 1 && exists(this.link)) {
+			conversation-driver(Go to website)
+		}
+	}
+
 	render {
 		if (size(this) > 1) {
 			list-of (this) {
-				// Handles hands free navigation options
 				navigation-mode {
 					read-many {
-						page-size (10)
+						page-size (5)
+						with-navigation-conversation-drivers
 						page-content {
 							underflow-statement (This is the first page)
 							overflow-statement (This is the last page)
@@ -30,8 +31,7 @@ result-view {
 								}
 								}
 								where-each (this) {
-									// Added newlines to have Bixby pause between titles
-									spoken-summary ("#{value(this.title)}\n\n\n\n\n\n\n\n\n\n")
+									spoken-summary ("The #{value(this.place)} one #{value(this.title)} ...")
 									thumbnail-card {
 										image-url("#{value(this.image.url)}")
 										title-area {
@@ -55,12 +55,6 @@ result-view {
 														}
 													}
 												}
-											}
-										}
-										on-click {
-											intent {
-												goal: Tag
-												value: Tag(Football)
 											}
 										}
 									}
@@ -95,7 +89,7 @@ result-view {
 								}
 								}
 								}
-								if (size(this) == 1) {
+								else-if (size(this) == 1) {
 									layout {
 										section {
 											content {
@@ -119,7 +113,7 @@ result-view {
 														on-click {
 															intent {
 																goal: playSound
-																value: $expr(this.audioItem)
+																value: $expr(this)
 															}
 														}
 													}
