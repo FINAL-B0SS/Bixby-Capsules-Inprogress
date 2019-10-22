@@ -11,6 +11,7 @@ result-view {
             image {
               aspect-ratio (1:1)
               url(images/RefError.png)
+              lightbox-enabled (false)
             }
           }
         }
