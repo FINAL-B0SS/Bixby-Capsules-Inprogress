@@ -15,7 +15,7 @@ capsule-info {
     keyword (nfl fantasy picks)
     keyword (fantasy league)    
   }
-  dispatch-name (FantasyPicks)
+  dispatch-name (Fantasy Picks)
   dispatch-aliases {
     alias (Fantasy Pick)
     alias (FantasyPick)

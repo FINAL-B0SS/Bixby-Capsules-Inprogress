@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-        utterance (Tom Brady or Ezekiel Elliott?)
-        utterance (Who do you recommend? Joe Flacco or Dak Prescott?)
-        utterance (Who should I play this week? Tyler Boyd or Dion Lewis?)
+        hint (Ask Fantasy Picks Tom Brady or Ezekiel Elliott?)
+        hint (On Fantasy Picks who do you recommend? Joe Flacco or Dak Prescott?)
+        hint (Ask Fantasy Picks who should I play this week? Tyler Boyd or Dion Lewis?)
     }
 }
