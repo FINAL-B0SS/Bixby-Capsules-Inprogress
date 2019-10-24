@@ -99,7 +99,12 @@ result-view {
 														style (Title_S)
 													}
 												}
-												if (exists(this.audioItem)) {
+												if (exists(this.videoItem)) {
+													video {
+														url("#{value(this.videoItem.videoUrl)}")
+														poster("#{value(this.videoItem.videoThumbnail)}")
+													}
+												} else-if (exists(this.audioItem)) {
 													image-card {
 														image-url ("play_button.png")
 														image-object-fit (Contain)

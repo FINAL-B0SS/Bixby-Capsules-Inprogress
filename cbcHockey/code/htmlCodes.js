@@ -1,4 +1,5 @@
 module.exports = module.exports = [
+    { key: '&#038;', value: ''},
     { key: '&#33;', value: '!'},
     { key: '&#34;', value: '"'},
     { key: '&#35;', value: '#'},

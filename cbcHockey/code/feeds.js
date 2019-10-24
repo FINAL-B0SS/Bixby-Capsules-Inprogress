@@ -1,4 +1,3 @@
-  
 // Add RSS feeds below
 // Url: Link to RSS feed xml (url must start with 'https://')
 // Text: What users see in feed selection list
