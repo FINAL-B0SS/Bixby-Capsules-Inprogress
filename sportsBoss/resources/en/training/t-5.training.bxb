@@ -8,6 +8,11 @@ train (t-52q3ya2t6lxvcu3nckdi9pd14) {
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747600080)
 }
+train (t-587q9hs3uttqh2i3dqybqqpg8) {
+  utterance ([g:playSound:continue:Info] Start podcast)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357687356)
+}
 train (t-58kis3kq4bn8hstpw18g1mf49) {
   utterance ("[g:fetchNews] Check (business)[v:Tag]")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)

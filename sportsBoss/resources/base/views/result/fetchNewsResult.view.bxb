@@ -1,27 +1,27 @@
 result-view {
-	match: Info (this)
+	match: Info (this) {
+		from-output: fetchNews(action)
+	}
 	
-	// Creates navigation buttons
 	conversation-drivers {
-		conversation-driver {
-			if (size(this) > 1) {
-				template (Previous Page)
-			}
+		if(size(this) > 1 && $handsFree) {
+			conversation-driver(Repeat)
 		}
-		conversation-driver {
-			if (size(this) > 1) {
-				template (Next page)
-			}
+		if (size(this) == 1 && exists(this.audioItem)) {
+			conversation-driver(Play)
+		}
+		if (size(this) == 1 && exists(this.link)) {
+			conversation-driver(Go to website)
 		}
 	}
 	
 	render {
 		if (size(this) > 1) {
 			list-of (this) {
-				// Handles hands free navigation options
 				navigation-mode {
 					read-many {
-						page-size (10)
+						page-size (5)
+						with-navigation-conversation-drivers
 						page-content {
 							underflow-statement (This is the first page)
 							overflow-statement (This is the last page)
@@ -30,37 +30,32 @@ result-view {
 								}
 								}
 								where-each (this) {
-									// Added newlines to have Bixby pause between titles
-									spoken-summary ("#{value(this.title)}\n\n\n\n\n\n\n\n\n\n")
-									thumbnail-card {
-										image-url("#{value(this.image.url)}")
-										title-area {
-											slot1 {
-												text {
-													value ("#{value(this.title)}")
-												}
-											}
-											slot3 {
-												if (exists(this.date)) {
-													single-line {
-														text {
-															value ("Published: #{value(this.date)}")
-															style (Legal)
-														}
-													}
-												} else {
-													single-line {
-														text {
-															value ()
-														}
+									spoken-summary ("The #{value(this.place)} one #{value(this.title)} ...")
+									if (exists(this.image.url)) {
+										thumbnail-card {
+											image-url("#{value(this.image.url)}")
+											title-area {
+												slot1 {
+													text {
+														value ("#{value(this.title)}")
 													}
 												}
-											}
-										}
-										on-click {
-											intent {
-												goal: Tag
-												value: Tag(Football)
+												slot3 {
+													if (exists(this.date)) {
+														single-line {
+															text {
+																value ("Published: #{value(this.date)}")
+																style (Legal)
+															}
+														}
+													} else {
+														single-line {
+															text {
+																value ()
+															}
+														}
+													}
+												}
 											}
 										}
 									}
@@ -95,7 +90,7 @@ result-view {
 								}
 								}
 								}
-								if (size(this) == 1) {
+								else-if (size(this) == 1) {
 									layout {
 										section {
 											content {
@@ -105,7 +100,12 @@ result-view {
 														style (Title_S)
 													}
 												}
-												if (exists(this.audioItem)) {
+												if (exists(this.videoItem)) {
+													video {
+														url("#{value(this.videoItem.videoUrl)}")
+														poster("#{value(this.videoItem.videoThumbnail)}")
+													}
+												} else-if (exists(this.audioItem)) {
 													image-card {
 														image-url ("play_button.png")
 														image-object-fit (Contain)
@@ -119,12 +119,12 @@ result-view {
 														on-click {
 															intent {
 																goal: playSound
-																value: $expr(this.audioItem)
+																value: $expr(this)
 															}
 														}
 													}
 													divider
-												} else-if (exists(this.image)) {
+												} else-if (exists(this.image.url)) {
 													image {
 														url ("#{value(this.image.url)}")
 														lightbox-enabled (false)

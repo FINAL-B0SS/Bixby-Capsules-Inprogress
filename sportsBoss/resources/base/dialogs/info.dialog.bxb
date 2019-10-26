@@ -1,24 +1,11 @@
 dialog (Result) {
-	description (What's shown at the top of the page when users are browsing a RSS feed)
+	description (What's shown at the top of the page when users are browsing an RSS feeds)
 		match: Info (this)
-		template ()
-		// if (exists(this.audioItem)) {
-		// 	choose (Random) {
-		// 		template("#{value(this.tag)} podcasts")
-		// 	}
-		// } else-if (size(this) > 1) {
-		// 	choose (Random) {
-		// 		template("#{value(this.tag)} headlines")
-		// 		template ("#{value(this.tag)} stories")
-		// 		template ("#{value(this.tag)} news")
-		// 	}
-		// } else-if (size(this) == 1) {
-		// 	if (exists(this.description)){
-		// 		template () {
-		// 			speech ("#{value(this.description)}")
-		// 		}
-		// 	} else {
-		// 		template("#{value(this.title)}")
-		// 	}
-		// }
-		}
+		if (size(this) == 1 && exists(this.description)) {
+			template () {
+				speech ("#{value(this.description)}")
+			}
+		} else-if (size(this) > 1) {
+			template ()
+	}
+}

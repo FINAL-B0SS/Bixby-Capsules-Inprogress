@@ -7,7 +7,7 @@ structure (Info) {
   }
   property (image) {
     description (Picture relevent to the posting)
-    type (image.Image)
+    type (viv.core.BaseImage)
     min (Required) max (One)
     visibility (Private)
   }
@@ -24,11 +24,6 @@ structure (Info) {
   property (date) {
     description (Date the article was published)
     type (Date)
-    min (Optional) max (One)
-  }
-  property (copyrightImage) {
-    description (RSS feed image)
-    type (image.Image)
     min (Optional) max (One)
   }
   property (tag) {
@@ -50,11 +45,16 @@ structure (Info) {
     type (audioPlayer.AudioItem)
     min (Optional) max (One)
   }
+  property (videoItem) {
+    type (Video)
+    min (Optional) max (One)
+  }
   property (urlText) {
     type (UrlText)
     min (Required) max (One)
   }
-  features {
-    transient
+  property (place) {
+    type (Place)
+    min (Required) max (One)
   }
 }

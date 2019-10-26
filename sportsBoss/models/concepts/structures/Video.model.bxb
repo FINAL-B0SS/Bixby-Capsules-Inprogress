@@ -1,0 +1,11 @@
+structure (Video) {
+  description (Video info)
+  property (videoUrl) {
+    type (VideoUrl)
+    min (Required) max (One)
+  }
+  property (videoThumbnail) {
+    type (VideoThumbnail)
+    min (Required) max (One)
+  }
+}
