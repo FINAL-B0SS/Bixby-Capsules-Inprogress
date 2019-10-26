@@ -4,22 +4,21 @@ capsule {
   format(3)
   runtime-flags {
     modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
+    modern-default-view-behavior
+    no-filtering-with-validation
     concepts-inherit-super-type-features
+    support-halt-effect-in-computed-inputs
+    use-input-views-for-selection-list-detail
   } 
   targets {
     target (bixby-mobile-en-US)
   }
   store-sections {
     section (EducationAndReference)
+    section (Utilities)
   }
   capsule-imports {
-    import (viv.core) {
-      as (core)
-    }
-    import (viv.image) {
-      as (image) version (2.12.5)
-    }
+    import (viv.core) { as (core) }
   }
 }
 
