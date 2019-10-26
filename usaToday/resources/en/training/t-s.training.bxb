@@ -18,10 +18,25 @@ train (t-scgapd4bkfu5exeijz468k9e5) {
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1568411500027)
 }
+train (t-sgkk31g6yjfsw5135p77jhkiu) {
+  utterance ([g:playSound:continue:Info] Play the audio for me)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357503518)
+}
 train (t-sgst4vmb0eo7ryf93r4enqqgf) {
   utterance ("[g:fetchNews] Find (wired guides)[v:Tag]")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747405944)
+}
+train (t-sit56dqt03t2bu0d7ni0giyot) {
+  utterance ([g:playSound:continue:Info] Commence the playing of the stream)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357410663)
+}
+train (t-slr2c0il2p7f2rkbv12mo2h0o) {
+  utterance ([g:OpenUrl:continue:Info] Please go to their website to register)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358129436)
 }
 train (t-stimx9lvqzlx41z8z3m5akqgl) {
   utterance ("[g:fetchNews] (business)[v:Tag] stories")

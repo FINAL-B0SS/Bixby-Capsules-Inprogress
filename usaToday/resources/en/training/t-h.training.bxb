@@ -13,6 +13,11 @@ train (t-h5slh9rz4qmi3g8d8fjrpzztw) {
   plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
   last-modified (1567748014574)
 }
+train (t-hbm180racffzyresn7yfyir7m) {
+  utterance ([g:OpenUrl:continue:Info] Just go to the website)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358046679)
+}
 train (t-hgbwpqc6a2ascmb43g9sd7784) {
   utterance ("[g:fetchNews]for news about the (national college football)[v:Tag]")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
@@ -47,4 +52,14 @@ train (t-hrwhfob14wld8wxm8kqpbodth) {
   utterance ("[g:fetchNews] Fetch (national college football)[v:Tag] headlines")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1568409707784)
+}
+train (t-hxfdtb88yqmnng1qabjrbxqkj) {
+  utterance ([g:playSound:continue:Info] Run audio)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357528712)
+}
+train (t-hxokxq6296vtr4opqb55gkfzh) {
+  utterance ([g:OpenUrl:continue:Info] Select the link below)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358562524)
 }

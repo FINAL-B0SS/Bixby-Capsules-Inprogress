@@ -1,20 +1,21 @@
-var console = require('console')
-const FEEDS = require("./feeds");
+const feeds = require('./feeds');
+var http = require('http')
 
-module.exports.function = function fetchSportsList (tag) {
+module.exports.function = function fetchSportsList(tag) {
+
+  // Build proper image object for each feed
+  feeds.forEach(feed => {
+    feed.image = feed.image ? { url: feed.image } : { url: 'icon.png' }
+    feed.description = feed.description ? feed.description : http.getUrl(feed.url, { format: 'xmljs' }).rss.channel.description
+  })
+
+  // Build array of feeds that match the user's request
   var ret = []
+  feeds.forEach(feed => {
+    feed.tags.forEach(tags => {
+      (tag && tags.toLowerCase().includes(tag.toLowerCase())) ? ret.push(feed) : 0
+    })
+  })
 
-  feeds = FEEDS
-
-  for (var i = 0; i < feeds.length; i += 1)
-    if (!tag)
-        ret.push(feeds[i])
-    else
-      for (var j = 0; j < feeds[i].tags.length; j += 1)
-        if (feeds[i].tags[j].toLowerCase().includes(tag.toLowerCase()))
-          ret.push(feeds[i])
-  if (ret.length == 0)
-    ret = feeds
-
-  return ret;
+  return ret.length ? ret : feeds
 }

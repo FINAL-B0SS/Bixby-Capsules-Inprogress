@@ -1,8 +1,8 @@
 action (playSound) {
 	type (Search)
 	collect {
-		input (audioItem) {
-			type (audioPlayer.AudioItem)
+		input (info) {
+			type (Info)
 			min (Required) max (One)
 		}
 		input (soundToPlay) {
@@ -10,12 +10,12 @@ action (playSound) {
 			min (Required) max (One)
 			default-init {
 				intent {
-          goal: audioPlayer.AudioInfo
+					goal: audioPlayer.AudioInfo
 					value: audioPlayer.AudioInfo {
 						category: (PODCAST)
 						displayName: (PODCAST)
-						audioItem: $expr(audioItem)
-          }
+						audioItem: $expr(info.audioItem)
+					}
 				}
 			}
 		}

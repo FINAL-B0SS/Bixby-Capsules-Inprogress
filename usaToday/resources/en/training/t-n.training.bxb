@@ -18,6 +18,16 @@ train (t-nlbqued4b7u5mszuly1ih554g) {
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747352881)
 }
+train (t-nw4or9adsrdsarl2ecrigewnn) {
+  utterance ([g:OpenUrl:continue:Info] Please go to their website for images)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358094431)
+}
+train (t-nwu4u51xyxx82ima60fwr1fyi) {
+  utterance ([g:OpenUrl:continue:Info] Click this link)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571357944177)
+}
 train (t-nyflsu7sy8cyakgqyz07x6i66) {
   utterance ("[g:fetchNews] show (college football)[v:Tag] stories")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)

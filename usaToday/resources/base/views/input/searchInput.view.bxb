@@ -1,43 +1,73 @@
 input-view {
-  match {
-    Search (this)
-  }
-
-  // Creates navigation buttons
-  conversation-drivers {
-	  conversation-driver {
-		  template (Previous Page)
-	  }
-	conversation-driver {
-		  template (Next page)
-	  }
-  }
-
-  render {
-    // Handles hands free navigation options
-    selection-of (this) {
-      navigation-mode {
-        read-many {
-          page-size (10)
-          page-content {
-            underflow-statement (This is the first page)
-            item-selection-question (Select a category.)
-            overflow-statement (This is the last page)
-            overflow-question (What would you like to do?)
-          }
-        }
-      }
-      select-button-text ("Select")
-      where-each (this) {
-        spoken-summary ("#{value(this.text)}.")
-        cell-card {
-          slot2 {
-            content {
-              primary ("#{value(this.text)}")
-            }
-          }
-        }
-      }
-    }
-  }
-}
+	match {
+		Search (this)
+	}
+	
+	render {
+		// Handles hands free navigation options
+		selection-of (this) {
+			navigation-mode {
+				read-many {
+					with-navigation-conversation-drivers
+					page-size (5)
+					page-content {
+						underflow-statement (This is the first page)
+						item-selection-question (Select a category.)
+						overflow-statement (This is the last page)
+						overflow-question (What would you like to do?)
+							}
+							}
+							}
+							select-button-text ("Select")
+							where-each (this) {
+								spoken-summary ("#{value(this.text)}.")
+								if (exists(this.image.url)) {
+									thumbnail-card {
+										image-url("#{value(this.image.url)}")
+										title-area {
+											slot1 {
+												text {
+													value ("#{value(this.text)}")
+												}
+											}
+											slot2 {
+												if (exists(this.description)) {
+													paragraph {
+														value ("#{value(this.description)}")
+														style (Legal)
+													}
+												} else {
+													single-line {
+														text {
+															value ()
+														}
+													}
+												}
+											}
+										}
+									}
+								} else {
+									title-card{
+										title-area {
+											slot1 {
+												text{
+													value("#{value(this.text)}")
+												}
+											}
+											slot2 {
+												single-line{
+													if (exists(this.description)) {
+														text {
+															value("#{value(this.description)}")
+															style(Legal)
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+							}
+							}
+							}

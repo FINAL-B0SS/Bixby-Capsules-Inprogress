@@ -1,111 +1,115 @@
-  
 var http = require('http')
 var console = require('console')
-const HTMLCODES = require("./htmlCodes");
+var g_item = 0
 
-// Remove html from given text
 function removeHTML(str) {
-	if ((str === null) || (str === ''))
-		return ;
-	else
-		str = str.toString();
-	str = str.replace(/<[^>]*>/g, '')
-
-	// Delete hyperlinks
-	str = str.split('[&#8230;]')[0]
-	// Replace SGML with ascii symbols
-	for (var i = 0; i < HTMLCODES.length; i++)
-		while (str.includes(HTMLCODES[i].key))
-			str = str.replace(HTMLCODES[i].key, HTMLCODES[i].value)
-	return str
-}
-
-// Build thumbnail image
-function buildImage(item) {
-	var ret = "icon.png"
-	if ("enclosure" in item && item['itunes:image'])
-		ret = item['itunes:image']['@href']
-	else if (item['media:thumbnail'])
-		ret = item['media:thumbnail']['@url']
-	else if (item.image)
-		ret = item.image
-	else if ("enclosure" in item && item.enclosure['@type'] == "image/jpeg")
-		ret = item.enclosure['@url']
-	if (!ret)
-		ret = "icon.png"
-	return { url: ret }
-}
-
-// Builds an object with the tags shared between all types of RSS Feeds
-function buildSharedtags(channel, i, search) {
-	var ret = {}
-
-	//console.log(channel.item[i])
-	ret.urlText = search.urlText
-	ret.tag = search.text
-	if (channel.item[i].link)
-		ret.link = channel.item[i].link
-	if (channel.copyright)
-		ret.copyright = removeHTML(channel.copyright)
-	ret.image = buildImage(channel.item[i])
-	if (typeof channel.description == 'string' && channel.description)
-		ret.feedDescription = removeHTML(channel.description)
-	if (channel.item[i].title)
-		ret.title = removeHTML(channel.item[i].title)
-	else
-		ret.title = "No title"
-	if (channel.item[i].pubDate)
-		ret.date = channel.item[i].pubDate
-	else
-		ret.date = "Unknown"
-	if (typeof channel.item[i].description == 'string'
-		&& channel.item[i].description
-		&& channel.item[i].description != 'null')
-		ret.description = removeHTML(channel.item[i].description)
-	else
-		ret.description = "No description"
-	if (channel.item[i]['itunes:summary'])
-		ret.description = removeHTML(channel.item[i]['itunes:summary'])
-	return ret;
-}
-
-// Builds audioItem with given item from RSS feed
-function buildAudioItem(data, i, image) {
-	ret = {
-		id: 1,
-		stream: [
-			{
-				url: data.rss.channel.item[i]['enclosure']['@url'],
-				format: "mp3"
-			}
-		],
-		albumArtUrl: image
+	if (str && str !== '') {
+		// Remove html tags and hyperlinks
+		str = str.replace(/<[^>]*>/g, '').split('[&#8230;]')[0];
+		// Replace SGML with ascii symbols
+		require('./htmlCodes').forEach(code => {
+			while (str.includes(code.key))
+				str = str.replace(code.key, code.value)
+		})
+		return str
 	}
-	if (data.rss.channel.item[i].title)
-		ret.title = data.rss.channel.item[i].title
-	else
-		ret.title = "No title"
-	if (data.rss.channel.item[i]['itunes:subtitle'])
-		ret.subtitle = data.rss.channel.item[i]['itunes:subtitle']
-	else
-		ret.subtitle = "No subtitle"
-	if (data.rss.channel.item[i]['itunes:author'])
-		ret.artist = data.rss.channel.item[i]['itunes:author']
-	else
-		ret.artist = "No artist"
-	return (ret)
+}
+
+function parseCDATA(search, key) {
+	const regexList = {
+		img: /<img[^>]*src='([^']*)/g,
+		p: /<\s*p[^>]*>([^<]*)<\s*\/\s*p\s*>/g,
+		description: /<description>(.*?)<\/description>/g
+	}
+	// Pull xml data as text and remove all whitespaces
+	var data = http.getUrl(search.url, { format: 'text' }).replace(/\s/g, ' ')
+	// Pull <description> 
+	var descriptions = data.match(regexList['description'])
+	// Pull <p> or <img> tag from description
+	var tag = regexList[key].exec(descriptions[g_item].match(regexList[key]))
+	// Pull and return text from tag
+	return tag && tag[1] ? tag[1] : null
+}
+
+function fetchThumbnail(channel, item, search) {
+	var ret = null
+
+	if (item.image)
+		ret = item.image
+	else if ('enclosure' in item) {
+		if (item['itunes:image'])
+			ret = item['itunes:image']['@href']
+		else if (item['media:thumbnail'])
+			ret = item['media:thumbnail']['@url']
+		else if (item.enclosure['@type'] == 'image/jpeg')
+			ret = item.enclosure['@url']
+	}
+	// if (!ret)
+	// 	ret = parseCDATA(search, 'img')
+	if (!ret) {
+		if (channel.image)
+			ret = channel.image.length > 1 ? channel.image[0].url : channel.image.url
+		else if (channel['itunes:image'])
+			ret = channel['itunes:image']['@href']
+	}
+	return { url: ret ? ret : 'icon.png' }
+}
+
+function fetchDescription(item, search) {
+	var ret = null
+
+	if (item.description && typeof item.description == 'string' && item.description != 'null')
+		ret = item.description
+	else if (item['itunes:summary'])
+		ret = item['itunes:summary']
+	// else if (!ret)
+		// ret = parseCDATA(search, 'p')
+	return ret ? removeHTML(ret) : 'No description'
+}
+
+function fetchVideoInfo(item, search, channel) {
+	return {
+		videoUrl: item['enclosure']['@url'],
+		videoThumbnail: fetchThumbnail(channel, item, search).url
+	}
+}
+
+function fetchAudioInfo(item, search, channel) {
+	return {
+		id: 1,
+		title: item.title ? item.title : 'No title',
+		albumArtUrl: fetchThumbnail(channel, item, search).url,
+		stream: [{ url: item['enclosure']['@url'], format: 'mp3' }],
+		artist: item['itunes:author'] ? item['itunes:author'] : 'No artist',
+		subtitle: item['itunes:subtitle'] ? item['itunes:subtitle'] : 'No subtitle'
+	}
+}
+
+function buildSharedtags(channel, item, search) {
+	var places = ['first', 'second', 'third', 'fourth', 'fifth']
+	return {
+		tag: search.text,
+		urlText: search.urlText,
+		link: item.link ? item.link : null,
+		date: item.pubDate ? item.pubDate : null,
+		description: fetchDescription(item, search),
+		image: fetchThumbnail(channel, item, search),
+		title: item.title ? removeHTML(item.title) : 'No title',
+		copyright: channel.copyright ? removeHTML(channel.copyright) : search.copyright,
+		place: places[g_item == 5 || g_item % 5 == 0 ? 4 : (g_item % 5) - 1],
+		feedDescription: typeof channel.description == 'string' && channel.description ? removeHTML(channel.description) : null,
+		videoItem: 'enclosure' in item && (item.enclosure['@type'] == 'mp4' || item.enclosure['@type'].includes('video')) ? fetchVideoInfo(item, search, channel) : null,
+		audioItem: 'enclosure' in item && (item.enclosure['@type'] == 'mp3' || item.enclosure['@type'].includes('audio')) ? fetchAudioInfo(item, search, channel) : null
+	}
 }
 
 module.exports.function = function fetchNews(tag, search) {
-	var data = http.getUrl(search.url, { format: 'xmljs' })
-	var ret = []
+	const data = http.getUrl(search.url, { format: 'xmljs' })
 
-	for (var i = 0; i < data.rss.channel.item.length; i += 1) {
-		ret.push(buildSharedtags(data.rss.channel, i, search))
-		if ("enclosure" in data.rss.channel.item[i]
-			&& (data.rss.channel.item[i].enclosure['@type'] == "mp3" || data.rss.channel.item[i].enclosure['@type'].includes('audio'))) {
-			ret[ret.length - 1].audioItem = buildAudioItem(data, i, ret[ret.length - 1].image.url)
-		}
+	if (data.rss.channel.item.length) {
+		return data.rss.channel.item.map(item => {
+			g_item++
+			return buildSharedtags(data.rss.channel, item, search)
+		})
 	}
-	return ret
 }

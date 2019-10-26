@@ -1,3 +1,8 @@
+train (t-f4y06umvj6xkt25smdex5q4i8) {
+  utterance ([g:playSound:continue:Info] Let me hear the podcast)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357454981)
+}
 train (t-ff42o8by01nhb5omzi7bseuw0) {
   utterance ([g:fetchNews] Fetch me news)
   plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
@@ -27,4 +32,9 @@ train (t-fq0qr5rnyrb4k7et86m9cxmrh) {
   utterance ("[g:fetchNews] find me (golf)[v:Tag] news")
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1568411977222)
+}
+train (t-fwdnb6lgw7b71t9pn7dh2deik) {
+  utterance ([g:playSound:continue:Info] Start streaming this podcast)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357690597)
 }

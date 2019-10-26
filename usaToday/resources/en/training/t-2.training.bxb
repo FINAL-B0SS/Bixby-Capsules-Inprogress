@@ -13,6 +13,11 @@ train (t-22sv0vtbbka6aj07evfih45kb) {
   plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
   last-modified (1568411457172)
 }
+train (t-242ctbi9x9fggdo2ke82bh4cq) {
+  utterance ([g:OpenUrl:continue:Info] Click the link)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571357930267)
+}
 train (t-24b209inidxwroetjbv4i07lk) {
   utterance ("[g:fetchNews] Research (business)[v:Tag] headlines")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
@@ -42,6 +47,11 @@ train (t-2idrqp4b7l394os7l2j71futj) {
   utterance ("[g:fetchNews] Provide a list of (wired guides)[v:Tag] headlines")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747548226)
+}
+train (t-2sos6zrek3cifyceumag8wsp1) {
+  utterance ([g:playSound:continue:Info] Play podcast episode)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357480623)
 }
 train (t-2vn0v01edob81pshd5n1c43j0) {
   utterance ("[g:fetchNews] Find top (wired guides)[v:Tag] stories")

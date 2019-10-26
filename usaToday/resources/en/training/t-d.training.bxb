@@ -8,6 +8,11 @@ train (t-d7b7w6lu26mlo4dp0b620hw05) {
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
   last-modified (1567747446659)
 }
+train (t-d7q99libmq6ukzt8yy938j1i7) {
+  utterance ([g:OpenUrl:continue:Info] Please click here to go to their website)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358074506)
+}
 train (t-dildmlopyiyf1a1p9vsihbp85) {
   utterance ("[g:fetchNews] Check (wired guides)[v:Tag]")
   plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
@@ -17,6 +22,11 @@ train (t-dn401ctanedwsy7p1lvfyo0h3) {
   utterance ([g:fetchNews] Find)
   plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
   last-modified (1567747753533)
+}
+train (t-do88mrssa3p3agyxkgfsv813g) {
+  utterance ("[g:Search:prompt] (one two three four)[v:Tag]")
+  plan (Y2BmkEvLzEvMiU/KLy7WKyouji9JzS3ISSxJ1QtOTSxKzmBQxiWfllqSnAFVJI1LUUhiOgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1571118572271)
 }
 train (t-du9q7n4ho4k9kfggbkighhe6w) {
   utterance ("[g:fetchNews] Fetch (national college football)[v:Tag] news")

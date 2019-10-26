@@ -1,5 +1,5 @@
 capsule {
-  id (final_boss.usa_today)
+  id (final_boss.unofficial_usa_today)
   version (1.0.1)
   format (3)
   targets {
@@ -16,9 +16,6 @@ capsule {
   store-sections {
     section (NewsAndMagazines)
   }
-  capsule-imports {
-    import (viv.image) { as (image) version (2.12.10) }
-    import (bixby.audioPlayer) { version (0.3.6) as (audioPlayer)
-    }
+  capsule-imports { import (bixby.audioPlayer) { version (0.3.13) as (audioPlayer) }
   }
 }

@@ -1,3 +1,3 @@
-module.exports.function = function playSound (soundToPlay, audioItem) {
-  return audioItem;
+module.exports.function = function playSound (info, soundToPlay) {
+  return info.audioItem;
 }
