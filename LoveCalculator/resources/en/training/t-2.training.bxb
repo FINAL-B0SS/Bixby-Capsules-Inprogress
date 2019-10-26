@@ -1,3 +1,13 @@
+train (t-2ksacqlm8a5llr1njkyqwq9z4) {
+  utterance ("[g:Calculate] Calculate (Adam)[v:NameOne] and (Eve)[v:NameTwo] compatibility")
+  plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1571953402483)
+}
+train (t-2rt9uvqoj51de6nwj4f2qsspe) {
+  utterance ("[g:Calculate] What about (Adam)[v:NameOne] and (Eve)[v:NameTwo]")
+  plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1571953480003)
+}
 train (t-2u0xdb03g57wonckujitd7ijs) {
   utterance ("[g:Calculate] (Adam)[v:NameOne] and (Eve)[v:NameTwo]")
   plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)

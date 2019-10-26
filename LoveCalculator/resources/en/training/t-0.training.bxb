@@ -1,0 +1,5 @@
+train (t-01gjzrhbbptcrz25il3b3k0vn) {
+  utterance ("[g:Calculate] Will (Adam)[v:NameOne] marry (Eve)[v:NameTwo]")
+  plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1571953547257)
+}

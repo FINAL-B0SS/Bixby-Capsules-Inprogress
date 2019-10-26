@@ -1,0 +1,11 @@
+dialog (Progress) {
+  match: Content
+  choose (Random) {
+    template (Consulting cupid...)
+    template (Crunching numbers...)
+    template (Checking facebook statuses...)
+    template (Reviewing DNA...)
+    template (Counting butterflies...)
+    template (Comparing interests...)
+  }
+}

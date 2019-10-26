@@ -1,0 +1,10 @@
+train (t-960nxe5v3wexdyr2hw2vid8ms) {
+  utterance ("[g:Calculate] Should (Adam)[v:NameOne] date (Eve)[v:NameTwo]")
+  plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1571953461703)
+}
+train (t-9tls41pxqmdgb3kef6t1ooahf) {
+  utterance ("[g:Calculate] How compatible are (Adam)[v:NameOne] and (Eve)[v:NameTwo]")
+  plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1571953447027)
+}

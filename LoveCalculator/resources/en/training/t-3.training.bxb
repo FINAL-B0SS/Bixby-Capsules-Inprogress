@@ -1,0 +1,5 @@
+train (t-34fp5jxrc48gk0v23qz5lgto0) {
+  utterance ("[g:Calculate] Will (Adam)[v:NameOne] and (Eve)[v:NameTwo] like each other")
+  plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1571953526020)
+}

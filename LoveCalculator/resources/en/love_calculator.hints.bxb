@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance (Are Bob and Karen a good match)
-    utterance (Do Mabel and Sarah make a good pair)
-    utterance (Should Mark and Jim date)
+    hint (Ask Love Calculator are Bob and Karen a good match)
+    hint (Ask Love Calculator do Mabel and Sarah make a good pair)
+    hint (Ask Love Calculator should Mark and Jim date)
   }
 }

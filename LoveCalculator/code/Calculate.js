@@ -1,22 +1,3 @@
-console = require('console');
-
-function loveCounter(letter) {
-  var count = 0;
-  count = letter == 'l' ? 5 : count
-  count = letter == 'o' ? 4 : count
-  count = letter == 'v' ? 3 : count
-  count = letter == 'e' ? 2 : count
-  count = letter == 'm' ? 5 : count
-  count = letter == 'y' ? 5 : count
-  count = letter == 'o' ? 4 : count
-  count = letter == 'u' ? 3 : count
-  count = letter == 'h' ? 5 : count
-  count = letter == 'a' ? 4 : count
-  count = letter == 'r' ? 3 : count
-  count = letter == 't' ? 2 : count
-  return count;
-}
-
 function smilePicker(compatability) {
   var smile = 10
   smile = compatability >= 0 && compatability <= 9 ? 10 : smile
@@ -45,27 +26,26 @@ function messagePicker(compatability) {
   message = compatability >= 80 && compatability <= 89 ? "They may be the one." : message
   message = compatability >= 90 && compatability <= 100 ? "It's totally meant to be." : message
   return message
-} 
+}
 
 exports.function = function (nameOne, nameTwo) {
-  var compatability = 0
-
   nameOne = nameOne.toLowerCase()
   nameTwo = nameTwo.toLowerCase()
+  var compatability = 0
+  var loveKey = {
+    'l': 5, 'o': 4, 'v': 3, 'e': 2, 'm': 5, 'y': 5,
+    'o': 4, 'u': 3, 'h': 5, 'a': 4, 'r': 3, 't': 2
+  }
 
   for (var i = 0; i < nameOne.length; i += 1)
-    compatability += loveCounter(nameOne[i])
+    compatability += loveKey[nameOne[i]] ? loveKey[nameOne[i]] : 0
   for (var i = 0; i < nameTwo.length; i += 1)
-    compatability += loveCounter(nameTwo[i])
+    compatability += loveKey[nameTwo[i]] ? loveKey[nameTwo[i]] : 0
   compatability = compatability * 2 < 100 ? compatability * 2 : compatability
-  console.log(nameOne)
-  console.log(nameTwo)
-  var message = nameOne == nameTwo ? "It's almost like they're the same person" : messagePicker(compatability)
-  var percent = nameOne == nameTwo ? "100" : String(compatability)
-  var image = nameOne == nameTwo ? "100" : String(smilePicker(compatability))
+
   return {
-    message: message,
-    percent: percent,
-    image: image
+    message: nameOne == nameTwo ? "It's almost like they're the same person" : messagePicker(compatability),
+    percent: nameOne == nameTwo ? "100" : String(compatability),
+    image: nameOne == nameTwo ? "100" : String(smilePicker(compatability))
   }
 }
