@@ -1,0 +1,12 @@
+capsule-info {
+  display-name (Unofficial Sesame Street)
+  dispatch-name (Unofficial Sesame Street)
+  developer-name (Final Boss)
+  icon-asset (icon.png)
+  description (Unofficial Sesame Street capsule)
+  search-keywords {
+    keyword (News)
+    keyword (RSS)
+    keyword (Video)
+  }
+}

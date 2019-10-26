@@ -1,0 +1,45 @@
+train (t-e1v3cpuhh274f568w29j495in) {
+  utterance ("[g:fetchNews] Fetch me (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747091786)
+}
+train (t-e2o4fqo0jfpf163q83b5l72lj) {
+  utterance ("[g:fetchNews] for news about (golfing)[v:Tag]")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568418402175)
+}
+train (t-e8l777tedgtbw6i76dxra3wxw) {
+  utterance ("[g:fetchNews] Perform reconnaissance for new (wired guides)[v:Tag] stories")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747534464)
+}
+train (t-eh2xm452az8zuglvdgwy2r7sx) {
+  utterance ([g:playSound:continue:Info] Start playing the podcast)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357659168)
+}
+train (t-ele1hnmwtvpvjbwb6jv5ic230) {
+  utterance ([g:fetchNews] List new headlines)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747871064)
+}
+train (t-eu0lmzyfl772sdp3zz2nz9uvw) {
+  utterance ([g:OpenUrl:continue:Info] Select link for more information)
+  plan (Y2BikE7LzEvMiU/KLy7WKyouji9JzS3ISSxJ1QstymGQxyXpX5CaB1LACIQMUAwkAQ==)
+  last-modified (1571358544659)
+}
+train (t-ewxc4w45eohcsrq1kqyjoqmwq) {
+  utterance ("[g:fetchNews] get me (college football)[v:Tag] stories")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568411437324)
+}
+train (t-ewzljfnvay5hfu3t2ned4yfiw) {
+  utterance ([g:playSound:continue:Info] Initiate the podcast)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357448045)
+}
+train (t-ex6bz5ullyv422wzk9ss56ai5) {
+  utterance ("[g:fetchNews] Get a list of (national college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568409481790)
+}

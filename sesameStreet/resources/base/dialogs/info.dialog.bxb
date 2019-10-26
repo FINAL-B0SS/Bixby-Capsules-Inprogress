@@ -1,0 +1,11 @@
+dialog (Result) {
+	description (What's shown at the top of the page when users are browsing an RSS feeds)
+		match: Info (this)
+		if (size(this) == 1 && exists(this.description)) {
+			template () {
+				speech ("#{value(this.description)}")
+			}
+		} else-if (size(this) > 1) {
+			template ()
+	}
+}

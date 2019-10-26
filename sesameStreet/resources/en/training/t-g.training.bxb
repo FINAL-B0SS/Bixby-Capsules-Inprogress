@@ -1,0 +1,70 @@
+train (t-g097ctl805r0as1o50po5luhw) {
+  utterance ([g:playSound:continue:Info] Kickoff the stream)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357453058)
+}
+train (t-g0rzgbac9iglh7v3t3iydtrwl) {
+  utterance ("[g:Search:prompt] (one)[v:Tag]")
+  plan (Y2BmkEvLzEvMiU/KLy7WKyouji9JzS3ISSxJ1QtOTSxKzmBQxiWfllqSnAFVJI1LUUhiOgMTAyMQMwBJRgYQYIJgAA==)
+  last-modified (1571118397785)
+}
+train (t-g7n2jdkcasevvonlyy7jezdp1) {
+  utterance ("[g:fetchNews] show (golf)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568410725592)
+}
+train (t-g811ha1oqr20b4nvoqn7jdqrq) {
+  utterance ("[g:fetchNews] List (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747169106)
+}
+train (t-gd7xrvgzuxeaubylxeqzyykk7) {
+  utterance ([g:playSound:continue:Info] Start listening to the audio)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357565056)
+}
+train (t-gdm6glq0rqowuyjoyfj4psi6s) {
+  utterance ("[g:fetchNews] find me (college football)[v:Tag] news")
+  plan (Y2BhkEnLzEvMiU/KLy7WKy7ILyopjk9LTU0p1vPMS8tnUMQlm5Zakpzhl1pezCCHS0lwamJRcgaDNC75kMR0BmYGRgYmIMkApEEQApiALKAYAA==)
+  last-modified (1568412009731)
+}
+train (t-gdtokf3wd1hjau1hs4p7b178c) {
+  utterance ([g:fetchNews] Fetch me stories)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747671623)
+}
+train (t-giz8scfhcqwi0ebwrlseabvfw) {
+  utterance ([g:fetchNews] Fetch new headlines)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747633393)
+}
+train (t-gj98sj97m5uu3ozuth8pbrc79) {
+  utterance ("[g:fetchNews] List new (wired guides)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747463624)
+}
+train (t-grm58jw8ncio5u5k1vlld7osr) {
+  utterance ("[g:fetchNews] Show (business)[v:Tag] headlines")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747292338)
+}
+train (t-gtpp561ylbugt2ad9tvkpvefw) {
+  utterance ("[g:fetchNews] Find all (business)[v:Tag] news")
+  plan (Y2BhkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYNBAqtkSGI6AzMDIwMTkGQA0iAIAUxAFlAMAA==)
+  last-modified (1567747125563)
+}
+train (t-gtwn24675l538wj2v4ml2lo6b) {
+  utterance ([g:fetchNews] Fetch new me headlines)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747637509)
+}
+train (t-guacit0p5pstapdz5fk8tq2jn) {
+  utterance ([g:playSound:continue:Info] Start audio presentation)
+  plan (Y2BhkE7KrEiq1EssTcnMD8hJrEwt0nMEsT1LUnMZFNMy8xJz4pPyi4v1ioqL44FiBTmJJal6QLIyOL80LwW3/ry0fAYZXPrBsswMjAxMQJIBSIMgBIBZAA==)
+  last-modified (1571357564256)
+}
+train (t-gxtnbcjoq55up640hlfb5271x) {
+  utterance ([g:fetchNews] Find all news)
+  plan (Y2BmkEzLzEvMiU/KLy7WKyoujk9LTU0p1vPMS8tnkMMqlZZakpzhl1pezCCNVT44NbEoOYOBiYERiBmAJCMDA4wGAA==)
+  last-modified (1567747704176)
+}

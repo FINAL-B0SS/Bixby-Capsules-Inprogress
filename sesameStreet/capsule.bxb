@@ -1,0 +1,24 @@
+capsule {
+	id (final_boss.unofficial_sesame_street)
+	version (1.0.0)
+	format (3)
+	targets {
+		target (bixby-mobile-en-US)
+	}
+	runtime-flags {
+		concepts-inherit-super-type-features
+		modern-prompt-rejection
+		support-halt-effect-in-computed-inputs
+		no-filtering-with-validation
+		modern-default-view-behavior
+		use-input-views-for-selection-list-detail
+	}
+	store-sections {
+		section (NewsAndMagazines)
+		section (EducationAndReference)
+	}
+	capsule-imports {
+		import (bixby.audioPlayer) { version (0.3.13) as (audioPlayer)
+		}
+	}
+}
