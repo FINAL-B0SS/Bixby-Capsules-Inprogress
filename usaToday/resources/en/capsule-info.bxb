@@ -1,9 +1,9 @@
 capsule-info {
-  display-name (USA Today)
-  dispatch-name (USA Today)
+  display-name (Unofficial USA Today)
+  dispatch-name (Unofficial USA Today)
   developer-name (Final Boss)
   icon-asset (icon.png)
-  description (USA Today is a simple Capsule for reading USA Today RSS feeds. All content is sourced from the USA Today public RSS feeds at https://www.usatoday.com/rss/.)
+  description (Unofficial USA Today is a simple Capsule for reading USA Today RSS feeds. All content is sourced from the USA Today public RSS feeds at https://www.usatoday.com/rss/.)
   terms-url (https://app.termly.io/document/terms-of-use-for-website/ea9c1d36-8923-4c03-a21c-085b5061d4f0)
   search-keywords {
     keyword (News)
