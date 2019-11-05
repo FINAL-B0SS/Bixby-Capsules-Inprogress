@@ -1,5 +1,0 @@
-text (Url) {
-  features {
-    transient
-  }
-}

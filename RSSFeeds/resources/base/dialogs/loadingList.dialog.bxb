@@ -1,6 +1,0 @@
-dialog (Progress) {
-  match: Search (this)
-  choose (Random) {
-    template (Building options)
-  }
-}
