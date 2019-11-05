@@ -1,8 +1,0 @@
-structure (Image) {
-  description (image of a meaning)
-  property (url) {
-    type (viv.core.Text)
-    min (Optional) max (One)
-    visibility (Private)
-  }
-}
