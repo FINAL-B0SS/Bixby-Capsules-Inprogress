@@ -1,4 +1,0 @@
-dialog (Storage) {
-  match: ServiceRequestId
-  template(Would you like to store this request for tracking later?)
-}
