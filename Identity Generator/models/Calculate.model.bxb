@@ -1,4 +1,0 @@
-action (Generate) {
-  type (Constructor)
-  output (User)
-}
