@@ -1,8 +1,0 @@
-dialog (Progress) {
-  match: Lyrics (this)
-  choose (Random) {
-    template (Finding lyrics)
-    template (Fetching lyrics)
-    template (Remembering words)
-  }
-}
