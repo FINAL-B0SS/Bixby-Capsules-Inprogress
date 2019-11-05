@@ -1,5 +1,0 @@
-text (Text) {
-  features {
-    transient
-  }
-}
