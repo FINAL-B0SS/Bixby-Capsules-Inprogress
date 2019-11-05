@@ -1,5 +1,0 @@
-train (t-t5a36i0fkr7lz7g7pqw73ln43) {
-  utterance ("[g:Calculate] should (barney)[v:NameOne] date (tell)[v:NameTwo]")
-  plan (Y2BhUErLzEvMiU/KLy7Wy8kvS41PTsxJLs1JLMkv0nPOzytJzSthUMGnBspMxWuSX2Juqn8eYTUh5fkMzAyMDExAkgFIgyAEwEUB)
-  last-modified (1571953236913)
-}

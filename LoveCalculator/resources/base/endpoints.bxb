@@ -1,8 +1,0 @@
-endpoints {
-  action-endpoints {
-    action-endpoint (Calculate) {
-      accepted-inputs (nameOne, nameTwo)
-      local-endpoint (Calculate.js)
-    }
-  }
-}
