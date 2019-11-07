@@ -1,0 +1,6 @@
+capsule-info {
+  display-name (Hangman)
+  developer-name (Final Boss)
+  icon-asset (icon.png)
+  description ("Hangman")
+}

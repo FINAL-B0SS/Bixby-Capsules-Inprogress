@@ -1,0 +1,4 @@
+action (FetchGame) {
+  type (Search)
+  output (Game)
+}

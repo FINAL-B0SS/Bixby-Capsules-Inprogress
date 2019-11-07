@@ -1,0 +1,19 @@
+action (UpdateGame) {
+	type (Search)
+	collect {
+		input (game) {
+			type (Game)
+			min (Required) max (One)
+			default-init {
+				intent {
+					goal: FetchGame
+				}
+			}
+		}
+		input (guess) {
+			type (Guess)
+			min (Optional) max (One)
+		}
+	}
+	output (Game)
+}
