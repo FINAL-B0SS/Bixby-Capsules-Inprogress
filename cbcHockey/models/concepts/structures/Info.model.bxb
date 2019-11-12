@@ -7,7 +7,7 @@ structure (Info) {
   }
   property (image) {
     description (Picture relevent to the posting)
-    type (image.Image)
+    type (viv.core.BaseImage)
     min (Required) max (One)
     visibility (Private)
   }

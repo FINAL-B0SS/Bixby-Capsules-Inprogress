@@ -1,8 +1,5 @@
-//test
 result-view {
-	match: Info (this) {
-		from-output: fetchNews(action)
-	}
+	match: Info (this)
 	
 	conversation-drivers {
 		if(size(this) > 1 && $handsFree) {
@@ -15,7 +12,7 @@ result-view {
 			conversation-driver(Go to website)
 		}
 	}
-
+	
 	render {
 		if (size(this) > 1) {
 			list-of (this) {
@@ -32,26 +29,28 @@ result-view {
 								}
 								where-each (this) {
 									spoken-summary ("The #{value(this.place)} one #{value(this.title)} ...")
-									thumbnail-card {
-										image-url("#{value(this.image.url)}")
-										title-area {
-											slot1 {
-												text {
-													value ("#{value(this.title)}")
-												}
-											}
-											slot3 {
-												if (exists(this.date)) {
-													single-line {
-														text {
-															value ("Published: #{value(this.date)}")
-															style (Legal)
-														}
+									if (exists(this.image.url)) {
+										thumbnail-card {
+											image-url("#{value(this.image.url)}")
+											title-area {
+												slot1 {
+													text {
+														value ("#{value(this.title)}")
 													}
-												} else {
-													single-line {
-														text {
-															value ()
+												}
+												slot3 {
+													if (exists(this.date)) {
+														single-line {
+															text {
+																value ("Published: #{value(this.date)}")
+																style (Legal)
+															}
+														}
+													} else {
+														single-line {
+															text {
+																value ()
+															}
 														}
 													}
 												}
@@ -123,7 +122,7 @@ result-view {
 														}
 													}
 													divider
-												} else-if (exists(this.image)) {
+												} else-if (exists(this.image.url)) {
 													image {
 														url ("#{value(this.image.url)}")
 														lightbox-enabled (false)

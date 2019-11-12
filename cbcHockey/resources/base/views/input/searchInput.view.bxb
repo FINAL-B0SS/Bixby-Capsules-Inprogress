@@ -21,7 +21,7 @@ input-view {
 							select-button-text ("Select")
 							where-each (this) {
 								spoken-summary ("#{value(this.text)}.")
-								if (exists(this.image)) {
+								if (exists(this.image.url)) {
 									thumbnail-card {
 										image-url("#{value(this.image.url)}")
 										title-area {

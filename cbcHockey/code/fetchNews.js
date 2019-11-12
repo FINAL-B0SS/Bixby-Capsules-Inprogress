@@ -33,7 +33,7 @@ function parseCDATA(search, key) {
 
 function fetchThumbnail(channel, item, search) {
 	var ret = null
-	
+
 	if (item.image)
 		ret = item.image
 	else if ('enclosure' in item) {
@@ -104,10 +104,16 @@ function buildSharedtags(channel, item, search) {
 }
 
 module.exports.function = function fetchNews(tag, search) {
-	const data = http.getUrl(search.url, { format: 'xmljs' })
-
-	return data.rss.channel.item.map(item => {
-		g_item++
-		return buildSharedtags(data.rss.channel, item, search)
-	})
+	try {
+		return http.postUrl('https://rss-template-api.herokuapp.com/rss', search, { format: 'json' }).newsData
+	} catch (e) {
+		console.log(e)
+		const data = http.getUrl(search.url, { format: 'xmljs' })
+		if (data.rss.channel.item.length > 0) {
+			return data.rss.channel.item.map(item => {
+				g_item++
+				return buildSharedtags(data.rss.channel, item, search)
+			})
+		}
+	}
 }

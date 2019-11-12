@@ -12,7 +12,9 @@ capsule {
 		no-filtering-with-validation
 		modern-default-view-behavior
 		use-input-views-for-selection-list-detail
+		allow-dialogs-on-detail-pages
 	}
+	default-action (fetchNews)
 	store-sections {
 		section (NewsAndMagazines)
 		section (Sports)
