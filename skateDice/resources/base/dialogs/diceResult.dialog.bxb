@@ -1,6 +1,0 @@
-dialog (Result) {
-  match: Roll (this)
-  template("#{value(this.trick)}") {
-    speech ("#{value(this.spokenTrick)}")
-  }
-}

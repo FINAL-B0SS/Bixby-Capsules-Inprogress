@@ -1,4 +1,0 @@
-dialog (Result) {
-  match: Game (this)
-  template ("#{value(this.message)}")
-}

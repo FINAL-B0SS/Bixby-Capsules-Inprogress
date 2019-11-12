@@ -1,4 +1,0 @@
-dialog (Progress) {
-	match: Roll (this)
-	template(Rolling dice!)
-}

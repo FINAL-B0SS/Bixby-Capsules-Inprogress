@@ -1,5 +1,0 @@
-train (t-93apibyc8k9jgtfjnfjmdiiwx) {
-  utterance ([g:GetContent] Tell me a joke)
-  plan (Y2BikE+tSMwtyEnVKy5JLIovKUrNjs/Kz04t1nPOzytJzSthUMKlwD21BKaGEQgZoBhIAgA=)
-  last-modified (1563241344355)
-}

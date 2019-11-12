@@ -1,9 +1,0 @@
-result-view {
-  match: Roll (this)
-  
-  render {
-    image-list-of (this.dice) {
-      size (Medium)
-    }
-  }
-}
