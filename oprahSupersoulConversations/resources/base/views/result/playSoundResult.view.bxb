@@ -10,7 +10,7 @@ result-view {
 						object-fit (Contain)
             lightbox-enabled (false)
 					}
-					if (exists(this.title)) {
+					if (exists(this.title) && this.title != 'No title') {
 						divider
 						single-line {
 							text {
@@ -24,7 +24,7 @@ result-view {
             }
 						divider
 					}
-					if (exists(this.artist)) {
+					if (exists(this.artist) && this.artist != 'No artist') {
 						single-line {
 							text {
 								value ("Artist")
