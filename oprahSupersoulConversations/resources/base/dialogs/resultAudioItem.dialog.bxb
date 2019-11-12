@@ -1,0 +1,4 @@
+dialog (Result) {
+  match: audioPlayer.AudioItem (this)
+  template(Playing Podcast)
+}

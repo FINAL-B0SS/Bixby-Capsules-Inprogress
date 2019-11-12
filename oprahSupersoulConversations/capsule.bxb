@@ -1,5 +1,5 @@
 capsule {
-  id (unofficial_own.unofficial_oprah)
+  id (playground.unofficial_oprah)
   version (1.0.0)
   format (3)
   targets {
@@ -12,13 +12,15 @@ capsule {
     no-filtering-with-validation
     modern-default-view-behavior
     use-input-views-for-selection-list-detail
+    allow-dialogs-on-detail-pages
   }
   store-sections {
     section (NewsAndMagazines)
   }
+  default-action (fetchNews)
   capsule-imports {
     import (viv.image) { as (image) version (2.12.10) }
-    import (bixby.audioPlayer) { version (0.3.6) as (audioPlayer)
+    import (bixby.audioPlayer) { version (0.3.13) as (audioPlayer)
     }
   }
 }

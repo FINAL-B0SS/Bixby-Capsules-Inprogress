@@ -1,8 +1,6 @@
 result-view {
 	match: audioPlayer.AudioItem (this)
-	
-	message (Playing podcast)
-	
+		
 	render {
 		layout {
 			section {

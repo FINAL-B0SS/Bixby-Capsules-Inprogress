@@ -21,7 +21,7 @@ structure (Search) {
     min (Optional) max (One)
   }
   property (image) {
-    type (image.Image)
+    type (viv.core.BaseImage)
     min (Optional) max (One)
     visibility (Private)
   }

@@ -1,7 +1,3 @@
 module.exports.function = function openUrl (info) {
- 
-  if (info.link)
-     return info.link;
-  else
-    return "http://bixbydevelopers.com";   
+  return info && info.link ? info.link : "http://bixbydevelopers.com";   
 }

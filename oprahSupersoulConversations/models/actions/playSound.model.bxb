@@ -3,11 +3,21 @@ action (playSound) {
 	collect {
 		input (info) {
 			type (Info)
-			min (Required) max (One)
+			min (Optional) max (One)
+			default-init {
+				intent { 
+					goal: fetchNews
+				}
+			}
+			default-select {
+				with-rule {
+					select-first
+				}
+			}
 		}
 		input (soundToPlay) {
 			type (audioPlayer.AudioInfo)
-			min (Required) max (One)
+			min (Optional) max (One)
 			default-init {
 				intent {
 					goal: audioPlayer.AudioInfo

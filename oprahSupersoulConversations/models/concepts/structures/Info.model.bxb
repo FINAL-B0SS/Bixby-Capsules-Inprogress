@@ -7,7 +7,7 @@ structure (Info) {
   }
   property (image) {
     description (Picture relevent to the posting)
-    type (image.Image)
+    type (viv.core.BaseImage)
     min (Required) max (One)
     visibility (Private)
   }
@@ -43,6 +43,10 @@ structure (Info) {
   }
   property (audioItem) {
     type (audioPlayer.AudioItem)
+    min (Optional) max (One)
+  }
+  property (videoItem) {
+    type (Video)
     min (Optional) max (One)
   }
   property (urlText) {
